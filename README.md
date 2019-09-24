@@ -1,5 +1,5 @@
 # QuanticDev
-QuanticDev engineering and development resources.
+QuanticDev engineering and development resources: [https://quanticdev.com](https://quanticdev.com)
 
 Companion videos for resources in this repo are at QuanticDev YouTube channel: [https://www.youtube.com/channel/UCC_-cJLbMPKkSNuWmxvnvsw](https://www.youtube.com/channel/UCC_-cJLbMPKkSNuWmxvnvsw)
 
