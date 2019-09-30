@@ -15,7 +15,7 @@ function subArrays (inputArr, desiredSum) {
   inputArr.forEach((item, index) => {
     sum += item
 
-    while (sum > desiredSum) {
+    while ((desiredSum >= 0 && sum > desiredSum) || (desiredSum < 0 && sum < desiredSum)) {
       sum -= inputArr[sumStartIndex]
       sumStartIndex++
     }
@@ -42,7 +42,7 @@ assert.deepStrictEqual(calculatedSolution1, actualSolution1)
 console.log(`Example Input #1: ${JSON.stringify(exampleInput1)}, Desired Sum: ${desiredSum1}, Solution: ${JSON.stringify(calculatedSolution1)}`)
 
 // test case #2
-const exampleInput2 = [10, 2, -2, -20, 10, -3, -7]
+const exampleInput2 = [10, 2, -2, -20, 8, -3, -7]
 const desiredSum2 = -10
 const actualSolution2 = [[10, 2, -2, -20], [-3, -7]]
 
