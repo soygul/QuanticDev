@@ -1,7 +1,7 @@
 const assert = require('assert')
 
 /**
- * Given a list of integers, finds the contiguous sub-lists of integers adds up to a number.
+ * Given a list of positive integers, find the contiguous sub-lists of integers that add up to a given number.
  *
  * @param inputArr - An array of integers (0, negative, or positive numbers).
  * @param desiredSum - An integer.
@@ -15,7 +15,7 @@ function subArrays (inputArr, desiredSum) {
   inputArr.forEach((item, index) => {
     sum += item
 
-    while ((desiredSum >= 0 && sum > desiredSum) || (desiredSum < 0 && sum < desiredSum)) {
+    while (sum > desiredSum) {
       sum -= inputArr[sumStartIndex]
       sumStartIndex++
     }
@@ -31,9 +31,9 @@ function subArrays (inputArr, desiredSum) {
  */
 
 // test case #1
-const exampleInput1 = [1, 7, 4, 3, 0, 2, 1, 5, 1, 0]
+const exampleInput1 = [1, 7, 9, 4, 3, 2, 2]
 const desiredSum1 = 7
-const actualSolution1 = [[7], [4, 3], [4, 3, 0], [1, 5, 1], [1, 5, 1, 0]]
+const actualSolution1 = [[7], [4, 3], [3, 2, 2]]
 
 const calculatedSolution1 = subArrays(exampleInput1, desiredSum1)
 
@@ -42,9 +42,9 @@ assert.deepStrictEqual(calculatedSolution1, actualSolution1)
 console.log(`Example Input #1: ${JSON.stringify(exampleInput1)}, Desired Sum: ${desiredSum1}, Solution: ${JSON.stringify(calculatedSolution1)}`)
 
 // test case #2
-const exampleInput2 = [10, 2, -2, -20, 8, -3, -7]
-const desiredSum2 = -10
-const actualSolution2 = [[10, 2, -2, -20], [-3, -7]]
+const exampleInput2 = [23, 1, 6, 9, 15, 8]
+const desiredSum2 = 24
+const actualSolution2 = [[23, 1], [9, 15]]
 
 const calculatedSolution2 = subArrays(exampleInput2, desiredSum2)
 
