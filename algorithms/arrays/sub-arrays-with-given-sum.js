@@ -6,8 +6,10 @@ const assert = require('assert')
  * @param desiredSum
  * @returns {[]}
  */
-function subArrays(inputArr, desiredSum) {
-  let sum = 0, sumStartIndex = 0, solutions = []
+function subArrays (inputArr, desiredSum) {
+  let sum = 0
+  let sumStartIndex = 0
+  const solutions = []
 
   inputArr.forEach((item, index) => {
     sum += item
