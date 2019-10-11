@@ -2,7 +2,6 @@
 
 Accompanying code for `Algorithm Questions` video series.
 
-First level of categorization is by the algorithm type (search, sort, dynamic, etc.).
-Second level of categorization is by main data structure used (array, tree, etc.).
+Algorithms are categorized by their types (search, sort, dynamic, etc.) in directories.
 
 You can run the examples using `node file-name.js`.
