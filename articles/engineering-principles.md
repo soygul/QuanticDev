@@ -1,13 +1,13 @@
-# Engineering Principles
+# Fundamental Engineering Principles - What are the expectations form developers and engineers?
 
 ## Resources
 You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=GKlfcNzTqrg](https://www.youtube.com/watch?v=GKlfcNzTqrg){:target="_blank"}
 
-Video has additional tips for each principle discussed.
+Video has additional tips for each principle discussed. If you want to leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-Importance of written communication: "Jeff Bezos Turned Narrative into Amazon's Competitive Advantage", Hacker News discussion thread: [https://news.ycombinator.com/item?id=19115686](https://news.ycombinator.com/item?id=19115686){:target="_blank"}
+* Importance of written communication: "Jeff Bezos Turned Narrative into Amazon's Competitive Advantage", Hacker News discussion thread: [https://news.ycombinator.com/item?id=19115686](https://news.ycombinator.com/item?id=19115686){:target="_blank"}
 
-## Fundamental Engineering Principles - What are the expectations form developers and engineers?
+## Article
 Following principles not only apply to software engineering but they are common for all disciplines of engineering. Also, these principles apply at all ranks; junior developer, senior electronics engineer, VP of engineering, all the same.
 
 1 - Communication
