@@ -1,7 +1,7 @@
 # Software Design Patterns, Principles, and Best Practices
 
 ## Resources
-You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=GKlfcNzTqrg](https://www.youtube.com/watch?v=GKlfcNzTqrg){:target="_blank"}
+You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=A6Ud7EGAxrc](https://www.youtube.com/watch?v=A6Ud7EGAxrc){:target="_blank"}
 
 If you want to leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
