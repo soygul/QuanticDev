@@ -93,6 +93,6 @@ Understanding of software design is a must for any software engineer of any seni
 
 Each programming language and each application type (client, server, etc.) have its patterns, so check the link in the description below for a massive list of patterns organized by programming languages.
 
-If you are new to programming, do not stress over patterns too much. Go over this video once a year, and each time you do, you will understand more of it and internalize more information.
+If you are new to programming, do not stress over patterns too much. Go over this article once a year (or watch the video form), and each time you do, you will understand more of it and internalize more information.
 
 Do not forget "Code is Poetry". It is beautiful when it is well crafted. These patterns help you craft beautify poetry... I mean code. Now go ahead and exercise these principles: make an app that writes poetry for you!
