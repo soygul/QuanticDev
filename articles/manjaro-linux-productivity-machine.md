@@ -65,8 +65,8 @@ I recommend Manjaro Linux (which is built on Arch Linux) along with Xfce Desktop
 ### Hardware Setup
 I recommend a minimalist hardware setup with a Lenovo (ex-IBM) T-series laptop, headphones, and an optional mouse. I advise a laptop over a desktop since it is very liberating and helps you maintain your productivity for longer periods of time via making you mobile. For instance, you can move your entire office to a coffee shop, meetings, interviews, presentations, conferences, etc.
 
-### OS Installation
-I will start by booting my virtual machine with the Manjaro ISO connected. It will boot to a ready to use live environment. You can explore around before installing. If the text is too small, go to Start > Configuration > Display and set a more appropriate resolution. You can mess with hi-dpi settings later. Continue by clicking "Install" on the welcome screen.
+### OS Installation Instructions
+Start by booting a virtual machine with the Manjaro ISO connected. It will boot to a ready to use live environment. You can explore around before installing. If the text is too small, go to Start > Configuration > Display and set a more appropriate resolution. You can mess with hi-dpi settings later. Continue by clicking "Install" on the welcome screen.
 
 Enable full-disk encryption if you will have sensitive information on your computer, just in case it gets lost or stolen. However, full-disk encryption is generally problematic on Linux in my experience. It might break in the future, especially after a major upgrade, so beware. Most of the time, it will be fixable.
 
@@ -75,23 +75,23 @@ The graphical installer used by Manjaro is called Calamares and is pretty much t
 Now it is time to install all the packages necessary to turn this machine into a productivity powerhouse. Manjaro is bundled with "pacman" which is the default package manager in Arch Linux. You can also use the graphical package manager, which I will do in this video. 
 
 ### App Installations
-Let us go ahead and apply updates before starting to install apps. You do not need to restart your computer unless the kernel was updated. Also, you need to go to settings and enable AUR (Arch User Repository) to be able to get the user or company submitted packages. After that, we will install:
+Go ahead and apply updates before starting to install apps. You do not need to restart your computer unless the kernel was updated. Also, you need to go to settings and enable AUR (Arch User Repository) to be able to get the user or company submitted packages. After that, install following packages:
 * Nodejs, Go, and Python as our primary programming language runtimes.
 * Visual Studio Code as our code editor. On a side note, IntelliJ IDEA is even better, but it is paid (though free for students and open-source projects).
-* VirtualBox in case we need to use Windows or macOS for testing or building stuff.
+* VirtualBox in case you need to use Windows or macOS for testing or building stuff.
 * GIMP for photo editing.
 * Inkscape for vector graphics.
 * DaVinci Resolve for video editing. Probably the best video editor!
 * Blender for animation and visual effects.
-* Chrome just in case we want to test our web apps on Chrome. Firefox is there by default.
+* Chrome just in case you want to test our web apps on Chrome. Firefox is there by default.
 * Dropbox to save personal files and config backups.
 * (Optional) Steam for games.
 * (Optional) Android Studio for Android development.
-* (Optional) Unity Editor with Android and WebGL packages, in case we want to develop Mobile and Web games.
+* (Optional) Unity Editor with Android and WebGL packages, in case you want to develop Mobile and Web games.
 
 Package manager will ask you to select optional dependencies. Do not forget to select "npm" for Nodejs. You will be asked to select the VirtualBox modules matching your kernel version. You can check the "Manjaro Configuration Manager" tool on the taskbar for you currently installed kernel version.
 
-The rest of what you need will already be preinstalled, so wait for the installation to finish, and we will start being productive!
+The rest of what you need will already be preinstalled, so wait for the installation to finish, and you can start being productive!
 
 ### Use Case Example: Software Development
 As an exercise, try creating a React app using create-react-app command line tool. You can simply use the terminal and Visual Studio Code editor to create your app. Visit the video to watch me doing this exercise.
