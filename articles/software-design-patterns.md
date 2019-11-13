@@ -7,7 +7,7 @@ Video has additional tips for each principle discussed. If you want to leave a c
 
 * Software design patterns implementations in all programming languages: [https://github.com/DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns){:target="_blank"}
 
-* Software Quality Assurance video with in depth automated and manual testing guides: TBD
+* Software Quality Assurance video with in depth automated and manual testing guides: [https://www.youtube.com/watch?v=ztb8HNc2kCU](https://www.youtube.com/watch?v=ztb8HNc2kCU){:target="_blank"}
 
 ## Article
 Understanding of software design is a must for any software engineer of any seniority. Other engineering disciplines that deal with software will also benefit from it greatly (system and electronics engineers that do microcontroller programming all day long, I am looking at you). Besides, any software engineering job interview will have questions on software design patterns and principles. Let us start with the basics.

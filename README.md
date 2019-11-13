@@ -13,3 +13,4 @@ If you want to contribute to any article, you are welcome to make a pull request
 
 ## Software Engineering
 * [Software Design Patterns, Principles, and Best Practices](/articles/software-design-patterns)
+* [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine)
