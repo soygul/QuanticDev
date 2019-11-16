@@ -3,7 +3,7 @@
 ## Resources
 You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=6A8rwX2J2HA](https://www.youtube.com/watch?v=6A8rwX2J2HA){:target="_blank"}
 
-Video has additional tips for each principle discussed. If you want to leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
+Video has additional tips and discussion. If you want to leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Manjaro installation resources:
 * Manjaro (recommended) Download: [https://manjaro.org](https://manjaro.org){:target="_blank"}
@@ -94,7 +94,7 @@ Package manager will ask you to select optional dependencies. Do not forget to s
 The rest of what you need will already be preinstalled, so wait for the installation to finish, and you can start being productive!
 
 ### Use Case Example: Software Development
-As an exercise, try creating a React app using create-react-app command line tool. You can simply use the terminal and Visual Studio Code editor to create your app. Visit the video to watch me doing this exercise.
+As an exercise, try creating a React app using create-react-app command line tool. You can simply use the terminal and Visual Studio Code editor to create your app. Visit the video to watch me do this exercise.
 
 ### Use Case Example: General Productivity
 As a general productivity exercise, create a cube in Inkspace. Add it to the background of blank picture in GIMP along with a headline. Use it in a document in LibreOffice with an appropriate title. Save everything to Dropbox and share the link with your friends. You can also consult the video to watch me do this for you.

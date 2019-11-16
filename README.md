@@ -9,9 +9,9 @@ QuanticDev YouTube channel: [https://www.youtube.com/channel/UCC_-cJLbMPKkSNuWmx
 If you want to contribute to any article, you are welcome to make a pull request on GitHub.
 
 ## Engineering Fundamentals
-* [Fundamental Engineering Principles - What are the expectations form developers and engineers?](/articles/engineering-principles)
+* [Fundamental Engineering Principles - What are the expectations form developers and engineers?](articles/engineering-principles)
 
 ## Software Engineering
-* [Software Design Patterns, Principles, and Best Practices](/articles/software-design-patterns)
-* [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine)
-* [What Is Serverless (Function-as-a-Service), and Is It Worth?](/articles/serverless)
+* [Software Design Patterns, Principles, and Best Practices](articles/software-design-patterns)
+* [Cleanest Linux Productivity and Development Environment using Manjaro Linux](articles/manjaro-linux-productivity-machine)
+* [What Is Serverless (Function-as-a-Service), and Is It Worth?](articles/serverless)

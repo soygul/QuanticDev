@@ -3,7 +3,7 @@
 ## Resources
 You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=Kqk013ioclA](https://www.youtube.com/watch?v=Kqk013ioclA){:target="_blank"}
 
-Video has additional tips for each principle discussed. If you want to leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
+Video has additional tips and discussion. If you want to leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Some of serverless providers:
 * Firebase (Google) Functions: [https://firebase.google.com/docs/functions](https://firebase.google.com/docs/functions){:target="_blank"}
@@ -22,19 +22,20 @@ Hacker News discussion thread on serverless:
 * [https://news.ycombinator.com/item?id=21046547](https://news.ycombinator.com/item?id=21046547){:target="_blank"}
 * And many others before it: [https://hn.algolia.com/?q=serverless](https://hn.algolia.com/?q=serverless){:target="_blank"}
 
-
 ## Article
 ### What is Serverless?
 First off, what is serverless (aka function-as-a-service or FaaS)? Serverless means you write and deploy standalone functions on the cloud, instead of entire apps. Each function serves a distinct need and handles a distinct event, like a web request. This is the reason as to why serverless is also called function-as-a-service.
 
 The functions you write are only loaded in memory when there is a request or event for them to handle and unloaded after serving that request. They also share the same hardware and possibly the same runtime with everybody else's functions. As a result, you generally only pay for the CPU time consumed by your functions, and not for the entire server or VM.
 
-Let us see an example of how serverless works in a simplified diagram. The diagram starts with the client on top. The client could be a browser, could be a mobile app, could be another internal service. The client sends a request to say Firebase Functions, which hosts the target domain and API endpoints at mysite.com. Internally, the request is handled by a load balancer. Load balancer chooses a server with low utilization, and that server loads the code and dependencies for your function and executes it. The server can be handling many functions at the same time for many unrelated domains. Each request to your functions can be executed by different servers. That is at the load balancer's discretion.
+![Serverless Architecture](res/serverless-architecture.png)
+
+Let us see an example of how serverless works in a simplified diagram. The diagram above starts with the client on top. The client could be a browser, could be a mobile app, could be another internal service. The client sends a request to say Firebase Functions, which hosts the target domain and API endpoints at mysite.com. Internally, the request is handled by a load balancer. Load balancer chooses a server with low utilization, and that server loads the code and dependencies for your function and executes it. The server can be handling many functions at the same time for many unrelated domains. Each request to your functions can be executed by different servers. That is at the load balancer's discretion.
 
 ### Live Example with Firebase Functions
-A "getDate" function using Firebase Functions:
+Implement and deploy a simple "getDate" function using Firebase Functions. Visit the video to watch me do this exercise.
 
-Remember, Firebase has a generous free quota so you will not pay anything for this sample project.
+Remember, Firebase has a generous free quota, so you will not pay anything for this sample project.
 
 ### Benefits of Serverless
 * Low cost of development.
@@ -57,7 +58,7 @@ Remember, Firebase has a generous free quota so you will not pay anything for th
   * Providers also allow timed functions so they can run at arbitrary time intervals to perform routine tasks.
   * I am sure you can also come up with many innovative ways to use functions to handle all your backend workload in an event-driven fashion with minimal cost.
 
-[Tip: Cost of labor is will always higher than the cost of serverless. Say if you go with cheaper AWS EC2 servers instead, you will still have to learn and configure AWS, which is a titanic task in itself.]
+Cost of labor is will always higher than the cost of serverless. Say if you go with cheaper AWS EC2 servers instead, you will still have to learn and configure AWS, which is a titanic task in itself.
 
 ### Drawbacks of Serverless
 * Vendor lock-in.
@@ -85,7 +86,7 @@ Remember, Firebase has a generous free quota so you will not pay anything for th
   * Cold starts of your functions will be costly. For instance, in JavaScript, all libs will be evaluated from scratch, though vendors are coming up with ingenious solutions for it. Choose your vendor considering their cold startup performance on languages that they support.
   * Cache whatever you can to reduce the impact of cold starts. Different caching mechanisms are offered by different serverless vendors.
 
-[Tip: What we discussed about Amazon Web Services 5 years ago is now on the new serverless discussion. Back then, we were discussion if AWS was a reliable alternative to bare metal servers. I am confident that serverless will gain more acceptance as AWS did.]
+What we discussed about Amazon Web Services 5 years ago is now on the new serverless discussion. Back then, we were discussion if AWS was a reliable alternative to bare metal servers. I am confident that serverless will gain more acceptance as AWS did.
 
 ### Alternatives
 * Heroku
@@ -104,8 +105,6 @@ Remember, Firebase has a generous free quota so you will not pay anything for th
   * More abstraction means more obscure errors.
   * Serverless providers are starting to offer container support, but I have no experience with it: https://cloud.google.com/knative
 
-[Tip: If you want to see more of this type of software tech analysis, subscribe to this channel now! If you have anything to add on the subject or things you disagree with, let me know in the comments section below.]
-
 ### Who Uses Serverless?
 Many big corps use serverless functions by today, and many others will join the ranks in the coming years. Since they are so versatile, they can be used to handle many small internal tasks. However, notable examples that use function-as-a-service providers as the backbone of their businesses are as follows.
 * Snapchat is built on Google App Engine. They signed a $2 billion, five-year contract with Google Cloud Services in 2017. This probably made them the largest serverless deployment on earth at the time. So, if you are experienced with serverless, and want to work for Snapchat, knock on their door already!
@@ -114,7 +113,7 @@ Many big corps use serverless functions by today, and many others will join the 
 * Reddit Videos: According to Hacker News discussions, Reddit's video hosting service is being built and operated by a single engineer on a serverless stack.
 * You can find more examples via Googling "serverless case studies".
 
-[Tip: Serverless is all about bringing your product to the market as fast as possible with as little mistakes as possible. The companies that I mentioned did just that and succeeded.]
+Serverless is all about bringing your product to the market as fast as possible with as little mistakes as possible. The companies aobe did just that and succeeded.
 
 ### My Personal Experience
 My personal experience with function-as-a-service is mixed.
@@ -122,7 +121,7 @@ My personal experience with function-as-a-service is mixed.
 * I also tried using serverless for one of my games. However, that also failed since I needed persistent connections throughout the gameplay session using WebSockets. No major serverless providers supported a sensible way of using WebSockets. This also changed. Amazon now supports creating WebSocket connections through their API Gateway, which is accessible from Lambda functions.
 * On the positive side, I have successfully utilized Firebase Functions to handle user authentication events raised by Firebase Authentication. When a user logs in, Firebase Authentication triggers my authentication handler function. That function checks if the user is logging in for the first time so I can create relevant user tables in my databases. I still use it today, and it has been working a treat.
 
-[Tip: If you want to experiment with serverless, I recommend Firebase Functions. In my experience, it is the easiest of the bunch and has a generous free tier.]
+If you want to experiment with serverless, I recommend Firebase Functions. In my experience, it is the easiest of the bunch and has a generous free tier.
 
 ### My Recommendation
 I recommend giving serverless a go for your next project. You can quickly come up with a proof-of-concept version of your project and demo it to stakeholders. After you hold discussions around this proof-of-concept build and iterating over your design, you can finalize your decision on whether to use serverless or regular servers. You will still need to factor in all the plusses and minuses mentioned in this article while making a decision.
