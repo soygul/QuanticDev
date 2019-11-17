@@ -133,4 +133,4 @@ Currently, serverless is in usable state if you are can live its restrictions. O
 
 My personal favorite is still Heroku. It is still a very nice compromise between cloud servers and serverless. However, as I said, I would recommend giving serverless a spin if you can live with the restrictions. If nothing, it could be a good learning experience. I also highly recommend Docker and Kubernetes if they suit your project, but do not forget, they have a much higher learning curve.
 
-Good luck on your serverless journey, and see you next time.
+Good luck on your serverless journey. If you want to contribute to the article, you can make a pull request on GitHub.
