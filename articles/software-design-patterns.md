@@ -1,4 +1,7 @@
 # Software Design Patterns, Principles, and Best Practices
+Refine your knowledge of software design patterns and principles with this guide. This article will also give you tips on software best practices.
+
+Understanding of software design is a must for any software engineer of any seniority. Other engineering disciplines that deal with software will also benefit from it greatly. System and electronics engineers that do microcontroller programming all day long, I am looking at you! Besides, any software engineering job interview will have questions on software design patterns and principles.
 
 ## Resources
 You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=A6Ud7EGAxrc](https://www.youtube.com/watch?v=A6Ud7EGAxrc){:target="_blank"}
@@ -10,7 +13,7 @@ Video has additional tips for each principle discussed. If you want to leave a c
 * Software Quality Assurance video with in depth automated and manual testing guides: [https://www.youtube.com/watch?v=ztb8HNc2kCU](https://www.youtube.com/watch?v=ztb8HNc2kCU){:target="_blank"}
 
 ## Article
-Understanding of software design is a must for any software engineer of any seniority. Other engineering disciplines that deal with software will also benefit from it greatly (system and electronics engineers that do microcontroller programming all day long, I am looking at you). Besides, any software engineering job interview will have questions on software design patterns and principles. Let us start with the basics.
+Let us start with the basics.
 
 1. YAGNI - You Ain't Gonna Need It
    * Absolute first thing to do before taking any action: do you really need what you intend to do? Can you NOT do it? Are you wasting your time building something you do not need?

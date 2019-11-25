@@ -1,4 +1,7 @@
 # What Is Serverless (Function-as-a-Service), and Is It Worth?
+What is serverless (aka function-as-a-service or FaaS)? Is it worth the investment for your next project? Who uses serverless?
+
+This article goes into detail about the uses, advantages, and disadvantages of serverless. It will also give you a live example of serverless deployment using Firebase Functions. You will learn about the alternatives of serverless, as well as recommendations on when and where to use it. Finally you will learn which big enterprises use serverless and my recommendations for you.
 
 ## Resources
 You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=Kqk013ioclA](https://www.youtube.com/watch?v=Kqk013ioclA){:target="_blank"}
@@ -22,8 +25,7 @@ Hacker News discussion thread on serverless:
 * [https://news.ycombinator.com/item?id=21046547](https://news.ycombinator.com/item?id=21046547){:target="_blank"}
 * And many others before it: [https://hn.algolia.com/?q=serverless](https://hn.algolia.com/?q=serverless){:target="_blank"}
 
-## Article
-### What is Serverless?
+## What is Serverless?
 First off, what is serverless (aka function-as-a-service or FaaS)? Serverless means you write and deploy standalone functions on the cloud, instead of entire apps. Each function serves a distinct need and handles a distinct event, like a web request. This is the reason as to why serverless is also called function-as-a-service.
 
 The functions you write are only loaded in memory when there is a request or event for them to handle and unloaded after serving that request. They also share the same hardware and possibly the same runtime with everybody else's functions. As a result, you generally only pay for the CPU time consumed by your functions, and not for the entire server or VM.
@@ -32,12 +34,12 @@ The functions you write are only loaded in memory when there is a request or eve
 
 Let us see an example of how serverless works in a simplified diagram. The diagram above starts with the client on top. The client could be a browser, could be a mobile app, could be another internal service. The client sends a request to say Firebase Functions, which hosts the target domain and API endpoints at mysite.com. Internally, the request is handled by a load balancer. Load balancer chooses a server with low utilization, and that server loads the code and dependencies for your function and executes it. The server can be handling many functions at the same time for many unrelated domains. Each request to your functions can be executed by different servers. That is at the load balancer's discretion.
 
-### Live Example with Firebase Functions
+## Live Example with Firebase Functions
 Implement and deploy a simple "getDate" function using Firebase Functions. Visit the video to watch me do this exercise.
 
 Remember, Firebase has a generous free quota, so you will not pay anything for this sample project.
 
-### Benefits of Serverless
+## Benefits of Serverless
 * Low cost of development.
   * Very little to learn or care about. Most of the chores are automated for you.
   * SDKs and documentations are mostly very clear and concise.
@@ -60,7 +62,7 @@ Remember, Firebase has a generous free quota, so you will not pay anything for t
 
 Cost of labor is will always higher than the cost of serverless. Say if you go with cheaper AWS EC2 servers instead, you will still have to learn and configure AWS, which is a titanic task in itself.
 
-### Drawbacks of Serverless
+## Drawbacks of Serverless
 * Vendor lock-in.
   * You will have to use the provider's serverless SDK and write vendor-specific code.
   * Your API design will be based on the provider's toolset rather than the optimum one for the problem.
@@ -88,7 +90,7 @@ Cost of labor is will always higher than the cost of serverless. Say if you go w
 
 What we discussed about Amazon Web Services 5 years ago is now on the new serverless discussion. Back then, we were discussion if AWS was a reliable alternative to bare metal servers. I am confident that serverless will gain more acceptance as AWS did.
 
-### Alternatives
+## Alternatives
 * Heroku
   * My personal favorite. You still write traditional forever running server apps, but deployment, scaling, and DevOps is fully automated for you.
   * Great and easy to use tooling.
@@ -105,7 +107,7 @@ What we discussed about Amazon Web Services 5 years ago is now on the new server
   * More abstraction means more obscure errors.
   * Serverless providers are starting to offer container support, but I have no experience with it: https://cloud.google.com/knative
 
-### Who Uses Serverless?
+## Who Uses Serverless?
 Many big corps use serverless functions by today, and many others will join the ranks in the coming years. Since they are so versatile, they can be used to handle many small internal tasks. However, notable examples that use function-as-a-service providers as the backbone of their businesses are as follows.
 * Snapchat is built on Google App Engine. They signed a $2 billion, five-year contract with Google Cloud Services in 2017. This probably made them the largest serverless deployment on earth at the time. So, if you are experienced with serverless, and want to work for Snapchat, knock on their door already!
 * Netflix is slowly switching to serverless. As they put it, they are creating a rule-based self-managing infrastructure using AWS Lambda. They are using event-based triggers to help automate the encoding process of media files, the validation of backup completions, and deployments at scale.
@@ -115,7 +117,7 @@ Many big corps use serverless functions by today, and many others will join the 
 
 Serverless is all about bringing your product to the market as fast as possible with as little mistakes as possible. The companies aobe did just that and succeeded.
 
-### My Personal Experience
+## My Personal Experience
 My personal experience with function-as-a-service is mixed.
 * Last year I tried using it for the entire server-side of one of my open-source projects. However, I could not do that as none of the major serverless providers supported the latest version of Node.js, which I needed for async/await functionality. I have recently checked it again, and Firebase Functions now supports the latest LTS version of Node.js.
 * I also tried using serverless for one of my games. However, that also failed since I needed persistent connections throughout the gameplay session using WebSockets. No major serverless providers supported a sensible way of using WebSockets. This also changed. Amazon now supports creating WebSocket connections through their API Gateway, which is accessible from Lambda functions.
@@ -123,12 +125,12 @@ My personal experience with function-as-a-service is mixed.
 
 If you want to experiment with serverless, I recommend Firebase Functions. In my experience, it is the easiest of the bunch and has a generous free tier.
 
-### My Recommendation
+## My Recommendation
 I recommend giving serverless a go for your next project. You can quickly come up with a proof-of-concept version of your project and demo it to stakeholders. After you hold discussions around this proof-of-concept build and iterating over your design, you can finalize your decision on whether to use serverless or regular servers. You will still need to factor in all the plusses and minuses mentioned in this article while making a decision.
 
 On the other hand, I do not recommend converting an existing project to serverless. Caveats are too much to handle for an existing project with pre-existing limitations.
 
-### Conclusion
+## Conclusion
 Currently, serverless is in usable state if you are can live its restrictions. On the other hand, it is fast improving. Will it outpace other technologies like containers? We will see.
 
 My personal favorite is still Heroku. It is still a very nice compromise between cloud servers and serverless. However, as I said, I would recommend giving serverless a spin if you can live with the restrictions. If nothing, it could be a good learning experience. I also highly recommend Docker and Kubernetes if they suit your project, but do not forget, they have a much higher learning curve.
