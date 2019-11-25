@@ -1,10 +1,10 @@
-# Why Do Senior Developers and Engineers Get Paid 5+ Times More?
+# Why Do Senior Developers and Engineers Get Paid 5+ Times More? - Senior Engineer Compensation Guide
 Today I am going to talk to you about the titanic pay gap between junior and senior engineers. I will mainly focus on software engineering, but it applies to engineering in general. I will also give you some tips on how much you should expect to be compensated and how you can compare yourself to others.
 
 As an example, a junior engineer fresh out of college even with an unrelated diploma like physics, math, or industrial engineering can score a $100K compensation in Silicon Valley, while a senior engineer with a successful decade long career will get $500K and upwards. What are the reasons for this huge gap? Is it only years? Let us investigate.
 
 ## Resources
-You can find the video narration of this text on YouTube: [ToDo](ToDo){:target="_blank"}
+You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=4q1GGW04hjw](https://www.youtube.com/watch?v=4q1GGW04hjw){:target="_blank"}
 
 # ToDo: YT link
 
