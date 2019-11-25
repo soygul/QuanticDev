@@ -6,8 +6,6 @@ As an example, a junior engineer fresh out of college even with an unrelated dip
 ## Resources
 You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=4q1GGW04hjw](https://www.youtube.com/watch?v=4q1GGW04hjw){:target="_blank"}
 
-# ToDo: YT link
-
 Video has additional tips and discussion. If you want to leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Salary and compensation comparison resources:
@@ -21,9 +19,11 @@ Do not forget, before assuming your compensation based on resources above, compa
 I will create a dedicated in-depth article to help you estimate your expected income later on. It will include software and other fields of engineering, and perhaps some of engineering management field.
 
 ## How Much Do Engineers Get Paid?
-First things first, how much do engineers get paid. Let me show you some data from various sources:
+First things first, how much do engineers get paid. Let me show you some data from levels.fyi:
 
-# ToDo: screenshot from payscale, levels & 2 others
+![Software Engineer/Developer Compensation Chart](res/senior-eng-companies.png)
+
+![L6 Senior Software Engineer Compensation](res/senior-eng-l6.png)
 
 The first thing to note is that charts display the total compensation, which includes salary, bonus, and stock options. As you can see, the pay scale gets progressively higher. When you reach the higher mid-tier, you stand at around half a million dollars. Top tiers are reserved for specialized positions, and your income will be almost entirely stock options and bonuses and will be open-ended. Check out the resources section above to get a list of websites that host up-to-date compensation charts for many positions in different companies.
 
