@@ -1,0 +1,29 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header h3 {
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 0 0 0 -40px;
+  font-weight: bold;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: $conifer;//$header;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+  letter-spacing: -1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+header h3:before {
+  content: "./ ";
+  font-size: 24px;
+}
+
+header h4 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #666;
+}
