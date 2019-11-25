@@ -10,7 +10,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 
 ## Engineering Essentials
 * [Fundamental Engineering Principles - What are the expectations form developers and engineers?](articles/engineering-principles)
-* [Why Do Senior Developers and Engineers Get Paid 5+ Times More?](articles/senior-engineer-compensation-guide)
+* [Why Do Senior Developers and Engineers Get Paid 5+ Times More? - Senior Engineer Compensation Guide](articles/senior-engineer-compensation-guide)
 
 ## Software Engineering
 * [Software Design Patterns, Principles, and Best Practices](articles/software-design-patterns)
