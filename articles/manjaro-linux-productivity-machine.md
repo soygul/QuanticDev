@@ -4,6 +4,8 @@ Turn your laptop or desktop computer into a Linux productivity powerhouse using 
 ## Resources
 You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=6A8rwX2J2HA](https://www.youtube.com/watch?v=6A8rwX2J2HA){:target="_blank"}
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6A8rwX2J2HA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Video has additional tips and discussion. If you want to leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Manjaro installation resources:

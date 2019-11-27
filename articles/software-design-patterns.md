@@ -6,6 +6,8 @@ Understanding of software design is a must for any software engineer of any seni
 ## Resources
 You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=A6Ud7EGAxrc](https://www.youtube.com/watch?v=A6Ud7EGAxrc){:target="_blank"}
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A6Ud7EGAxrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Video has additional tips for each principle discussed. If you want to leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 * Software design patterns implementations in all programming languages: [https://github.com/DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns){:target="_blank"}

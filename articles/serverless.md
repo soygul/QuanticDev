@@ -6,6 +6,8 @@ This article goes into detail about the uses, advantages, and disadvantages of s
 ## Resources
 You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=Kqk013ioclA](https://www.youtube.com/watch?v=Kqk013ioclA){:target="_blank"}
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kqk013ioclA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Video has additional tips and discussion. If you want to leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Some of serverless providers:
