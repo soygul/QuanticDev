@@ -6,6 +6,8 @@ As an example, a junior engineer fresh out of college even with an unrelated dip
 ## Resources
 You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=4q1GGW04hjw](https://www.youtube.com/watch?v=4q1GGW04hjw){:target="_blank"}
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4q1GGW04hjw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Video has additional tips and discussion. If you want to leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Salary and compensation comparison resources:
