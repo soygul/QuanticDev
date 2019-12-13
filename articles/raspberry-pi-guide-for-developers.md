@@ -18,22 +18,22 @@ You can find the video narration of this text on YouTube: [https://www.youtube.c
 
 Video has additional tips for each principle discussed. If you want to leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-* Get a Raspberry Pi and accessories: https://www.raspberrypi.org/products
-* Download full Raspbian OS that includes recommended software: https://www.raspberrypi.org/downloads/raspbian
-* Download Etcher (to burn Raspbian ISO image): https://www.balena.io/etcher
-* Get a microSD and card reader: https://www.amazon.com/Kingston-Digital-Mobility-MBLY10G2-32GB/dp/B00519BEQO
-* Enable SSH on first boot: https://www.raspberrypi.org/documentation/remote-access/ssh
-* Making Raspberry connect to your WiFi on first boot: https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
+* Get a Raspberry Pi and accessories: [https://www.raspberrypi.org/products](https://www.raspberrypi.org/products){:target="_blank"}
+* Download full Raspbian OS that includes recommended software: [https://www.raspberrypi.org/downloads/raspbian](https://www.raspberrypi.org/downloads/raspbian){:target="_blank"}
+* Download Etcher (to burn Raspbian ISO image): [https://www.balena.io/etcher](https://www.balena.io/etcher){:target="_blank"}
+* Get a microSD and card reader: [https://www.amazon.com/Kingston-Digital-Mobility-MBLY10G2-32GB/dp/B00519BEQO](https://www.amazon.com/Kingston-Digital-Mobility-MBLY10G2-32GB/dp/B00519BEQO){:target="_blank"}
+* Enable SSH on first boot: [https://www.raspberrypi.org/documentation/remote-access/ssh](https://www.raspberrypi.org/documentation/remote-access/ssh){:target="_blank"}
+* Making Raspberry connect to your WiFi on first boot: [https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md){:target="_blank"}
 
 My JS-API project used as demonstration in the article:
-* https://github.com/soygul/js-api
-* https://www.npmjs.com/package/js-api
+* [https://github.com/soygul/js-api](https://github.com/soygul/js-api){:target="_blank"}
+* [https://www.npmjs.com/package/js-api](https://www.npmjs.com/package/js-api){:target="_blank"}
 
 Great uses of Raspberry Pi:
-* https://news.ycombinator.com/item?id=20264911
+* [https://news.ycombinator.com/item?id=20264911](https://news.ycombinator.com/item?id=20264911){:target="_blank"}
 
 Most popular Docker images that you can use on your Raspberry:
-* https://hub.docker.com/search?q=&type=image
+* [https://hub.docker.com/search?q=&type=image](https://hub.docker.com/search?q=&type=image){:target="_blank"}
 
 ## Why Raspberry Pi
 Raspberry Pi is a very compact and cheap computer. The new Raspberry Pi 4 with 1GB of RAM costs only $35. [dir: screenshot] I have it on my desk at work, and here it is how it sits. [dir: screenshot] I have all my charging cables attached to the USB ports. I charge my phones, my headphones, my powerbank, and it all works great since I have the Raspberry attached to a 3A charger. [dir: screenshot of CPU/mem] More than its physical usefulness, you want it as a computer. It has a powerful CPU and adequate amounts of RAM for many computing tasks. However, it is especially useful for experimenting, learning, and home-server type of workloads. I will talk more about this in a moment.
