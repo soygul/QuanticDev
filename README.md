@@ -2,7 +2,7 @@
 QuanticDev's engineering and software development resources.
 Articles and videos are mostly on software and engineering, while occasionally diving into tech topics, tech news, analysis, and more.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7CC8d-AbQv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/7CC8d-AbQv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ### Social
 * YouTube: [youtube.com/channel/UCC_-cJLbMPKkSNuWmxvnvsw](https://www.youtube.com/channel/UCC_-cJLbMPKkSNuWmxvnvsw)
