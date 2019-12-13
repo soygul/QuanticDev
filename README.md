@@ -1,9 +1,13 @@
 # QuanticDev
-QuanticDev **YouTube** channel: [https://www.youtube.com/channel/UCC_-cJLbMPKkSNuWmxvnvsw](https://www.youtube.com/channel/UCC_-cJLbMPKkSNuWmxvnvsw)
+QuanticDev's engineering and software development resources.
+Articles and videos are mostly on software and engineering, while occasionally diving into tech topics, tech news, analysis, and more.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7CC8d-AbQv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Social
-* Twitter: [https://twitter.com/quantic_dev](https://twitter.com/quantic_dev)
-* Instagram: [https://www.instagram.com/quantic_dev](https://www.instagram.com/quantic_dev)
+* YouTube: [youtube.com/channel/UCC_-cJLbMPKkSNuWmxvnvsw](https://www.youtube.com/channel/UCC_-cJLbMPKkSNuWmxvnvsw)
+* Twitter: [twitter.com/quantic_dev](https://twitter.com/quantic_dev)
+* Instagram: [instagram.com/quantic_dev](https://www.instagram.com/quantic_dev)
 
 ### Contributing
 If you want to contribute to any article, you are welcome to make a pull request on GitHub.
@@ -17,7 +21,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Software Quality Assurance - How Do Software Companies Test Their Products? [Video Only]](https://www.youtube.com/watch?v=ztb8HNc2kCU)
 * [Cleanest Linux Productivity and Development Environment using Manjaro Linux](articles/manjaro-linux-productivity-machine)
 * [What Is Serverless (Function-as-a-Service), and Is It Worth?](articles/serverless)
-* Raspberry Pi: A Developer's Companion - A Complete Guide with Docker (TBD)
+* [Raspberry Pi: A Developer's Companion - A Complete Guide with Docker](articles/raspberry-pi-guide-for-developers)
 
 ## Product Management
 * TDB
