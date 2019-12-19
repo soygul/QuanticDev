@@ -36,31 +36,45 @@ Most popular Docker images that you can use on your Raspberry:
 * [https://hub.docker.com/search?q=&type=image](https://hub.docker.com/search?q=&type=image){:target="_blank"}
 
 ## Why Raspberry Pi
-Raspberry Pi is a very compact and cheap computer. The new Raspberry Pi 4 with 1GB of RAM costs only $35. [dir: screenshot] I have it on my desk at work, and here it is how it sits. [dir: screenshot] I have all my charging cables attached to the USB ports. I charge my phones, my headphones, my powerbank, and it all works great since I have the Raspberry attached to a 3A charger. [dir: screenshot of CPU/mem] More than its physical usefulness, you want it as a computer. It has a powerful CPU and adequate amounts of RAM for many computing tasks. However, it is especially useful for experimenting, learning, and home-server type of workloads. I will talk more about this in a moment.
+Raspberry Pi is a very compact and cheap computer. The new Raspberry Pi 4 with 1GB of RAM costs only $35. I have it on my desk at work, and here it is how it sits.
+
+![Raspberry Pi attached to phone](images/raspberry_connected.jpg)
+
+I have all my charging cables attached to the USB ports. I charge my phones, my headphones, my powerbank, and it all works great since I have the Raspberry attached to a 3A charger. More than its physical usefulness, you want it as a computer. It has a powerful CPU and adequate amounts of RAM for many computing tasks. However, it is especially useful for experimenting, learning, and home-server type of workloads. I will talk more about this in a moment.
+
+![Raspberry Pi attached to phone](images/raspberry_hardware_features.jpg)
 
 ## Why Docker
-Docker helps you containerize apps. Why do you want containerized apps? Primarily due to ease of use. You can define all their dependencies in a single Dockerfile, they do not pollute your computer with their files, and they work in isolation for security purposes. When you mess up an app container, you can trash it and create a new one in seconds. Since Docker uses OverlayFS, you can even go back in disk history, just like snapshots in a virtual machine. [dir: screenshot]
+Docker helps you containerize apps. Why do you want containerized apps? Primarily due to ease of use. You can define all their dependencies in a single Dockerfile, they do not pollute your computer with their files, and they work in isolation for security purposes. When you mess up an app container, you can trash it and create a new one in seconds. Since Docker uses OverlayFS, you can even go back in disk history, just like snapshots in a virtual machine.
+
+![OverlayFS](images/overlayfs.png)
 
 For instance, say you want to host your own website on your Raspberry. Say you need Node.js and MongoDB for it. All you have to do is to install Docker on your Raspberry and pull Node and Mongo images. After you set up your containers, you can start hosting your website. It is a very good learning experience for Docker, and it will help you dig deeper into the Linux ecosystem.
 
-For those who are worried, performance is pretty good since Docker is not virtualization, it still uses the kernel primitives directly. [dir: screenshot] As you can see in the charts, both CPU and network overhead of Docker are negligible.
+For those who are worried, performance is pretty good since Docker is not virtualization, it still uses the kernel primitives directly. As you can see in the charts, both CPU and network overhead of Docker are negligible.
+
+![Raspberry Pi attached to phone](images/docker_performance_cpu.png)
+
+![Raspberry Pi attached to phone](images/docker_performance_latency.png)
 
 ## How Do I Use My Raspberry Pi as a Developer?
 My use case for Raspberry Pi is exactly as I describe	d up to this point. I host small internal services in Docker containers at home and at work. Most of them are for experimenting and just messing around. Some of them are for small tasks like FTP server for my external drive and periodically recording the home temperature. I also use it as the staging server for most of my web projects. I use a laptop, so it is not always on, but my Raspberry is. Some of the long-running automated tests for those web services require them to be running for 24 hours straight, so I just deploy them to container in Raspberry and run on it.
 
 ## What Else Can You Do with a Raspberry Pi as a Developer?
-* You can attach a monitor with speakers and use it as a media server with Kodi or Plex. [dir: screenshot]
+* You can attach a monitor with speakers and use it as a media server with Kodi or Plex.
 * You can set up a VPN between your laptop and home network so you can access your home storage remotely. However, this requires careful setup for security.
-* You can attach a wireless keyboard with a built-in trackpad and have it ready as a backup computer, just in case. [dir: screenshot] Most developer tools have ARM versions, but you will definitely have some hiccups on the way.
-* I have Hacker News link in the resources section that lists some creatives uses for Raspberry, like using it as a programmable public billboard. [dir: screenshot]
+* You can attach a wireless keyboard with a built-in trackpad and have it ready as a backup computer, just in case. Most developer tools have ARM versions, but you will definitely have some hiccups on the way.
+* I have Hacker News link in the resources section that lists some creatives uses for Raspberry, like using it as a programmable public billboard.
 * I will also put a link in the description listing the most popular Docker Hub images that you can use with your Raspberry.
 
 ## Raspberry Pi Setup
 Following are the step-by-step instructions for setting up a new Raspberry Pi starting from scratch. If you do not already have them, you can get a Raspberry Pi, a charger, a microSD, and reader, and Raspbian ISO using the links in the resources section.
 
-* Download Raspbian ISO. [dir: screenshot]
-* Insert microSD with the card reader into your computer. [dir: screenshot]
-* Download Etcher. [dir: screenshot]
+If you want, you can watch the video version of this article (on top) to watch me do this live.
+
+* Download Raspbian ISO.
+* Insert microSD with the card reader into your computer.
+* Download Etcher.
 * Start Etcher and follow the instructions to burn the ISO image to the microSD card. 
 * After ISO verification is complete, unplug and re-plug the microSD card reader to the computer and browse to the microSD card directory.
 * Create a blank file called "ssh" with no extension. This will enable the SSH server on your Raspberry on the first boot so we can connect to it remotely.
@@ -98,7 +112,7 @@ Following are the step-by-step instructions for setting up a new Raspberry Pi st
 * After successfully connecting to your Raspberry through VNC, you will see the first-time configuration wizard. Follow the dialogs to set your localization, time zone, etc. Then you can go to the start menu and open some apps to see if everything is working.
 
 ## Docker Setup
-Now it is time to setup Docker.
+Now it is time to setup Docker. You can also watch the video version of the article to see the live demonstration of me doing this on a Raspberry Pi.
 
 * Start by SSH-ing into your Raspberry using the following command from your terminal:
   * ssh pi@raspberrypi.local # default pass: raspberry
