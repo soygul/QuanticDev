@@ -32,7 +32,7 @@ First off, what is serverless (aka function-as-a-service or FaaS)? Serverless me
 
 The functions you write are only loaded in memory when there is a request or event for them to handle and unloaded after serving that request. They also share the same hardware and possibly the same runtime with everybody else's functions. As a result, you generally only pay for the CPU time consumed by your functions, and not for the entire server or VM.
 
-![Serverless Architecture](res/serverless-architecture.png)
+![Serverless Architecture](serverless/serverless-architecture.png)
 
 Let us see an example of how serverless works in a simplified diagram. The diagram above starts with the client on top. The client could be a browser, could be a mobile app, could be another internal service. The client sends a request to say Firebase Functions, which hosts the target domain and API endpoints at mysite.com. Internally, the request is handled by a load balancer. Load balancer chooses a server with low utilization, and that server loads the code and dependencies for your function and executes it. The server can be handling many functions at the same time for many unrelated domains. Each request to your functions can be executed by different servers. That is at the load balancer's discretion.
 
