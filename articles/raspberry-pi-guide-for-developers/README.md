@@ -5,11 +5,11 @@ Table of contents:
 * [Resources](#resources)
 * [Why Raspberry Pi for Developers](#why-raspberry-pi)
 * [Why with Docker](#why-docker)
-* [How Do I Use My Raspberry Pi as a Developer?](#how-do-i-use-my-raspberry-pi-as-a-developer?)
-* [What Else Can You Do with a Raspberry Pi as a Developer?](#what-else-can-you-do-with-a-raspberry-pi-as-a-developer?)
+* [How Do I Use My Raspberry Pi as a Developer?](#how-do-i-use-my-raspberry-pi-as-a-developer)
+* [What Else Can You Do with a Raspberry Pi as a Developer?](#what-else-can-you-do-with-a-raspberry-pi-as-a-developer)
 * [Raspberry Pi Setup](#raspberry-pi-setup)
 * [Docker Setup](#docker-setup)
-* [Sample Docker Node.js Application Setup on Raspberry](#sample-docker-node.js-application-setup-on-raspberry)
+* [Sample Docker Node.js Application Setup on Raspberry](#sample-docker-nodejs-application-setup-on-raspberry)
 
 ## Resources
 You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=idCG0wSi-fk](https://www.youtube.com/watch?v=idCG0wSi-fk){:target="_blank"}
