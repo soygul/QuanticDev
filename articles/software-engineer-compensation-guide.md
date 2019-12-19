@@ -23,9 +23,9 @@ I will create a dedicated in-depth article to help you estimate your expected in
 ## How Much Do Engineers Get Paid?
 First things first, how much do engineers get paid. Let me show you some data from levels.fyi:
 
-![Software Engineer/Developer Compensation Chart](res/senior-eng-companies.png)
+![Software Engineer/Developer Compensation Chart](software-engineer-compensation-guide/senior-eng-companies.png)
 
-![L6 Senior Software Engineer Compensation](res/senior-eng-l6.png)
+![L6 Senior Software Engineer Compensation](software-engineer-compensation-guide/senior-eng-l6.png)
 
 The first thing to note is that charts display the total compensation, which includes salary, bonus, and stock options. As you can see, the pay scale gets progressively higher. When you reach the higher mid-tier, you stand at around half a million dollars. Top tiers are reserved for specialized positions, and your income will be almost entirely stock options and bonuses and will be open-ended. Check out the resources section above to get a list of websites that host up-to-date compensation charts for many positions in different companies.
 
