@@ -1,4 +1,4 @@
-# Software Design Patterns, Principles, and Best Practices
+# Raspberry Pi: A Developer’s Companion - A Complete Guide with Docker
 Raspberry Pi is a very compact and cheap computer (about $35). In this article, I am going to talk about how a developer uses Raspberry and why it is a good companion for you. I will also enlighten you on how Raspberry plays along with Docker and how and why to use them together. My Raspberry needed a fresh install for ages now, so I will do that with you. I will also set up Docker so I can host all my services on it using pre-existing Docker images for Node.js, Golang, MongoDB, Redis, and more.
 
 Table of contents:
