@@ -22,7 +22,11 @@ You can find the video narration of this text on YouTube: [https://www.youtube.c
 Video has additional tips and discussion. If you want to leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 ## My Wealth Distribution as a Software Engineer
-Let me start by giving you the chart on how I allocate my wealth. [dir: screenshot] I keep to a straightforward formula of dividing my wealth into 3 roughly equal parts between real estate, index funds, and bonds. I keep a decent amount of liquidity in case of emergencies. Since funds can take up to 2 weeks to liquidate, it is important to have some cash in hand. I will expand on this 3-legged investment strategy point-by-point in the next sections.
+Let me start by giving you the chart on how I allocate my wealth.
+
+![Raspberry Pi attached to phone](images/my_portfolio.jpg)
+
+I keep to a straightforward formula of dividing my wealth into 3 roughly equal parts between real estate, index funds, and bonds. I keep a decent amount of liquidity in case of emergencies. Since funds can take up to 2 weeks to liquidate, it is important to have some cash in hand. I will expand on this 3-legged investment strategy point-by-point in the next sections.
 
 I kept to this simple and diversified investment strategy for a long time now, and here is how it has been doing.
 * [dir: title: real estate return: 100%] Return on my real-estate investments was about 200%. This is based on the approximate sales value of adjacent and identical estates and is a rough estimate. I will explain why it grew so much in a moment.
