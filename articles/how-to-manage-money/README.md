@@ -86,7 +86,7 @@ Tip: Before you buy any fund, go to the bank's website, and read the funds' broc
 ## Bonds
 Bonds are the final piece of the puzzle. Again, quoting Investopedia:
 
-A bond is a fixed income instrument that represents a loan made by an investor to a borrower (typically corporate or governmental). Bonds are issued by companies and governments to finance their projects and operations. Owners of bonds are debtholders, or creditors, of the issuer.
+> A bond is a fixed income instrument that represents a loan made by an investor to a borrower (typically corporate or governmental). Bonds are issued by companies and governments to finance their projects and operations. Owners of bonds are debtholders, or creditors, of the issuer.
 Source: https://www.investopedia.com/terms/b/bond.asp
 
 Bonds are low-risk low-return investments and are a good way of preserving value rather than making money. The best thing about them is the ease of mind. They do not fluctuate much, and you do not have to think about them after investing. One thing to note is the fact that currencies themselves fluctuate.
