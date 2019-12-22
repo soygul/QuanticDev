@@ -24,14 +24,15 @@ Video has additional tips and discussion. If you want to leave a comment, do so 
 ## My Wealth Distribution as a Software Engineer
 Let me start by giving you the chart on how I allocate my wealth.
 
-![Raspberry Pi attached to phone](images/my_portfolio.jpg)
+![My Portfolio](images/my_portfolio.jpg)
 
 I keep to a straightforward formula of dividing my wealth into 3 roughly equal parts between real estate, index funds, and bonds. I keep a decent amount of liquidity in case of emergencies. Since funds can take up to 2 weeks to liquidate, it is important to have some cash in hand. I will expand on this 3-legged investment strategy point-by-point in the next sections.
 
 I kept to this simple and diversified investment strategy for a long time now, and here is how it has been doing.
-* [dir: title: real estate return: 100%] Return on my real-estate investments was about 200%. This is based on the approximate sales value of adjacent and identical estates and is a rough estimate. I will explain why it grew so much in a moment.
-* [dir: screenshot x2] MSCI World Index Fund price doubled in the last 10 years. I got only about 60% return on my investment since I was late in getting into the index funds. I also started allocating some of my money for JPMorgan US Technology Fund, and it grew about 450% in the last 10 years, which I missed. I will discuss why I made this change later.
-* [dir: screenshot] The return on my JPMorgan Global Bond Fund was a modest 13% in the last 6 years.
+* Return on my real-estate investments was about 100%. This is based on the approximate sales value of adjacent and identical estates and is a rough estimate. I will explain why it grew so much in a moment.
+* MSCI World Index Fund price doubled in the last 10 years.I got only about 60% return on my investment since I was late in getting into the index funds. I also started allocating some of my money for JPMorgan US Technology Fund, and it grew about 450% in the last 10 years, which I missed. I will discuss why I made this change later.
+  ![MSCI World Index 10 year performance](images/msci_world_10y_performance.png)
+* The return on my JPMorgan Global Bond Fund was a modest 13% in the last 6 years.
 
 My bond investments had minimal return, but the other 2 had an amazing run. This is not all luck though. These are the results of very conscious choices that I made while deciding what to do with my money. I will also talk more about it in a moment.
 
@@ -49,9 +50,9 @@ Source: https://www.investopedia.com/terms/d/diversification.asp
 Also, keep it simple. The time you spend managing your investment is also a cost. In fact, if you are a high earner like an engineer, the time you spend managing money will be its highest cost. On the bright side, it is a good learning experience. However, try to avoid wasting time checking charts, but rather concentrate on learning the basics of economy and executing a good long-term strategy. And as a rule of thumbs, never ever, ever go into day trading. If you do now know what day trading is, let it stay that way. Trying to outtrade trading bots will always lose your money.
 
 ## Real Estate
-What is real estate? Quoting from Investopedia: [dir: screenshot]
+What is real estate? Quoting from Investopedia:
 
-Real estate is property made up of land and the buildings on it, as well as the natural resources of the land, including water, minerals, etc.
+> Real estate is property made up of land and the buildings on it, as well as the natural resources of the land, including water, minerals, etc.
 Source: https://www.investopedia.com/terms/r/realestate.asp
 
 As a tech person concentrating on your career, you do not want to buy land and bother building your own place. Instead, buy a safe and modern apartment or a house that will not create any problems for you.
@@ -60,7 +61,7 @@ Also, in engineering and tech, mobility is king. I personally like places a bit 
 
 Do not forget that real estate is not risk-free. It is a physical and destructible object, so get whatever insurance you can. Also, when the markets crash, real estate markets also get hit hard, so make sure you limit your exposure by not buying more than what you need. However, real estate is also a good way of preserving value, and you will always need a place to live in. Living in your own estate is a joy and gives you peace of mind, which is worth the effort you put into finding the right place.
 
-Tip: Here is the Maslow's hierarchy of needs. At the core of everything, you need a safe and secure place to be productive. Especially as an entrepreneur and a creative person. Living in a great home will pay off in the long run.
+Tip: You need a safe and secure place to be productive. Especially as an entrepreneur and a creative person. Living in a great home will pay off in the long run.
 
 ## Index Funds
 Index funds are my preferred type of investment in stocks. Partially quoting from Investopedia:
@@ -68,9 +69,13 @@ Index funds are my preferred type of investment in stocks. Partially quoting fro
 > An index fund is a type of mutual fund with a portfolio constructed to track a financial market index — for instance, the entirety of NASDAQ. An index mutual fund provides broad market exposure and low operating expenses. Warren Buffett has recommended index funds as a haven for retirement savings. Rather than picking out individual stocks for investment, he has said, it makes more sense for the average investor to buy all of the S&P 500 companies at the low cost an index fund offers.
 Source: https://www.investopedia.com/terms/i/indexfund.asp
 
-The most significant advantage of index funds is the ease of mind. You do not have to think about the performance of a single company or individual stocks. Markets tend to move up over time since stocks pay dividends. So, your investment in the index funds will grow along with the markets. Also, index funds tend to have very low management fee. For instance, the MSCI World Index Fund that I invest in has a 0.2% management fee. As a result, you will lose little of your investment to managements costs, as there is very little to manage.
+The most significant advantage of index funds is the ease of mind. You do not have to think about the performance of a single company or individual stocks. Markets tend to move up over time since stocks pay dividends. So, your investment in the index funds will grow along with the markets.
 
-Recently I have started allocating more of my investments into technology index funds. As I already work in tech and believe in the future of tech, it is a good investment for me. [dir: screenshot of JPM tech] However, I missed out on the meteoric rise of the tech sector in the last 10 years. If I were to invest in JPMorgan US Tech Fund early on, which invests in big tech companies like Google, Apple, Amazon, etc., I would have had a 450% return on my investment.
+![Dow Jones Industrial Average 100 years](images/dow_jones_industrial_average_100_years.png)
+
+Also, index funds tend to have very low management fee. For instance, the MSCI World Index Fund that I invest in has a 0.2% management fee. As a result, you will lose little of your investment to managements costs, as there is very little to manage.
+
+Recently I have started allocating more of my investments into technology index funds. As I already work in tech and believe in the future of tech, it is a good investment for me. However, I missed out on the meteoric rise of the tech sector in the last 10 years. If I were to invest in JPMorgan US Tech Fund early on, which invests in big tech companies like Google, Apple, Amazon, etc., I would have had a 350% return on my investment.
 
 But do not forget, stocks in any form are high risks investments. In my opinion, you should plan not to sell for at least a decade if you plan on investing in stock-based funds.
 
@@ -84,7 +89,11 @@ Bonds are the final piece of the puzzle. Again, quoting Investopedia:
 A bond is a fixed income instrument that represents a loan made by an investor to a borrower (typically corporate or governmental). Bonds are issued by companies and governments to finance their projects and operations. Owners of bonds are debtholders, or creditors, of the issuer.
 Source: https://www.investopedia.com/terms/b/bond.asp
 
-Bonds are low-risk low-return investments and are a good way of preserving value rather than making money. The best thing about them is the ease of mind. They do not fluctuate much, and you do not have to think about them after investing. One thing to note is the fact that currencies themselves fluctuate. [dir: Screenshot of currency fluctuations (US vs EU vs Yen)] For this reason, it is safest to choose a bond fund that has a mix of holdings in major currencies; USD, Euro, and Yen. Another risk is the corporate bankruptcies. You can mitigate that if you invest in funds that hold mostly government bonds.
+Bonds are low-risk low-return investments and are a good way of preserving value rather than making money. The best thing about them is the ease of mind. They do not fluctuate much, and you do not have to think about them after investing. One thing to note is the fact that currencies themselves fluctuate.
+
+![Euro vs USD](images/euro_vs_usd.png)
+
+For this reason, it is safest to choose a bond fund that has a mix of holdings in major currencies; USD, Euro, and Yen. Another risk is the corporate bankruptcies. You can mitigate that if you invest in funds that hold mostly government bonds.
 
 Again, if you choose to go with funds, choose the ones with the lowest possible management fee. Bonds are already low yield investments, and high management fees would result in negative returns. You could buy Treasury bonds directly, but that requires an investment account, and I do not want to go there.
 
@@ -95,7 +104,11 @@ This part is easy. Always have enough cash in hand for emergencies. Not only in 
 There are many more investment instruments like commodities etc. outside of what we discussed. But as I do not understand them, I never get involved with them. Also, I do not want to introduce any complexity and additional worries in my investment strategy. I am also not getting into retirement funds as they change wildly from country to country, and employer to employer, but you should investigate them as your longest-term investments.
 
 ## My Failures
-I did not start investing in the stock market early on, so I could not ride the last economic boom. Especially the tech boom. Instead, I opted to pay back my mortgage as soon as possible. In my defense, I did not know that interest rates would stay low for so long. [dir: screenshot] I always planned for the worst-case scenario and prioritized being debt-free. However, it has the bonus effect of removing one complexity from your life.
+I did not start investing in the stock market early on, so I could not ride the last economic boom. Especially the tech boom. Instead, I opted to pay back my mortgage as soon as possible. In my defense, I did not know that interest rates would stay low for so long. Check the below chart for yearly mortgate rates for the last 50 years:
+
+![Yearly Mortgate Rates](images/yearly_mortgage_rates.png)
+
+I always planned for the worst-case scenario and prioritized being debt-free. However, it has the bonus effect of removing one complexity from your life.
 
 Secondly, I invested in bonds heavily but did not diversify to multiple currencies, which resulted in significant fluctuations. They stabilize eventually, but it takes a bit of your cognitive capacity, and you do not want to be bothered with that. You would instead concentrate on your projects and career, which is what makes you more money than anything else.
 
@@ -108,4 +121,4 @@ Tip: Money spent on what makes you productive is money well spent. Do not shy aw
 
 After going all this trouble trying to preserve your wealth, one thing you should never do is to throw your money away with useless expenses. Not to mention the fact that showing off with your wealth is a childish thing. You never know if your current level of income will be sustainable forever. Tomorrow, you might need everything you have. Live a frugal life, and you will not regret it.
 
-That is it for this article, and I will see you next time. Live long and prosper.
+Live long and prosper.
