@@ -45,7 +45,7 @@ Let us start with the basics.
    * Any class you write should also have a singular purpose. For instance, a "DatePicker" class that encapsulates methods necessary to help the user to pick a date. It might have functions for displaying the selected date, setting a date range, etc.
    * The same goes for the libraries and modules. They should have responsibility over a single part of the functionality provided by the entire software.
    * Tip: When you start having functions regarding time and time zone, etc. in your "DatePicker" class, it is a good signal that you should being moving time-related functions into a "TimePicker" class.
-6. Separation of Concerts
+6. Separation of Concerns
    * Similar in spirit to single responsibility principle but on a broader spectrum; it is the principle of sectioning a program into separate parts so that each part addresses a different concern.
    * Every program has multiple concerns: for instance, getting data from the server, validating that data, and displaying that data to the user. If you section your app so that you have three layers: one for client-server communication, one for data validation, and one for rendering a user interface, you achieve separation of concerns in that app.
    * Tip: You should take care not to leak the UI related code to your controller, model, and validation layers. Also, be careful not to leak controller logic into the communication code. Using well-thought libraries like React for UI and gRPC for client-server can help you enforce these separations.
