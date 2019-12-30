@@ -31,28 +31,42 @@ Learn to use the Advanced Search feature of Google. After searching for somethin
 And finally, you can use search modifiers in your queries. Say you are looking for a song lyric and you do not remember some words. Type what you remember from the lyrics and use asterisk to substitute words that you do not remember. Say you remember the first sentence exactly; you can quote it to get an exact match. You can also use a minus sign to exclude words that you know is not related to your search. Try this and see what you get while keeping an eye on autocomplete suggestions: `Oh the "weather outside is frightful" but the * is so delightful -jackson`
 
 ## Cable Management
-A lot of us have a lot of gadgets at home and work, and most of us live with a cable mess (not me!). [dir: pic] There are many tools and strategies to manage this mess, which you can learn to utilize in no time. There are some nuances, and it is worth to invest a little bit of time in learning how to do this properly. For instance, bundling analog cables together might cause interference and result in lower quality. Or wrapping them around a metal object can end up creating an electromagnet. So, go and start Googling for online tutorials so you can get the most out of your workstation or home AV setup. You can start by learning how to properly wrap cables without damaging them, which is the least you can do.
+A lot of us have a lot of gadgets at home and work, and most of us live with a cable mess (not me!). There are many tools and strategies to manage this mess, which you can learn to utilize in no time. There are some nuances, and it is worth to invest a little bit of time in learning how to do this properly. For instance, bundling analog cables together might cause interference and result in lower quality. Or wrapping them around a metal object can end up creating an electromagnet. So, go and start Googling for online tutorials so you can get the most out of your workstation or home AV setup. You can start by learning how to properly wrap cables without damaging them, which is the least you can do.
 
 Tip: If you have any ideas on skills that are essential and can be learned quickly, let me know in the comments section on YouTube for the video version of this article.
 
 ## Raspberry Pi
-[dir: screenshot] Raspberry Pi is a tiny computer with a powerful mobile CPU that costs only $35. You can use it as a spare computer, you can use it as a home server, or you can make it into a smart home dashboard with a small screen attached. If you have no prior experience with electronics, it could be your gateway into electronics. You can buy many attachments for it like a temperature sensor, camera, GPS module etc. and build creative things with them. Programming a Raspberry Pi is quite easy, and it has good documentation. It can also help you get into programming if you choose to go in that direction.
+Raspberry Pi is a tiny computer with a powerful mobile CPU that costs only $35.
 
-[dir: pic] You can get a Raspberry Pi Kit which includes everything necessary to turn your Raspberry into a replacement computer. If you go with a kit that includes a touch screen or a keyboard with integrated touchpad, you can even use it as a portable computer. There is so much to learn with a Raspberry Pi!
+![Raspberry Pi Screen](images/raspberry_pi_screen.jpg)
+
+You can use it as a spare computer, you can use it as a home server, or you can make it into a smart home dashboard with a small screen attached. If you have no prior experience with electronics, it could be your gateway into electronics. You can buy many attachments for it like a temperature sensor, camera, GPS module etc. and build creative things with them. Programming a Raspberry Pi is quite easy, and it has good documentation. It can also help you get into programming if you choose to go in that direction.
+
+![Raspberry Pi Kit](images/raspberry_pi_kit.jpg)
+
+You can get a Raspberry Pi Kit which includes everything necessary to turn your Raspberry into a replacement computer. If you go with a kit that includes a touch screen or a keyboard with integrated touchpad, you can even use it as a portable computer. There is so much to learn with a Raspberry Pi!
 
 Tip: I have a separate article on how to setup a Raspberry Pi from scratch with the link in the resources section above. It is primarily aimed at programmers, but it can give you some tip on what techies like me do with their Raspberries. And no, we do not eat them!
 
 ## First Aid and CPR
-Most schools and larger companies provide free education on first aid and CPR. [dir: screenshot x2] If you have never done them, I highly recommend that you do. Most local healthcare providers also provide free lessons on these two, and you can catch the announcement on Facebook Events most of the time. It can even be a fun activity for a day with your pals!
+Most schools and larger companies provide free education on first aid and CPR. If you have never done them, I highly recommend that you do. Most local healthcare providers also provide free lessons on these two, and you can catch the announcement on Facebook Events most of the time. It can even be a fun activity for a day with your pals!
 
-At the minimum, have a first aid kit at your home. They mostly come bundled with instructions, so read the leaflet. You can quickly learn how to attend burns and wounds with some online videos too, but make sure that it is from a credible source. Knowing the simplest things like how to apply pressure or do a tourniquet to stop bleeding can save somebody's life, or even yours!
+At the minimum, have a first aid kit at your home.
+
+![First Aid Kit](images/first_aid_kit.jpg)
+
+They mostly come bundled with instructions, so read the leaflet. You can quickly learn how to attend burns and wounds with some online videos too, but make sure that it is from a credible source. Knowing the simplest things like how to apply pressure or do a tourniquet to stop bleeding can save somebody's life, or even yours!
 
 ## Salary Negotiation
 Most of us will always receive a salary for most of our lives and being able to negotiate properly is a life changer. Even if you are an entrepreneur, have your own business, you will still have to negotiate your compensation package with your investors. So, learning to negotiate your compensation is an essential yet mostly ignored skill.
 
 There are a million guides out there each tailored towards a specific industry. Now that you know how to Google effectively, go ahead and check out the guides that fit you the best. You can bookmark them and read or watch them while commuting. Let me give you a couple of tips that apply to everyone:
 
-First off, know your worth. Knowing where you stand on the income chain will help you negotiate effectively. [dir: screenshot] There are many websites that list salaries for different industries and companies like LinkedIn Salaries, Glassdoor Salaries, level.fyi and more. Search for salary listing sites that are relevant to your line of work and use them.
+First off, know your worth. Knowing where you stand on the income chain will help you negotiate effectively. There are many websites that list salaries for different industries and companies like LinkedIn Salaries, Glassdoor Salaries, level.fyi and more.
+
+![Level.fyi](images/levels_fyi.png)
+
+Search for salary listing sites that are relevant to your line of work and use them.
 
 Tip: I have a separate compensation guide for software engineers. If you are in software or similar engineering discipline, you can go check it out. It will help you in estimating what your compensation should be for the next year. The link is in the resources section.
 
