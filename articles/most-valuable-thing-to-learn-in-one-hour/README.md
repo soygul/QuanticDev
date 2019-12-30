@@ -17,4 +17,4 @@ Hacker News discussion on the same topic:
 * [https://news.ycombinator.com/item?id=21581361](https://news.ycombinator.com/item?id=21581361){:target="_blank"}
 
 ## WIP
-Will be published tomorrow.
+Will be published in 24 hours.
