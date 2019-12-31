@@ -6,7 +6,7 @@ You can find the video narration of this text on YouTube with illustrations: [ht
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8F_srpzXQ6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Video has additional tips and discussion. If you want to leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
+Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Relevant articles referred to in this article:
 * [Raspberry Pi Guide for Developers](/articles/raspberry-pi-guide-for-developers){:target="_blank"}
@@ -93,4 +93,4 @@ In addition, teaching is one of the best ways of learning and re-learning. It is
 ## Conclusion
 Not all skills require oceans of time to acquire. There are hundreds of things that you can learn in no time, which would make remarkable improvements in your life. Optimizing your life in small ways will gradually give you more time to do the things you like. You just need to keep your practice game up not to lose your sharpness.
 
-And finally, keep an eye on this channel if you want to keep on learning. I am primarily putting out all this info for my own, but they will also help you to get better at living, creating, and engineering. When I need to preserve more of my skills, I will put more guides up, and I will see you then.
+And finally, keep an eye on this website if you want to keep on learning. I am primarily putting out all this info for my own, but they will also help you to get better at living, creating, and engineering. When I need to preserve more of my skills, I will put more guides up, and I will see you then.
