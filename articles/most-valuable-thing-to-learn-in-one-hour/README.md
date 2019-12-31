@@ -36,7 +36,7 @@ A lot of us have a lot of gadgets at home and work, and most of us live with a c
 Tip: If you have any ideas on skills that are essential and can be learned quickly, let me know in the comments section on YouTube for the video version of this article.
 
 ## Raspberry Pi
-Raspberry Pi is a tiny computer with a powerful mobile CPU that costs only $35.
+[Raspberry Pi](https://www.raspberrypi.org/){:target="_blank"} is a tiny computer with a powerful mobile CPU that costs only $35.
 
 ![Raspberry Pi Screen](images/raspberry_pi_screen.jpg)
 
@@ -62,7 +62,7 @@ Most of us will always receive a salary for most of our lives and being able to 
 
 There are a million guides out there each tailored towards a specific industry. Now that you know how to Google effectively, go ahead and check out the guides that fit you the best. You can bookmark them and read or watch them while commuting. Let me give you a couple of tips that apply to everyone:
 
-First off, know your worth. Knowing where you stand on the income chain will help you negotiate effectively. There are many websites that list salaries for different industries and companies like LinkedIn Salaries, Glassdoor Salaries, level.fyi and more.
+First off, know your worth. Knowing where you stand on the income chain will help you negotiate effectively. There are many websites that list salaries for different industries and companies like [LinkedIn Salaries](https://www.linkedin.com/salary/){:target="_blank"}, [Glassdoor Salaries](https://www.glassdoor.com/Salaries/){:target="_blank"}, [levels.fyi](https://www.levels.fyi/){:target="_blank"}, and more.
 
 ![Level.fyi](images/levels_fyi.png)
 
@@ -78,7 +78,7 @@ Tip: I have yet another dedicated guide on how to manage money for people with l
 ## Presentation
 Presenting information is easy to learn and hard to master skill. There are different mediums to share information: in writing, using slides, or just public speaking. As long as you use the right templates and obey the rules of information sharing, you will mostly be well received. However, there are many diverse techniques to use based on what you are presenting. Just go ahead and Google: "How to present an idea" and you will find a wealth of information online. There are great many PowerPoint, or Google Slides templates out there which can help you in structuring your presentation. Use them as a starting point, and you can gradually personalize as you get more proficient.
 
-Tip: I have a bombshell of an article coming up on how to present ideas and products like Apple does. If you want to read it when it comes out, keep an eye on quanticdev.com
+Tip: I have a bombshell of an article coming up on how to present ideas and products like Apple does. If you want to read it when it comes out, keep an eye on [quanticdev.com](https://quanticdev.com/)
 
 ## Asking a Question
 You should learn how to ask a good question. Asking a clear and concise question is a skill of its own, but you can improve yourself with a tiny bit of time investment. You do not even need a guide for this. All you have to do is just a bit of self-reflection. Are you asking short and concise questions, or are you sneaking multiple questions into one sentence? Are you speaking clearly? Are your sentences too long? Reflect on the responses you got for your past questions and try to identify your strengths and weaknesses and work on them.
