@@ -13,7 +13,8 @@ Relevant articles referred to in this article:
 * [Software Engineer Compensation Guide](/articles/software-engineer-compensation-guide){:target="_blank"}
 * [Money Management for Techies (which also describes bonds and index funds)](/articles/how-to-manage-money){:target="_blank"}
 
-Hacker News discussion on the same topic:
+Hacker News discussions on the same topic:
+* [https://news.ycombinator.com/item?id=21913129](https://news.ycombinator.com/item?id=21913129){:target="_blank"} (for this article)
 * [https://news.ycombinator.com/item?id=21581361](https://news.ycombinator.com/item?id=21581361){:target="_blank"}
 
 ## Cooking
