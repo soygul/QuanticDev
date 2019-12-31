@@ -10,7 +10,7 @@ Articles and videos are mostly on software and engineering, while occasionally d
 * Instagram: [instagram.com/quantic_dev](https://www.instagram.com/quantic_dev)
 
 ### Contributing
-If you want to contribute to any article, you are welcome to make a pull request on GitHub.
+If you want to contribute to any article, you are welcome to make a pull request or new issue on GitHub. You can comment under YouTube videos, or read existing comments.
 
 ## Engineering Essentials
 * [Fundamental Engineering Principles - What are the expectations form developers and engineers?](articles/engineering-principles)
