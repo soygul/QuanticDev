@@ -11,7 +11,7 @@ Video has additional tips and illustrations. If you want to read the comments or
 Relevant articles referred to in this article:
 * [Raspberry Pi Guide for Developers](/articles/raspberry-pi-guide-for-developers){:target="_blank"}
 * [Software Engineer Compensation Guide](/articles/software-engineer-compensation-guide){:target="_blank"}
-* [Money Management for Techies (which also describes bonds and index funds)](/articles/how-to-manage-money){:target="_blank"}
+* [Money Management for Techies](/articles/how-to-manage-money){:target="_blank"} (which also describes bonds and index funds)
 
 Hacker News discussions on the same topic:
 * [https://news.ycombinator.com/item?id=21913129](https://news.ycombinator.com/item?id=21913129){:target="_blank"} (for this article)
