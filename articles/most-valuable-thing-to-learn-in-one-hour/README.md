@@ -9,9 +9,9 @@ You can find the video narration of this text on YouTube: [https://www.youtube.c
 Video has additional tips and discussion. If you want to leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Relevant articles referred to in this article:
-* [Raspberry Pi Guide for Developers](articles/raspberry-pi-guide-for-developers){:target="_blank"}
-* [Software Engineer Compensation Guide](articles/software-engineer-compensation-guide){:target="_blank"}
-* [Money Management for Techies (which also describes bonds and index funds)](articles/how-to-manage-money){:target="_blank"}
+* [Raspberry Pi Guide for Developers](/articles/raspberry-pi-guide-for-developers){:target="_blank"}
+* [Software Engineer Compensation Guide](/articles/software-engineer-compensation-guide){:target="_blank"}
+* [Money Management for Techies (which also describes bonds and index funds)](/articles/how-to-manage-money){:target="_blank"}
 
 Hacker News discussion on the same topic:
 * [https://news.ycombinator.com/item?id=21581361](https://news.ycombinator.com/item?id=21581361){:target="_blank"}
