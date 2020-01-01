@@ -5,7 +5,7 @@ Articles and videos are mostly on software and engineering, while occasionally d
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/7CC8d-AbQv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ### Social
-* YouTube: [youtube.com/channel/UCC_-cJLbMPKkSNuWmxvnvsw](https://www.youtube.com/channel/UCC_-cJLbMPKkSNuWmxvnvsw)
+* YouTube: [youtube.com/quanticdev](https://www.youtube.com/quanticdev)
 * Twitter: [twitter.com/quantic_dev](https://twitter.com/quantic_dev)
 * Instagram: [instagram.com/quantic_dev](https://www.instagram.com/quantic_dev)
 
