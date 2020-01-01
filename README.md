@@ -25,7 +25,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Raspberry Pi: A Developer's Companion - A Complete Guide with Docker](articles/raspberry-pi-guide-for-developers)
 
 ## Product Management
-* TDB
+* [How to Present Like Apple? - Recreating an Apple Keynote](how-to-present-like-apple)
 
 ## Case Studies
 * [Stripe's $35B valuation in 8 years - How a tech startup reaches billion-dollar valuation? [Video Only]](https://www.youtube.com/watch?v=nlFAbBvu7hA)
