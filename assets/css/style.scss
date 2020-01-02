@@ -43,7 +43,22 @@ header h4 {
   background: url("../images/twitter.png") 0 0 no-repeat;
 }
 
+.btn-share .icon {
+  opacity: 0.6;
+  background: url("../images/share.png") 0 0 no-repeat;
+}
+
 .btn-patreon .icon {
   opacity: 0.6;
   background: url("../images/patreon.png") 0 0 no-repeat;
+}
+
+.btn-github-sponsor .icon {
+  opacity: 0.6;
+  background: url("../images/github-sponsor.png") 0 0 no-repeat;
+}
+
+.btn-store .icon {
+  opacity: 0.6;
+  background: url("../images/store.png") 0 0 no-repeat;
 }
