@@ -27,3 +27,23 @@ header h4 {
   font-weight: 300;
   color: #666;
 }
+
+.btn-github .icon {
+  opacity: 0.6;
+  background: url("../images/github.png") 0 0 no-repeat;
+}
+
+.btn-youtube .icon {
+  opacity: 0.6;
+  background: url("../images/youtube.png") 0 0 no-repeat;
+}
+
+.btn-twitter .icon {
+  opacity: 0.6;
+  background: url("../images/twitter.png") 0 0 no-repeat;
+}
+
+.btn-patreon .icon {
+  opacity: 0.6;
+  background: url("../images/patreon.png") 0 0 no-repeat;
+}
