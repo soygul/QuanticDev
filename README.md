@@ -33,5 +33,4 @@ If you want to contribute to any article, you are welcome to make a pull request
 ## How To
 * [What Is the Most Valuable Thing You Can Learn in One Hour?](articles/most-valuable-thing-to-learn-in-one-hour)
 
-#### Contact
-Email: info (at) quanticdev.com
+#### Contact: info(at)quanticdev.com
