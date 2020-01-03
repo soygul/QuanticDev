@@ -33,4 +33,4 @@ If you want to contribute to any article, you are welcome to make a pull request
 ## How To
 * [What Is the Most Valuable Thing You Can Learn in One Hour?](articles/most-valuable-thing-to-learn-in-one-hour)
 
-#### Contact: info(at)quanticdev.com
+#### Copyright © Teoman "QuanticDev" Soygul ([soygul.com](https://soygul.com)) · MIT License · info(at)quanticdev.com
