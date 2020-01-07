@@ -97,9 +97,9 @@ If you want, you can watch the video version of this article (on top) to watch m
 * Plug microSD to Raspberry and connect it to the charger.
 * It will automatically connect to your pre-configured WiFi. If it does not work, you can plug it to your network with an ethernet cable. Alternatively, just attach a monitor and a keyboard.
 * Connect to your Raspberry with SSH using the following command on your terminal:
-  * ssh pi@raspberrypi.local # default pass: raspberry
+  * `ssh pi@raspberrypi.local # default pass: raspberry`
 * Start Raspberry configurator with the following command:
-  * sudo raspi-config
+  * `sudo raspi-config`
 * Start by changing your password.
 * You can optionally change your network hostname from the "Network Options" menu to something unique if you are going to have multiple Raspberries in your network.
 * Go to the "Interfacing Options" menu and enable VNC so you can remotely see your Raspberry's desktop when you need to. We have already enabled SSH with the "ssh" file trick during boot.
@@ -115,20 +115,20 @@ If you want, you can watch the video version of this article (on top) to watch m
 Now it is time to setup Docker. You can also watch the video version of the article to see the live demonstration of me doing this on a Raspberry Pi.
 
 * Start by SSH-ing into your Raspberry using the following command from your terminal:
-  * ssh pi@raspberrypi.local # default pass: raspberry
+  * `ssh pi@raspberrypi.local # default pass: raspberry`
   * #use password 'raspberry' if you did not change it
 * Always update your Raspberry before installing new packages. Use the following commands. If you have a lot of packages to be updated, this can take a while.
-  * sudo apt update
-  * sudo apt full-upgrade
-  * sudo reboot
+  * `sudo apt update`
+  * `sudo apt full-upgrade`
+  * `sudo reboot`
 * After your Raspberry reboots, connect to it with SSH as instructed above. Now install Docker using the installer script. It is the officially recommended way of installing Docker on Raspberry, but remember to inspect to script before executing it.
-  * curl -fsSL https://get.docker.com -o get-docker.sh
+  * `curl -fsSL https://get.docker.com -o get-docker.sh`
   * #see if there is anything nasty
-  * cat get-docker.sh
-  * sudo sh get-docker.sh
+  * `cat get-docker.sh`
+  * `sudo sh get-docker.sh`
   * #add user 'pi' to group 'docker' so you can type Docker commands without sudo
-  * sudo usermod -aG docker pi 
-  * sudo reboot
+  * `sudo usermod -aG docker pi`
+  * `sudo reboot`
 
 Let your Raspberry reboot and reconnect to it using SSH again.
 
@@ -139,11 +139,11 @@ See the video if you want to watch me do this exercise for you.
 
 * Now let us install my JS-API npm package so we can start an API server inside a Docker container in our Raspberry:
   * #start a Docker container in interactive mode and expose port 3000
-  * docker run -it -p 3000:3000 node bash
+  * `docker run -it -p 3000:3000 node bash`
   * #docker run step will pull the Node.js Docker image so it can take a while depending on your internet connection speed.
-  * npm install js-api
-  * cd node_modules/js-api
-  * npm start
+  * `npm install js-api`
+  * `cd node_modules/js-api`
+  * `npm start`
   * #js-api will run some integrations tests so you should see the output on the console
 * Now switch from your terminal app to a browser app (Chrome, Firefox, etc. are all fine). Go to the following URL:
   * http://raspberrypi.local:3000/posts
