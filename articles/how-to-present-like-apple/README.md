@@ -12,7 +12,7 @@ Apple Logo Animation:
 * [https://github.com/lorenzocadamuro/apple-fifth-avenue](https://github.com/lorenzocadamuro/apple-fifth-avenue){:target="_blank"}
 
 ## Stage Directions
-![Apple Special Event](images/apple-special-event.jpg)
+![Apple Special Event by QuanticDev](images/apple_special_event_quanticdev.jpg)
 
 This section is the script with the stage directions for the presentation. If you want to watch it, check the video in the resources section out.
 
