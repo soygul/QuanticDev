@@ -1,4 +1,4 @@
-# How to Manage Money as a Techie
+# How to Manage Money as a Techie - How I Invest as a Software Engineer?
 In this article, I will give you tips on how to manage money as a techie. I will summarize what I have done to successfully preserve and grow my wealth while keeping my strategy simple. I divide my wealth into 3 main and roughly equal parts; real estate, index funds (MSCI World Index, JPMorgan US Tech), and bonds. I prefer index funds over managing an investment account myself so that I will have a well-managed and well-diversified portfolio. I will also mention things that I have failed to do, so you can learn from them. I will explain all the terminology used in this article with quotes from Investopedia.
 
 **Obligatory Disclaimer**: This is not investment advice, it just a summary of my own investment decisions and their results. Many investment banks offer free advice if you are seeking professional help. But before taking any action, do your own research.
