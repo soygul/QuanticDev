@@ -15,7 +15,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 ## Engineering Essentials
 * [Fundamental Engineering Principles - What are the expectations form developers and engineers?](articles/engineering-principles)
 * [Software Engineer Compensation Guide - From Junior ($100K) to Senior ($500K++) Engineer Compensations](articles/software-engineer-compensation-guide)
-* [How to Manage Money as a Techie - How I Invest as a Software Engineer?](articles/how-to-manage-money)
+* [How to Manage Money as a Techie - How I Invest as a Software Engineer](articles/how-to-manage-money)
 
 ## Software Engineering
 * [Software Design Patterns, Principles, and Best Practices](articles/software-design-patterns)
