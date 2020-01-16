@@ -4,7 +4,7 @@ Today I am going to talk to you about the titanic pay gap between junior and sen
 As an example, a junior engineer fresh out of college even with an unrelated diploma like physics, math, or industrial engineering can score a $100K compensation in Silicon Valley, while a senior engineer with a successful decade long career will get $500K and upwards. What are the reasons for this huge gap? Is it only years? Let us investigate.
 
 ## Resources
-You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=4q1GGW04hjw](https://www.youtube.com/watch?v=4q1GGW04hjw){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=4q1GGW04hjw](https://www.youtube.com/watch?v=4q1GGW04hjw){:target="_blank"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4q1GGW04hjw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

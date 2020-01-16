@@ -2,7 +2,7 @@
 Turn your laptop or desktop computer into a Linux productivity powerhouse using Manjaro Linux and this guide. Manjaro Linux (based on Arch) is my go-to distro for development and productivity, and my recommendation for most people for reasons discussed in the article. With this guide, you can kickstart your all-purpose development and work environment for free and start being productive right away.
 
 ## Resources
-You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=6A8rwX2J2HA](https://www.youtube.com/watch?v=6A8rwX2J2HA){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=6A8rwX2J2HA](https://www.youtube.com/watch?v=6A8rwX2J2HA){:target="_blank"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6A8rwX2J2HA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

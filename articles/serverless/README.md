@@ -4,7 +4,7 @@ What is serverless (aka function-as-a-service or FaaS)? Is it worth the investme
 This article goes into detail about the uses, advantages, and disadvantages of serverless. It will also give you a live example of serverless deployment using Firebase Functions. You will learn about the alternatives of serverless, as well as recommendations on when and where to use it. Finally you will learn which big enterprises use serverless and my recommendations for you.
 
 ## Resources
-You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=Kqk013ioclA](https://www.youtube.com/watch?v=Kqk013ioclA){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=Kqk013ioclA](https://www.youtube.com/watch?v=Kqk013ioclA){:target="_blank"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Kqk013ioclA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
