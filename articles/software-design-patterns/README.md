@@ -4,7 +4,7 @@ Refine your knowledge of software design patterns and principles with this guide
 Understanding of software design is a must for any software engineer of any seniority. Other engineering disciplines that deal with software will also benefit from it greatly. System and electronics engineers that do microcontroller programming all day long, I am looking at you! Besides, any software engineering job interview will have questions on software design patterns and principles.
 
 ## Resources
-You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=A6Ud7EGAxrc](https://www.youtube.com/watch?v=A6Ud7EGAxrc){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=A6Ud7EGAxrc](https://www.youtube.com/watch?v=A6Ud7EGAxrc){:target="_blank"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A6Ud7EGAxrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -12,7 +12,7 @@ Table of contents:
 * [Sample Docker Node.js Application Setup on Raspberry](#sample-docker-nodejs-application-setup-on-raspberry)
 
 ## Resources
-You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=idCG0wSi-fk](https://www.youtube.com/watch?v=idCG0wSi-fk){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=idCG0wSi-fk](https://www.youtube.com/watch?v=idCG0wSi-fk){:target="_blank"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/idCG0wSi-fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

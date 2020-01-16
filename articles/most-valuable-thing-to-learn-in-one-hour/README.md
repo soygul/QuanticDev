@@ -2,7 +2,7 @@
 This article will give you a list of the most valuable things you can learn in just an hour. There are many basic and valuable skills you can acquire in a very short amount of time, not only in technology but also in general life. Cooking, first aid & CPR, setting up a Raspberry Pi, cable management, or even learning to learn. These are all things that you can learn in under 60 minutes and will make a remarkable impact on your life. Obviously, learning is not mastering. Practice makes perfect, and you will have to practice over time to perfect your newly acquired skills.
 
 ## Resources
-You can find the video narration of this text on YouTube with illustrations: [https://www.youtube.com/watch?v=8F_srpzXQ6o](https://www.youtube.com/watch?v=8F_srpzXQ6o){:target="_blank"}
+You can find the video narration of this article on YouTube with illustrations: [https://www.youtube.com/watch?v=8F_srpzXQ6o](https://www.youtube.com/watch?v=8F_srpzXQ6o){:target="_blank"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8F_srpzXQ6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

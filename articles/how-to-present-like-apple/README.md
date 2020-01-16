@@ -2,7 +2,7 @@
 This is an article and an accompanying video recreating an Apple Product Event. In this article (and complementary video), I will be introducing the new 16" MacBook Pro to the Special Event attendees and the press. And I will talk about the epic engineering journey behind the brand-new MacBook. I made this article and video to keep my presentation skills sharp while teaching others how to present like Apple (because, teaching is the best way of learning and re-learning).
 
 ## Resources
-You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=IuAIBY6NE6k](https://www.youtube.com/watch?v=IuAIBY6NE6k){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=IuAIBY6NE6k](https://www.youtube.com/watch?v=IuAIBY6NE6k){:target="_blank"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IuAIBY6NE6k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

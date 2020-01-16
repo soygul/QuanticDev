@@ -11,9 +11,9 @@ Table of contents:
 * Conclusion
 
 ## Resources
-You can find the video narration of this text on YouTube: [https://www.youtube.com/watch?v=XXXXXXXXX](https://www.youtube.com/watch?v=XXXXXXXXX){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=jPhmR3TiGq8](https://www.youtube.com/watch?v=jPhmR3TiGq8){:target="_blank"}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XXXXXXXXX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jPhmR3TiGq8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
@@ -31,4 +31,4 @@ Free website hosting:
   * Firebase: [https://firebase.google.com](https://firebase.google.com){:target="_blank"}
 
 ## Article
-This article is a WIP and will be published later. In the mean time, you can follow the video.
+I am currently traveling so I will finish publishing this article by Wed, Jan 22.
