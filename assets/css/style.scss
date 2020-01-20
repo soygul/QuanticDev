@@ -29,11 +29,13 @@ header h4 {
 }
 
 .home ul {
-  margin-top: 1rem;
-}
-.home ul li {
-  margin-top: 0.5rem;
-}
-.home ul li a {
-  text-decoration: none;
+  h2 {
+    margin-top: 1rem;
+  }
+  li {
+    margin-top: 0.5rem;
+    a {
+      text-decoration: none;
+    }
+  }
 }
