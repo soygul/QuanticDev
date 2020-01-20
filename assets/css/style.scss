@@ -28,12 +28,14 @@ header h4 {
   color: #666;
 }
 
-.home ul {
+.home {
   h2 {
     margin-top: 1rem;
   }
-  li {
+  
+  ul li {
     margin-top: 0.5rem;
+    
     a {
       text-decoration: none;
     }
