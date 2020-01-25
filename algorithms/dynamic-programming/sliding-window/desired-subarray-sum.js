@@ -8,6 +8,7 @@ const assert = require('assert')
  * @returns {[]} - An array of subarrays that add up to the desired sum.
  */
 function getSubarrays (inputArr, desiredSum) {
+  // current window sum and window sum start index
   let sum = 0; let sumStartIndex = 0
   const solutions = []
 

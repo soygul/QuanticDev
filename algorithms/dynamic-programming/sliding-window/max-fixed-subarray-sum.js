@@ -1,14 +1,28 @@
 const assert = require('assert')
 
 /**
- * Find maximum sum subarray of desired size in a given array.
+ * Given an array of integers, find maximum contiguous sum subarray of a fixed size.
  *
  * @param inputArr - An array of integers.
  * @param subarraySize - Desired subarray size as a positive integer.
  * @returns [] - A subarray of size {subarraySize} that has the maximum possible sum.
  */
 function getMaxSubarray (inputArr, subarraySize) {
+  let currentSum = 0
+  let maxSum = 0; let maxSumEndIndex = 0
 
+  inputArr.forEach((item, index) => {
+    currentSum += item
+
+    if (index > subarraySize) currentSum -= inputArr[index - subarraySize]
+
+    if (currentSum > maxSum) {
+      maxSum = currentSum
+      maxSumEndIndex = index
+    }
+  })
+
+  return inputArr.slice(maxSumEndIndex - subarraySize + 1, maxSumEndIndex + 1)
 }
 
 /**
