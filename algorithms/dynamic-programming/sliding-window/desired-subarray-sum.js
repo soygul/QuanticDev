@@ -37,9 +37,8 @@ const solution1 = [[7], [4, 3], [3, 2, 2]]
 
 const calculatedSolution1 = getSubarrays(exampleInput1, desiredSum1)
 
-assert.deepStrictEqual(calculatedSolution1, solution1)
-
 console.log(`Example Input #1: ${JSON.stringify(exampleInput1)}, Desired Sum: ${desiredSum1}, Solution: ${JSON.stringify(calculatedSolution1)}`)
+assert.deepStrictEqual(calculatedSolution1, solution1)
 
 // test case #2
 const exampleInput2 = [23, 1, 6, 9, 15, 8]
@@ -48,6 +47,5 @@ const solution2 = [[23, 1], [9, 15]]
 
 const calculatedSolution2 = getSubarrays(exampleInput2, desiredSum2)
 
-assert.deepStrictEqual(calculatedSolution2, solution2)
-
 console.log(`Example Input #2: ${JSON.stringify(exampleInput2)}, Desired Sum: ${desiredSum2}, Solution: ${JSON.stringify(calculatedSolution2)}`)
+assert.deepStrictEqual(calculatedSolution2, solution2)
