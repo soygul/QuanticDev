@@ -7,7 +7,8 @@ const assert = require('assert')
  * @returns {string} - The shortest substring containing all the desired characters.
  */
 function getShortestSubstring (string, characters) {
-  const substringStartIndex = 0; let substringEndIndex = 0
+  const smallestSubstring = {startIndex: 0, endIndex: 0, length: 0}
+  let substringStartIndex = 0; let substringEndIndex = 0
   let neededChars = characters.split('')
 
   for (let i = 0; i < string.length; i++) {
