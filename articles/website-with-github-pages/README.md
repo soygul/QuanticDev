@@ -31,7 +31,7 @@ Free website hosting:
   * Firebase: [https://firebase.google.com](https://firebase.google.com){:target="_blank"}
 
 ## QuanticDev.com Intro
-I host quanticdev.com on GitHub Pages, and here is how it is looking right now on mobile.
+I host [quanticdev.com on GitHub Pages](https://github.com/soygul/QuanticDev){:target="_blank"}, and here is how it is looking right now on mobile.
 
 ![quanticdev.com mobile](images/quanticdev_com-mobile.jpg)
 
