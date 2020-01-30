@@ -29,9 +29,9 @@ Video has additional tips for each principle discussed. If you want to read the 
 * GitHub Flow guide: [https://guides.github.com/introduction/flow](https://guides.github.com/introduction/flow){:target="_blank"}
 
 Relevant articles referred to in this article:
-* [How to Set up a Free Website with GitHub Pages - How I Created quanticdev.com](https://quanticdev.com/articles/website-with-github-pages){:target="_blank"}
-* [Cleanest Linux Productivity and Development Environment using Manjaro Linux](https://quanticdev.com/articles/manjaro-linux-productivity-machine){:target="_blank"}
-* [Software Design Patterns, Principles, and Best Practices](https://quanticdev.com/articles/software-design-patterns){:target="_blank"}
+* [How to Set up a Free Website with GitHub Pages - How I Created quanticdev.com](/articles/website-with-github-pages){:target="_blank"}
+* [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine){:target="_blank"}
+* [Software Design Patterns, Principles, and Best Practices](/articles/software-design-patterns){:target="_blank"}
 * [Software Quality Assurance - How Do Software Companies Test Their Products?](https://www.youtube.com/watch?v=ztb8HNc2kCU){:target="_blank"}
 
 ## Article
