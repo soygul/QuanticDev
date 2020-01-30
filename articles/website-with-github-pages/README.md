@@ -89,7 +89,7 @@ Now that we know what GitHub Pages is and what is it not, let us go ahead and de
 * Optionally you can assign a custom domain name to your website. Follow the instructions provided in the GitHub Pages documentation if you plan to do this. The documentation link is in the resources section.
 * Optionally, copy your website's URL to your GitHub repo description so you can easily access it.
 * You can add new pages to your website using the "Create new file" button at the home of your GitHub repository. You can create directories through that UI by simply typing forward-slash into the file name field after typing the directory name. I recommend always nesting your new pages in new directories so your links will work both in GitHub UI and on your domain. As an example, create the following as your new page: "another-page/README.md". If your file name is "README", it will be rendered by default in GitHub UI.
-* You can link to your new page using simple markdown syntax like this: [another-page](another-page). HTML equivalent of that would be just a relative link with URL: "another-page".
+* You can link to your new page using simple markdown syntax like this: `[another-page](another-page)`. HTML equivalent of that would be just a relative link with URL: "another-page".
 * I will not go into the details of deployment of React apps to GitHub Pages. But to verify that it can be done, I did it and here is how it looks:
 
 ![GitHub Pages with React](images/github_pages_react.jpg)
