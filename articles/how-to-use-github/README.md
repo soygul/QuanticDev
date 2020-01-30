@@ -2,6 +2,7 @@
 I have been using GitHub for about 8 years now. Today I will enlighten you about how to use GitHub correctly for software development, which is a huge platform that provides code hosting, file hosting (with releases feature), issue tracker, project board, continuous build and integration, wikis, webpage hosting, and more. I will give you a brief comparison of GitHub to its alternatives, including locally hosted ones. I will also explain to you my personal Git and GitHub setup and how I use it. Finally, I will demonstrate my full software development workflow on my open-source "Android Docker" project, which is hosted on GitHub.
 
 Table of contents:
+* [Resources](#resources)
 * Why GitHub
 * Alternatives
 * My GitHub Setup

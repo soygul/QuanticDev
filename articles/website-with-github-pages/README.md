@@ -2,6 +2,7 @@
 I have recently published quanticdev.com using only GitHub Pages and markdown and decided to create a guide to preserve this knowledge in the form of an article so I can reuse it in my future projects. GitHub Pages is a free and a pretty good hosting service. It is an add-on for regular GitHub repositories, and you can host your website as well as code and other things in one repo, which is pretty good. I must warn that GitHub Pages is intended for techies. If you want something much simpler, go with Google Sites, or Blogger.com, or WordPress. In the first part of this article, I will discuss the strengths and weaknesses of GitHub Pages. In the second part, I will deploy a brand-new website using GitHub Pages and simple markdown. Everything will be done through GitHub's UI and online code editor. I will also demonstrate a sample React website hosted on GitHub Pages.
 
 Table of contents:
+* [Resources](#resources)
 * [QuanticDev.com Intro](#quanticdevcom-intro)
 * [Why GitHub Pages](#why-github-pages)
 * [Advantages](#advantages)

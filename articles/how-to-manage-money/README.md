@@ -4,6 +4,7 @@ In this article, I will give you tips on how to manage money as a techie. I will
 **Obligatory Disclaimer**: This is not investment advice, it just a summary of my own investment decisions and their results. Many investment banks offer free advice if you are seeking professional help. But before taking any action, do your own research.
 
 Table of contents:
+* [Resources](#resources)
 * [My Wealth Distribution as a Software Engineer](#my-wealth-distribution-as-a-software-engineer)
 * [Why I Invest as I Do?](#why-i-invest-as-i-do)
 * [Real Estate](#real-estate)
