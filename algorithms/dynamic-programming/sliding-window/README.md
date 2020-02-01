@@ -6,7 +6,7 @@ definition
 
 link to YT vid & qd article
 
-link pseudo code
+link pseudo code (or put here)
 
 list problem links
 
