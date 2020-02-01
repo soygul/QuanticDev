@@ -10,26 +10,27 @@ const assert = require('assert')
  */
 function getMaxSequence (inputArr, maxFlips) {
   let subArrStart = 0; let subArrEnd = 0
-  let longestSubArr = 0; let zeroes = 0
+  let flippedZeroes = 0
+  let longestSubArr = {start: 0, end: 0, len: 0}
 
   inputArr.forEach((item, index) => {
     // always start by increasing window size
     subArrEnd = index
 
-    if (item === 0) zeroes++
+    if (item === 0) flippedZeroes++
 
     let subArrLen = 1 + subArrEnd - subArrStart
-    if (zeroes <= maxFlips && subArrLen > longestSubArr) longestSubArr = subArrLen
+    if (flippedZeroes <= maxFlips && subArrLen > longestSubArr.len) longestSubArr = {start: subArrStart, end: subArrEnd, len: subArrLen}
 
     // decrease window size until we are less than or equal to the max flip limit
-    while (zeroes > maxFlips) {
-      if (inputArr[subArrStart] === 0) zeroes--
+    while (flippedZeroes > maxFlips) {
+      if (inputArr[subArrStart] === 0) flippedZeroes--
 
       subArrStart++
     }
   })
 
-  return longestSubArr
+  return inputArr.slice(longestSubArr.start, longestSubArr.end + 1)
 }
 
 /**
@@ -39,7 +40,7 @@ function getMaxSequence (inputArr, maxFlips) {
 // test case #1
 const exampleInput1 = [1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0]
 const maxFlips1 = 2
-const solution1 = 6
+const solution1 = [0, 1, 1, 0, 1, 1]
 
 const calculatedSolution1 = getMaxSequence(exampleInput1, maxFlips1)
 
@@ -47,9 +48,9 @@ console.log(`Example Input #1: ${JSON.stringify(exampleInput1)}, Maximum Flips: 
 assert.deepStrictEqual(calculatedSolution1, solution1)
 
 // test case #2
-const exampleInput2 = [23, 1, 6, 9, 15, 8]
-const maxFlips2 = 24
-const solution2 = [[23, 1], [9, 15]]
+const exampleInput2 = [0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0]
+const maxFlips2 = 3
+const solution2 = [1, 0, 0, 0, 1, 1, 1, 1]
 
 const calculatedSolution2 = getMaxSequence(exampleInput2, maxFlips2)
 
