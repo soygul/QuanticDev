@@ -2,27 +2,37 @@ const assert = require('assert')
 
 /**
  * Given a string and n characters, find the shortest substring that contains all given characters.
+ *
  * @param string - Any string.
  * @param characters - A string of characters that the substring should contain.
  * @returns {string} - The shortest substring containing all the desired characters.
  */
 function getShortestSubstring (string, characters) {
-  const substringStartIndex = 0; let substringEndIndex = 0
+  let substringStartIndex = 0
+  let smallestSubstringStartIndex = 0; let smallestSubstringEndIndex = 0
   const neededChars = characters.split('').reduce((freq, char) => { freq[char] ? freq[char]++ : freq[char] = 1; return freq }, {})
-  const gotChars = {}
-  const smallestSubstring = { startIndex: 0, endIndex: 0, length: 0 }
+  let missingChars = characters.length
 
-  for (let i = 0; i < string.length; i++) {
-    const char = string[i]
-    if (neededChars[char]) gotChars[char] ? gotChars[char]++ : gotChars[char] = 1
+  for (let substringEndIndex = 0; substringEndIndex < string.length; substringEndIndex++) {
+    const char = string[substringEndIndex]
 
-    if (neededChars.every((needed, index) => gotChars[index] >= needed)) {
-      substringEndIndex = i
-      break
+    if (neededChars[char]) missingChars--
+    neededChars[char]--
+
+    if (!missingChars) {
+      while (substringStartIndex < substringEndIndex && neededChars[string[substringStartIndex]] < 0) {
+        neededChars[string[substringStartIndex]]++
+        substringStartIndex++
+      }
+
+      if (!smallestSubstringEndIndex || (substringEndIndex - substringEndIndex) < (smallestSubstringEndIndex - smallestSubstringStartIndex)) {
+        smallestSubstringStartIndex = substringStartIndex
+        smallestSubstringEndIndex = substringEndIndex
+      }
     }
   }
 
-  return string.slice(smallestSubstring.startIndex, smallestSubstring.endIndex + 1)
+  return string.slice(smallestSubstringStartIndex, smallestSubstringEndIndex + 1)
 }
 
 /**
