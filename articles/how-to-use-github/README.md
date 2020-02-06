@@ -88,7 +88,7 @@ Tip: I have used my Mac for this article, but I mostly use my Linux machine whil
 ## My Full Software Development Workflow Using GitHub
 Here is how I use GitHub in my day to day development tasks. For this example, I will finish the remaining tasks on my "android-docker" open-source project, which helps people to build their Android projects inside Docker containers. It is a free and open-source project hosted on GitHub. If you want to check it out or use it, the link is in the description.
 
-### __Note: Rest of this article is the script of my GitHub videos. If you want to see me in action working on my project, check the videos out in resources section.__
+### __Note: Rest of this article is the script of my GitHub videos. If you want to see me in action working on my project, check the videos out in the resources section.__
 
 ## Project Organization
 I like keeping my repos simple. I try to have all my documentation in simple readme files in markdown rather than using the "Wikis". I also like keeping my issues list clean, and close stale issues whenever I can. It is even possible to set up a "Stale Bot" for this purpose, but I did not do it yet. Finally, I touch the settings only when I need to. There is no need to complicate the repo configurations.
