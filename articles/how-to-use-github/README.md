@@ -59,7 +59,7 @@ GitHub is free for public and private repositories. It is free for individuals, 
 
 I must note that GitHub is now a Microsoft product and you might not like that. Just like many major Linux distributions did not like it. This includes Manjaro Linux, which migrated its entire codebase to GitLab. GitHub also has very broad terms and conditions, which basically gives them the right to terminate your account without warning at any time. However, this is generally the same for any content hosting provider, so always have offline and encrypted backups of your data.
 
-![GitHub Microsoft Acquisition](images/github_ms_acquisition.jpg)
+![GitHub Microsoft Acquisition](images/github_ms_acquisition.jpg){:width=50%}
 
 ## Alternatives
 You can find the link that lists pretty much all the well-known alternatives to GitHub, in the resources section. But following are my favorites and here is how they stand up to GitHub:
