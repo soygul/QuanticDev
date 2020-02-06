@@ -3,25 +3,30 @@ I have been using GitHub for about 8 years now. Today I will enlighten you about
 
 Table of contents:
 * [Resources](#resources)
-* Why GitHub
-* Alternatives
-* My GitHub Setup
-* My Full Software Development Workflow Using GitHub
-  * Project Organization
-  * Git Usage
-  * Task #1: Replace Docker Base Image
-    * Applied Programming Principles
-  * Task #2: Fix Directory Naming Conventions
-    * GitHub Pull Request Flow
-  * Task #3: Deploy Image to Docker Hub
-    * Manual Testing
-  * Task #4: Project Publicity
-* Conclusion
+* [Why GitHub](#why-github)
+* [Alternatives](#alternatives)
+* [Resources](#my-github-setup)
+* [My Physical Work Environment](#my-physical-work-environment)
+* [My Full Software Development Workflow Using GitHub](#my-full-software-development-workflow-using-github)
+  * [Project Organization](#project-organization)
+  * [Git Usage](#git-usage)
+  * [Task #1: Replace Docker Base Image](#task--1--replace-docker-base-image)
+    * [Applied Programming Principles](#applied-programming-principles)
+  * [Task #2: Fix Directory Naming Conventions](#task--2--fix-directory-naming-conventions)
+    * [GitHub Pull Request Flow](#github-pull-request-flow)
+  * [Task #3: Deploy Image to Docker Hub](#Task--3--Deploy-Image-to-Docker-Hub)
+    * [Manual Testing](#manual-testing)
+  * [Task #4: Project Publicity](#task--4--project-publicity)
+* [Conclusion](#conclusion)
 
 ## Resources
-You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=xX8no5eRck0](https://www.youtube.com/watch?v=xX8no5eRck0){:target="_blank"}
+You can find the video narration of this article on YouTube: Part #1: [https://www.youtube.com/watch?v=xX8no5eRck0](https://www.youtube.com/watch?v=xX8no5eRck0){:target="_blank"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xX8no5eRck0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Part #2: [https://www.youtube.com/watch?v=wRAIY-RLSvo](https://www.youtube.com/watch?v=wRAIY-RLSvo){:target="_blank"}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wRAIY-RLSvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
