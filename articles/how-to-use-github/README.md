@@ -20,11 +20,11 @@ Table of contents:
 * [Conclusion](#conclusion)
 
 ## Resources
-You can find the video narration of this article on YouTube: Part #1: [https://www.youtube.com/watch?v=xX8no5eRck0](https://www.youtube.com/watch?v=xX8no5eRck0){:target="_blank"}
+You can find the video narration of this article on YouTube: Part #1 - GitHub Advantages, Alternatives, and Setup: [https://www.youtube.com/watch?v=xX8no5eRck0](https://www.youtube.com/watch?v=xX8no5eRck0){:target="_blank"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xX8no5eRck0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Part #2: [https://www.youtube.com/watch?v=wRAIY-RLSvo](https://www.youtube.com/watch?v=wRAIY-RLSvo){:target="_blank"}
+Part #2 - My Full Development Workflow Using GitHub: [https://www.youtube.com/watch?v=wRAIY-RLSvo](https://www.youtube.com/watch?v=wRAIY-RLSvo){:target="_blank"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wRAIY-RLSvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -85,10 +85,10 @@ I have a 4K 30" monitor in front of me, but I only use it while demonstrating so
 
 Tip: I have used my Mac for this article, but I mostly use my Linux machine while I am working on my open-source projects. If you want to learn how to set up a Manjaro Linux machine for development and be quite productive with it, I have a dedicated article on this topic, and the link is in the resources section. I will also have a separate article on how I use my Mac for programming and other tasks. So, watch out for that.
 
-### __Note: Rest of this article is the script of my GitHub videos. If you want to see me in action working on my project, check the videos out in resources section.__
-
 ## My Full Software Development Workflow Using GitHub
 Here is how I use GitHub in my day to day development tasks. For this example, I will finish the remaining tasks on my "android-docker" open-source project, which helps people to build their Android projects inside Docker containers. It is a free and open-source project hosted on GitHub. If you want to check it out or use it, the link is in the description.
+
+### __Note: Rest of this article is the script of my GitHub videos. If you want to see me in action working on my project, check the videos out in resources section.__
 
 ## Project Organization
 I like keeping my repos simple. I try to have all my documentation in simple readme files in markdown rather than using the "Wikis". I also like keeping my issues list clean, and close stale issues whenever I can. It is even possible to set up a "Stale Bot" for this purpose, but I did not do it yet. Finally, I touch the settings only when I need to. There is no need to complicate the repo configurations.
