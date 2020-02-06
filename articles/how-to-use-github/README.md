@@ -14,7 +14,7 @@ Table of contents:
     * [Applied Programming Principles](#applied-programming-principles)
   * [Task #2: Fix Directory Naming Conventions](#task-2-fix-directory-naming-conventions)
     * [GitHub Pull Request Flow](#github-pull-request-flow)
-  * [Task #3: Deploy Image to Docker Hub](#Task-3-Deploy-Image-to-Docker-Hub)
+  * [Task #3: Deploy Image to Docker Hub](#task-3-deploy-image-to-docker-hub)
     * [Manual Testing](#manual-testing)
   * [Task #4: Project Publicity](#task-4-project-publicity)
 * [Conclusion](#conclusion)
