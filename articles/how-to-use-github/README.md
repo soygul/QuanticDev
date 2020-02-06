@@ -10,13 +10,13 @@ Table of contents:
 * [My Full Software Development Workflow Using GitHub](#my-full-software-development-workflow-using-github)
   * [Project Organization](#project-organization)
   * [Git Usage](#git-usage)
-  * [Task #1: Replace Docker Base Image](#task--1--replace-docker-base-image)
+  * [Task #1: Replace Docker Base Image](#task-1-replace-docker-base-image)
     * [Applied Programming Principles](#applied-programming-principles)
-  * [Task #2: Fix Directory Naming Conventions](#task--2--fix-directory-naming-conventions)
+  * [Task #2: Fix Directory Naming Conventions](#task-2-fix-directory-naming-conventions)
     * [GitHub Pull Request Flow](#github-pull-request-flow)
-  * [Task #3: Deploy Image to Docker Hub](#Task--3--Deploy-Image-to-Docker-Hub)
+  * [Task #3: Deploy Image to Docker Hub](#Task-3-Deploy-Image-to-Docker-Hub)
     * [Manual Testing](#manual-testing)
-  * [Task #4: Project Publicity](#task--4--project-publicity)
+  * [Task #4: Project Publicity](#task-4-project-publicity)
 * [Conclusion](#conclusion)
 
 ## Resources
