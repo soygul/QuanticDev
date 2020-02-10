@@ -24,7 +24,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [What Is Serverless (Function-as-a-Service), and Is It Worth?](articles/serverless)
 * [Raspberry Pi: A Developer's Companion - A Complete Guide with Docker](articles/raspberry-pi-guide-for-developers)
 * [How to Correctly Use Github for Software Development - My Full Workflow With Tutorial](articles/how-to-use-github)
-* [Most Popular Programming Languages 2010 - 2023 (extrapolated) [Video Only]](https://www.youtube.com/watch?v=LjWn2aJ3o2g)
+* [Most Popular Programming and Markup Languages 2010 - 2023 (extrapolated) [Video Only]](https://www.youtube.com/watch?v=LjWn2aJ3o2g)
 
 ## Product Management
 * [How to Present Like Apple? - Recreating an Apple Keynote](articles/how-to-present-like-apple)
