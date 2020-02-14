@@ -49,3 +49,14 @@ const calculatedSolution2 = getSubarrays(exampleInput2, desiredSum2)
 
 console.log(`Example Input #2: ${JSON.stringify(exampleInput2)}, Desired Sum: ${desiredSum2}, Solution: ${JSON.stringify(calculatedSolution2)}`)
 assert.deepStrictEqual(calculatedSolution2, solution2)
+
+// test case #3
+// sliding window technique cannot handle negative numbers in this case so solution will not be full
+const exampleInput3 = [-1, -4, 0, 5, 3, 2, 1]
+const desiredSum3 = 5
+const solution3 = [[-1, -4, 0, 5, 3, 2], [5], [3, 2]]
+
+const calculatedSolution3 = getSubarrays(exampleInput3, desiredSum3)
+
+console.log(`Example Input #3: ${JSON.stringify(exampleInput3)}, Desired Sum: ${desiredSum3}, Solution (some missing): ${JSON.stringify(calculatedSolution3)}`)
+assert.notDeepStrictEqual(calculatedSolution3, solution3)
