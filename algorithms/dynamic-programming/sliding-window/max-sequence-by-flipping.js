@@ -44,7 +44,7 @@ const solution1 = [0, 1, 1, 0, 1, 1]
 
 const calculatedSolution1 = getMaxSequence(exampleInput1, maxFlips1)
 
-console.log(`Example Input #1: ${JSON.stringify(exampleInput1)}, Maximum Flips: ${maxFlips1}, Solution: ${JSON.stringify(calculatedSolution1)}`)
+console.log(`Example Input #1: ${JSON.stringify(exampleInput1)}, Maximum Flips: ${maxFlips1}, Solution: ${JSON.stringify(calculatedSolution1)} (Length: ${calculatedSolution1.length})`)
 assert.deepStrictEqual(calculatedSolution1, solution1)
 
 // test case #2
@@ -54,5 +54,5 @@ const solution2 = [1, 0, 0, 0, 1, 1, 1, 1]
 
 const calculatedSolution2 = getMaxSequence(exampleInput2, maxFlips2)
 
-console.log(`Example Input #2: ${JSON.stringify(exampleInput2)}, Maximum Flips: ${maxFlips2}, Solution: ${JSON.stringify(calculatedSolution2)}`)
+console.log(`Example Input #2: ${JSON.stringify(exampleInput2)}, Maximum Flips: ${maxFlips2}, Solution: ${JSON.stringify(calculatedSolution2)} (Length: ${calculatedSolution1.length})`)
 assert.deepStrictEqual(calculatedSolution2, solution2)
