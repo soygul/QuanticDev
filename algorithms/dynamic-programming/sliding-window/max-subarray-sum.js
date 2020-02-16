@@ -1,7 +1,7 @@
 const assert = require('assert')
 
 /**
- * Given an array of integers, find maximum contiguous sum subarray of a given size.
+ * Given an array of integers, find maximum contiguous sum subarray of required size.
  *
  * @param inputArr - An array of integers.
  * @param subarraySize - Desired subarray size as a positive integer.
