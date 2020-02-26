@@ -14,7 +14,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 
 ## Engineering Essentials
 * [Fundamental Engineering Principles - What are the expectations form developers and engineers?](/articles/engineering-principles)
-* [Software Engineer Compensation Guide - From Junior ($100K) to Senior ($500K++) Engineer Compensations]/(articles/software-engineer-compensation-guide)
+* [Software Engineer Compensation Guide - From Junior ($100K) to Senior ($500K++) Engineer Compensations](/articles/software-engineer-compensation-guide)
 * [How to Manage Money as a Techie - How I Invest as a Software Engineer](/articles/how-to-manage-money)
 
 ## Software Engineering
@@ -25,6 +25,9 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Raspberry Pi: A Developer's Companion - A Complete Guide with Docker](/articles/raspberry-pi-guide-for-developers)
 * [How to Correctly Use Github for Software Development - My Full Workflow With Tutorial](/articles/how-to-use-github)
 * [Most Popular Programming and Markup Languages 2010 - 2023 (extrapolated) on GitHub [Video Only]](https://www.youtube.com/watch?v=LjWn2aJ3o2g)
+
+## Algorithms
+* [Sliding Window Technique (Subarrays)](/algorithms/dynamic-programming/sliding-window)
 
 ## Product Management
 * [How to Present Like Apple? - Recreating an Apple Keynote](/articles/how-to-present-like-apple)
