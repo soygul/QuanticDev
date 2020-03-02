@@ -1,29 +1,24 @@
 const assert = require('assert')
 
 /**
- * Given a array of positive integers, find the contiguous subarrays of integers that add up to a given number.
+ * Given n stairs, you can climb 1 or 2 stairs at a time.
+ * Count the number of different ways that you can reach the top.
  *
- * @param inputArr - An array of positive integers.
- * @param desiredSum - The desired sum as an integer.
- * @returns {[]} - An array of subarrays that add up to the desired sum.
+ * @param stairs - No of available stairs.
+ * @returns {number} - Count of ways to reach the top.
  */
-function getSubarrays (inputArr, desiredSum) {
-  // current window sum and window sum start index
-  let sum = 0; let sumStartIndex = 0
-  const solutions = []
+function climbStairs (stairs) {
+  // a, b = first and second fibonacci numbers
+  let a = 1; let b = 1; let tmp = 0
 
-  inputArr.forEach((item, index) => {
-    sum += item
+  // calculate next fibonacci number
+  for (let i = 0; i < stairs; i++) {
+    tmp = b
+    b = a + b
+    a = tmp
+  }
 
-    while (sum > desiredSum) {
-      sum -= inputArr[sumStartIndex]
-      sumStartIndex++
-    }
-
-    if (sum === desiredSum) solutions.push(inputArr.filter((_, i) => i >= sumStartIndex && i <= index))
-  })
-
-  return solutions
+  return a
 }
 
 /**
@@ -31,32 +26,46 @@ function getSubarrays (inputArr, desiredSum) {
  */
 
 // test case #1
-const exampleInput1 = [1, 7, 9, 4, 3, 2, 2]
-const desiredSum1 = 7
-const solution1 = [[7], [4, 3], [3, 2, 2]]
+const stairs1 = 1
+const solution1 = 1
 
-const calculatedSolution1 = getSubarrays(exampleInput1, desiredSum1)
+const calculatedSolution1 = climbStairs(stairs1)
 
-console.log(`Example Input #1: ${JSON.stringify(exampleInput1)}, Desired Sum: ${desiredSum1}, Solution: ${JSON.stringify(calculatedSolution1)}`)
+console.log(`Example Stairs #1: ${stairs1}, Solution: ${solution1}`)
 assert.deepStrictEqual(calculatedSolution1, solution1)
 
 // test case #2
-const exampleInput2 = [23, 1, 6, 9, 15, 8]
-const desiredSum2 = 24
-const solution2 = [[23, 1], [9, 15]]
+const stairs2 = 2
+const solution2 = 2
 
-const calculatedSolution2 = getSubarrays(exampleInput2, desiredSum2)
+const calculatedSolution2 = climbStairs(stairs2)
 
-console.log(`Example Input #2: ${JSON.stringify(exampleInput2)}, Desired Sum: ${desiredSum2}, Solution: ${JSON.stringify(calculatedSolution2)}`)
+console.log(`Example Stairs #2: ${stairs2}, Solution: ${solution2}`)
 assert.deepStrictEqual(calculatedSolution2, solution2)
 
 // test case #3
-// sliding window technique cannot handle negative numbers in this case so solution will not be full
-const exampleInput3 = [-1, -4, 0, 5, 3, 2, 1]
-const desiredSum3 = 5
-const solution3 = [[-1, -4, 0, 5, 3, 2], [5], [3, 2]]
+const stairs3 = 3
+const solution3 = 3
 
-const calculatedSolution3 = getSubarrays(exampleInput3, desiredSum3)
+const calculatedSolution3 = climbStairs(stairs3)
 
-console.log(`Example Input #3: ${JSON.stringify(exampleInput3)}, Desired Sum: ${desiredSum3}, Solution (some missing): ${JSON.stringify(calculatedSolution3)}`)
-assert.notDeepStrictEqual(calculatedSolution3, solution3)
+console.log(`Example Stairs #3: ${stairs3}, Solution: ${solution3}`)
+assert.deepStrictEqual(calculatedSolution3, solution3)
+
+// test case #4
+const stairs4 = 4
+const solution4 = 5
+
+const calculatedSolution4 = climbStairs(stairs4)
+
+console.log(`Example Stairs #4: ${stairs4}, Solution: ${solution4}`)
+assert.deepStrictEqual(calculatedSolution4, solution4)
+
+// test case #5
+const stairs5 = 5
+const solution5 = 8
+
+const calculatedSolution5 = climbStairs(stairs5)
+
+console.log(`Example Stairs #5: ${stairs5}, Solution: ${solution5}`)
+assert.deepStrictEqual(calculatedSolution5, solution5)
