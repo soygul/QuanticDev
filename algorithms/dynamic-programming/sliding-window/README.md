@@ -62,7 +62,7 @@ Solution: Sliding Window (Statically Sized)
 	Slide the window by one element at a time.
 	Time complexity: O(n)
 	Space complexity: O(1)
-	You can find the code for this solution at: https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-subarray-sum.js
+	You can find the code for this solution at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-subarray-sum.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-subarray-sum.js){:target="_blank"}
 	You can also watch me solving this problem in the video in the resources section.
 
 ## Tips!
@@ -95,7 +95,7 @@ Approach #2: Sliding Window (Dynamically Sized)
 	Slide, expand, or shrink the window by one element at a time.
 	Time complexity: O(n)
 	Space complexity: O(1)
-	You can find the code for this solution at: https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/desired-subarray-sum.js
+	You can find the code for this solution at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/desired-subarray-sum.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/desired-subarray-sum.js){:target="_blank"}
 	You can also watch me solving this problem in the video in the resources section.
 
 ## Variation (Difficulty 2.5): Same question but for an array with all integers (positive, 0, negative). The optimal solution is Kadane's Algorithm, but Sliding Window can still be applied with modifications (not recommended though)
@@ -130,7 +130,7 @@ Approach #2: Sliding Window
 	Un-flip 0’s from left and continue flipping them from right to slide the window.
 	Time complexity: O(n)
 	Space complexity: O(1)
-	You can find the code for this solution at: https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-sequence-by-flipping.js
+	You can find the code for this solution at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-sequence-by-flipping.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-sequence-by-flipping.js){:target="_blank"}
 	You can also watch me solving this problem in the video in the resources section.
 
 ## Difficulty 3: Strings: Given a string and n characters, find the shortest contiguous substring that contains all desired characters
@@ -156,7 +156,7 @@ Approach #2: Sliding Window
 	Shrink the window from left while keeping track of removed needed chars.
 	Time complexity: O(n)
 	Space complexity: O(1)
-	You can find the code for this solution at: https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-sequence-by-flipping.js
+	You can find the code for this solution at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-sequence-by-flipping.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-sequence-by-flipping.js){:target="_blank"}
 	You can also watch me solving this problem in the video in the resources section.
 
 ## Tips!
