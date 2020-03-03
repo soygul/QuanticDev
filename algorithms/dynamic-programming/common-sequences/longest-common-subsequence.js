@@ -8,7 +8,7 @@ const assert = require('assert')
  * @returns {[]} - Longest common subsequence of the two inputs.
  */
 function longestCommonSubsequence (inputArr1, inputArr2) {
-  let lcs = []
+  const lcs = []
 
   inputArr1.forEach((char1, index1) => {
     inputArr2.forEach((char2, index2) => {
