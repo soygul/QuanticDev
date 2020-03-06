@@ -12,13 +12,13 @@ function climbStairs (stairs) {
   let a = 1; let b = 1; let tmp = 0
 
   // calculate next fibonacci number
-  for (let i = 0; i < stairs; i++) {
+  for (let stair = 1; stair < stairs; stair++) {
     tmp = b
     b = a + b
     a = tmp
   }
 
-  return a
+  return b
 }
 
 /**
