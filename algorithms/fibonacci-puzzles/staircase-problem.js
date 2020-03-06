@@ -8,11 +8,15 @@ const assert = require('assert')
  * @returns {number} - Count of ways to reach the top.
  */
 function climbStairs (stairs) {
+  // validate input
+  assert(stairs >= 0, 'Cannot have negative stairs.')
+  if (stairs === 0) return 0
+
   // a, b = first and second fibonacci numbers
-  let a = 1; let b = 1; let tmp = 0
+  let a = 0; let b = 1; let tmp = 0
 
   // calculate next fibonacci number
-  for (let stair = 1; stair < stairs; stair++) {
+  for (let i = 0; i < stairs; i++) {
     tmp = b
     b = a + b
     a = tmp
@@ -24,6 +28,15 @@ function climbStairs (stairs) {
 /**
  * Tests
  */
+
+// test case #0
+const stairs0 = 0
+const solution0 = 0
+
+const calculatedSolution0 = climbStairs(stairs0)
+
+console.log(`Example Stairs #0: ${stairs0}, Solution: ${solution0}`)
+assert.deepStrictEqual(calculatedSolution0, solution0)
 
 // test case #1
 const stairs1 = 1
@@ -69,3 +82,12 @@ const calculatedSolution5 = climbStairs(stairs5)
 
 console.log(`Example Stairs #5: ${stairs5}, Solution: ${solution5}`)
 assert.deepStrictEqual(calculatedSolution5, solution5)
+
+// test case #6
+const stairs6 = 6
+const solution6 = 13
+
+const calculatedSolution6 = climbStairs(stairs6)
+
+console.log(`Example Stairs #6: ${stairs6}, Solution: ${solution6}`)
+assert.deepStrictEqual(calculatedSolution6, solution6)
