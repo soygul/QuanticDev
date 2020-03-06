@@ -91,3 +91,12 @@ const calculatedSolution6 = climbStairs(stairs6)
 
 console.log(`Example Stairs #6: ${stairs6}, Solution: ${solution6}`)
 assert.deepStrictEqual(calculatedSolution6, solution6)
+
+// test case #7
+const stairs7 = 7
+const solution7 = 21
+
+const calculatedSolution7 = climbStairs(stairs7)
+
+console.log(`Example Stairs #7: ${stairs7}, Solution: ${solution7}`)
+assert.deepStrictEqual(calculatedSolution7, solution7)
