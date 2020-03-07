@@ -1,28 +1,32 @@
 const assert = require('assert')
 
 /**
- * Given n stairs, you can climb 1 or 2 stairs at a time.
+ * Given n stairs, you can climb 1 to x stairs at a time.
+ * For instance, for x=3, you can climb 1, 2, or 3 stairs at a time.
  * Count the number of different ways that you can reach the top.
  *
- * @param stairs - No of available stairs.
- * @returns {number} - Count of ways to reach the top.
+ * @param stairCount - No of available stairs.
+ * @param x - Max no of stairs you can climb at a time.
+ * @returns {number} - Number of different ways to reach the top.
  */
-function climbStairs (stairs, ways) {
+function climbStairs (stairCount, x) {
   // validate input
-  assert(stairs >= 0, 'Cannot have negative stairs.')
-  if (stairs === 0) return 0
-  if (stairs === 1) return 1
+  assert(stairCount >= 0, 'Cannot have negative stairs.')
+  assert(x > 0, 'Max no of stairs you can climb at a time must be greater than 0.')
+  if (stairCount < 2) return stairCount
 
-  // a, b = first and second fibonacci numbers
-  let waysArr = [0, 1]
+  // fibonacci-like numbers sequence where each number is the sum of x numbers before it
+  let fib = [0, 1]
 
-  // calculate next fibonacci number
-  for (let i = 0; i < stairs; i++) {
-    waysArr.push(waysArr.reduce((t, n) => t + n))
-    if (waysArr.length > ways) waysArr.shift()
+  // calculate next fibonacci-like number and push it to the end of the array
+  for (let i = 0; i < stairCount; i++) {
+    fib.push(fib.reduce((total, n) => total + n))
+
+    // we only need to know last x numbers so remove any extras
+    if (fib.length > x) fib.shift()
   }
 
-  return waysArr[waysArr.length - 1]
+  return fib.pop()
 }
 
 /**
@@ -56,42 +60,6 @@ const calculatedSolution2 = climbStairs(stairs2, 2)
 console.log(`Example Stairs #2: ${stairs2}, Solution: ${solution2}`)
 assert.deepStrictEqual(calculatedSolution2, solution2)
 
-// test case #3
-const stairs3 = 3
-const solution3 = 3
-
-const calculatedSolution3 = climbStairs(stairs3, 2)
-
-console.log(`Example Stairs #3: ${stairs3}, Solution: ${solution3}`)
-assert.deepStrictEqual(calculatedSolution3, solution3)
-
-// test case #4
-const stairs4 = 4
-const solution4 = 5
-
-const calculatedSolution4 = climbStairs(stairs4, 2)
-
-console.log(`Example Stairs #4: ${stairs4}, Solution: ${solution4}`)
-assert.deepStrictEqual(calculatedSolution4, solution4)
-
-// test case #5
-const stairs5 = 5
-const solution5 = 8
-
-const calculatedSolution5 = climbStairs(stairs5, 2)
-
-console.log(`Example Stairs #5: ${stairs5}, Solution: ${solution5}`)
-assert.deepStrictEqual(calculatedSolution5, solution5)
-
-// test case #6
-const stairs6 = 6
-const solution6 = 13
-
-const calculatedSolution6 = climbStairs(stairs6, 2)
-
-console.log(`Example Stairs #6: ${stairs6}, Solution: ${solution6}`)
-assert.deepStrictEqual(calculatedSolution6, solution6)
-
 // test case #7
 const stairs7 = 7
 const solution7 = 21
@@ -100,3 +68,5 @@ const calculatedSolution7 = climbStairs(stairs7, 2)
 
 console.log(`Example Stairs #7: ${stairs7}, Solution: ${solution7}`)
 assert.deepStrictEqual(calculatedSolution7, solution7)
+
+// test case where x =1
