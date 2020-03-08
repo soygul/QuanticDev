@@ -8,6 +8,9 @@ const assert = require('assert')
  * @returns [] - A subarray of size {subarraySize} that has the maximum possible sum.
  */
 function getMaxSubarray (inputArr, subarraySize) {
+  // validate input
+  assert(subarraySize > 0, 'Subarray size must be positive.')
+
   let currentSum = 0
   let maxSum = 0; let maxSumStartIndex = 0
 
