@@ -24,22 +24,23 @@ function getShortestSubstring (inputString, characters) {
   for (let substringEndIndex = 0; substringEndIndex < inputString.length; substringEndIndex++) {
     const char = inputString[substringEndIndex]
 
-    // if we find one of the missing needed chars, decrease its missing count by one
-    if (neededCharCounts[char]) {
-      missingCharCount--
+    // if we found one of the missing needed chars, decrease its missing count by one
+    if (neededCharCounts.hasOwnProperty(char)) {
+      // this might fall to negative since we might have one of the needed chars more than enough
       neededCharCounts[char]--
+      if (neededCharCounts[char] >= 0) missingCharCount--
     }
 
     // if we managed to find all the needed chars in the current sliding window
-    // shrink the window until we have one of the needed chars is outside of the window
-    // so we can continue looking for it on the right side as we increase the window size
+    // shrink the window until we have none of the unneeded chars inside the window
     if (!missingCharCount) {
-      while (substringStartIndex < substringEndIndex && neededCharCounts[inputString[substringStartIndex]] < 0) {
-        neededCharCounts[inputString[substringStartIndex]]++
+      while (substringStartIndex < substringEndIndex && (!neededCharCounts.hasOwnProperty(inputString[substringStartIndex]) || neededCharCounts[inputString[substringStartIndex]] < 0)) {
+        if (neededCharCounts.hasOwnProperty(inputString[substringStartIndex])) neededCharCounts[inputString[substringStartIndex]]++
         substringStartIndex++
       }
 
-      if (!smallestSubstringEndIndex || (substringEndIndex - substringEndIndex) < (smallestSubstringEndIndex - smallestSubstringStartIndex)) {
+      // take note of the smallest window (that has all the needed chars) found up to this moment
+      if (!smallestSubstringEndIndex || (substringEndIndex - substringStartIndex) < (smallestSubstringEndIndex - smallestSubstringStartIndex)) {
         smallestSubstringStartIndex = substringStartIndex
         smallestSubstringEndIndex = substringEndIndex
       }
