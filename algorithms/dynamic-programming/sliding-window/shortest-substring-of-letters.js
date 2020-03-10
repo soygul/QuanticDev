@@ -9,45 +9,48 @@ const assert = require('assert')
  */
 function getShortestSubstring (inputString, characters) {
   // current sliding window starting index
-  let substringStartIndex = 0
+  let windowStartIndex = 0
 
   // start/end indexes of smallest window that has all the needed chars
-  let smallestSubstringStartIndex = 0; let smallestSubstringEndIndex = 0
+  let smallestWindowStartIndex = 0; let smallestWindowEndIndex = 0
 
-  // calculate how many times of which characters we need to find
+  // calculate how many times of which characters we need to find, resulting object will be like: {a: 2, b: 4, x: 1}
   const neededCharCounts = characters.split('').reduce((freq, char) => { freq[char] ? freq[char]++ : freq[char] = 1; return freq }, {})
 
   // how many of the needed chars we didn't find yet in the current window
   let missingCharCount = characters.length
 
   // traverse the entire string and look for missing needed chars
-  for (let substringEndIndex = 0; substringEndIndex < inputString.length; substringEndIndex++) {
-    const char = inputString[substringEndIndex]
+  for (let windowEndIndex = 0; windowEndIndex < inputString.length; windowEndIndex++) {
+    const char = inputString[windowEndIndex]
 
-    // if we found one of the missing needed chars, decrease its missing count by one
+    // if we found one of the missing needed chars, decrease its needed count by one
     if (neededCharCounts.hasOwnProperty(char)) {
-      // this might fall to negative since we might have one of the needed chars more than enough
+      if (neededCharCounts[char] > 0) missingCharCount--
+
+      // needed count might fall to negative since the current window might contain the needed char too many times
       neededCharCounts[char]--
-      if (neededCharCounts[char] >= 0) missingCharCount--
     }
 
     // if we managed to find all the needed chars in the current sliding window
     // shrink the window until we have none of the unneeded chars inside the window
     if (!missingCharCount) {
-      while (substringStartIndex < substringEndIndex && (!neededCharCounts.hasOwnProperty(inputString[substringStartIndex]) || neededCharCounts[inputString[substringStartIndex]] < 0)) {
-        if (neededCharCounts.hasOwnProperty(inputString[substringStartIndex])) neededCharCounts[inputString[substringStartIndex]]++
-        substringStartIndex++
+      let leftChar = inputString[windowStartIndex]
+      while (windowStartIndex < windowEndIndex && (!neededCharCounts.hasOwnProperty(leftChar) || neededCharCounts[leftChar] < 0)) {
+        if (neededCharCounts.hasOwnProperty(leftChar)) neededCharCounts[leftChar]++
+        windowStartIndex++
+        leftChar = inputString[windowStartIndex]
       }
 
       // take note of the smallest window (that has all the needed chars) found up to this moment
-      if (!smallestSubstringEndIndex || (substringEndIndex - substringStartIndex) < (smallestSubstringEndIndex - smallestSubstringStartIndex)) {
-        smallestSubstringStartIndex = substringStartIndex
-        smallestSubstringEndIndex = substringEndIndex
+      if (!smallestWindowEndIndex || (windowEndIndex - windowStartIndex) < (smallestWindowEndIndex - smallestWindowStartIndex)) {
+        smallestWindowStartIndex = windowStartIndex
+        smallestWindowEndIndex = windowEndIndex
       }
     }
   }
 
-  return inputString.slice(smallestSubstringStartIndex, smallestSubstringEndIndex + 1)
+  return inputString.slice(smallestWindowStartIndex, smallestWindowEndIndex + 1)
 }
 
 /**
