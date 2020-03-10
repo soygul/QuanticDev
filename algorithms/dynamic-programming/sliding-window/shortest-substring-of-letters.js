@@ -42,7 +42,7 @@ function getShortestSubstring (inputString, characters) {
         leftChar = inputString[windowStartIndex]
       }
 
-      // take note of the smallest window (that has all the needed chars) found up to this moment
+      // take note of the smallest window (that has all the needed chars) that we found up to this moment
       if (!smallestWindowEndIndex || (windowEndIndex - windowStartIndex) < (smallestWindowEndIndex - smallestWindowStartIndex)) {
         smallestWindowStartIndex = windowStartIndex
         smallestWindowEndIndex = windowEndIndex
