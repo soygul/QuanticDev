@@ -11,7 +11,7 @@ const assert = require('assert')
 function getMaxSequence (inputArr, maxFlips) {
   let subArrStart = 0; let subArrEnd = 0
   let flippedZeroes = 0
-  let longestSubArr = {start: 0, end: 0, len: 0}
+  let longestSubArr = { start: 0, end: 0, len: 0 }
 
   inputArr.forEach((item, index) => {
     // always start by increasing window size
@@ -19,8 +19,8 @@ function getMaxSequence (inputArr, maxFlips) {
 
     if (item === 0) flippedZeroes++
 
-    let subArrLen = 1 + subArrEnd - subArrStart
-    if (flippedZeroes <= maxFlips && subArrLen > longestSubArr.len) longestSubArr = {start: subArrStart, end: subArrEnd, len: subArrLen}
+    const subArrLen = 1 + subArrEnd - subArrStart
+    if (flippedZeroes <= maxFlips && subArrLen > longestSubArr.len) longestSubArr = { start: subArrStart, end: subArrEnd, len: subArrLen }
 
     // decrease window size until we are less than or equal to the max flip limit
     while (flippedZeroes > maxFlips) {

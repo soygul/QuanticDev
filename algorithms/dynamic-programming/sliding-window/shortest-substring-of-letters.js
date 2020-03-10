@@ -25,7 +25,7 @@ function getShortestSubstring (inputString, characters) {
     const char = inputString[windowEndIndex]
 
     // if we found one of the missing needed chars, decrease its needed count by one
-    if (neededCharCounts.hasOwnProperty(char)) {
+    if (char in neededCharCounts) {
       if (neededCharCounts[char] > 0) missingCharCount--
 
       // needed count might fall to negative since the current window might contain the needed char too many times
@@ -36,8 +36,8 @@ function getShortestSubstring (inputString, characters) {
     // shrink the window until we have none of the unneeded chars inside the window
     if (!missingCharCount) {
       let leftChar = inputString[windowStartIndex]
-      while (windowStartIndex < windowEndIndex && (!neededCharCounts.hasOwnProperty(leftChar) || neededCharCounts[leftChar] < 0)) {
-        if (neededCharCounts.hasOwnProperty(leftChar)) neededCharCounts[leftChar]++
+      while (windowStartIndex < windowEndIndex && (!(leftChar in neededCharCounts) || neededCharCounts[leftChar] < 0)) {
+        if (leftChar in neededCharCounts) neededCharCounts[leftChar]++
         windowStartIndex++
         leftChar = inputString[windowStartIndex]
       }
