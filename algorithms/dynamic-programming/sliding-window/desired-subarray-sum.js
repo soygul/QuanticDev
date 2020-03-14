@@ -1,7 +1,7 @@
 const assert = require('assert')
 
 /**
- * Given a array of positive integers, find the contiguous subarrays of integers that add up to a given number.
+ * Given a array of positive integers, find the subarrays of integers that add up to a given number.
  *
  * @param inputArr - An array of positive integers.
  * @param desiredSum - The desired sum as an integer.
