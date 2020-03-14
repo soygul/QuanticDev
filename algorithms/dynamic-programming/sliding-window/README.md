@@ -56,7 +56,6 @@ Analysis:
 	Do not pre-calculate and store all possible variations beforehand (brute force approach).
 	Do not use recursion. Call stack will overflow.
 	Think through all data structures that can be utilized.
-	In this case, use simple arrays to accept input data and output results.
 Solution: Sliding Window (Statically Sized)
 	Start calculating window sum starting with the first 2 elements.
 	Slide the window by one element at a time.
