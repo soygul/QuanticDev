@@ -58,7 +58,7 @@ Analysis:
 	Think through all data structures that can be utilized.
 Approach #1: Brute Force
 	Calculate all possible subarrays with 2 members and store them in a hash table (map).
-	Iterate over the hash table until you find the subarray with maximum sum.
+	Iterate over the hash table until you find the subarray with the maximum sum.
 	Time complexity: O(n) for hash table creation, O(1) for every lookup afterward.
 	Space complexity: O(n)
 	Memory use will likely blow up since input size can be anything.
@@ -88,7 +88,6 @@ Analysis:
 	Do not pre-calculate and store all possible variations beforehand (brute force approach).
 	Do not use recursion. Call stack will overflow.
 	Think through all data structures that can be utilized.
-	Use simple arrays to accept input data and output results.
 Approach #1: Brute Force
 	Find all possible subarrays and calculate their sum and put them in a map.
 	Return the subarrays that add up to the desired sum from that map.
