@@ -56,7 +56,13 @@ Analysis:
 	Do not pre-calculate and store all possible variations beforehand (brute force approach).
 	Do not use recursion. Call stack will overflow.
 	Think through all data structures that can be utilized.
-Solution: Sliding Window (Statically Sized)
+Approach #1: Brute Force
+	Calculate all possible subarrays with 2 members and store them in a hash table (map).
+	Iterate over the hash table until you find the subarray with maximum sum.
+	Time complexity: O(n) for hash table creation, O(1) for every lookup afterward.
+	Space complexity: O(n)
+	Memory use will likely blow up since input size can be anything.
+Approach #2: Sliding Window (Statically Sized)
 	Start calculating window sum starting with the first 2 elements.
 	Slide the window by one element at a time.
 	Time complexity: O(n)
