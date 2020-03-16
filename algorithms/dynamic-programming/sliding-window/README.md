@@ -96,9 +96,9 @@ Approach #1: Brute Force
 	Think on how to improve this via reusing subarray sums.
 Approach #2: Sliding Window (Dynamically Sized)
 	Start calculating window sum starting with the first element.
-	Slide, expand, or shrink the window by one element at a time.
+	Expand, or shrink the window by one element at a time.
 	Time complexity: O(n)
-	Space complexity: O(1)
+	Space complexity: O(n)
 	You can find the code for this solution at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/desired-subarray-sum.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/desired-subarray-sum.js){:target="_blank"}
 	You can also watch me solving this problem in the video in the resources section.
 
