@@ -91,8 +91,8 @@ Analysis:
 Approach #1: Brute Force
 	Find all possible subarrays and calculate their sum and put them in a map.
 	Return the subarrays that add up to the desired sum from that map.
-	Time complexity: O(n^2)
-	Space complexity: O((n(n+1))/2)≅O(n^2)
+	Time complexity: O((n(n+1))/2) ≈ O(n^2)
+	Space complexity: O((n(n+1))/2) ≈ O(n^2)
 	Think on how to improve this via reusing subarray sums.
 Approach #2: Sliding Window (Dynamically Sized)
 	Start calculating window sum starting with the first element.
