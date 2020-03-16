@@ -124,7 +124,7 @@ Analysis:
 	Solution & test code for these questions are in QuanticDev GitHub repo, and the link is in the description.
 	You can also check out my video on test-driven development and other software patterns. The link is also in the description.
 Approach #1: Brute Force
-	Find all possible subarrays of the input and how many 0’s that they have in them.
+	Find all possible subarrays of the given input and how many 0’s that they have in them.
 	Amongst all the subarrays with 2 or less 0’s in them, return the longest one.
 	Time complexity: O(n^2)
 	Space complexity: O(n^2)
@@ -169,7 +169,7 @@ Coding interview measures if you are going to:
 	Think independently on technical problems.
 	Think analytically and explain and discuss your ideas.
 	Reason about arbitrary problems and constraints.
-	Operate in an office environment and deliver results.
+	Operate under pressure and still deliver results.
 
 ## Outro
 If you like the video and want more algorithm content, give it a thumbs up so I will know. If you want to watch the upcoming algorithm series videos, don't forget to sub. And that is it for the sliding window technique, and I will see you in the next algorithm video.
