@@ -67,6 +67,7 @@ Approach #2: Sliding Window (Statically Sized)
 	Slide the window by one element at a time.
 	Time complexity: O(n)
 	Space complexity: O(1)
+	We can utilize the same method to find the minimum sum subarray.
 	You can find the code for this solution at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-subarray-sum.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-subarray-sum.js){:target="_blank"}
 	You can also watch me solving this problem in the video in the resources section.
 
