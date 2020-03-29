@@ -1,13 +1,16 @@
 const assert = require('assert')
 
 /**
- * Given a array of positive integers, find the contiguous subarrays of integers that add up to a given number.
+ * Given a array of positive integers, find the subarrays of integers that add up to a given number.
  *
  * @param inputArr - An array of positive integers.
  * @param desiredSum - The desired sum as an integer.
  * @returns {[]} - An array of subarrays that add up to the desired sum.
  */
 function getSubarrays (inputArr, desiredSum) {
+  // validate input
+  assert(desiredSum > 0, 'Desired sum must be greater than 0.')
+
   // current window sum and window sum start index
   let sum = 0; let sumStartIndex = 0
   const solutions = []

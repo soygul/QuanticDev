@@ -1,13 +1,16 @@
 const assert = require('assert')
 
 /**
- * Given an array of integers, find maximum contiguous sum subarray of the required size.
+ * Given an array of integers, find maximum sum subarray of the required size.
  *
  * @param inputArr - An array of integers.
  * @param subarraySize - Desired subarray size as a positive integer.
  * @returns [] - A subarray of size {subarraySize} that has the maximum possible sum.
  */
 function getMaxSubarray (inputArr, subarraySize) {
+  // validate input
+  assert(subarraySize > 0, 'Subarray size must be positive.')
+
   let currentSum = 0
   let maxSum = 0; let maxSumStartIndex = 0
 

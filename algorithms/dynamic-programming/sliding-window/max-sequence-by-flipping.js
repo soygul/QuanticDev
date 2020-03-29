@@ -9,6 +9,9 @@ const assert = require('assert')
  * @returns {number} - Length of the maximum possible sequence of continuous 1's.
  */
 function getMaxSequence (inputArr, maxFlips) {
+  // validate input
+  assert(maxFlips >= 0, 'Max flips cannot be negative.')
+
   let subArrStart = 0; let subArrEnd = 0
   let flippedZeroes = 0
   let longestSubArr = { start: 0, end: 0, len: 0 }

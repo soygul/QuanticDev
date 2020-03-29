@@ -1,7 +1,7 @@
 const assert = require('assert')
 
 /**
- * Given a string and n characters, find the shortest contiguous substring that contains all the given characters.
+ * Given a string and n characters, find the shortest substring that contains all the given characters.
  *
  * @param inputString - Any string.
  * @param characters - A string of characters that the substring should contain.
