@@ -27,7 +27,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Most Popular Programming and Markup Languages 2010 - 2023 (extrapolated) on GitHub [Video Only]](https://www.youtube.com/watch?v=LjWn2aJ3o2g)
 
 ## Algorithms
-* [Sliding Window Technique (Subarrays)](/algorithms/dynamic-programming/sliding-window)
+* [Sliding Window Technique](/algorithms/dynamic-programming/sliding-window)
 
 ## Product Management
 * [How to Present Like Apple? - Recreating an Apple Keynote](/articles/how-to-present-like-apple)

@@ -14,7 +14,7 @@ Table of contents:
 * [Overview](#overview)
 * [How Does It Work?](#how-does-it-work)
 * [Video Solutions](#video-solutions)
-* [Questions and Their Solution](#)
+* [Questions and Their Solution](#easy-statically-sized-sliding-window-given-an-array-of-integers-find-maximumminimum-sum-subarray-of-a-given-size)
 * [Tips!](#tips)
 
 ## Resources
@@ -40,7 +40,7 @@ Sliding Window Technique frequently appears in algorithm interviews since Dynami
 Sliding Window Technique is mostly used for finding subarrays inside larger arrays. You can apply Sliding Window to majority of minimum/maximum/common subarray/substring type of questions. Note that some subarray related questions have very specific and optimized solutions, like that of Kadane's Algorithm. We will investigate this situation while solving our problems.
 
 ## How Does It Work?
-![Sliding Windows Technique](media/sliding_window_technique.mp4)
+<video controls><source src="media/sliding_window_technique.mp4" type="video/mp4"></video>
 
 Let's see how the Sliding Window Technique works on a sample question. Given an array [1, 2, 3, 4, 5, 6, 7, 8, 9], we will try to find the subarrays that add up to 9. We will start by creating a sliding window from the first two array elements: [1, 2]. This only adds up to 3 so let's expand the window by one from the right: [1, 2, 3]. The new window still only adds up to 6, so we will expand the window once again: [1, 2, 3, 4]. This new window now adds up to 10, which is bigger than our target of 9. So, we will continue by shrinking the window by one element from the left: [2, 3, 4]. This window now adds up to 9, which is our target. We can continue to expand the window when it is less than or equal to 9 and shrink it when it is above 9, and continue to find rest of the subarrays that add up to 9. And this is basically how the Sliding Window Technique works. Let's move onto some real-world interview questions to examine harder problems.
 
