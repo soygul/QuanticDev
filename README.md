@@ -25,6 +25,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Raspberry Pi: A Developer's Companion - A Complete Guide with Docker](/articles/raspberry-pi-guide-for-developers)
 * [How to Correctly Use Github for Software Development - My Full Workflow With Tutorial](/articles/how-to-use-github)
 * [Most Popular Programming and Markup Languages 2010 - 2023 (extrapolated) on GitHub [Video Only]](https://www.youtube.com/watch?v=LjWn2aJ3o2g)
+* [State of Software Engineering in 2020](/articles/software-engineering-in-2020)
 
 ## Algorithms
 * [Sliding Window Technique](/algorithms/dynamic-programming/sliding-window)
