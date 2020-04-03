@@ -178,7 +178,7 @@ Approach #2: Sliding Window
 * Expand the window from the right until all the needed chars are found.
 * Shrink the window from left while keeping track of removed needed chars.
 * Time complexity: `O(n)`
-* Space complexity: `O(1)`
+* Space complexity: `O(m)` where "m" is the number of distinct chars in the "Desired Characters" list.
 * You can find the code for this solution at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-sequence-by-flipping.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-sequence-by-flipping.js){:target="_blank"}
 * You can also watch me solving this problem in the video in the resources section.
 
