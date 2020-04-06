@@ -19,7 +19,13 @@ You can find the video narration of this article on YouTube with illustrations: 
 
 Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-Relevant articles referred to in this article:
+Resources referenced in this article:
+* [GitHub Octoverse](https://octoverse.github.com){:target="_blank"}
+* [Wikipedia: List of largest technology companies by revenue](https://en.wikipedia.org/wiki/List_of_largest_technology_companies_by_revenue){:target="_blank"}
+* [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey){:target="_blank"}
+* [Hired: State of Software Engineers](https://hired.com/state-of-software-engineers){:target="_blank"}
+
+My articles referred to in this article:
 * [How to Correctly Use GitHub for Software Development - My Full Dev Workflow](/articles/raspberry-pi-guide-for-developers){:target="_blank"}
 
 ## Overview
