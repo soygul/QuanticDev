@@ -26,7 +26,7 @@ Resources referenced in this article:
 * [Hired: State of Software Engineers](https://hired.com/state-of-software-engineers){:target="_blank"}
 
 My articles referred to in this article:
-* [How to Correctly Use GitHub for Software Development - My Full Dev Workflow](/articles/raspberry-pi-guide-for-developers){:target="_blank"}
+* [How to Correctly Use GitHub for Software Development - My Full Dev Workflow](/articles/how-to-use-github){:target="_blank"}
 
 ## Overview
 Software engineering has seen explosive growth over the last 20 years, and it seems to be keeping that momentum up. According to Fortune data, total revenue of top 15 technology companies in the world was a record 1.67 Trillion US Dollars in 2019, which is up 2% from 2018. There are more software companies than ever now.
