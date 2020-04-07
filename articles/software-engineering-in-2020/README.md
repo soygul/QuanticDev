@@ -13,9 +13,9 @@ Table of contents:
 * Conclusion
 
 ## Resources
-You can find the video narration of this article on YouTube with illustrations: [https://www.youtube.com/watch?v=XXXXXXXXX](https://www.youtube.com/watch?v=XXXXXXXXX){:target="_blank"}
+You can find the video narration of this article on YouTube with illustrations: [https://www.youtube.com/watch?v=GesAhP5jYLo](https://www.youtube.com/watch?v=GesAhP5jYLo){:target="_blank"}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XXXXXXXXX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GesAhP5jYLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
