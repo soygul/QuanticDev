@@ -57,7 +57,7 @@ After the United States, open source use picked up speed in China, India, and Ge
 
 ![](images/o5.png)
 
-And if we look at things at a continent level, Asia is already ahead of the US and Europe. However, it is sad and somewhat surprising to see South America and Africa so far behind.
+And if we look at things at a continent level, Asia is already ahead of the US and Europe. However, with their combined have a population of 1.6B, it is sad and somewhat surprising to see South America and Africa so far behind, having less than 1/3rd of contributions of Europe alone.
 
 ![](images/o6.png)
 
