@@ -29,6 +29,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 
 ## Algorithms
 * [Sliding Window Technique](/algorithms/dynamic-programming/sliding-window)
+* [Subarray vs Substring vs Subsequence vs Subset](/algorithms/primitives/subarray-vs-substring-vs-subsequence-vs-subset)
 
 ## Product Management
 * [How to Present Like Apple? - Recreating an Apple Keynote](/articles/how-to-present-like-apple)
