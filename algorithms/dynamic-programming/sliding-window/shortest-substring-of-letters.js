@@ -33,7 +33,7 @@ function getShortestSubstring (inputString, characters) {
     }
 
     // if we managed to find all the needed chars in the current sliding window
-    // shrink the window until we have none of the unneeded chars inside the window
+    // repeatedly shrink the window from left as long we still have all the needed chars in the window
     if (!missingCharCount) {
       let leftChar = inputString[windowStartIndex]
       while (windowStartIndex < windowEndIndex && (!(leftChar in neededCharCounts) || neededCharCounts[leftChar] < 0)) {
