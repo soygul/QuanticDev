@@ -39,10 +39,11 @@ A set is subset of another set if all its elements are contained by that set. Th
 * Note on Sets: Unlike arrays, strings, and sequences, sets do not allow duplicate elements. As a result, `{1, 2, 1}` would not be a valid set.
 
 ## Comparison Table
--|Subarray|Substring|Subsequence|Subset
----|---|---|---|---
-Contiguous|Yes|Yes|No|No
-Elements Ordered|Yes|Yes|Yes|No
+
+| | Subarray | Substring | Subsequence | Subset |
+|---|---|---|---|---|
+| Contiguous | Yes | Yes | No | No |
+| Elements Ordered | Yes | Yes | Yes | No |
 
 As you can see in the table, subarrays and substrings need to be made up of contiguous sequence of elements of their parents, while subsequences and subsets do not have to be. In addition, all of subarrays, substrings and subsequences should preserve element order, meaning their elements should appear in the same order that they appear in their parents, while subsets can have their elements appear in any order.
 
