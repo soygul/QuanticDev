@@ -22,18 +22,30 @@ def climb_stairs(stair_count, m):
 
 
 def climb_stairs_recursive(stair_count, m):
-    if stair_count <= 1:
+    if stair_count <= 2:
         return stair_count
-    return climb_stairs_recursive(stair_count-1) + climb_stairs_recursive(stair_count-2)
+    if m <= 1:
+        return m
+    sum = 0
+    for i in range(m):
+        sum += climb_stairs_recursive(stair_count - (i + 1), m)
+    return sum
 
 
 # tests
 assert climb_stairs(0, 2) == 0
+assert climb_stairs_recursive(0, 2) == 0
 assert climb_stairs(1, 2) == 1
+assert climb_stairs_recursive(1, 2) == 1
 assert climb_stairs(2, 2) == 2
+assert climb_stairs_recursive(2, 2) == 2
 assert climb_stairs(7, 2) == 21
+assert climb_stairs_recursive(7, 2) == 21
 assert climb_stairs(40, 1) == 1
+assert climb_stairs_recursive(40, 1) == 1
 assert climb_stairs(16, 7) == 31489
+assert climb_stairs_recursive(16, 7) == 31489
 assert climb_stairs(30, 30) == 536870912
+assert climb_stairs_recursive(30, 30) == 536870912
 
 print('done: all tests pass')
