@@ -1,11 +1,11 @@
 const assert = require('assert')
 
 /**
- * Given n stairs, you can climb at most m stairs at a time.
+ * Given a number of stairs, you can climb at most m stairs at a time.
  * For instance, for m=3, you can climb 1, 2, or 3 stairs at a time.
  * Count the number of different ways that you can reach the top.
  *
- * @param stairCount - No of available stairs.
+ * @param stairCount - No of stairs to climb.
  * @param m - Max no of stairs you can climb at a time.
  * @returns {number} - Number of different ways to reach the top.
  */
