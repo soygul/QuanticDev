@@ -1,4 +1,4 @@
-def ways(stair_count, m):
+def climb_stairs(stair_count, m):
     """
     Given n stairs, you can climb at most m stairs at a time.
     For instance, for m=3, you can climb 1, 2, or 3 stairs at a time.
@@ -22,10 +22,10 @@ def ways(stair_count, m):
 
 
 # tests
-assert ways(0, 2) == 0
-assert ways(1, 2) == 1
-assert ways(2, 2) == 2
-assert ways(7, 2) == 21
-assert ways(40, 1) == 1
-assert ways(16, 7) == 31489
-assert ways(30, 30) == 536870912
+assert climb_stairs(0, 2) == 0
+assert climb_stairs(1, 2) == 1
+assert climb_stairs(2, 2) == 2
+assert climb_stairs(7, 2) == 21
+assert climb_stairs(40, 1) == 1
+assert climb_stairs(16, 7) == 31489
+assert climb_stairs(30, 30) == 536870912
