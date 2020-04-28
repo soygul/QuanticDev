@@ -23,7 +23,6 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Software Design Patterns, Principles, and Best Practices](/articles/software-design-patterns)
 
 ## Engineering Essentials
-* [How to Manage Money as a Techie - How I Invest as a Software Engineer](/articles/how-to-manage-money)
 * [Software Engineer Compensation Guide - From Junior ($100K) to Senior ($500K++) Engineer Compensations](/articles/software-engineer-compensation-guide)
 * [Fundamental Engineering Principles - What are the expectations form developers and engineers?](/articles/engineering-principles)
 
@@ -37,9 +36,10 @@ If you want to contribute to any article, you are welcome to make a pull request
 ## Case Studies
 * [Stripe's $35B valuation in 8 years - How a tech startup reaches billion-dollar valuation? [Video Only]](https://www.youtube.com/watch?v=nlFAbBvu7hA)
 
-## How To
+## Guides
+* [How to Manage Money as a Techie - How I Invest as a Software Engineer](/articles/how-to-manage-money)
 * [How to Set up a Free Website with GitHub Pages & How I Created quanticdev.com](/articles/website-with-github-pages)
 * [What Is the Most Valuable Thing You Can Learn in One Hour?](/articles/most-valuable-thing-to-learn-in-one-hour)
-* [OBS Studio - Open-Source Software for Video Recording and Live Streaming](/articles/obs-studio)
+* [OBS Studio: Open-Source Software for Video Recording and Live Streaming](/articles/obs-studio)
 
 ##### Your Host: Teoman "QuanticDev" Soygul ([soygul.com](https://soygul.com)) · info(at)quanticdev.com · MIT License
