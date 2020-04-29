@@ -22,14 +22,23 @@ def climb_stairs(stair_count, m):
 
 
 def climb_stairs_recursive(stair_count, m):
+    """
+    Does the same thing with `climb_stairs` function but recursively.
+    As a result, time and space (call stack) complexity of function is pretty bad.
+    On the other hand, it is much easier to come up with during an interview situation.
+    """
     if stair_count <= 2:
         return stair_count
     if m <= 1:
         return m
-    sum = 0
+    total = 0
     for i in range(m):
-        sum += climb_stairs_recursive(stair_count - (i + 1), m)
-    return sum
+        total += climb_stairs_recursive(stair_count - (i + 1), m)
+    return total
+
+
+def climb_stairs_recursive_memoized(stair_count, m):
+    pass
 
 
 # tests
