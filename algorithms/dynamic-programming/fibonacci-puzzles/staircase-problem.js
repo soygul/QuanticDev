@@ -36,6 +36,12 @@ function climbStairs (stairCount, m) {
   return fib.pop()
 }
 
+function climbStairsWithVariableSteps (stairCount, possibleSteps) {
+  // very similar climbStairs except possibleSteps = [1, 2, 4, 7]
+  // this can still be solved using fibonacci-like sequences instead of recursion,
+  // but we need to calculate all of [1, 2, 3, 4, 5, 6, 7] since upper steps can depend on any of them
+}
+
 function climbStairsResursive (stairCount, m) {
 
 }

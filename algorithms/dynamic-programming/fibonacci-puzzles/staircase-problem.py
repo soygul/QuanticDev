@@ -21,6 +21,10 @@ def climb_stairs(stair_count, m):
     return fib[-1]
 
 
+def climb_stairs_with_variable_steps(stair_count, possibleSteps):
+    pass
+
+
 def climb_stairs_recursive(stair_count, m):
     """
     Does the same thing with `climb_stairs` function but recursively.
