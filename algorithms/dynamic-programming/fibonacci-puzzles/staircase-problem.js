@@ -9,7 +9,18 @@ const assert = require('assert')
  * @param m - Max no of stairs you can climb at a time.
  * @returns {number} - Number of different ways to reach the top.
  */
-function climbStairs (stairCount, m) {
+
+// """
+// Does the same thing with `climb_stairs` function but recursively.
+//   As a result, time and space (call stack) complexity of function is pretty bad.
+//   On the other hand, it is much easier to come up with during an interview situation.
+// """
+function climbStairsRecursive (stairCount, m) {}
+
+function climbStairsRecursiveMemoized (stairCount, m) {}
+
+// best solution
+function climbStairsFibonacci (stairCount, m) {
   // validate input
   assert(stairCount >= 0, 'Cannot have negative stairs.')
   assert(m > 0, 'Max no of stairs you can climb at a time must be greater than 0.')
@@ -36,17 +47,14 @@ function climbStairs (stairCount, m) {
   return fib.pop()
 }
 
-function climbStairsWithVariableSteps (stairCount, possibleSteps) {
-  // very similar climbStairs except possibleSteps = [1, 2, 4, 7]
-  // this can still be solved using fibonacci-like sequences instead of recursion,
-  // but we need to calculate all of [1, 2, 3, 4, 5, 6, 7] since upper steps can depend on any of them
-}
-
-function climbStairsResursive (stairCount, m) {
-
-}
-
-function climbStairsResursiveMemoized (stairCount, m) {}
+/**
+ * very similar climbStairs except possibleSteps = [1, 2, 4, 7]
+ * this can still be solved using fibonacci-like sequences instead of recursion,
+ * but we need to calculate all of [1, 2, 3, 4, 5, 6, 7] since upper steps can depend on any of them
+ * @param stairCount
+ * @param possibleSteps
+ */
+function climbStairsWithVariableSteps (stairCount, possibleSteps) {}
 
 /**
  * Tests
@@ -57,19 +65,23 @@ const stairs0 = 0
 const m0 = 2
 const solution0 = 0
 
-const calculatedSolution0 = climbStairs(stairs0, m0)
+const calculatedSolution0 = climbStairsFibonacci(stairs0, m0)
+const calculatedSolution0_recursive = climbStairsRecursive(stairs0, m0)
+const calculatedSolution0_recursiveMemoized = climbStairsRecursiveMemoized(stairs0, m0)
 
 console.log(`Example Stairs #0: ${stairs0}, m: ${m0}, Solution: ${solution0}`)
 assert.deepStrictEqual(calculatedSolution0, solution0)
+assert.deepStrictEqual(calculatedSolution0_recursive, solution0)
+assert.deepStrictEqual(calculatedSolution0_recursiveMemoized, solution0)
 
 // test case #1
 const stairs1 = 1
 const m1 = 2
 const solution1 = 1
 
-const calculatedSolution1 = climbStairs(stairs1, m1)
-const calculatedSolution1_recursive = climbStairsResursive(stairs1, m1)
-const calculatedSolution1_recursiveMemoized = climbStairsResursiveMemoized(stairs1, m1)
+const calculatedSolution1 = climbStairsFibonacci(stairs1, m1)
+const calculatedSolution1_recursive = climbStairsRecursive(stairs1, m1)
+const calculatedSolution1_recursiveMemoized = climbStairsRecursiveMemoized(stairs1, m1)
 
 console.log(`Example Stairs #1: ${stairs1}, m: ${m1}, Solution: ${solution1}`)
 assert.deepStrictEqual(calculatedSolution1, solution1)
@@ -81,9 +93,9 @@ const stairs2 = 2
 const m2 = 2
 const solution2 = 2
 
-const calculatedSolution2 = climbStairs(stairs2, m2)
-const calculatedSolution2_recursive = climbStairsResursive(stairs2, m2)
-const calculatedSolution2_recursiveMemoized = climbStairsResursiveMemoized(stairs2, m2)
+const calculatedSolution2 = climbStairsFibonacci(stairs2, m2)
+const calculatedSolution2_recursive = climbStairsRecursive(stairs2, m2)
+const calculatedSolution2_recursiveMemoized = climbStairsRecursiveMemoized(stairs2, m2)
 
 console.log(`Example Stairs #2: ${stairs2}, m: ${m2}, Solution: ${solution2}`)
 assert.deepStrictEqual(calculatedSolution2, solution2)
@@ -95,9 +107,9 @@ const stairs3 = 7
 const m3 = 2
 const solution3 = 21
 
-const calculatedSolution3 = climbStairs(stairs3, m3)
-const calculatedSolution3_recursive = climbStairsResursive(stairs3, m3)
-const calculatedSolution3_recursiveMemoized = climbStairsResursiveMemoized(stairs3, m3)
+const calculatedSolution3 = climbStairsFibonacci(stairs3, m3)
+const calculatedSolution3_recursive = climbStairsRecursive(stairs3, m3)
+const calculatedSolution3_recursiveMemoized = climbStairsRecursiveMemoized(stairs3, m3)
 
 console.log(`Example Stairs #3: ${stairs3}, m: ${m3}, Solution: ${solution3}`)
 assert.deepStrictEqual(calculatedSolution3, solution3)
@@ -109,9 +121,9 @@ const stairs4 = 40
 const m4 = 1
 const solution4 = 1
 
-const calculatedSolution4 = climbStairs(stairs4, m4)
-const calculatedSolution4_recursive = climbStairsResursive(stairs4, m4)
-const calculatedSolution4_recursiveMemoized = climbStairsResursiveMemoized(stairs4, m4)
+const calculatedSolution4 = climbStairsFibonacci(stairs4, m4)
+const calculatedSolution4_recursive = climbStairsRecursive(stairs4, m4)
+const calculatedSolution4_recursiveMemoized = climbStairsRecursiveMemoized(stairs4, m4)
 
 console.log(`Example Stairs #4: ${stairs4}, m: ${m4}, Solution: ${solution4}`)
 assert.deepStrictEqual(calculatedSolution4, solution4)
@@ -123,9 +135,9 @@ const stairs5 = 16
 const m5 = 7
 const solution5 = 31489
 
-const calculatedSolution5 = climbStairs(stairs5, m5)
-const calculatedSolution5_recursive = climbStairsResursive(stairs5, m5)
-const calculatedSolution5_recursiveMemoized = climbStairsResursiveMemoized(stairs5, m5)
+const calculatedSolution5 = climbStairsFibonacci(stairs5, m5)
+const calculatedSolution5_recursive = climbStairsRecursive(stairs5, m5)
+const calculatedSolution5_recursiveMemoized = climbStairsRecursiveMemoized(stairs5, m5)
 
 console.log(`Example Stairs #5: ${stairs5}, m: ${m5}, Solution: ${solution5}`)
 assert.deepStrictEqual(calculatedSolution5, solution5)
@@ -137,9 +149,9 @@ const stairs6 = 30
 const m6 = 30
 const solution6 = 536870912
 
-const calculatedSolution6 = climbStairs(stairs6, m6)
-const calculatedSolution6_recursive = climbStairsResursive(stairs6, m6)
-const calculatedSolution6_recursiveMemoized = climbStairsResursiveMemoized(stairs6, m6)
+const calculatedSolution6 = climbStairsFibonacci(stairs6, m6)
+const calculatedSolution6_recursive = climbStairsRecursive(stairs6, m6)
+const calculatedSolution6_recursiveMemoized = climbStairsRecursiveMemoized(stairs6, m6)
 
 console.log(`Example Stairs #6: ${stairs6}, m: ${m6}, Solution: ${solution6}`)
 assert.deepStrictEqual(calculatedSolution6, solution6)
