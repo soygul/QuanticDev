@@ -1,10 +1,11 @@
 const assert = require('assert')
 
 /**
- * Tree node that can be locked only if all of the parent/child nodes are unlocked.
- * Locking/unlocking operations runs in O(h) time (h = height of the tree).
+ * Lockable tree node that can be locked only if all of the ancestors and descendants are unlocked.
+ * Locking/unlocking operations run in O(h) time (h = height of the tree).
+ * This is a very minimal implementation and could be improved with getters/setters and parameter validation.
  */
-class Node {
+class LockableNode {
   /**
    * Node constructor.
    * @param parent - Optional parent node.
@@ -12,34 +13,46 @@ class Node {
    */
   constructor (parent, children) {
     this.parent = parent
-    this.leftChild = leftChild
-    this.rightChild = rightChild
-    this._locked = false
+    this.children = children
+    this.locked = false
+    this.hasLockedDescendant = false
   }
 
-  isLocked = () => this._locked
-
+  /**
+   * Locks the node if  all of the ancestors and descendants are unlocked.
+   * @returns {boolean} - True if the node was successfully locked, or has already been locked. False otherwise.
+   */
   lock = () => {
-    // todo: check children
-    if (this._locked) {
-      return false
-    } else {
-      this._locked = true
-      return true
+    if (this.locked || this.hasLockedDescendant) return true
+
+    // check ancestors
+    for (let parent = this.parent; parent !== undefined; parent = parent.parent) {
+      if (parent.locked) return false
     }
+
+    // inform all ancestors that they now have a locked descendant
+    for (let parent = this.parent; parent !== undefined; parent = parent.parent) {
+      parent.hasLockedDescendant = true
+    }
+
+    this.locked = true
+    return true
   }
 
+  /**
+   * Unlocks the node.
+   */
   unlock = () => {
-    // todo: check children
-    if (this._locked) {
-      return false
-    } else {
-      this._locked = true
-      return true
+    if (!this.locked) return
+
+    // inform all ancestors that their locked descendant released the lock
+    for (let parent = this.parent; parent !== undefined; parent = parent.parent) {
+      parent.hasLockedDescendant = false
     }
+
+    this.locked = false
   }
 }
-
 
 /**
  * Tests
