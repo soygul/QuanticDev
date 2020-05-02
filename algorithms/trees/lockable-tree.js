@@ -16,7 +16,7 @@ class LockableNode {
     this.children = children
     this.parent = parent
     this.locked = false
-    this.hasLockedDescendant = false
+    this.lockedDescendantCount = 0
   }
 
   /**
@@ -25,7 +25,7 @@ class LockableNode {
    */
   lock = () => {
     if (this.locked) return true
-    if (this.hasLockedDescendant) return false
+    if (this.lockedDescendantCount > 0) return false
 
     // check ancestors
     // since every descendant informs their ancestors about their locking status, we don't need to check our descendants separately
@@ -33,9 +33,9 @@ class LockableNode {
       if (parent.locked) return false
     }
 
-    // inform all ancestors that they now have a locked descendant
+    // inform all ancestors that their locked descendant count increased by one
     for (let parent = this.parent; parent !== undefined; parent = parent.parent) {
-      parent.hasLockedDescendant = true
+      parent.lockedDescendantCount++
     }
 
     this.locked = true
@@ -48,9 +48,9 @@ class LockableNode {
   unlock = () => {
     if (!this.locked) return
 
-    // inform all ancestors that their locked descendant released the lock
+    // inform all ancestors that one of their locked descendant count decreased by one
     for (let parent = this.parent; parent !== undefined; parent = parent.parent) {
-      parent.hasLockedDescendant = false
+      parent.lockedDescendantCount--
     }
 
     this.locked = false
@@ -102,9 +102,9 @@ const rootNode = new LockableNode([
 assert.deepStrictEqual(rootNode.children[0].children[0].lock(), true, 'Tree node [Root:1:1] should be lockable.')
 assert.deepStrictEqual(rootNode.children[0].children[0].locked, true, 'Tree node [Root:1:1] should be locked.')
 assert.deepStrictEqual(rootNode.children[0].children[0].lock(), true, 'Tree node [Root:1:1] should already be locked.')
-assert.deepStrictEqual(rootNode.children[0].children[0].hasLockedDescendant, false, 'Tree node [Root:1:1] should not have locked descendants.')
-assert.deepStrictEqual(rootNode.children[0].hasLockedDescendant, true, 'Tree node [Root:1] should have locked descendants.')
-assert.deepStrictEqual(rootNode.hasLockedDescendant, true, 'Tree node [Root] should have locked descendants.')
+assert.deepStrictEqual(rootNode.children[0].children[0].lockedDescendantCount, 0, 'Tree node [Root:1:1] should not have locked descendants.')
+assert.deepStrictEqual(rootNode.children[0].lockedDescendantCount, 1, 'Tree node [Root:1] should have 1 locked descendant.')
+assert.deepStrictEqual(rootNode.lockedDescendantCount, 1, 'Tree node [Root] should have 1 locked descendant.')
 assert.deepStrictEqual(rootNode.children[0].children[0].children[0].lock(), false, 'Tree node [Root:1:1:1] should not be lockable.')
 assert.deepStrictEqual(rootNode.children[0].children[0].children[2].lock(), false, 'Tree node [Root:1:1:3] should not be lockable.')
 assert.deepStrictEqual(rootNode.children[0].lock(), false, 'Tree node [Root:1] should not be lockable.')
@@ -113,15 +113,15 @@ assert.deepStrictEqual(rootNode.lock(), false, 'Tree node [Root] should not be l
 // unlock the node [Root:1:1] and do some validations
 rootNode.children[0].children[0].unlock()
 assert.deepStrictEqual(rootNode.children[0].children[0].locked, false, 'Tree node [Root:1:1] should be unlocked.')
-assert.deepStrictEqual(rootNode.children[0].children[0].hasLockedDescendant, false, 'Tree node [Root:1:1] should not have locked descendants.')
-assert.deepStrictEqual(rootNode.children[0].hasLockedDescendant, false, 'Tree node [Root:1] should not have locked descendants.')
-assert.deepStrictEqual(rootNode.hasLockedDescendant, false, 'Tree node [Root] should not have locked descendants.')
+assert.deepStrictEqual(rootNode.children[0].children[0].lockedDescendantCount, 0, 'Tree node [Root:1:1] should not have locked descendants.')
+assert.deepStrictEqual(rootNode.children[0].lockedDescendantCount, 0, 'Tree node [Root:1] should not have locked descendants.')
+assert.deepStrictEqual(rootNode.lockedDescendantCount, 0, 'Tree node [Root] should not have locked descendants.')
 
-// lock [Root:2:1]  and do more validations
+// lock [Root:2:1] and more validations
 assert.deepStrictEqual(rootNode.children[1].children[0].lock(), true, 'Tree node [Root:2:1] should be lockable.')
 assert.deepStrictEqual(rootNode.children[1].children[0].locked, true, 'Tree node [Root:2:1] should be locked.')
 assert.deepStrictEqual(rootNode.children[1].children[1].lock(), true, 'Tree node [Root:2:2] should be lockable.')
-assert.deepStrictEqual(rootNode.children[1].hasLockedDescendant, true, 'Tree node [Root:2] should have locked descendants.')
-assert.deepStrictEqual(rootNode.hasLockedDescendant, true, 'Tree node [Root] should have locked descendants.')
+assert.deepStrictEqual(rootNode.children[1].lockedDescendantCount, 2, 'Tree node [Root:2] should have 2 locked descendants.')
+assert.deepStrictEqual(rootNode.lockedDescendantCount, 2, 'Tree node [Root] should have 2 locked descendants.')
 
 console.log('All lockable tree tests pass.')
