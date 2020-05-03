@@ -17,6 +17,7 @@ class Tree {
    * @param callback - Callback function to receive the next node. Traversal continues as long as callback returns true.
    */
   traverseBreadthFirst = (callback) => {
+    // todo: use Symbol.iterator instead for a much simple syntax
     while (callback()) {
     }
   }
