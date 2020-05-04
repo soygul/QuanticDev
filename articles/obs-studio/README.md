@@ -1,5 +1,5 @@
 # OBS Studio: Open-Source Software for Video Recording and Live Streaming - Guide
-Raspberry Pi is a very compact and cheap computer (about $35). In this article, I am going to talk about how a developer uses Raspberry and why it is a good companion for you. I will also enlighten you on how Raspberry plays along with Docker and how and why to use them together. My Raspberry needed a fresh install for ages now, so I will do that with you. I will also set up Docker so I can host all my services on it using pre-existing Docker images for Node.js, Golang, MongoDB, Redis, and more.
+Today I am going to show you how to use OBS Studio to live-stream or record yourself, your screen, or both together. OBS Studio is an open-source software for video recording and live streaming. It has been gaining traction over the years with the rise of live streaming on social media. Gaming focused streaming platforms like YouTube Live and Twitch added fuel to the fire. You can use OBS to stream to pretty much any platform while recording your stream locally. You can even use it as a virtual cam for video conference, for instance, Zoom calls. You can also apply a bunch of filters to your video and audio like noise reduction. I personally use it to record my screen for product demos or to create pre-recorded presentations. When I am preparing to make a webcast, I record my final practice session. If anything happens during the live session, I can at least playback the recorded version.
 
 Table of contents:
 * Overview
@@ -14,22 +14,12 @@ You can find the video narration of this article on YouTube: [https://www.youtub
 
 Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-* Get a Raspberry Pi and accessories: [https://www.raspberrypi.org/products](https://www.raspberrypi.org/products){:target="_blank"}
-* Download full Raspbian OS that includes recommended software: [https://www.raspberrypi.org/downloads/raspbian](https://www.raspberrypi.org/downloads/raspbian){:target="_blank"}
-* Download Etcher (to burn Raspbian ISO image): [https://www.balena.io/etcher](https://www.balena.io/etcher){:target="_blank"}
-* Get a microSD and card reader: [https://www.amazon.com/Kingston-Digital-Mobility-MBLY10G2-32GB/dp/B00519BEQO](https://www.amazon.com/Kingston-Digital-Mobility-MBLY10G2-32GB/dp/B00519BEQO){:target="_blank"}
-* Enable SSH on first boot: [https://www.raspberrypi.org/documentation/remote-access/ssh](https://www.raspberrypi.org/documentation/remote-access/ssh){:target="_blank"}
-* Making Raspberry connect to your WiFi on first boot: [https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md){:target="_blank"}
+* OBS Studio Home: [https://obsproject.com](https://obsproject.com){:target="_blank"}
+* Source code: [https://github.com/obsproject/obs-studio](https://github.com/obsproject/obs-studio){:target="_blank"}
+* Recent Hacker News discussion on topic: [https://news.ycombinator.com/item?id=22748247](https://news.ycombinator.com/item?id=22748247){:target="_blank"}
 
-My JS-API project used as demonstration in the article:
-* [https://github.com/soygul/js-api](https://github.com/soygul/js-api){:target="_blank"}
-* [https://www.npmjs.com/package/js-api](https://www.npmjs.com/package/js-api){:target="_blank"}
-
-Great uses of Raspberry Pi:
-* [https://news.ycombinator.com/item?id=20264911](https://news.ycombinator.com/item?id=20264911){:target="_blank"}
-
-Most popular Docker images that you can use on your Raspberry:
-* [https://hub.docker.com/search?q=&type=image](https://hub.docker.com/search?q=&type=image){:target="_blank"}
+"Crowner": My Android game with "Choose Your Own Adventure" style of text-based gameplay which is used to demonstrate streaming in this guide:
+* [https://play.google.com/store/apps/details?id=com.soygul.crowner](https://play.google.com/store/apps/details?id=com.soygul.crowner){:target="_blank"}
 
 ## Why Raspberry Pi
 Raspberry Pi is a very compact and cheap computer. The new Raspberry Pi 4 with 1GB of RAM costs only $35. I have it on my desk at work, and here it is how it sits.
