@@ -29,13 +29,13 @@ class LockableNode {
 
     // check ancestors
     // since every descendant informs their ancestors about their locking status, we don't need to check our descendants separately
-    for (let parent = this.parent; parent !== undefined; parent = parent.parent) {
-      if (parent.locked) return false
+    for (let ancestor = this.parent; ancestor !== undefined; ancestor = ancestor.parent) {
+      if (ancestor.locked) return false
     }
 
     // inform all ancestors that their locked descendant count increased by one
-    for (let parent = this.parent; parent !== undefined; parent = parent.parent) {
-      parent.lockedDescendantCount++
+    for (let ancestor = this.parent; ancestor !== undefined; ancestor = ancestor.parent) {
+      ancestor.lockedDescendantCount++
     }
 
     this.locked = true
@@ -49,8 +49,8 @@ class LockableNode {
     if (!this.locked) return
 
     // inform all ancestors that one of their locked descendant count decreased by one
-    for (let parent = this.parent; parent !== undefined; parent = parent.parent) {
-      parent.lockedDescendantCount--
+    for (let ancestor = this.parent; ancestor !== undefined; ancestor = ancestor.parent) {
+      ancestor.lockedDescendantCount--
     }
 
     this.locked = false
