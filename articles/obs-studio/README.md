@@ -21,122 +21,35 @@ Video has additional tips for each principle discussed. If you want to read the 
 "Crowner": My Android game with "Choose Your Own Adventure" style of text-based gameplay which is used to demonstrate streaming in this guide:
 * [https://play.google.com/store/apps/details?id=com.soygul.crowner](https://play.google.com/store/apps/details?id=com.soygul.crowner){:target="_blank"}
 
-## Why Raspberry Pi
-Raspberry Pi is a very compact and cheap computer. The new Raspberry Pi 4 with 1GB of RAM costs only $35. I have it on my desk at work, and here it is how it sits.
+## Overview
+I am the QuanticDev, and today I am going to show you how to use OBS Studio to live-stream or record yourself, your screen, or both together. OBS Studio is an open-source software for video recording and live streaming.
 
-![Raspberry Pi attached to phone](images/raspberry_connected.jpg)
+![OBS Studio Screenshot](images/obs_studio_screenshot.jpg)
 
-I have all my charging cables attached to the USB ports. I charge my phones, my headphones, my powerbank, and it all works great since I have the Raspberry attached to a 3A charger. More than its physical usefulness, you want it as a computer. It has a powerful CPU and adequate amounts of RAM for many computing tasks. However, it is especially useful for experimenting, learning, and home-server type of workloads. I will talk more about this in a moment.
+It has been gaining traction over the years with the rise of live streaming on social media. Gaming focused streaming platforms like YouTube Live and Twitch added fuel to the fire. You can use OBS to stream to pretty much any platform while recording your stream locally. You can even use it as a virtual cam for video conference, for instance, Zoom calls. You can also apply a bunch of filters to your video and audio like noise reduction. I personally use it to record my screen for product demos or to create pre-recorded presentations. When I am preparing to make a webcast, I record my final practice session. If anything happens during the live session, I can at least playback the recorded version. Now let's jump in and record a simple product demo while streaming it live at the same time! The product in question is my very own "Choose Your Own Adventure" game called Crowner. 
 
-![Raspberry Pi attached to phone](images/raspberry_hardware_features.jpg)
+![Crowner Screenshot](images/crowner_screenshot.png)
 
-## Why Docker
-Docker helps you containerize apps. Why do you want containerized apps? Primarily due to ease of use. You can define all their dependencies in a single Dockerfile, they do not pollute your computer with their files, and they work in isolation for security purposes. When you mess up an app container, you can trash it and create a new one in seconds. Since Docker uses OverlayFS, you can even go back in disk history, just like snapshots in a virtual machine.
+I will stream the gameplay on Twitch.tv while saving it locally to an mp4 file.
 
-![OverlayFS](images/overlayfs.png)
+## OBS Streaming & Recording Demo
 
-For instance, say you want to host your own website on your Raspberry. Say you need Node.js and MongoDB for it. All you have to do is to install Docker on your Raspberry and pull Node and Mongo images. After you set up your containers, you can start hosting your website. It is a very good learning experience for Docker, and it will help you dig deeper into the Linux ecosystem.
+**Note: Live demonstration of the instructions below are on YouTube and the video link is in the resources section on top.**
 
-For those who are worried, performance is pretty good since Docker is not virtualization, it still uses the kernel primitives directly. As you can see in the charts, both CPU and network overhead of Docker are negligible.
+We will start by opening an Android emulator and OBS Studio window side by side. As you can see, first thing that appears in the OBS window is your desktop. We will continue by adding a new scene using the "+" button on the "Scenes" column which is on the bottom left of the OBS window. Now for this scene, we need a visual source. We will use the "+" button at the bottom of the "Sources" column and select "Window Capture" since we want to capture the Android emulator window and not the entire screen. It takes us to the window selection popup so we can select the Android Emulator window from the dropdown. After hitting OK, we see the Android emulator screen. We can resize and center it as we wish.
 
-![Raspberry Pi attached to phone](images/docker_performance_cpu.png)
+Before starting the gameplay stream, we need to do some configuration. Let's click the "Settings" button on the right side of the OBS window. From there, we go to the "Stream" tab and fill in the streaming service we want to use and the required credentials for it. For this example, we will go with Twitch.tv. If you want to change the video quality, you can do so from the "Output" tab. Now let's close the tab and click "Start Streaming" and "Start Recording" buttons. Now we are both recording our stream locally to a file and broadcasting it online.
 
-![Raspberry Pi attached to phone](images/docker_performance_latency.png)
+Let's start the game and check Twitch if we are online yet. And yes, we are broadcasting the Android emulator screen. Everything is set, so now let's go ahead and do some gaming. In Crowner, you are a king, and you need to govern your kingdom. It is text-based and is very simple to play yet has quite a challenging storyline. Your decisions affect the prosperity of your kingdom as well as your popularity as a king. You are bound to strike a balance in your decision-making, or your demise will be tragic. If you want to check it out, the link to the Android version is in the resources section above.
 
-## How Do I Use My Raspberry Pi as a Developer?
-My use case for Raspberry Pi is exactly as I describe	d up to this point. I host small internal services in Docker containers at home and at work. Most of them are for experimenting and just messing around. Some of them are for small tasks like FTP server for my external drive and periodically recording the home temperature. I also use it as the staging server for most of my web projects. I use a laptop, so it is not always on, but my Raspberry is. Some of the long-running automated tests for those web services require them to be running for 24 hours straight, so I just deploy them to container in Raspberry and run on it.
+Once our streaming session is done, we can stop streaming and recording and check out the footage. As you can see, our footage looks good and quite clean with no compression artifacts. I used my quad-core MacBook to play, record, and stream at the same time. The CPU usage was about 50% during all of this, as I set OBS to use hardware encoding.
 
-## What Else Can You Do with a Raspberry Pi as a Developer?
-* You can attach a monitor with speakers and use it as a media server with Kodi or Plex.
-* You can set up a VPN between your laptop and home network so you can access your home storage remotely. However, this requires careful setup for security.
-* You can attach a wireless keyboard with a built-in trackpad and have it ready as a backup computer, just in case. Most developer tools have ARM versions, but you will definitely have some hiccups on the way.
-* I have Hacker News link in the resources section that lists some creatives uses for Raspberry, like using it as a programmable public billboard.
-* I will also put a link in the description listing the most popular Docker Hub images that you can use with your Raspberry.
+## Picture-in-Picture Mode
+One final thing I want to show you is the picture-in-picture mode. If you want to stream a window or your screen plus yourself, you can add another source to the same scene. Go to your Android Emulator scene and hit the "+" button under the Sources column and select "Video Capture Device". That is your webcam by default. After resizing and relocating yourself, enjoy your picture-in-picture stream. You can add more sources to the scene like static images, video files, etc. and create quite advanced scenes.
 
-## Raspberry Pi Setup
-Following are the step-by-step instructions for setting up a new Raspberry Pi starting from scratch. If you do not already have them, you can get a Raspberry Pi, a charger, a microSD, and reader, and Raspbian ISO using the links in the resources section.
+## Conclusion
+You can repeat the same steps and record your PowerPoint window to create a pre-recorded presentation. Or you can record your entire screen to create guides just as I did, and stream it live on YouTube at the same time! I highly recommend setting aside 10 minutes to setup OBS on your computer, as it will fill all your future recording/webcasting needs. It is open-source and free. And if you are a developer, it has bounties like this one that can benefit everyone, and earn you $10,000 while at it!
 
-If you want, you can watch the video version of this article (on top) to watch me do this live.
+![OBS Studio GitHub 10000USD Bounty](images/github_10000USD_bounty.png)
 
-* Download Raspbian ISO.
-* Insert microSD with the card reader into your computer.
-* Download Etcher.
-* Start Etcher and follow the instructions to burn the ISO image to the microSD card. 
-* After ISO verification is complete, unplug and re-plug the microSD card reader to the computer and browse to the microSD card directory.
-* Create a blank file called "ssh" with no extension. This will enable the SSH server on your Raspberry on the first boot so we can connect to it remotely.
-* Create a file called "wpa_supplicant.conf" with the contents provided below. Adjust lines according to your WiFi settings. This file will make your Raspberry connect to your wireless network on first boot so you will not have to use an ethernet cable. You can find more info on this in the resources section.
-   ```
-   ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-   update_config=1
-   country=US
-   network={
-      ssid="My Home WiFi Name"
-      psk="mypassword"
-   }
-   network={
-      ssid="Work WiFi Name"
-      psk="workwifipassword"
-   }
-   ```
-* Drag the "wpa_supplicant.conf" and "ssh" files to the "root" directory in your microSD.
-* Eject the microSD card.
-* Plug microSD to Raspberry and connect it to the charger.
-* It will automatically connect to your pre-configured WiFi. If it does not work, you can plug it to your network with an ethernet cable. Alternatively, just attach a monitor and a keyboard.
-* Connect to your Raspberry with SSH using the following command on your terminal:
-  * `ssh pi@raspberrypi.local # default pass: raspberry`
-* Start Raspberry configurator with the following command:
-  * `sudo raspi-config`
-* Start by changing your password.
-* You can optionally change your network hostname from the "Network Options" menu to something unique if you are going to have multiple Raspberries in your network.
-* Go to the "Interfacing Options" menu and enable VNC so you can remotely see your Raspberry's desktop when you need to. We have already enabled SSH with the "ssh" file trick during boot.
-* Optionally to go "Advanced Options" and change your desktop resolution to 1024x768 or higher.
-* Select the "Finish" option at the bottom and let your Raspberry restart.
-* Optionally you can test your VNC connectivity to your Raspberry using RealVNC or any VNC client. Put in following settings in new VNC connection dialog:
-  * VNC Server: raspberrypi.local (or if you changed the network hostname, use that name instead)
-  * Username: pi
-  * Password: raspberry (if you changed it, use the new password instead)
-* After successfully connecting to your Raspberry through VNC, you will see the first-time configuration wizard. Follow the dialogs to set your localization, time zone, etc. Then you can go to the start menu and open some apps to see if everything is working.
-
-## Docker Setup
-Now it is time to setup Docker. You can also watch the video version of the article to see the live demonstration of me doing this on a Raspberry Pi.
-
-* Start by SSH-ing into your Raspberry using the following command from your terminal:
-  * `ssh pi@raspberrypi.local # default pass: raspberry`
-  * #use password 'raspberry' if you did not change it
-* Always update your Raspberry before installing new packages. Use the following commands. If you have a lot of packages to be updated, this can take a while.
-  * `sudo apt update`
-  * `sudo apt full-upgrade`
-  * `sudo reboot`
-* After your Raspberry reboots, connect to it with SSH as instructed above. Now install Docker using the installer script. It is the officially recommended way of installing Docker on Raspberry, but remember to inspect to script before executing it.
-  * `curl -fsSL https://get.docker.com -o get-docker.sh`
-  * #see if there is anything nasty
-  * `cat get-docker.sh`
-  * `sudo sh get-docker.sh`
-  * #add user 'pi' to group 'docker' so you can type Docker commands without sudo
-  * `sudo usermod -aG docker pi`
-  * `sudo reboot`
-
-Let your Raspberry reboot and reconnect to it using SSH again.
-
-## Sample Docker Node.js Application Setup on Raspberry
-Now you have your Raspberry and Docker all set up; you can start being productive with it. We will start by creating a Docker container with a sample web app. For this purpose, we will use JS-API, my open-source project, for easily creating JSON API servers with Node.js. The project is hosted on GitHub and NPM, and the links are in the resources section.
-
-See the video if you want to watch me do this exercise for you.
-
-* Now let us install my JS-API npm package so we can start an API server inside a Docker container in our Raspberry:
-  * #start a Docker container in interactive mode and expose port 3000
-  * `docker run -it -p 3000:3000 node bash`
-  * #docker run step will pull the Node.js Docker image so it can take a while depending on your internet connection speed.
-  * `npm install js-api`
-  * `cd node_modules/js-api`
-  * `npm start`
-  * #js-api will run some integrations tests so you should see the output on the console
-* Now switch from your terminal app to a browser app (Chrome, Firefox, etc. are all fine). Go to the following URL:
-  * http://raspberrypi.local:3000/posts
-  * If you changed the network hostname, use that instead of "raspberrypi".
-  * You should see a JSON object listing all posts in the js-api's in-memory database.
-  * Change the /posts URL to /local-users, and you should see the local users list.
-
-And that is it. You now have a sample Node.js web app running inside a Docker container in your Raspberry. If you want to experiment, you can find more useful Docker images on Docker Hub using the link in the resources section.
-
-I highly recommend getting a Raspberry to any developer just based on the sheer usefulness of it. You pay a tiny fraction of the price of a computer, and even just the learning experience you get out of it is a huge value. One day, we will be able to use ARM as our primary development platform, and on that day Raspberry like tiny computers will be our primary workstations. Until that day, hold on to your Raspberry. And I will see you next time.
+OBS Studio is open-source at its fines. Use it, share it, donate to it. And while at it, you can give me a sub so I can inform you about my other finest selections from the open-source world. If you know someone that is starting streaming, or a colleague that wants to record presentations, share this article with them to give them a helping hand.
