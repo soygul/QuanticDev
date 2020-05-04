@@ -1,7 +1,7 @@
 const assert = require('assert')
 
 /**
- * Lockable tree node that can be locked only if all of the ancestors and descendants are unlocked.
+ * Lockable tree node that can be locked only if none of the ancestors or descendants are locked.
  * Locking/unlocking operations run in O(h) time (h = height of the tree).
  * This is a very minimal implementation and could be improved with getters/setters, parameter validation, and thread safety.
  */
@@ -20,7 +20,7 @@ class LockableNode {
   }
 
   /**
-   * Locks the node if all of the ancestors and descendants are unlocked.
+   * Locks the node if none of the ancestors or descendants are locked.
    * @returns {boolean} - True if the node is successfully locked, or has already been locked. False otherwise.
    */
   lock = () => {
@@ -64,18 +64,18 @@ class LockableNode {
 /**
  * Initial testing tree with a single locked node.
  *
- * [unlocked]
- *     |--------[unlocked]
- *     |            |--------[!!!!LOCKED!!!!!]
- *     |                            |--------[unlocked]
- *     |                            |--------[unlocked]
- *     |                            |--------[unlocked]
- *     |            |--------[unlocked]
- *     |--------[unlocked]
- *     |            |--------[unlocked]
- *     |            |--------[unlocked]
- *     |--------[unlocked]
- *                  |--------[unlocked]
+ * [no-locked]
+ *     |--------[no-locked]
+ *     |             |--------[!!!!LOCKED!!!!!]
+ *     |                             |--------[no-locked]
+ *     |                             |--------[no-locked]
+ *     |                             |--------[no-locked]
+ *     |             |--------[no-locked]
+ *     |--------[no-locked]
+ *     |             |--------[no-locked]
+ *     |             |--------[no-locked]
+ *     |--------[no-locked]
+ *                   |--------[no-locked]
  *
  * @type {LockableNode}
  */
