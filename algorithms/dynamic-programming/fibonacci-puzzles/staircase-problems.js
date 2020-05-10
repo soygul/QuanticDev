@@ -10,16 +10,22 @@ const assert = require('assert')
  * @returns {number} - Number of different ways to reach the top.
  */
 
-// """
-// Does the same thing with `climb_stairs` function but recursively.
-//   As a result, time and space (call stack) complexity of function is pretty bad.
-//   On the other hand, it is much easier to come up with during an interview situation.
-// """
+// worst solution with:
+//   Time complexity: O()
+//   Space complexity: O()
+//   Call Stack: O()
 function climbStairsRecursive (stairCount, m) {}
 
+// acceptable solution with:
+//   Time complexity: O()
+//   Space complexity: O()
+//   Call Stack: O()
 function climbStairsRecursiveMemoized (stairCount, m) {}
 
-// best solution
+// best solution with:
+//   Time complexity: O()
+//   Space complexity: O()
+//   Call Stack: O()
 function climbStairsFibonacci (stairCount, m) {
   // validate input
   assert(stairCount >= 0, 'Cannot have negative stairs.')

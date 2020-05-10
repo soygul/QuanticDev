@@ -42,4 +42,6 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [What Is the Most Valuable Thing You Can Learn in One Hour?](/articles/most-valuable-thing-to-learn-in-one-hour)
 * [OBS Studio: Open-Source Software for Video Recording and Live Streaming](/articles/obs-studio)
 
+## Ramblings
+
 ##### Your Host: Teoman "QuanticDev" Soygul ([soygul.com](https://soygul.com)) · info(at)quanticdev.com · MIT License
