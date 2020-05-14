@@ -16,19 +16,19 @@ This is a very well-crafted interview question by Google. Both the requirements 
 ## Question
 Design a tree with nodes that can be locked if none of the ancestors or descendants is locked. Locking/unlocking operations should run in `O(h)` time (`h` = `height of the tree`).
 
-## Requirements
+## Requirements Analysis
 * Required time complexity: `O(h)`
 * Required space complexity: `Unspecified`
 * If necessary, we can sacrifice any amount of space complexity to hit the time complexity target for `lock`/`unlock` methods.
 * For instance we can store some info in nodes about the state of `ancestor`/`descendant`/`sibling` nodes.
 
 ## Brute Force Approach: `lock()`
-Check if node to be locked is already locked or have locked descendants. If so, stop.
-Check if any of the ancestors are locked. If so, stop.
-Time complexity: `O(n)` (`n` = `node count`)
-Space complexity: `O(1)`
+* Check if node to be locked is already locked or have locked descendants. If so, stop.
+* Check if any of the ancestors are locked. If so, stop.
+* Time complexity: `O(n)` (`n` = `node count`)
+* Space complexity: `O(1)`
 
-## Improvement:
+## Improvement
 Let's try to implement a basic `lock()` method with `O(h)` time complexity target (h = height of the tree):
 * Calculate time complexity for: locking the root node.
 * Calculate time complexity for: locking bottom nodes.
