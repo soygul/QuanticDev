@@ -45,7 +45,7 @@ Store `locked` and `lockedDescendantCount` variables in each node.
 * Time complexity: `O(h)`
 * Space complexity: `O(1)`
 
-## Method: un`lock()`
+## Method: `unlock()`
 * Check if node to be unlocked is already unlocked. If so, stop.
 * Inform all ancestors that their locked descendant count decreased by one.
 * Time complexity: `O(h)`
