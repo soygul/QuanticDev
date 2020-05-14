@@ -53,5 +53,5 @@ Store `locked` and `lockedDescendantCount` variables in each node.
 
 ## Tips!
 * Write tests if you have time. I almost forgot that siblings could be locked/unlocked independently but realized that mistake while writing tests!
-* I have a article coming up on General Tree Implementations. If your knowledge on generic trees is lagging, check it out when published.
+* I have a article coming up on General Tree Implementations. If your knowledge on generic trees is lagging, check it out when it is published.
 * All my Algorithms Series is full of questions like this one from top software companies. You can see them listed on the home page.
