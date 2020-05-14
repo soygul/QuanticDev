@@ -27,6 +27,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Fundamental Engineering Principles - What are the expectations form developers and engineers?](/articles/engineering-principles)
 
 ## Algorithms
+* [Lockable Tree - Google Interview Question](/algorithms/trees/lockable-tree)
 * [Subarray vs Substring vs Subsequence vs Subset](/algorithms/primitives/subarray-vs-substring-vs-subsequence-vs-subset)
 * [Sliding Window Technique](/algorithms/dynamic-programming/sliding-window)
 
