@@ -1,5 +1,5 @@
 # Lockable Tree - Google Interview Question
-Lockable tree is a great programming interview question asked by Google, and it is a very well thought out one. A lockable tree is a tree with nodes that can be locked if none of the ancestors or descendants is locked. In the question, we are asked to implement locking/unlocking operations that should run in `O(h)` time where `h` is the `height of the tree`.
+Lockable tree is a great programming interview question asked by Google, and it is a very well thought out one. A lockable tree is a tree with nodes that can be locked if none of its ancestors or descendants is locked. In the question, we are asked to implement locking/unlocking operations that should run in `O(h)` time where `h` is the `height of the tree`. Lock/unlock methods do not need to be thread-safe.
 
 ## Resources
 You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=1mTGZHcs7zw](https://www.youtube.com/watch?v=1mTGZHcs7zw){:target="_blank"}
@@ -14,13 +14,14 @@ Video has additional tips and illustrations. If you want to read the comments or
 This is a very well-crafted interview question by Google. Both the requirements and the question itself are quite clear, which is a rarity in the industry. Often, the interviewers will intentionally make the question a little obscure, so they can observe how you do your requirements analysis and if you can communicate with the interviewers clearly. However, in this case, the requirements are clear cut, which I think reflects how Google operates. It is a medium difficulty question. But a fair knowledge of tree data structures is necessary to come up with a clean and concise solution. Do not worry though, I have an article comping up on general tree structures soon.
 
 ## Question
-Design a tree with nodes that can be locked if none of the ancestors or descendants is locked. Locking/unlocking operations should run in `O(h)` time (`h` = `height of the tree`).
+Design a tree with nodes that can be locked if none of its ancestors or descendants is locked. Locking/unlocking operations should run in `O(h)` time (`h` = `height of the tree`). Lock/unlock methods do not need to be thread-safe.
 
 ## Requirements Analysis
 * Required time complexity: `O(h)`
 * Required space complexity: `Unspecified`
 * If necessary, we can sacrifice any amount of space complexity to hit the time complexity target for `lock`/`unlock` methods.
 * For instance we can store some info in nodes about the state of `ancestor`/`descendant`/`sibling` nodes.
+* Thread-safety is not a concern, meaning all locking/unlocking operations will run in the same thread.
 
 ## Brute Force Approach: `lock()`
 * Check if node to be locked is already locked or have locked descendants. If so, stop.
