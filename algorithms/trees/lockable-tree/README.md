@@ -8,7 +8,7 @@ You can find the video narration of this article on YouTube: [https://www.youtub
 
 Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-* Solution code to the question is at: [https://github.com/soygul/QuanticDev/tree/master/algorithms/trees/lockable-tree/lockable-tree.js](https://github.com/soygul/QuanticDev/tree/master/algorithms/trees/lockable-tree/lockable-tree.js){:target="_blank"}
+* Solution code to the question is at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/trees/lockable-tree/lockable-tree.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/trees/lockable-tree/lockable-tree.js){:target="_blank"}
 
 ## Overview
 This is a very well-crafted interview question by Google. Both the requirements and the question itself are quite clear, which is a rarity in the industry. Often, the interviewers will intentionally make the question a little obscure, so they can observe how you do your requirements analysis and if you can communicate with the interviewers clearly. However, in this case, the requirements are clear cut, which I think reflects how Google operates. It is a medium difficulty question. But a fair knowledge of tree data structures is necessary to come up with a clean and concise solution. Do not worry though, I have an article comping up on general tree structures soon.
