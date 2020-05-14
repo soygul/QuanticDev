@@ -37,11 +37,11 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Stripe's $35B valuation in 8 years - How a tech startup reaches billion-dollar valuation? [Video Only]](https://www.youtube.com/watch?v=nlFAbBvu7hA)
 
 ## Guides
+* [Essential Software for Working From Home](/articles/essential-software-for-working-from-home)
+* [OBS Studio: Open-Source Software for Video Recording and Live Streaming](/articles/obs-studio)
 * [How to Manage Money as a Techie - How I Invest as a Software Engineer](/articles/how-to-manage-money)
 * [How to Set up a Free Website with GitHub Pages & How I Created quanticdev.com](/articles/website-with-github-pages)
 * [What Is the Most Valuable Thing You Can Learn in One Hour?](/articles/most-valuable-thing-to-learn-in-one-hour)
-* [OBS Studio: Open-Source Software for Video Recording and Live Streaming](/articles/obs-studio)
-* [Essential Software for Working From Home](/articles/essential-software-for-working-from-home)
 
 ## Ramblings
 * Nothing here yet..
