@@ -1,0 +1,206 @@
+# How to Find Funding for Your Project
+More individuals, organizations and companies are starting to realize the potential of open source. An important question is obviously how projects can be funded to enable individuals to subsist and work on open source full time. This document aims to be an open guide to funding of open source projects.
+
+A list of funding opportunities that follow the grants model. This type of funding is usually carried out in batches, i.e. the fund in question release a certain amount of money each year and it's spread out over multiple projects. Grant funding often allows you to plan and execute projects over a longer period of time.
+
+### [`Open Technology Fund - OTF`](https://www.opentech.fund)
+From their webpage:
+
+> The Open Technology Fund utilizes available funds to support Internet freedom projects that empower world citizens to have access to modern communication channels that are free of restrictions, and allow them to communicate without fear of repressive censorship or surveillance.
+
+`OTF` funds projects through the following funds: Internet Freedom Fund, Core Infrastructure Fund, Community Prototype Fund, Rapid Response Fund, Labs
+
+### [`RIPE NCC Community Projects Fund`](https://www.ripe.net/support/cpf)
+From their webpage:
+
+> The RIPE NCC will provide EUR 250,000 per year to support projects of value to the operation and resilience of the Internet, with a focus on tools and services benefitting the technical community in our _service region_.
+
+The service region for `RIPE NCC` is made up of over 75 countries, which is one of five Regional Internet Registries (RIR). See https://www.ripe.net/about-us/what-we-do/ripe-ncc-service-region for more information.
+
+### [`Horizon 2020`](https://ec.europa.eu/programmes/horizon2020/en/what-horizon-2020) :eu:
+Horizon 2020 is the biggest EU Research and Innovation programme ever with nearly €80 billion of funding available over between 2014 and 2020. You need a consortium to apply. See Holger Krekels talk at 32c3 (link below) for a more detailed description.
+
+### [`InnovationsFonden`](https://innovationsfonden.dk/da/faq-innobooster) :denmark:
+`InnovationsFonden` or `Innovation Fund Denmark` invests in both large and small projects and they don't require any stake in the project nor repayment. They have three different programs targeting the whole range from large scale research projects to smaller enterprises and entrepreneurs down to talented individuals within the research space. Funds can be anything between 50k to 5M DKK depending on the size of the project.
+
+### [`InternetFonden`](https://www.internetfonden.se/om/) :sweden:
+InternetFonden is a Swedish fund run by *Internetstiftelsen i Sverige* or IIS, which administer the Swedish `.se` TLD. Parts of the earnings from selling .se domains goes to various projects that benefit the development of internet in Sweden and one of them is InternetFonden. Since 2004 the fund has financed [323 projects](https://www.internetfonden.se/projekt/) for a total of 65M SEK (7.7M USD/7.1M EUR/5.2M GBP). Applicants can be companies, organizations or private people as long as they have a Swedish organization number or social security number.
+
+### [`Mozilla Open Source Support (MOSS)`](https://www.mozilla.org/en-US/moss/)
+Mozilla Open Source Support (MOSS) is a grant program specifically focused on supporting the Open Source and Free Software movement, with an initial allocation of USD $1 million.
+
+### [`The Python Software Foundation`](https://www.python.org/psf/grants/)
+From their webpage:
+
+> The Python Software Foundation welcomes grant proposals for projects related to the development of Python, Python-related technology, educational programs and resources.
+
+### [`Core Infrastructure Initiative (CII)`](https://www.coreinfrastructure.org/)
+The Core Infrastructure Initiative, or CII, is a multi-million dollar project to fund and support critical elements of the global information infrastructure. It is organized by The Linux Foundation and supported by companies like Amazon Web Services, Google and IBM. CII was formed as a response to the Heartbleed security crisis; however, the Initiative’s efforts will not be restricted to crypto-related issues in the long term.
+
+### [`SIDN Fund`](https://www.sidnfonds.nl/excerpt/)
+From their webpage:
+
+> SIDN Fund stands for ‘a strong internet for all’. We provide financial support to ideas and projects that aim to make the internet stronger or that use the internet in innovative ways. By doing so, SIDN Fund wants to help increase the social impact of the internet in the Netherlands.
+
+Similarly to `InnovationsFonden`, `SIDN` also funds projects on different levels. Smaller projects - `Pioneer projects` - can receive a maximum of 10k EUR and larger projects - `Potentials projects` - up to 75k EUR.
+
+### [`The Awesome Foundation`](https://www.awesomefoundation.org/en/about_us)
+Apply for grants and get funded $1000 at a time.
+
+### [`Knight Foundation`](https://www.knightfoundation.org/about)
+From their webpage:
+
+> Knight Foundation is a national foundation with strong local roots. We invest in journalism, in the arts, and in the success of cities where brothers John S. and James L. Knight once published newspapers. Our goal is to foster informed and engaged communities, which we believe are essential for a healthy democracy.
+
+### [`Sloan Foundation`](https://sloan.org/programs/digital-technology)
+From their webpage:
+
+> The Sloan Research Fellowships seek to stimulate fundamental research by early-career scientists and scholars of outstanding promise.
+
+and:
+
+> These two-year fellowships are awarded yearly to 126 researchers in recognition of distinguished performance and a unique potential to make substantial contributions to their field. The 2018 Sloan Research Fellows will receive fellowships in the amount of $65,000
+
+### [`NLNet Foundation`](https://nlnet.nl/)
+From their webpage:
+
+>  The foundation "Stichting NLnet" stimulates network research and development in the domain of Internet technology. The articles of association for the NLnet foundation state: "to promote the exchange of electronic information and all that is related or beneficial to that purpose".
+
+> NLnet does not directly benefit from the undertaken projects, and all developments are published as Open Source.
+
+Current submission(s):
+
+* [`Privacy & Trust Enhacing Technologies`](https://nlnet.nl/PET/)
+
+From OTF mailing list:
+
+> NLNet is seeking proposals requesting between €5,000 and €50,000 for projects for Privacy and Trust projects “aimed at providing people with new instruments that allow them more agency - and assist us with fulfilling the human need of keeping some private and confidential context and information private and confidential.” This effort is part of the EU’s Next Generation Initiative (NGI), which seeks to “re-imagine and re-engineer the internet for the third millennium and beyond to shape a value-centric, human and inclusive society for all.”
+
+### Fast Grants - Fast Funding for COVID-19 Science
+* **Info**: Science funding mechanisms are too slow in normal times and may be much too slow during the COVID-19 pandemic. Fast Grants are an effort to correct this. If you are a scientist at an academic institution currently working on a COVID-19 related project and in need of funding, we invite you to apply for a Fast Grant. Fast Grants are $10k to $500k and decisions are made in under 48 hours. If we approve the grant, you'll receive payment as quickly as your university can receive it.
+* **Award**: Anywhere from $10,000 to $500,000. 
+* **Application Process/Info**: https://fastgrants.org/
+* **Application Link**: https://docs.google.com/forms/d/e/1FAIpQLSeWBZNQ-XI3KJbhHK6RYdsyOOYP57jFqGVlWxX0ah-TXWiFPw/viewform
+* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Deadline: N/A`
+
+### Open Technology Fund (Internet Freedom Fund)
+* **Info**: The Internet Freedom Fund is OTF's primary way to support projects and people working on open and accessible technology-centric projects that promote human rights, Internet freedom, open societies, and help advance inclusive and safe access to global communications networks for at-risk users including journalists, human rights defenders, civil society activists, and every-day people living within repressive environments who wish to speak freely online.
+* **Award**: Anywhere from $10,000 to $900,000. 
+* **Application Process/Info**: https://www.opentech.fund/funds/internet-freedom-fund/
+* **Application Link**: https://apply.opentech.fund/internet-freedom-fund/
+* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Deadline: May 1st, 2020`
+
+### Open Technology Fund (Core Infrastructure Fund)
+* **Info**: The Core Infrastructure Fund supports the ‘building block’ technologies, infrastructures, and communities relied upon by digital security and circumvention tools strengthening Internet freedom, digital security, and the overall health of the Internet.
+* **Award**: Maximum of $300,000. 
+* **Application Process/Info**: All CIF applications are reviewed by the OTF team; selected applications are also then reviewed by OTF’s independent Advisory Council review panel. CIF proposals are reviewed by specific AC members who bring with them a deep knowledge of and experience with core Internet technologies. Further details here: https://www.opentech.fund/funds/core-infrastructure-fund/
+* **Application Link**: https://apply.opentech.fund/core-infrastructure-fund/
+* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Deadline: May 1st, 2020`
+
+### Open Technology Fund (Community Prototype Fund)
+* **Info**: The Community Prototype Fund supports the rapid development of innovative, viable and open Internet freedom technology prototypes that serve the immediate needs of the Internet freedom and human rights communities.
+* **Award**: Successful applicants are awarded monetary support up to $6,000 for a duration of less than 12 weeks.
+* **Application Process/Info**: Successful applicants selected by OTF are paired with an OTF program manager who oversees all project monitoring and evaluation for the duration of the awarded contract lifecycle. Monitoring and evaluation assessments are largely based on predetermined and agreed upon metrics, deliverables, and goals as laid out by the applicant in the project proposal workplan. Further details here: https://www.opentech.fund/funds/community-prototype-fund/
+* **Application Link**: https://apply.opentech.fund/cpf/
+* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Deadline: May 1st, 2020`
+
+### Open Technology Fund (Rapid Response Fund)
+* **Info**: The Rapid Response Fund aims to facilitate the digital emergency response community to resolve threats in a timely and comprehensive manner for individuals, communities, and organizations whose free expression has recently been repressed.
+* **Award**: Successful applicants are awarded monetary support up to $6,000 for a duration of less than 12 weeks.
+* **Application Process/Info**: OTF accepts applications on a rolling basis. Further details here: https://www.opentech.fund/funds/rapid-response-fund/
+* **Application Link**: https://apply.opentech.fund/rapid-response-fund/
+* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `No Deadline! Applications accepted on a rolling basis`
+
+### AwesomeFoundation.org
+* **Info** The Awesome Foundation is an organization that awards $1,000 grants every month. They don't want any compensation (equity, ownership, ROI, etc.) they simply want to help you build your product!
+* **Award**: $1000
+* **Application Process**: https://www.awesomefoundation.org/en/faq
+* **Application Link**: https://www.awesomefoundation.org/en/submissions/new
+* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `No deadline! Grants are typically awarded monthly.`
+
+### Unitary Fund
+* **Info** Non-profit working to create a quantum technology ecosystem that benefits the most people. They fund explorers across the world to work on quantum technologies.
+* **Award**: $4000
+* **Application Process**: The program is designed to be as simple as possible. No committees to convince. No organizational affiliation required. Just a short form and a two minute video. More details here: https://unitary.fund/
+* **Application Link**: https://willzeng.typeform.com/to/j0kAOd
+* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `No deadline!`
+
+### Mozilla Open Source Support Awards
+* **Info** Through the Mozilla Open Source Support (MOSS) awards program, they recognize, celebrate, and support open source projects that contribute to Mozilla’s work and to the health of the Internet. MOSS broadens access, increases security, and empowers users by providing catalytic funding to open source technologists.
+* **Award**: Varies
+* **Application Process**: Fill out form: https://www.mozilla.org/en-US/moss/
+* **Application Link**: https://www.mozilla.org/en-US/moss/ (Select award track)
+* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `No deadline! Grants are typically awarded monthly.`
+
+### Gitcoin
+* **Info** Gitcoin is a bazaar where you can find funding for your code, or code if you're a funder.
+* **Award**: Varies
+* **Process**: https://gitcoin.co/how/funder
+* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `No deadline`
+
+### Facebook Small Business Grants Program
+* **Info** Facebook is offering $100M in cash grants and ad credits to help during this challenging time for up to 30,000 eligible small businesses.
+* **Award**: Varies
+* **Application Process**: TBA; Check here for details: https://www.facebook.com/business/boost/grants
+* **Application Link**: TBA; Check here for details: https://www.facebook.com/business/boost/grants
+* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `N/A They will begin taking applications in the coming weeks`
+
+### PSF Grants Program
+* **Info** The Python Software Foundation is the organization behind Python. Become a member of the PSF and help advance the software.
+* **Award**: Varies
+* **Application Requirements** https://www.python.org/psf/grants/#grant-proposal-requirements
+* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Temporarily Paused as of March 13, 2020 due to Coronavirus`
+
+### Tyk's Side Project Fund
+* **Info**: A micro-grant for your side project.
+* **Award**: Up to €500 towards software/services to get your project online.
+* **Application Process/Info**: Apply by filling out the form on the site. You should hear back some time towards the end of April. If they like what they see, they'll approach you for an interview and everything will be sorted out from there. See website for further details.
+* **Application Link**: https://tyk.io/fund/
+* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Next round of funding starts in October 2020`
+
+### Clojurists Together
+* **Info**: Clojurists Together funds maintainers of critical Clojure open source software, infrastructure, and documentation.
+* **Award**: May vary over time, but currently $3,000 USD/month for three months.
+* **Application Process/Info**: Fill out a short form to apply. Every quarter, the committee reviews all applications and votes on which ones best match what Clojurists Together members are looking to support.
+* **Application Link**: https://www.clojuriststogether.org/open-source/
+
+## Crowdfunding Options
+Winning a grant is much easier said than done which is why I wanted to include another section linking you to platforms where you can crowdfund instead. In many cases, a grant might not cover all of your costs which is why crowdfunding might also be a good option for you to look into.
+
+* [Kickstarter](https://kickstarter.com): Helps bring creative projects to life.
+* [Indiegogo](https://www.indiegogo.com/): Indiegogo is where early adopters and innovation seekers find lively, imaginative tech before it hits the mainstream.
+* [Patreon](https://www.patreon.com/): Patreon is a membership platform based in the United States that provides business tools for creators to run a subscription content service. It allows creators and artists to earn a monthly income by providing exclusive rewards and perks to their subscribers
+* [CodeFund](https://codefund.io): CodeFund focuses on providing an ethical alternative to digital advertising that drives results and respect from our technical audience
+* [CrowdFunder](https://crowdfunder.com): Crowdfunder is the leader in equity crowdfunding and has helped raise capital for thousands of companies from a network of 12,000 VCs and angel investors 
+* [Experiment](https://experiment.com): Experiment is a crowdfunding platform for scientific research projects, including academic research, teaching and public outreach, and independent science projects.
+
+## Crowdfunding
+The concept has been around for a while and can at times be the spark that makes a project take off.
+
+There are different models, the traditional crowdfunded project asks for funds given some budget and project proposition. If the project reach the donation goal you can receive extra benefits apart from the actual product.
+
+Other models are more focused on the community, where members of the community pitch in a certain amount of money per time unit, e.g. once a month.
+
+* [`Patreon`](https://www.patreon.com/)
+* [`open collective`](https://opencollective.com/)
+* [`Bountysource`](https://www.bountysource.com/)
+* [`CodeFund`](https://codefund.io/)
+* [`Liberapay`](https://en.liberapay.com/)
+
+## Links
+* [Alternative Sources of Support - List compiled by OTF](https://guide.opentech.fund/appendix-iv-alternative-sources-of-support)
+* [Holger Krekel at 32c3 - Hacking EU funding for a decentralizing FOSS project](https://media.ccc.de/v/32c3-7300-hacking_eu_funding_for_a_decentralizing_foss_project#video&t=790)
+* [Raking in the dough on Free and Open Source Software](https://varnish-cache.org/docs/trunk/phk/dough.html)
+* [Paying the Piper](https://github.com/pybee/paying-the-piper)
+* [Tech Cultivation](https://techcultivation.org/)
+* [Alternative Funding Sources - Renewable Freedom Foundation](https://renewablefreedom.org/grants/alternative-funding-sources/)
+* [Funding OSS](https://github.com/jayfk/fundingoss.com)
+* [Awesome Indie](https://github.com/mezod/awesome-indie)
+* [Awesome Open Company](https://github.com/opencompany/awesome-open-company)
+* [Getting Paid for Open Source Work](https://opensource.guide/getting-paid/)
+* [A handy guide to financial support for open source.](https://github.com/nayafia/lemonade-stand/)
+
+# Sources
+This guide is mainly based on:
+* https://github.com/sakofchit/fund-my-project
+* https://github.com/ralphtheninja/open-funding
