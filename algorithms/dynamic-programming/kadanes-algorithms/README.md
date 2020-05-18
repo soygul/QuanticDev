@@ -1,4 +1,4 @@
-# Sliding Window Technique
+# Kadane's Algorithm - Max/Min Sum Subarray Problem
 Sliding Window Technique is a method for finding subarrays in an array that satisfy given conditions. We do this via maintaining a subset of items as our window, and resize and move that window within the larger list until we find a solution. Sliding Window Technique is a subset of Dynamic Programming, and it frequently appears in algorithm interviews. In this article, you will learn how Sliding Window Technique works (with animations), tips and tricks of using it, along with its applications on some sample questions.
 
 In the article, you will find the solutions to the following questions, as well as their time and space complexities:
