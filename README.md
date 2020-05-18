@@ -13,6 +13,7 @@ Articles and videos are mostly on software and engineering, while occasionally d
 If you want to contribute to any article, you are welcome to make a pull request or new issue on GitHub. You can comment under YouTube videos, or read existing comments.
 
 ## Software Engineering
+* [Fastest PHP Best Practices Guide](/articles/fastest-php-best-practices)
 * [State of Software Engineering in 2020](/articles/software-engineering-in-2020)
 * [Most Popular Programming and Markup Languages 2010 - 2023 (extrapolated) on GitHub [Video Only]](https://www.youtube.com/watch?v=LjWn2aJ3o2g)
 * [How to Correctly Use Github for Software Development - My Full Workflow With Tutorial](/articles/how-to-use-github)
