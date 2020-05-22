@@ -1,5 +1,18 @@
 # How to Find Funding for Your Project
+It is quantic time that we investigate options for financing your projects. It doesn't matter if you are looking to fund a new business idea or just a side project, there are options at all levels. For instance, there are microgrants up to $5000 for small side projects. For bigger business ideas, you have recurring grants, government funds, and crowdsourcing options. You can even go with advertising on your projects, sponsorships, and selling relevant merchandise. The final step is to look for venture capital, of course.
 
+## Resources
+You can fin the analysis of most the funds and grants listed in the article as a YouTube video: [https://www.youtube.com/watch?v=XXXXXXX](https://www.youtube.com/watch?v=XXXXXXX){:target="_blank"}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XXXXXXX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+In addition to what is listed below, the video analyzes different funding types like advertising on your project, sponsorships, selling relevant merchandise, and getting venture capital. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
+
+My following article will get you started on your first step in pitching your project:
+* [How to Set up a Free Website with GitHub Pages & How I Created QuanticDev.com](/articles/website-with-github-pages){:target="_blank"}
+
+## Grants
+A grant is a sum of money given by an organization or governments for special purposes like funding business ideas. Lets start with them.
 
 ### Fast Grants - Fast Funding for COVID-19 Science
 * **Info**: Science funding mechanisms are too slow in normal times and may be much too slow during the COVID-19 pandemic. Fast Grants are an effort to correct this. If you are a scientist at an academic institution currently working on a COVID-19 related project and in need of funding, we invite you to apply for a Fast Grant. Fast Grants are $10k to $500k and decisions are made in under 48 hours. If we approve the grant, you'll receive payment as quickly as your university can receive it.
@@ -155,3 +168,8 @@ This guide is mainly assembled from:
 * [Getting Paid for Open Source Work](https://opensource.guide/getting-paid/)
 
 Suggestions for more sources is welcome.
+
+## Conclusion
+In conclusion, there are more funding options for your project ideas than you can ever imagine. However, you need to work on your ideas and make sure that they are realistic and sustainable. I am sure that the funding providers are getting bombarded with fraud attempt all day every day. Just don't look like one of them and you should be good. Put in the effort to prepare your pitch deck and present your ideas nicely. The obvious first step in pitching your projects is to create a website. I have a detailed article on how to set up a free website with GitHub Pages. If you want to check it out, the link is in the resources section above. After your project is in a basic presentable format, you can start applying for grants to bring your project to life. If your project becomes a success, you can look for further funding to make it into a commercial success.
+
+In general, I would recommend looking for funding after developing your project as much as possible. This massively increases your chances of getting attention. Also, Investors love it when they see a potential success in their hands. Good luck in your project journey and let me know of your failures and success so I can feature them in an article or a video.
