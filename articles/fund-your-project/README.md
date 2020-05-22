@@ -6,51 +6,20 @@
 * **Award**: Anywhere from $10,000 to $500,000. 
 * **Application Process/Info**: https://fastgrants.org/
 
-### Open Technology Fund (Internet Freedom Fund)
-* **Info**: The Internet Freedom Fund is OTF's primary way to support projects and people working on open and accessible technology-centric projects that promote human rights, Internet freedom, open societies, and help advance inclusive and safe access to global communications networks for at-risk users including journalists, human rights defenders, civil society activists, and every-day people living within repressive environments who wish to speak freely online.
-* **Award**: Anywhere from $10,000 to $900,000. 
-* **Application Process/Info**: https://www.opentech.fund/funds/internet-freedom-fund/
-
-### Open Technology Fund (Core Infrastructure Fund)
-* **Info**: The Core Infrastructure Fund supports the ‘building block’ technologies, infrastructures, and communities relied upon by digital security and circumvention tools strengthening Internet freedom, digital security, and the overall health of the Internet.
-* **Award**: Maximum of $300,000. 
-* **Application Process/Info**: All CIF applications are reviewed by the OTF team; selected applications are also then reviewed by OTF’s independent Advisory Council review panel. CIF proposals are reviewed by specific AC members who bring with them a deep knowledge of and experience with core Internet technologies. Further details here: https://www.opentech.fund/funds/core-infrastructure-fund/
-
-### Open Technology Fund (Community Prototype Fund)
-* **Info**: The Community Prototype Fund supports the rapid development of innovative, viable and open Internet freedom technology prototypes that serve the immediate needs of the Internet freedom and human rights communities.
-* **Award**: Successful applicants are awarded monetary support up to $6,000 for a duration of less than 12 weeks.
-* **Application Process/Info**: Successful applicants selected by OTF are paired with an OTF program manager who oversees all project monitoring and evaluation for the duration of the awarded contract lifecycle. Monitoring and evaluation assessments are largely based on predetermined and agreed upon metrics, deliverables, and goals as laid out by the applicant in the project proposal workplan. Further details here: https://www.opentech.fund/funds/community-prototype-fund/
-
-### Open Technology Fund (Rapid Response Fund)
-* **Info**: The Rapid Response Fund aims to facilitate the digital emergency response community to resolve threats in a timely and comprehensive manner for individuals, communities, and organizations whose free expression has recently been repressed.
-* **Award**: Successful applicants are awarded monetary support up to $6,000 for a duration of less than 12 weeks.
-* **Application Process/Info**: OTF accepts applications on a rolling basis. Further details here: https://www.opentech.fund/funds/rapid-response-fund/
-* **Application Link**: https://apply.opentech.fund/rapid-response-fund/
+### Facebook Small Business Grants Program
+* **Info** Facebook is offering $100M in cash grants and ad credits to help during this challenging time for up to 30,000 eligible small businesses.
+* **Award**: Varies
+* **Application Process**: TBA; Check here for details: https://www.facebook.com/business/boost/grants
 
 ### AwesomeFoundation.org
 * **Info** The Awesome Foundation is an organization that awards $1,000 grants every month. They don't want any compensation (equity, ownership, ROI, etc.) they simply want to help you build your product!
 * **Award**: $1000
-* **Application Process**: https://www.awesomefoundation.org/en/faq
-
-### Unitary Fund
-* **Info** Non-profit working to create a quantum technology ecosystem that benefits the most people. They fund explorers across the world to work on quantum technologies.
-* **Award**: $4000
-* **Application Process**: The program is designed to be as simple as possible. No committees to convince. No organizational affiliation required. Just a short form and a two minute video. More details here: https://unitary.fund/
-
-### Mozilla Open Source Support Awards
-* **Info** Through the Mozilla Open Source Support (MOSS) awards program, they recognize, celebrate, and support open source projects that contribute to Mozilla’s work and to the health of the Internet. MOSS broadens access, increases security, and empowers users by providing catalytic funding to open source technologists.
-* **Award**: Varies
-* **Application Process**: Fill out form: https://www.mozilla.org/en-US/moss/
+* **Application Process**: https://www.awesomefoundation.org/
 
 ### Gitcoin
 * **Info** Gitcoin is a bazaar where you can find funding for your code, or code if you're a funder.
 * **Award**: Varies
 * **Process**: https://gitcoin.co/how/funder
-
-### Facebook Small Business Grants Program
-* **Info** Facebook is offering $100M in cash grants and ad credits to help during this challenging time for up to 30,000 eligible small businesses.
-* **Award**: Varies
-* **Application Process**: TBA; Check here for details: https://www.facebook.com/business/boost/grants
 
 ### PSF Grants Program
 * **Info** The Python Software Foundation is the organization behind Python. Become a member of the PSF and help advance the software.
@@ -69,7 +38,12 @@
 * **Application Process/Info**: Fill out a short form to apply. Every quarter, the committee reviews all applications and votes on which ones best match what Clojurists Together members are looking to support.
 * **Application Link**: https://www.clojuriststogether.org/open-source/
 
-## Open-source Focused
+### Unitary Fund
+* **Info** Non-profit working to create a quantum technology ecosystem that benefits the most people. They fund explorers across the world to work on quantum technologies.
+* **Award**: $4000
+* **Application Process**: The program is designed to be as simple as possible. No committees to convince. No organizational affiliation required. Just a short form and a two minute video. More details here: https://unitary.fund/
+
+## Open-Source Focused
 More individuals, organizations and companies are starting to realize the potential of open source. An important question is obviously how projects can be funded to enable individuals to subsist and work on open source full time. This document aims to be an open guide to funding of open source projects.
 
 A list of funding opportunities that follow the grants model. This type of funding is usually carried out in batches, i.e. the fund in question release a certain amount of money each year and it's spread out over multiple projects. Grant funding often allows you to plan and execute projects over a longer period of time.
@@ -148,29 +122,28 @@ From OTF mailing list:
 > NLNet is seeking proposals requesting between €5,000 and €50,000 for projects for Privacy and Trust projects “aimed at providing people with new instruments that allow them more agency - and assist us with fulfilling the human need of keeping some private and confidential context and information private and confidential.” This effort is part of the EU’s Next Generation Initiative (NGI), which seeks to “re-imagine and re-engineer the internet for the third millennium and beyond to shape a value-centric, human and inclusive society for all.”
 
 ## Crowdfunding Options
-Winning a grant is much easier said than done which is why I wanted to include another section linking you to platforms where you can crowdfund instead. In many cases, a grant might not cover all of your costs which is why crowdfunding might also be a good option for you to look into.
-
-* [Kickstarter](https://kickstarter.com): Helps bring creative projects to life.
-* [Indiegogo](https://www.indiegogo.com/): Indiegogo is where early adopters and innovation seekers find lively, imaginative tech before it hits the mainstream.
-* [Patreon](https://www.patreon.com/): Patreon is a membership platform based in the United States that provides business tools for creators to run a subscription content service. It allows creators and artists to earn a monthly income by providing exclusive rewards and perks to their subscribers
-* [CodeFund](https://codefund.io): CodeFund focuses on providing an ethical alternative to digital advertising that drives results and respect from our technical audience
-* [CrowdFunder](https://crowdfunder.com): Crowdfunder is the leader in equity crowdfunding and has helped raise capital for thousands of companies from a network of 12,000 VCs and angel investors 
-* [Experiment](https://experiment.com): Experiment is a crowdfunding platform for scientific research projects, including academic research, teaching and public outreach, and independent science projects.
-
-## Crowdfunding
 The concept has been around for a while and can at times be the spark that makes a project take off.
 
 There are different models, the traditional crowdfunded project asks for funds given some budget and project proposition. If the project reach the donation goal you can receive extra benefits apart from the actual product.
 
 Other models are more focused on the community, where members of the community pitch in a certain amount of money per time unit, e.g. once a month.
 
-* [`Patreon`](https://www.patreon.com/)
-* [`open collective`](https://opencollective.com/)
-* [`Bountysource`](https://www.bountysource.com/)
-* [`CodeFund`](https://codefund.io/)
-* [`Liberapay`](https://en.liberapay.com/)
+* [Kickstarter](https://kickstarter.com): Helps bring creative projects to life.
+* [Indiegogo](https://www.indiegogo.com/): Indiegogo is where early adopters and innovation seekers find lively, imaginative tech before it hits the mainstream.
+* [Patreon](https://www.patreon.com/): Patreon is a membership platform based in the United States that provides business tools for creators to run a subscription content service. It allows creators and artists to earn a monthly income by providing exclusive rewards and perks to their subscribers.
+* [`Liberapay`](https://en.liberapay.com/): Patreon alternative but libre.
+* [CodeFund](https://codefund.io): CodeFund focuses on providing an ethical alternative to digital advertising that drives results and respect from our technical audience
+* [CrowdFunder](https://crowdfunder.com): Crowdfunder is the leader in equity crowdfunding and has helped raise capital for thousands of companies from a network of 12,000 VCs and angel investors 
+* [Experiment](https://experiment.com): Experiment is a crowdfunding platform for scientific research projects, including academic research, teaching and public outreach, and independent science projects.
+* [`Open Collective`](https://opencollective.com/): Collect and spend money transparently. Open Collective lets you manage your finances so everyone can see where money comes from and where it goes.
 
-## Links
+## Sources:
+This guide is mainly assembled from:
+
+* https://github.com/sakofchit/fund-my-project
+* https://github.com/ralphtheninja/open-funding
+* [A handy guide to financial support for open source.](https://github.com/nayafia/lemonade-stand/)
+* [Awesome Indie](https://github.com/mezod/awesome-indie)
 * [Alternative Sources of Support - List compiled by OTF](https://guide.opentech.fund/appendix-iv-alternative-sources-of-support)
 * [Holger Krekel at 32c3 - Hacking EU funding for a decentralizing FOSS project](https://media.ccc.de/v/32c3-7300-hacking_eu_funding_for_a_decentralizing_foss_project#video&t=790)
 * [Raking in the dough on Free and Open Source Software](https://varnish-cache.org/docs/trunk/phk/dough.html)
@@ -178,13 +151,7 @@ Other models are more focused on the community, where members of the community p
 * [Tech Cultivation](https://techcultivation.org/)
 * [Alternative Funding Sources - Renewable Freedom Foundation](https://renewablefreedom.org/grants/alternative-funding-sources/)
 * [Funding OSS](https://github.com/jayfk/fundingoss.com)
-* [Awesome Indie](https://github.com/mezod/awesome-indie)
 * [Awesome Open Company](https://github.com/opencompany/awesome-open-company)
 * [Getting Paid for Open Source Work](https://opensource.guide/getting-paid/)
-* [A handy guide to financial support for open source.](https://github.com/nayafia/lemonade-stand/)
 
-# Sources
-This guide is mainly based on:
-* https://github.com/sakofchit/fund-my-project
-* https://github.com/ralphtheninja/open-funding
-* Suggestions for more source is welcome.
+Suggestions for more sources is welcome.
