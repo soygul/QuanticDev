@@ -61,56 +61,48 @@ More individuals, organizations and companies are starting to realize the potent
 
 A list of funding opportunities that follow the grants model. This type of funding is usually carried out in batches, i.e. the fund in question release a certain amount of money each year and it's spread out over multiple projects. Grant funding often allows you to plan and execute projects over a longer period of time.
 
-### [`Open Technology Fund - OTF`](https://www.opentech.fund)
+### [Open Technology Fund - OTF](https://www.opentech.fund)
 From their webpage:
 
 > The Open Technology Fund utilizes available funds to support Internet freedom projects that empower world citizens to have access to modern communication channels that are free of restrictions, and allow them to communicate without fear of repressive censorship or surveillance.
 
-`OTF` funds projects through the following funds: Internet Freedom Fund, Core Infrastructure Fund, Community Prototype Fund, Rapid Response Fund, Labs
+OTF funds projects through the following funds: Internet Freedom Fund, Core Infrastructure Fund, Community Prototype Fund, Rapid Response Fund, Labs
 
-### [`RIPE NCC Community Projects Fund`](https://www.ripe.net/support/cpf)
+### [RIPE NCC Community Projects Fund](https://www.ripe.net/support/cpf)
 From their webpage:
 
 > The RIPE NCC will provide EUR 250,000 per year to support projects of value to the operation and resilience of the Internet, with a focus on tools and services benefitting the technical community in our _service region_.
 
-The service region for `RIPE NCC` is made up of over 75 countries, which is one of five Regional Internet Registries (RIR). See https://www.ripe.net/about-us/what-we-do/ripe-ncc-service-region for more information.
+The service region for RIPE NCC is made up of over 75 countries, which is one of five Regional Internet Registries (RIR). See https://www.ripe.net/about-us/what-we-do/ripe-ncc-service-region for more information.
 
-### [`Horizon 2020`](https://ec.europa.eu/programmes/horizon2020/en/what-horizon-2020) :eu:
+### [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/en/what-horizon-2020) :eu:
 Horizon 2020 is the biggest EU Research and Innovation programme ever with nearly €80 billion of funding available over between 2014 and 2020. You need a consortium to apply. See Holger Krekels talk at 32c3 (link below) for a more detailed description.
 
-### [`InnovationsFonden`](https://innovationsfonden.dk/da/faq-innobooster) :denmark:
-`InnovationsFonden` or `Innovation Fund Denmark` invests in both large and small projects and they don't require any stake in the project nor repayment. They have three different programs targeting the whole range from large scale research projects to smaller enterprises and entrepreneurs down to talented individuals within the research space. Funds can be anything between 50k to 5M DKK depending on the size of the project.
+### [InnovationsFonden](https://innovationsfonden.dk/) :denmark:
+InnovationsFonden or Innovation Fund Denmark invests in both large and small projects and they don't require any stake in the project nor repayment. They have three different programs targeting the whole range from large scale research projects to smaller enterprises and entrepreneurs down to talented individuals within the research space. Funds can be anything between 50k to 5M DKK depending on the size of the project.
 
-### [`InternetFonden`](https://www.internetfonden.se/om/) :sweden:
-InternetFonden is a Swedish fund run by *Internetstiftelsen i Sverige* or IIS, which administer the Swedish `.se` TLD. Parts of the earnings from selling .se domains goes to various projects that benefit the development of internet in Sweden and one of them is InternetFonden. Since 2004 the fund has financed [323 projects](https://www.internetfonden.se/projekt/) for a total of 65M SEK (7.7M USD/7.1M EUR/5.2M GBP). Applicants can be companies, organizations or private people as long as they have a Swedish organization number or social security number.
+### [InternetFonden](https://www.internetfonden.se/) :sweden:
+InternetFonden is a Swedish fund run by *Internetstiftelsen i Sverige* or IIS, which administer the Swedish .se TLD. Parts of the earnings from selling .se domains goes to various projects that benefit the development of internet in Sweden and one of them is InternetFonden. Since 2004 the fund has financed [323 projects](https://www.internetfonden.se/projekt/) for a total of 65M SEK (7.7M USD/7.1M EUR/5.2M GBP). Applicants can be companies, organizations or private people as long as they have a Swedish organization number or social security number.
 
-### [`Mozilla Open Source Support (MOSS)`](https://www.mozilla.org/en-US/moss/)
+### [Mozilla Open Source Support (MOSS)](https://www.mozilla.org/en-US/moss/)
 Mozilla Open Source Support (MOSS) is a grant program specifically focused on supporting the Open Source and Free Software movement, with an initial allocation of USD $1 million.
 
-### [`The Python Software Foundation`](https://www.python.org/psf/grants/)
-From their webpage:
-
-> The Python Software Foundation welcomes grant proposals for projects related to the development of Python, Python-related technology, educational programs and resources.
-
-### [`Core Infrastructure Initiative (CII)`](https://www.coreinfrastructure.org/)
+### [Core Infrastructure Initiative (CII)](https://www.coreinfrastructure.org/)
 The Core Infrastructure Initiative, or CII, is a multi-million dollar project to fund and support critical elements of the global information infrastructure. It is organized by The Linux Foundation and supported by companies like Amazon Web Services, Google and IBM. CII was formed as a response to the Heartbleed security crisis; however, the Initiative’s efforts will not be restricted to crypto-related issues in the long term.
 
-### [`SIDN Fund`](https://www.sidnfonds.nl/excerpt/)
+### [SIDN Fund](https://www.sidnfonds.nl/excerpt/)
 From their webpage:
 
 > SIDN Fund stands for ‘a strong internet for all’. We provide financial support to ideas and projects that aim to make the internet stronger or that use the internet in innovative ways. By doing so, SIDN Fund wants to help increase the social impact of the internet in the Netherlands.
 
-Similarly to `InnovationsFonden`, `SIDN` also funds projects on different levels. Smaller projects - `Pioneer projects` - can receive a maximum of 10k EUR and larger projects - `Potentials projects` - up to 75k EUR.
+Similarly to InnovationsFonden, SIDN also funds projects on different levels. Smaller projects - Pioneer projects - can receive a maximum of 10k EUR and larger projects - Potentials projects - up to 75k EUR.
 
-### [`The Awesome Foundation`](https://www.awesomefoundation.org/en/about_us)
-Apply for grants and get funded $1000 at a time.
-
-### [`Knight Foundation`](https://www.knightfoundation.org/about)
+### [Knight Foundation](https://www.knightfoundation.org/about)
 From their webpage:
 
 > Knight Foundation is a national foundation with strong local roots. We invest in journalism, in the arts, and in the success of cities where brothers John S. and James L. Knight once published newspapers. Our goal is to foster informed and engaged communities, which we believe are essential for a healthy democracy.
 
-### [`Sloan Foundation`](https://sloan.org/programs/digital-technology)
+### [Sloan Foundation](https://sloan.org/programs/digital-technology)
 From their webpage:
 
 > The Sloan Research Fellowships seek to stimulate fundamental research by early-career scientists and scholars of outstanding promise.
@@ -119,7 +111,7 @@ and:
 
 > These two-year fellowships are awarded yearly to 126 researchers in recognition of distinguished performance and a unique potential to make substantial contributions to their field. The 2018 Sloan Research Fellows will receive fellowships in the amount of $65,000
 
-### [`NLNet Foundation`](https://nlnet.nl/)
+### [NLNet Foundation](https://nlnet.nl/)
 From their webpage:
 
 >  The foundation "Stichting NLnet" stimulates network research and development in the domain of Internet technology. The articles of association for the NLnet foundation state: "to promote the exchange of electronic information and all that is related or beneficial to that purpose".
@@ -128,7 +120,7 @@ From their webpage:
 
 Current submission(s):
 
-* [`Privacy & Trust Enhacing Technologies`](https://nlnet.nl/PET/){:target="_blank"}
+* [Privacy & Trust Enhacing Technologies](https://nlnet.nl/PET/){:target="_blank"}
 
 From OTF mailing list:
 
@@ -144,11 +136,11 @@ Other models are more focused on the community, where members of the community p
 * [Kickstarter](https://kickstarter.com){:target="_blank"}: Helps bring creative projects to life.
 * [Indiegogo](https://www.indiegogo.com/){:target="_blank"}: Indiegogo is where early adopters and innovation seekers find lively, imaginative tech before it hits the mainstream.
 * [Patreon](https://www.patreon.com/){:target="_blank"}: Patreon is a membership platform based in the United States that provides business tools for creators to run a subscription content service. It allows creators and artists to earn a monthly income by providing exclusive rewards and perks to their subscribers.
-* [`Liberapay`](https://en.liberapay.com/){:target="_blank"}: Patreon alternative but libre.
+* [Liberapay](https://en.liberapay.com/){:target="_blank"}: Patreon alternative but libre.
 * [CodeFund](https://codefund.io){:target="_blank"}: CodeFund focuses on providing an ethical alternative to digital advertising that drives results and respect from our technical audience
 * [CrowdFunder](https://crowdfunder.com){:target="_blank"}: Crowdfunder is the leader in equity crowdfunding and has helped raise capital for thousands of companies from a network of 12,000 VCs and angel investors 
 * [Experiment](https://experiment.com){:target="_blank"}: Experiment is a crowdfunding platform for scientific research projects, including academic research, teaching and public outreach, and independent science projects.
-* [`Open Collective`](https://opencollective.com/){:target="_blank"}: Collect and spend money transparently. Open Collective lets you manage your finances so everyone can see where money comes from and where it goes.
+* [Open Collective](https://opencollective.com/){:target="_blank"}: Collect and spend money transparently. Open Collective lets you manage your finances so everyone can see where money comes from and where it goes.
 
 ## Sources:
 This guide is mainly assembled from:
