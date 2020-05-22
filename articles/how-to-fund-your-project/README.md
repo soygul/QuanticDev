@@ -17,44 +17,44 @@ A grant is a sum of money given by an organization or governments for special pu
 ### Fast Grants - Fast Funding for COVID-19 Science
 * **Info**: Science funding mechanisms are too slow in normal times and may be much too slow during the COVID-19 pandemic. Fast Grants are an effort to correct this. If you are a scientist at an academic institution currently working on a COVID-19 related project and in need of funding, we invite you to apply for a Fast Grant. Fast Grants are $10k to $500k and decisions are made in under 48 hours. If we approve the grant, you'll receive payment as quickly as your university can receive it.
 * **Award**: Anywhere from $10,000 to $500,000. 
-* **Application Process/Info**: https://fastgrants.org/
+* **Application Process/Info**: [https://fastgrants.org](https://fastgrants.org){:target="_blank"}
 
 ### Facebook Small Business Grants Program
 * **Info** Facebook is offering $100M in cash grants and ad credits to help during this challenging time for up to 30,000 eligible small businesses.
 * **Award**: Varies
-* **Application Process**: TBA; Check here for details: https://www.facebook.com/business/boost/grants
+* **Application Process**: TBA; Check here for details: [https://www.facebook.com/business/boost/grants](https://www.facebook.com/business/boost/grants){:target="_blank"}
 
 ### AwesomeFoundation.org
 * **Info** The Awesome Foundation is an organization that awards $1,000 grants every month. They don't want any compensation (equity, ownership, ROI, etc.) they simply want to help you build your product!
 * **Award**: $1000
-* **Application Process**: https://www.awesomefoundation.org/
+* **Application Process**: [https://www.awesomefoundation.org](https://www.awesomefoundation.org){:target="_blank"}
 
 ### Gitcoin
 * **Info** Gitcoin is a bazaar where you can find funding for your code, or code if you're a funder.
 * **Award**: Varies
-* **Process**: https://gitcoin.co/how/funder
+* **Process**: [https://gitcoin.co/how/funder](https://gitcoin.co/how/funder){:target="_blank"}
 
 ### PSF Grants Program
 * **Info** The Python Software Foundation is the organization behind Python. Become a member of the PSF and help advance the software.
 * **Award**: Varies
-* **Application Requirements** https://www.python.org/psf/grants/#grant-proposal-requirements
+* **Application Requirements** [https://www.python.org/psf/grants/#grant-proposal-requirements](https://www.python.org/psf/grants/#grant-proposal-requirements){:target="_blank"}
 
 ### Tyk's Side Project Fund
 * **Info**: A micro-grant for your side project.
 * **Award**: Up to €500 towards software/services to get your project online.
 * **Application Process/Info**: Apply by filling out the form on the site. You should hear back some time towards the end of April. If they like what they see, they'll approach you for an interview and everything will be sorted out from there. See website for further details.
-* **Application Link**: https://tyk.io/fund/
+* **Application Link**: [https://tyk.io/fund/](https://tyk.io/fund/){:target="_blank"}
 
 ### Clojurists Together
 * **Info**: Clojurists Together funds maintainers of critical Clojure open source software, infrastructure, and documentation.
 * **Award**: May vary over time, but currently $3,000 USD/month for three months.
 * **Application Process/Info**: Fill out a short form to apply. Every quarter, the committee reviews all applications and votes on which ones best match what Clojurists Together members are looking to support.
-* **Application Link**: https://www.clojuriststogether.org/open-source/
+* **Application Link**: [https://www.clojuriststogether.org/open-source/](https://www.clojuriststogether.org/open-source/){:target="_blank"}
 
 ### Unitary Fund
 * **Info** Non-profit working to create a quantum technology ecosystem that benefits the most people. They fund explorers across the world to work on quantum technologies.
 * **Award**: $4000
-* **Application Process**: The program is designed to be as simple as possible. No committees to convince. No organizational affiliation required. Just a short form and a two minute video. More details here: https://unitary.fund/
+* **Application Process**: The program is designed to be as simple as possible. No committees to convince. No organizational affiliation required. Just a short form and a two minute video. More details here: [https://unitary.fund/](https://unitary.fund/){:target="_blank"}
 
 ## Open-Source Focused
 More individuals, organizations and companies are starting to realize the potential of open source. An important question is obviously how projects can be funded to enable individuals to subsist and work on open source full time. This document aims to be an open guide to funding of open source projects.
@@ -128,7 +128,7 @@ From their webpage:
 
 Current submission(s):
 
-* [`Privacy & Trust Enhacing Technologies`](https://nlnet.nl/PET/)
+* [`Privacy & Trust Enhacing Technologies`](https://nlnet.nl/PET/){:target="_blank"}
 
 From OTF mailing list:
 
@@ -141,31 +141,31 @@ There are different models, the traditional crowdfunded project asks for funds g
 
 Other models are more focused on the community, where members of the community pitch in a certain amount of money per time unit, e.g. once a month.
 
-* [Kickstarter](https://kickstarter.com): Helps bring creative projects to life.
-* [Indiegogo](https://www.indiegogo.com/): Indiegogo is where early adopters and innovation seekers find lively, imaginative tech before it hits the mainstream.
-* [Patreon](https://www.patreon.com/): Patreon is a membership platform based in the United States that provides business tools for creators to run a subscription content service. It allows creators and artists to earn a monthly income by providing exclusive rewards and perks to their subscribers.
-* [`Liberapay`](https://en.liberapay.com/): Patreon alternative but libre.
-* [CodeFund](https://codefund.io): CodeFund focuses on providing an ethical alternative to digital advertising that drives results and respect from our technical audience
-* [CrowdFunder](https://crowdfunder.com): Crowdfunder is the leader in equity crowdfunding and has helped raise capital for thousands of companies from a network of 12,000 VCs and angel investors 
-* [Experiment](https://experiment.com): Experiment is a crowdfunding platform for scientific research projects, including academic research, teaching and public outreach, and independent science projects.
-* [`Open Collective`](https://opencollective.com/): Collect and spend money transparently. Open Collective lets you manage your finances so everyone can see where money comes from and where it goes.
+* [Kickstarter](https://kickstarter.com){:target="_blank"}: Helps bring creative projects to life.
+* [Indiegogo](https://www.indiegogo.com/){:target="_blank"}: Indiegogo is where early adopters and innovation seekers find lively, imaginative tech before it hits the mainstream.
+* [Patreon](https://www.patreon.com/){:target="_blank"}: Patreon is a membership platform based in the United States that provides business tools for creators to run a subscription content service. It allows creators and artists to earn a monthly income by providing exclusive rewards and perks to their subscribers.
+* [`Liberapay`](https://en.liberapay.com/){:target="_blank"}: Patreon alternative but libre.
+* [CodeFund](https://codefund.io){:target="_blank"}: CodeFund focuses on providing an ethical alternative to digital advertising that drives results and respect from our technical audience
+* [CrowdFunder](https://crowdfunder.com){:target="_blank"}: Crowdfunder is the leader in equity crowdfunding and has helped raise capital for thousands of companies from a network of 12,000 VCs and angel investors 
+* [Experiment](https://experiment.com){:target="_blank"}: Experiment is a crowdfunding platform for scientific research projects, including academic research, teaching and public outreach, and independent science projects.
+* [`Open Collective`](https://opencollective.com/){:target="_blank"}: Collect and spend money transparently. Open Collective lets you manage your finances so everyone can see where money comes from and where it goes.
 
 ## Sources:
 This guide is mainly assembled from:
 
-* https://github.com/sakofchit/fund-my-project
-* https://github.com/ralphtheninja/open-funding
-* [A handy guide to financial support for open source.](https://github.com/nayafia/lemonade-stand/)
-* [Awesome Indie](https://github.com/mezod/awesome-indie)
-* [Alternative Sources of Support - List compiled by OTF](https://guide.opentech.fund/appendix-iv-alternative-sources-of-support)
-* [Holger Krekel at 32c3 - Hacking EU funding for a decentralizing FOSS project](https://media.ccc.de/v/32c3-7300-hacking_eu_funding_for_a_decentralizing_foss_project#video&t=790)
-* [Raking in the dough on Free and Open Source Software](https://varnish-cache.org/docs/trunk/phk/dough.html)
-* [Paying the Piper](https://github.com/pybee/paying-the-piper)
-* [Tech Cultivation](https://techcultivation.org/)
-* [Alternative Funding Sources - Renewable Freedom Foundation](https://renewablefreedom.org/grants/alternative-funding-sources/)
-* [Funding OSS](https://github.com/jayfk/fundingoss.com)
-* [Awesome Open Company](https://github.com/opencompany/awesome-open-company)
-* [Getting Paid for Open Source Work](https://opensource.guide/getting-paid/)
+* [https://github.com/sakofchit/fund-my-project](https://github.com/sakofchit/fund-my-project){:target="_blank"}
+* [https://github.com/ralphtheninja/open-funding](https://github.com/ralphtheninja/open-funding){:target="_blank"}
+* [A handy guide to financial support for open source.](https://github.com/nayafia/lemonade-stand/){:target="_blank"}
+* [Awesome Indie](https://github.com/mezod/awesome-indie){:target="_blank"}
+* [Alternative Sources of Support - List compiled by OTF](https://guide.opentech.fund/appendix-iv-alternative-sources-of-support){:target="_blank"}
+* [Holger Krekel at 32c3 - Hacking EU funding for a decentralizing FOSS project](https://media.ccc.de/v/32c3-7300-hacking_eu_funding_for_a_decentralizing_foss_project#video&t=790){:target="_blank"}
+* [Raking in the dough on Free and Open Source Software](https://varnish-cache.org/docs/trunk/phk/dough.html){:target="_blank"}
+* [Paying the Piper](https://github.com/pybee/paying-the-piper){:target="_blank"}
+* [Tech Cultivation](https://techcultivation.org/){:target="_blank"}
+* [Alternative Funding Sources - Renewable Freedom Foundation](https://renewablefreedom.org/grants/alternative-funding-sources/){:target="_blank"}
+* [Funding OSS](https://github.com/jayfk/fundingoss.com){:target="_blank"}
+* [Awesome Open Company](https://github.com/opencompany/awesome-open-company){:target="_blank"}
+* [Getting Paid for Open Source Work](https://opensource.guide/getting-paid/){:target="_blank"}
 
 Suggestions for more sources is welcome.
 
