@@ -39,6 +39,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Stripe's $35B valuation in 8 years - How a tech startup reaches billion-dollar valuation? [Video Only]](https://www.youtube.com/watch?v=nlFAbBvu7hA)
 
 ## Guides
+* [How to Find Funding for Your Project](/articles/how-to-fund-your-project)
 * [Essential Software for Working From Home](/articles/essential-software-for-working-from-home)
 * [OBS Studio: Open-Source Software for Video Recording and Live Streaming](/articles/obs-studio)
 * [How to Manage Money as a Techie - How I Invest as a Software Engineer](/articles/how-to-manage-money)
