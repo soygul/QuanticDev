@@ -96,6 +96,3 @@ public
 
 # DynamoDB Local files
 .dynamodb/
-
-# Editors
-.idea/
