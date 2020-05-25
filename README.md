@@ -32,6 +32,9 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Subarray vs Substring vs Subsequence vs Subset](/algorithms/primitives/subarray-vs-substring-vs-subsequence-vs-subset)
 * [Sliding Window Technique](/algorithms/dynamic-programming/sliding-window)
 
+## Hardware & Software
+* [How Fast is H.265/HEVC Software Encoding on ARM CPUs (iPhone/Android) With FFmpeg?](/articles/h265-encoding-on-arm-cpus)
+
 ## Product Management
 * [How to Present Like Apple? - Recreating an Apple Keynote](/articles/how-to-present-like-apple)
 
