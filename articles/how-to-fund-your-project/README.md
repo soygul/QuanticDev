@@ -20,22 +20,22 @@ A grant is a sum of money given by an organization or governments for special pu
 * **Application Process/Info**: [https://fastgrants.org](https://fastgrants.org){:target="_blank"}
 
 ### Facebook Small Business Grants Program
-* **Info** Facebook is offering $100M in cash grants and ad credits to help during this challenging time for up to 30,000 eligible small businesses.
+* **Info**: Facebook is offering $100M in cash grants and ad credits to help during this challenging time for up to 30,000 eligible small businesses.
 * **Award**: Varies
 * **Application Process**: TBA; Check here for details: [https://www.facebook.com/business/boost/grants](https://www.facebook.com/business/boost/grants){:target="_blank"}
 
 ### AwesomeFoundation.org
-* **Info** The Awesome Foundation is an organization that awards $1,000 grants every month. They don't want any compensation (equity, ownership, ROI, etc.) they simply want to help you build your product!
+* **Info**: The Awesome Foundation is an organization that awards $1,000 grants every month. They don't want any compensation (equity, ownership, ROI, etc.) they simply want to help you build your product!
 * **Award**: $1000
 * **Application Process**: [https://www.awesomefoundation.org](https://www.awesomefoundation.org){:target="_blank"}
 
 ### Gitcoin
-* **Info** Gitcoin is a bazaar where you can find funding for your code, or code if you're a funder.
+* **Info**: Gitcoin is a bazaar where you can find funding for your code, or code if you're a funder.
 * **Award**: Varies
 * **Process**: [https://gitcoin.co/how/funder](https://gitcoin.co/how/funder){:target="_blank"}
 
 ### PSF Grants Program
-* **Info** The Python Software Foundation is the organization behind Python. Become a member of the PSF and help advance the software.
+* **Info**: The Python Software Foundation is the organization behind Python. Become a member of the PSF and help advance the software.
 * **Award**: Varies
 * **Application Requirements** [https://www.python.org/psf/grants/#grant-proposal-requirements](https://www.python.org/psf/grants/#grant-proposal-requirements){:target="_blank"}
 
@@ -52,7 +52,7 @@ A grant is a sum of money given by an organization or governments for special pu
 * **Application Link**: [https://www.clojuriststogether.org/open-source/](https://www.clojuriststogether.org/open-source/){:target="_blank"}
 
 ### Unitary Fund
-* **Info** Non-profit working to create a quantum technology ecosystem that benefits the most people. They fund explorers across the world to work on quantum technologies.
+* **Info**: Non-profit working to create a quantum technology ecosystem that benefits the most people. They fund explorers across the world to work on quantum technologies.
 * **Award**: $4000
 * **Application Process**: The program is designed to be as simple as possible. No committees to convince. No organizational affiliation required. Just a short form and a two minute video. More details here: [https://unitary.fund/](https://unitary.fund/){:target="_blank"}
 
