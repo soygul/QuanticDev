@@ -11,6 +11,18 @@ In addition to what is listed below, the video analyzes different funding types 
 My following article will get you started on your first step in pitching your project:
 * [How to Set up a Free Website with GitHub Pages & How I Created QuanticDev.com](/articles/website-with-github-pages){:target="_blank"}
 
+## Crowdfunding
+The concept has been around for a while and can at times be the spark that makes a project take off. There are different models, the traditional crowdfunded project asks for funds given some budget and project proposition. If the project reach the donation goal you can receive extra benefits apart from the actual product. Other models are more focused on the community, where members of the community pitch in a certain amount of money per time unit, e.g. once a month.
+
+* [Kickstarter](https://kickstarter.com){:target="_blank"}: Helps bring creative projects to life.
+* [Indiegogo](https://www.indiegogo.com){:target="_blank"}: Indiegogo is where early adopters and innovation seekers find lively, imaginative tech before it hits the mainstream.
+* [Patreon](https://www.patreon.com){:target="_blank"}: Patreon is a membership platform based in the United States that provides business tools for creators to run a subscription content service. It allows creators and artists to earn a monthly income by providing exclusive rewards and perks to their subscribers.
+* [Liberapay](https://en.liberapay.com){:target="_blank"}: Patreon alternative but libre.
+* [CodeFund](https://codefund.io){:target="_blank"}: CodeFund focuses on providing an ethical alternative to digital advertising that drives results and respect from our technical audience
+* [CrowdFunder](https://crowdfunder.com){:target="_blank"}: Crowdfunder is the leader in equity crowdfunding and has helped raise capital for thousands of companies from a network of 12,000 VCs and angel investors 
+* [Experiment](https://experiment.com){:target="_blank"}: Experiment is a crowdfunding platform for scientific research projects, including academic research, teaching and public outreach, and independent science projects.
+* [Open Collective](https://opencollective.com){:target="_blank"}: Collect and spend money transparently. Open Collective lets you manage your finances so everyone can see where money comes from and where it goes.
+
 ## Grants
 A grant is a sum of money given by an organization or governments for special purposes like funding business ideas. Lets start with them.
 
@@ -37,7 +49,7 @@ A grant is a sum of money given by an organization or governments for special pu
 ### PSF Grants Program
 * **Info**: The Python Software Foundation is the organization behind Python. Become a member of the PSF and help advance the software.
 * **Award**: Varies
-* **Application Requirements** [https://www.python.org/psf/grants/#grant-proposal-requirements](https://www.python.org/psf/grants/#grant-proposal-requirements){:target="_blank"}
+* **Application Requirements**: [https://www.python.org/psf/grants/#grant-proposal-requirements](https://www.python.org/psf/grants/#grant-proposal-requirements){:target="_blank"}
 
 ### Tyk's Side Project Fund
 * **Info**: A micro-grant for your side project.
@@ -125,22 +137,6 @@ Current submission(s):
 From OTF mailing list:
 
 > NLNet is seeking proposals requesting between €5,000 and €50,000 for projects for Privacy and Trust projects “aimed at providing people with new instruments that allow them more agency - and assist us with fulfilling the human need of keeping some private and confidential context and information private and confidential.” This effort is part of the EU’s Next Generation Initiative (NGI), which seeks to “re-imagine and re-engineer the internet for the third millennium and beyond to shape a value-centric, human and inclusive society for all.”
-
-## Crowdfunding Options
-The concept has been around for a while and can at times be the spark that makes a project take off.
-
-There are different models, the traditional crowdfunded project asks for funds given some budget and project proposition. If the project reach the donation goal you can receive extra benefits apart from the actual product.
-
-Other models are more focused on the community, where members of the community pitch in a certain amount of money per time unit, e.g. once a month.
-
-* [Kickstarter](https://kickstarter.com){:target="_blank"}: Helps bring creative projects to life.
-* [Indiegogo](https://www.indiegogo.com/){:target="_blank"}: Indiegogo is where early adopters and innovation seekers find lively, imaginative tech before it hits the mainstream.
-* [Patreon](https://www.patreon.com/){:target="_blank"}: Patreon is a membership platform based in the United States that provides business tools for creators to run a subscription content service. It allows creators and artists to earn a monthly income by providing exclusive rewards and perks to their subscribers.
-* [Liberapay](https://en.liberapay.com/){:target="_blank"}: Patreon alternative but libre.
-* [CodeFund](https://codefund.io){:target="_blank"}: CodeFund focuses on providing an ethical alternative to digital advertising that drives results and respect from our technical audience
-* [CrowdFunder](https://crowdfunder.com){:target="_blank"}: Crowdfunder is the leader in equity crowdfunding and has helped raise capital for thousands of companies from a network of 12,000 VCs and angel investors 
-* [Experiment](https://experiment.com){:target="_blank"}: Experiment is a crowdfunding platform for scientific research projects, including academic research, teaching and public outreach, and independent science projects.
-* [Open Collective](https://opencollective.com/){:target="_blank"}: Collect and spend money transparently. Open Collective lets you manage your finances so everyone can see where money comes from and where it goes.
 
 ## Sources:
 This guide is mainly assembled from:
