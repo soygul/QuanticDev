@@ -9,6 +9,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "standard": "^14.3.3"
+    "standard": "^14"
   }
 }
