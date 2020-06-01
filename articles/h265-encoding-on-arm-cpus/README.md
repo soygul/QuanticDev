@@ -14,7 +14,7 @@ You can find the video narration of this article on YouTube: [https://www.youtub
 
 Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-Relevant articles referred to in this article:
+Relevant resources referred to in this article:
 * [Discussion on Doom9 Forum about x265 encoding speed on ARM processors](https://forum.doom9.org/showthread.php?p=1817880#post1817880){:target="_blank"}
 * [x265 Source Code](https://github.com/videolan/x265){:target="_blank"}
 * [Nvidia NVENC hardware encoder quality test for H.264](https://www.youtube.com/watch?v=-fi9o2NyPaY){:target="_blank"}
