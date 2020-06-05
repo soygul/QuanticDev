@@ -18,9 +18,9 @@ function getMaxMinSubarray (inputArr, isMaxSum = true) {
   const maxMinFn = isMaxSum ? Math.max : Math.min
 
   inputArr.forEach((n, i) => {
+    if (currentSum === 0) currentSumStart = i
     currentSumEnd = i
     currentSum = maxMinFn(0, currentSum + n)
-    if (currentSum === 0) currentSumStart = i
 
     maxSum = maxMinFn(maxSum, currentSum)
     if (maxSum === currentSum) {
@@ -29,7 +29,7 @@ function getMaxMinSubarray (inputArr, isMaxSum = true) {
     }
   })
 
-  return inputArr.slice(maxSumStart + 1, maxSumEnd + 1)
+  return inputArr.slice(maxSumStart, maxSumEnd + 1)
 }
 
 /**
