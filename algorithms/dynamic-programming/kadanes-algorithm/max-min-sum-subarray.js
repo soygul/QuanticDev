@@ -36,7 +36,7 @@ function getMaxMinSubarray (inputArr, isMaxSum = true) {
  * Tests
  */
 
-// test case #1
+// test case #1: mixed integers
 const exampleInput1 = [-5, 2, -1, 3, -2]
 const maxSolution1 = [2, -1, 3]
 const minSolution1 = [-5]
@@ -48,7 +48,7 @@ console.log(`Example Input #1: ${JSON.stringify(exampleInput1)}, Max Sum Subarra
 assert.deepStrictEqual(calculatedMaxSolution1, maxSolution1)
 assert.deepStrictEqual(calculatedMinSolution1, minSolution1)
 
-// test case #2
+// test case #2: empty array
 const exampleInput2 = []
 const maxSolution2 = []
 const minSolution2 = []
@@ -60,7 +60,7 @@ console.log(`Example Input #2: ${JSON.stringify(exampleInput2)}, Max Sum Subarra
 assert.deepStrictEqual(calculatedMaxSolution2, maxSolution2)
 assert.deepStrictEqual(calculatedMinSolution2, minSolution2)
 
-// test case #3
+// test case #3: all 0's
 const exampleInput3 = [0, 0, 0]
 const maxSolution3 = []
 const minSolution3 = []
@@ -72,7 +72,7 @@ console.log(`Example Input #3: ${JSON.stringify(exampleInput3)}, Max Sum Subarra
 assert.deepStrictEqual(calculatedMaxSolution3, maxSolution3)
 assert.deepStrictEqual(calculatedMinSolution3, minSolution3)
 
-// test case #4
+// test case #4: all negative
 const exampleInput4 = [-1, -2, -3, -4, -5]
 const maxSolution4 = []
 const minSolution4 = [-1, -2, -3, -4, -5]
@@ -84,7 +84,7 @@ console.log(`Example Input #4: ${JSON.stringify(exampleInput4)}, Max Sum Subarra
 assert.deepStrictEqual(calculatedMaxSolution4, maxSolution4)
 assert.deepStrictEqual(calculatedMinSolution4, minSolution4)
 
-// test case #5
+// test case #5: all positive
 const exampleInput5 = [1, 2, 3, 4, 5]
 const maxSolution5 = [1, 2, 3, 4, 5]
 const minSolution5 = []
