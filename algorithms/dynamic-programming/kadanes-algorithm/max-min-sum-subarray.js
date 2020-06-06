@@ -2,6 +2,7 @@ const assert = require('assert')
 
 /**
  * Given an array of integers, find the subarray with the maximum/minimum possible sum.
+ * There might be multiple subarrays with the same sum, but we only keep track of one.
  * Solution is implemented using Kadane's Algorithm.
  *
  * @param inputArr - An array of integers.
