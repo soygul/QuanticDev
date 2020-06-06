@@ -29,7 +29,7 @@ function getMaxMinSubarray (inputArr, isMaxSum = true) {
     }
   })
 
-  return inputArr.slice(maxSumStart, maxSumEnd + 1)
+  return maxSum === 0 ? [] : inputArr.slice(maxSumStart, maxSumEnd + 1)
 }
 
 /**
@@ -62,8 +62,8 @@ assert.deepStrictEqual(calculatedMinSolution2, minSolution2)
 
 // test case #3
 const exampleInput3 = [0, 0, 0]
-const maxSolution3 = [0]
-const minSolution3 = [0]
+const maxSolution3 = []
+const minSolution3 = []
 
 const calculatedMaxSolution3 = getMaxMinSubarray(exampleInput3, true)
 const calculatedMinSolution3 = getMaxMinSubarray(exampleInput3, false)
@@ -75,7 +75,7 @@ assert.deepStrictEqual(calculatedMinSolution3, minSolution3)
 // test case #4
 const exampleInput4 = [-1, -2, -3, -4, -5]
 const maxSolution4 = []
-const minSolution4 = [-15]
+const minSolution4 = [-1, -2, -3, -4, -5]
 
 const calculatedMaxSolution4 = getMaxMinSubarray(exampleInput4, true)
 const calculatedMinSolution4 = getMaxMinSubarray(exampleInput4, false)
