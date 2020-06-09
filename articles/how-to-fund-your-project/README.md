@@ -138,6 +138,14 @@ From OTF mailing list:
 
 > NLNet is seeking proposals requesting between €5,000 and €50,000 for projects for Privacy and Trust projects “aimed at providing people with new instruments that allow them more agency - and assist us with fulfilling the human need of keeping some private and confidential context and information private and confidential.” This effort is part of the EU’s Next Generation Initiative (NGI), which seeks to “re-imagine and re-engineer the internet for the third millennium and beyond to shape a value-centric, human and inclusive society for all.”
 
+## Additional Guides:
+Guides on QuanticDev website that is related to this subject:
+* [Stripe’s $35B valuation in 8 years - How a tech startup reaches billion-dollar valuation?](https://www.youtube.com/watch?v=nlFAbBvu7hA){:target="_blank"}
+* [How to Present Like Apple?](/articles/how-to-present-like-apple){:target="_blank"}
+* [How to Manage Money as a Techie - How I Invest as a Software Engineer](/articles/how-to-manage-money){:target="_blank"}
+* [How to Correctly Use Github for Software Development](/articles/how-to-use-github){:target="_blank"}
+* [Essential Software for Working From Home](/articles/essential-software-for-working-from-home){:target="_blank"}
+
 ## Sources:
 This guide is mainly assembled from:
 
