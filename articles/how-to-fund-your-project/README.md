@@ -2,7 +2,7 @@
 It is quantic time that we investigate options for financing your projects. It doesn't matter if you are looking to fund a new business idea or just a side project, there are options at all levels. For instance, there are microgrants up to $5000 for small side projects. For bigger business ideas, you have recurring grants, government funds, and crowdsourcing options. You can even go with advertising on your projects, sponsorships, and selling relevant merchandise. The final step is to look for venture capital, of course.
 
 ## Resources
-You can fin the analysis of most the funds and grants listed in the article as a YouTube video: [https://www.youtube.com/watch?v=uOX3IU_OSig](https://www.youtube.com/watch?v=uOX3IU_OSig){:target="_blank"}
+You can fin the analysis of most the funds and grants listed in the article as a video: [https://www.youtube.com/watch?v=uOX3IU_OSig](https://www.youtube.com/watch?v=uOX3IU_OSig){:target="_blank"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uOX3IU_OSig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
