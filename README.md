@@ -1,6 +1,5 @@
 # QuanticDev
-QuanticDev's engineering and software development resources.
-Articles and videos are mostly on software and engineering, while occasionally diving into tech topics, tech news, analysis, and more.
+QuanticDev's engineering and software development resources. All the articles and videos are based on my experiences as a Senior Software Engineer with a decade of experience, and with an education in electronics and semiconductor physics.
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/7CC8d-AbQv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
