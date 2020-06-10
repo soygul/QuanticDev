@@ -2,11 +2,11 @@
 It is quantic time that we investigate options for financing your projects. It doesn't matter if you are looking to fund a new business idea or just a side project, there are options at all levels. For instance, there are microgrants up to $5000 for small side projects. For bigger business ideas, you have recurring grants, government funds, and crowdsourcing options. You can even go with advertising on your projects, sponsorships, and selling relevant merchandise. The final step is to look for venture capital, of course.
 
 ## Resources
-You can fin the analysis of most the funds and grants listed in the article as a video: [https://www.youtube.com/watch?v=uOX3IU_OSig](https://www.youtube.com/watch?v=uOX3IU_OSig){:target="_blank"}
+You can find the analysis of most the funds and grants listed in the article as a video: [https://www.youtube.com/watch?v=uOX3IU_OSig](https://www.youtube.com/watch?v=uOX3IU_OSig){:target="_blank"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uOX3IU_OSig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-In addition to what is listed below, the video analyzes different funding types like advertising on your project, sponsorships, selling relevant merchandise, and getting venture capital. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
+In addition to what is listed below, the video analyzes different funding types like advertising on your project, sponsorships, selling relevant merchandise, and getting venture capital. Analysis is done from a Senior Software Engineer's perspective, but it applies to any project. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 My following article will get you started on your first step in pitching your project:
 * [How to Set up a Free Website with GitHub Pages & How I Created QuanticDev.com](/articles/website-with-github-pages){:target="_blank"}
