@@ -1,10 +1,6 @@
 # Kadane's Algorithm and Its Proof - Max/Min Sum Subarray Problem
 In this article, you will get the optimum solution to the maximum/minimum sum subarray problem: The Kadane's Algorithm. The problem at hand is simple. Given an array of integers, say `[-1, 1, 3, -2]`, find the subarrays with the maximum and minimum possible sums (for the given example: `max=[1, 3]`, `min=[-2]`). Kadane's Algorithm solves this problem with a nice `O(n)` time and `O(1)` space complexity. A variation of this problem is when you are trying to find the maximum/minimum sum subarray with at least `k` elements. Again, a slightly modified version of Kadane's Algo can be used in solving it. Finally, we will prove the correctness of Kadane's Algorithms.
 
-When all integers in a given array are positive, you can use the much simpler Sliding Windows Technique. For arrays with negative numbers, you can modify it to be all positive numbers and then apply the sliding window technique, but that requires extra processing; hence it is not the optimum solution. I have a separate article discussing the sliding window technique in depth along with various sample questions, and you can find the link to it below.
-
-Kadane's Algorithm uses optimal substructures to solve the max/min subarray sum problem. Each max/min subarray ending at each index is calculated using the max/min subarray ending at the previous index. You can say that this is an accumulation function with some additional rules. As a result of this, it is one of my favorite examples of Dynamic Programming. In the article, I will explain how Kadane's Algorithm is an optimal substructure problem using a basic animation.
-
 In the article, you will find the solutions to the following questions, as well as their time and space complexities:
 * Medium Difficulty: Kadane's Algorithm: Given an array of integers, find the subarray with the maximum/minimum possible sum.
 * Medium Difficulty: Sliding Window on Kadane's Algorithm: Given an array of integers, find the subarray with the maximum/minimum possible sum with at least k elements.
@@ -20,6 +16,11 @@ Video has additional tips and illustrations. If you want to read the comments or
 * Solution code to examples are available on: [https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/kadanes-algorithm](https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/kadanes-algorithm){:target="_blank"}
 
 * My Sliding Window Technique article: [Sliding Window Technique + 4 Questions](/algorithms/dynamic-programming/sliding-window){:target="_blank"}
+
+## Overview
+When all integers in a given array are positive, you can use the much simpler Sliding Windows Technique. For arrays with negative numbers, you can modify it to be all positive numbers and then apply the sliding window technique, but that requires extra processing; hence it is not the optimum solution. I have a separate article discussing the sliding window technique in depth along with various sample questions, and you can find the link to it above.
+
+Kadane's Algorithm uses optimal substructures to solve the max/min subarray sum problem. Each max/min subarray ending at each index is calculated using the max/min subarray ending at the previous index. You can say that this is an accumulation function with some additional rules. As a result of this, it is one of my favorite examples of Dynamic Programming. In the article, I will explain how Kadane's Algorithm is an optimal substructure problem using a basic animation.
 
 ## Question #1: Medium Difficulty: Given an array of integers, find the subarray with the maximum/minimum possible sum
 Example Input: `[1, 2, -4, 3, 4, -2]`
@@ -75,13 +76,13 @@ Solution: Sliding Window on Kadane's Algorithm
 * Space Complexity: `O(n)` (can be made `O(1)`)
 
 ## Proof of Correctness of Kadane's Algorithm
-* Define: 𝑀𝑎𝑥𝑆𝑢𝑚(𝑖)=𝑀𝑎𝑥(〖𝑆𝑢𝑚〗_((0)(𝑖)),〖𝑆𝑢𝑚〗_((1)(𝑖)),〖𝑆𝑢𝑚〗_((2)(𝑖)),…,〖𝑆𝑢𝑚〗_((𝑖)(𝑖)) ) where 〖𝑆𝑢𝑚〗_((𝑥)(𝑖)) is the sum of all elements from index x to i. We established this in brute-force solution.
-* Note: 〖𝑆𝑢𝑚〗_((𝑥)(𝑖+1))=〖𝑆𝑢𝑚〗_((𝑥)(𝑖))+〖𝐸𝑙〗_((𝑖))
-* As a Result: 𝑀𝑎𝑥𝑆𝑢𝑚(𝑖+1)=𝑀𝑎𝑥(〖𝑆𝑢𝑚〗_((0)(𝑖))+〖𝐸𝑙〗_((𝑖)),〖𝑆𝑢𝑚〗_((1)(𝑖))+〖𝐸𝑙〗_((𝑖)),…,〖𝑆𝑢𝑚〗_(𝑖)(𝑖) +〖𝐸𝑙〗_((𝑖) ),〖𝐸𝑙〗_((𝑖)) )= 𝑀𝑎𝑥(𝑀𝑎𝑥(〖𝑆𝑢𝑚〗_((0)(𝑖))+〖𝐸𝑙〗_((𝑖)),〖𝑆𝑢𝑚〗_((1)(𝑖))+〖𝐸𝑙〗_((𝑖)),…,〖𝑆𝑢𝑚〗_(𝑖)(𝑖) +〖𝐸𝑙〗_((𝑖) ) ),〖𝐸𝑙〗_((𝑖)) )
-* Note: 𝑚𝑎𝑥(𝑎+𝑦,𝑏+𝑦,𝑐+𝑦)=𝑚𝑎𝑥(𝑎,𝑏,𝑐)+𝑦
-* As a Result: 𝑀𝑎𝑥𝑆𝑢𝑚(𝑖+1)=𝑀𝑎𝑥(𝑀𝑎𝑥(〖𝑆𝑢𝑚〗_((0)(𝑖)),〖𝑆𝑢𝑚〗_((1)(𝑖)),〖𝑆𝑢𝑚〗_((2)(𝑖)),…,〖𝑆𝑢𝑚〗_((𝑖)(𝑖)) )+〖𝐸𝑙〗_((𝑖)),〖𝐸𝑙〗_((𝑖)) )=𝑀𝑎𝑥(𝑀𝑎𝑥𝑆𝑢𝑚(𝑖)+〖𝐸𝑙〗_((𝑖)),〖𝐸𝑙〗_((𝑖)) )
-* Note: We used 𝑀𝑎𝑥𝑆𝑢𝑚(𝑖+1)=𝑀𝑎𝑥(𝑀𝑎𝑥𝑆𝑢𝑚(𝑖)+〖𝐸𝑙〗_((𝑖)),0) in our problems before, which is also valid.
-* You can also use induction or contradiction to prove Kadane's Algorithm.
+* Define: `𝑀𝑎𝑥𝑆𝑢𝑚(𝑖)=𝑀𝑎𝑥(〖𝑆𝑢𝑚〗_((0)(𝑖)),〖𝑆𝑢𝑚〗_((1)(𝑖)),〖𝑆𝑢𝑚〗_((2)(𝑖)),…,〖𝑆𝑢𝑚〗_((𝑖)(𝑖)) )` where `〖𝑆𝑢𝑚〗_((𝑥)(𝑖))` is the sum of all elements from index x to i. We established this in brute-force solution.
+* Note: `〖𝑆𝑢𝑚〗_((𝑥)(𝑖+1))=〖𝑆𝑢𝑚〗_((𝑥)(𝑖))+〖𝐸𝑙〗_((𝑖))`
+* As a Result: `𝑀𝑎𝑥𝑆𝑢𝑚(𝑖+1) = 𝑀𝑎𝑥(〖𝑆𝑢𝑚〗_((0)(𝑖))+〖𝐸𝑙〗_((𝑖)),〖𝑆𝑢𝑚〗_((1)(𝑖))+〖𝐸𝑙〗_((𝑖)),…,〖𝑆𝑢𝑚〗_(𝑖)(𝑖) +〖𝐸𝑙〗_((𝑖) ),〖𝐸𝑙〗_((𝑖)) )= 𝑀𝑎𝑥(𝑀𝑎𝑥(〖𝑆𝑢𝑚〗_((0)(𝑖))+〖𝐸𝑙〗_((𝑖)),〖𝑆𝑢𝑚〗_((1)(𝑖))+〖𝐸𝑙〗_((𝑖)),…,〖𝑆𝑢𝑚〗_(𝑖)(𝑖) +〖𝐸𝑙〗_((𝑖) ) ),〖𝐸𝑙〗_((𝑖)) )`
+* Note: `𝑚𝑎𝑥(𝑎+𝑦,𝑏+𝑦,𝑐+𝑦)=𝑚𝑎𝑥(𝑎,𝑏,𝑐)+𝑦`
+* As a Result: `𝑀𝑎𝑥𝑆𝑢𝑚(𝑖+1)=𝑀𝑎𝑥(𝑀𝑎𝑥(〖𝑆𝑢𝑚〗_((0)(𝑖)),〖𝑆𝑢𝑚〗_((1)(𝑖)),〖𝑆𝑢𝑚〗_((2)(𝑖)),…,〖𝑆𝑢𝑚〗_((𝑖)(𝑖)) )+〖𝐸𝑙〗_((𝑖)),〖𝐸𝑙〗_((𝑖)) )=𝑀𝑎𝑥(𝑀𝑎𝑥𝑆𝑢𝑚(𝑖)+〖𝐸𝑙〗_((𝑖)),〖𝐸𝑙〗_((𝑖)) )`
+* Note: We used `𝑀𝑎𝑥𝑆𝑢𝑚(𝑖+1)=𝑀𝑎𝑥(𝑀𝑎𝑥𝑆𝑢𝑚(𝑖)+〖𝐸𝑙〗_((𝑖)),0)` in our problems before, which is also valid.
+* You can also use `induction` or `contradiction` to prove Kadane's Algorithm.
 
 ## More Tips!
 * In interviews, you can always get questions combining multiple algorithms and techniques.
