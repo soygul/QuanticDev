@@ -76,12 +76,12 @@ Solution: Sliding Window on Kadane's Algorithm
 * Space Complexity: `O(n)` (can be made `O(1)`)
 
 ## Proof of Correctness of Kadane's Algorithm
-* Define: `𝑀𝑎𝑥𝑆𝑢𝑚(𝑖)=𝑀𝑎𝑥(〖𝑆𝑢𝑚〗_((0)(𝑖)),〖𝑆𝑢𝑚〗_((1)(𝑖)),〖𝑆𝑢𝑚〗_((2)(𝑖)),…,〖𝑆𝑢𝑚〗_((𝑖)(𝑖)) )` where `〖𝑆𝑢𝑚〗_((𝑥)(𝑖))` is the sum of all elements from index x to i. We established this in brute-force solution.
-* Note: `〖𝑆𝑢𝑚〗_((𝑥)(𝑖+1))=〖𝑆𝑢𝑚〗_((𝑥)(𝑖))+〖𝐸𝑙〗_((𝑖))`
-* As a Result: `𝑀𝑎𝑥𝑆𝑢𝑚(𝑖+1) = 𝑀𝑎𝑥(〖𝑆𝑢𝑚〗_((0)(𝑖))+〖𝐸𝑙〗_((𝑖)),〖𝑆𝑢𝑚〗_((1)(𝑖))+〖𝐸𝑙〗_((𝑖)),…,〖𝑆𝑢𝑚〗_(𝑖)(𝑖) +〖𝐸𝑙〗_((𝑖) ),〖𝐸𝑙〗_((𝑖)) )= 𝑀𝑎𝑥(𝑀𝑎𝑥(〖𝑆𝑢𝑚〗_((0)(𝑖))+〖𝐸𝑙〗_((𝑖)),〖𝑆𝑢𝑚〗_((1)(𝑖))+〖𝐸𝑙〗_((𝑖)),…,〖𝑆𝑢𝑚〗_(𝑖)(𝑖) +〖𝐸𝑙〗_((𝑖) ) ),〖𝐸𝑙〗_((𝑖)) )`
-* Note: `𝑚𝑎𝑥(𝑎+𝑦,𝑏+𝑦,𝑐+𝑦)=𝑚𝑎𝑥(𝑎,𝑏,𝑐)+𝑦`
-* As a Result: `𝑀𝑎𝑥𝑆𝑢𝑚(𝑖+1)=𝑀𝑎𝑥(𝑀𝑎𝑥(〖𝑆𝑢𝑚〗_((0)(𝑖)),〖𝑆𝑢𝑚〗_((1)(𝑖)),〖𝑆𝑢𝑚〗_((2)(𝑖)),…,〖𝑆𝑢𝑚〗_((𝑖)(𝑖)) )+〖𝐸𝑙〗_((𝑖)),〖𝐸𝑙〗_((𝑖)) )=𝑀𝑎𝑥(𝑀𝑎𝑥𝑆𝑢𝑚(𝑖)+〖𝐸𝑙〗_((𝑖)),〖𝐸𝑙〗_((𝑖)) )`
-* Note: We used `𝑀𝑎𝑥𝑆𝑢𝑚(𝑖+1)=𝑀𝑎𝑥(𝑀𝑎𝑥𝑆𝑢𝑚(𝑖)+〖𝐸𝑙〗_((𝑖)),0)` in our problems before, which is also valid.
+* Define: `MaxSum(i) = Max(Sum(0->i), Sum(1->i), Sum(2->i), ..., Sum(i->i))` where `Sum(x->i)` is the sum of all elements from index x to i. We established this in brute-force solution.
+* Note: `Sum(x->i+1) = Sum(x->i) + El(i)` where `El(i)` is the element value at index `i`.
+* As a Result: `MaxSum(i+1) = Max(Sum(0->i) + El(i), Sum(1->i) + El(i), ..., Sum(i->i) + El(i), El(i))= Max(Max(Sum(0->i) + El(i), Sum(1->i) + El(i), ..., Sum(i->i) + El(i)), El(i))`
+* Note: `max(a+y, b+y, c+y)=max(a, b, c) + y`
+* As a Result: `MaxSum(i+1) = Max(Max(Sum(0->i), Sum(1->i), Sum(2->i), ..., Sum(i->i)) + El(i), El(i) )= Max(MaxSum(i) + El(i), El(i))`
+* Note: We used `MaxSum(i+1) = Max(MaxSum(i) + El(i), 0)` in our problems before, which is also valid.
 * You can also use `induction` or `contradiction` to prove Kadane's Algorithm.
 
 ## More Tips!
