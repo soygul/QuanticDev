@@ -11,6 +11,8 @@ If you want to read the comments or leave a comment, do so under YouTube video. 
 # The Cleanup
 I want to remind anyone who would like to try this to turn off their computers first. I don't care about this machine anymore, so I just left it in sleep mode. I also recommend setting the vacuum to minimum possible setting and be very gentle while sweeping. It would be very easy to suck in any loose components or wires. In addition, dust particles travelling inside the vacuum hose will build up some static. This can create some static discharge onto the electronic components. In my experience, this can only happen if you are cleaning something amazingly dusty, like an old desktop computer. If you have an air compressor available, it is a better option. For the record, I used a 1.2 mm P5 Pentalobe Screwdriver to open the back panel. You can find it pretty much in any hardware store.
 
+![MacBook Pro Open Back](images/macbook_battery_service_recommended.jpg)
+
 Once I open the back panel, you can see that batteries are badly swollen. Even in that shape, they are stable, but I would not recommend trying to poke a hole in them. You would be likely to short circuit the inner panels, and it could start venting poisonous lithium gasses.
 
 ![MacBook Pro Open Back](images/macbook_pro_open_back.jpg)
