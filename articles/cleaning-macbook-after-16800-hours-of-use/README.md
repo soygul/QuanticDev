@@ -20,5 +20,3 @@ Once I open the back panel, you can see that batteries are badly swollen. Even i
 As you can see, both the fan blades and the heat pipe grills are clogged with 7 years' worth of dust! No wonder why the machine was overheating all the time.
 
 After a throughout vacuuming, I let the CPU to run at max load for about 5 minutes. After 5 minutes, I could hear the higher-pitched airflow sound. Before cleaning, there was no airflow noise and only a low-pitched noise from the fans themselves. When I put my hand behind the monitor, I can feel the hot air flowing again. This didn't happen in years! Anyway, this is the final moments of this machine. I will leave it up for recycling. Or maybe someone will be willing to fix it and use it. We'll see.
-
-**Note on using the vacuum cleaner on electronics:** 
