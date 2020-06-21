@@ -53,4 +53,4 @@ If you want to contribute to any article, you are welcome to make a pull request
 ## Ramblings
 * Nothing here yet..
 
-##### Your Host: Teoman "QuanticDev" Soygul ([soygul.com](https://soygul.com)) · info(at)quanticdev.com · MIT License · [Privacy Policy](https://soygul.com/privacy.html)
+##### Your Host: Teoman "QuanticDev" Soygul ([soygul.com](https://soygul.com)) · info(at)quanticdev.com · [Privacy Policy](https://soygul.com/privacy.html){:target="_blank"} · MIT License
