@@ -8,6 +8,8 @@ You can find the video narration of this article on YouTube: [https://www.youtub
 
 If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
+Hacker News discussions on this article: [https://news.ycombinator.com/item?id=23583611](https://news.ycombinator.com/item?id=23583611){:target="_blank"}
+
 # The Cleanup
 I want to remind anyone who would like to try this to turn off their computers first. I don't care about this machine anymore, so I just left it in sleep mode. I also recommend setting the vacuum to minimum possible setting and be very gentle while sweeping. It would be very easy to suck in any loose components or wires. In addition, dust particles travelling inside the vacuum hose will build up some static. This can create some static discharge onto the electronic components. In my experience, this can only happen if you are cleaning something amazingly dusty, like an old desktop computer. If you have an air compressor available, it is a better option. Or you can keep holding the tip of the hose, to ground it at least a bit. For the record, I used a 1.2 mm P5 Pentalobe Screwdriver to open the back panel. You can find it pretty much in any hardware store.
 
