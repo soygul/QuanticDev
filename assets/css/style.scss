@@ -28,6 +28,7 @@ header h4 {
   color: #666;
 }
 
+// only active on root/home page URL (/)
 .home {
   h2 {
     margin-top: 2.5rem;
@@ -40,4 +41,35 @@ header h4 {
       text-decoration: none;
     }
   }
+}
+
+// navigation buttons
+.btn-github .icon {
+  opacity: 0.6;
+  background: url("../images/github.png") 0 0 no-repeat;
+}
+
+.btn-youtube .icon {
+  opacity: 0.6;
+  background: url("../images/youtube.png") 0 0 no-repeat;
+}
+
+.btn-twitter .icon {
+  opacity: 0.6;
+  background: url("../images/twitter.png") 0 0 no-repeat;
+}
+
+.btn-patreon .icon {
+  opacity: 0.6;
+  background: url("../images/patreon.png") 0 0 no-repeat;
+}
+
+.btn-paypal .icon {
+  opacity: 0.6;
+  background: url("../images/paypal.png") 0 0 no-repeat;
+}
+
+.btn-crypto .icon {
+  opacity: 0.6;
+  background: url("../images/crypto.png") 0 0 no-repeat;
 }
