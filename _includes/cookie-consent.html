@@ -38,6 +38,7 @@
       const gaScript = document.createElement('script');
       gaScript.async = true;
       gaScript.src = 'https://www.google-analytics.com/analytics.js';
+      console.log('gdpr consent received')
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
