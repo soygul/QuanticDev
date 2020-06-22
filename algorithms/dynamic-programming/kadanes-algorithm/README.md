@@ -39,8 +39,8 @@ Problem Analysis:
 Approach #1: Brute Force
 * Calculate all possible subarray sums and store them in a separate array.
 * Iterate over the sums array and return the maximum or minimum sum.
-* Time complexity: `~O(n^2)` (exponential time complexity)
-* Space complexity: `~O(n^2)` (exponential space complexity)
+* Time complexity: `~O(n^2)` (quadratic time complexity)
+* Space complexity: `~O(n^2)` (quadratic space complexity)
 
 Approach #2: Kadane's Algorithm
 * Start summing the elements starting with the first element. Record the max sum as 0.

@@ -35,7 +35,7 @@ Sliding Window Technique is a method for finding subarrays in an array that sati
 
 Sliding Window Technique is a subset of Dynamic Programming. Dynamic Programming is a method for simplifying complicated problems by breaking them down to simpler sub-problems. If you can find a sub-problem with a solution that can be applied to the bigger problem, you can solve the bigger problem by solving the sub-problem. In our case, maintaining a subarray window that satisfies the problem constraints is our sub-problem. Moving that window over the entire data will solve our bigger problem.
 
-Sliding Window Technique frequently appears in algorithm interviews since Dynamic Programming questions are the favorites of interviewers. Sliding Window Technique solutions have a time complexity of 𝑂(𝑛), which is linear time, and space complexity of 𝑂(1), which is constant space.
+Sliding Window Technique frequently appears in algorithm interviews since Dynamic Programming questions are the favorites of interviewers. Sliding Window Technique solutions have a time complexity of `O(n)`, which is linear time, and space complexity of `O(1)`, which is constant space.
 
 Sliding Window Technique is mostly used for finding subarrays inside larger arrays. You can apply Sliding Window to majority of minimum/maximum/common subarray/substring type of questions. Note that some subarray related questions have very specific and optimized solutions, like that of Kadane's Algorithm. We will investigate this situation while solving our problems.
 
