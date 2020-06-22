@@ -1,10 +1,9 @@
 <h1>Terms & Privacy Policy</h1>
 
-(Last updated: Jun 21, 2020)
+(Last updated: Jun 22, 2020)
 
 <p>This Privacy Policy explains who we are, how we collect, share and use personal information about you, and how you
-    can exercise your privacy rights. We are <strong>Teoman Soygul</strong>, a private person ("Teoman 'QuanticDev'
-    Soygul" or "we"), a developer and publisher of websites, services, and applications that are
+    can exercise your privacy rights. We are <strong>Teoman "QuanticDev" Soygul</strong>, a private person ("Teoman Soygul" or "we"), a developer and publisher of websites, services, and applications that are
     made available online and via app stores including the Apple AppStore and Google Play Store. This Privacy Policy applies to
     personal information that we collect through our websites, services, mobile applications, and other products ("Apps"),
     and websites we control, including <strong>https://quanticdev.com</strong> ("Website")
