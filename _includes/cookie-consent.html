@@ -38,8 +38,9 @@
       const gaScript = document.createElement('script');
       gaScript.async = true;
       gaScript.src = 'https://www.google-analytics.com/analytics.js';
+      console.debug('cookie consent received')
     } else if(readCookie('cookie-notice-dismissed')=='rejected') {
-      // do nothing
+      console.debug('cookies rejected')
     } else  {
         document.getElementById('cookie-notice').style.display = 'block';
     }

@@ -266,14 +266,14 @@
     </li>
     <li>Chartboost <a href="https://answers.chartboost.com/en-us/articles/115001489623">https://answers.chartboost.com/en-us/articles/115001489623</a>
     </li>
-    <li>Vungle <a href="http://vungle.com/privacy/">http://vungle.com/privacy/</a></li>
+    <li>Vungle <a href="http://vungle.com/privacy/privacy.md">http://vungle.com/privacy/</a></li>
     <li>Unity Ads <a href="https://unity3d.com/legal/privacy-policy">https://unity3d.com/legal/privacy-policy</a></li>
-    <li>IronSource <a href="https://developers.ironsrc.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/">https://developers.ironsrc.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/</a>
+    <li>IronSource <a href="https://developers.ironsrc.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/privacy.md">https://developers.ironsrc.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/</a>
     </li>
-    <li>MoPub <a href="https://www.mopub.com/legal/privacy/">https://www.mopub.com/legal/privacy/</a>; <a
+    <li>MoPub <a href="https://www.mopub.com/legal/privacy/privacy.md">https://www.mopub.com/legal/privacy/</a>; <a
             href="https://www.mopub.com/legal/partners/">https://www.mopub.com/legal/partners/</a></li>
-    <li>Inmobi <a href="https://www.inmobi.com/privacy-policy/">https://www.inmobi.com/privacy-policy/</a></li>
-    <li>Applovin <a href="https://www.applovin.com/privacy/">https://www.applovin.com/privacy/</a></li>
+    <li>Inmobi <a href="https://www.inmobi.com/privacy-policy/privacy.md">https://www.inmobi.com/privacy-policy/</a></li>
+    <li>Applovin <a href="https://www.applovin.com/privacy/privacy.md">https://www.applovin.com/privacy/</a></li>
     <li>TapDaQ <a href="https://tapdaq.com/privacy-policy">https://tapdaq.com/privacy-policy</a></li>
 </ul>
 <h3><strong>4.5. HOW CAN YOU TURN OFF PERSONALIZED ADS?</strong></h3>
