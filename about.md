@@ -4,6 +4,15 @@ Teoman "QuanticDev" Soygul's engineering and software development resources. The
 ### Contact
 You can reach me at [info@quanticdev.com](mailto:info@quanticdev.com) or using social media links below.
 
+You can also directly use this contact form:
+
+<form action="mailto:info@quanticdev.com">      
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+  <input type="submit" value="SUBMIT"/>
+</form>
+
 ### Social
 * YouTube: [youtube.com/quanticdev](https://www.youtube.com/quanticdev){:target="_blank"}
 * Twitter: [twitter.com/quantic_dev](https://twitter.com/quantic_dev){:target="_blank"}
