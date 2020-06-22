@@ -38,7 +38,7 @@
       const gaScript = document.createElement('script');
       gaScript.async = true;
       gaScript.src = 'https://www.google-analytics.com/analytics.js';
-      console.log('analytics loaded')
+      document.head.appendChild(gaScript);
     }
 
     if(readCookie('cookie-notice-dismissed')=='accepted') {
