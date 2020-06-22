@@ -178,7 +178,7 @@
     we may transfer any and all information (including personally identifiable information) we collect to the relevant
     third party.</p>
 <p>For any additional questions about third-party information collection, please refer to <a
-        href="mailto:info@soygul.com">info@soygul.com</a></p>
+        href="mailto:info@quanticdev.com">info@quanticdev.com</a></p>
 <h2><strong>4.ADVERTISING</strong></h2>
 <h3><strong>4.1. In General </strong></h3>
 <p><strong>We use advertising to fund our Services and to make our games available for free. </strong>We offer our Apps
@@ -298,7 +298,7 @@
     within the App on Third-Party Social Networks. Please note, Third Party Social Networks are governed by their own
     privacy policies, terms and end-user agreements and we are not responsible for and have no control over, the sharing
     practices or policies of the third parties that operate those sites. For additional questions, contact us at <a
-            href="mailto:info@soygul.com">info@soygul.com</a>.</p>
+            href="mailto:info@quanticdev.com">info@quanticdev.com</a>.</p>
 <h3><strong>5.2. Information We May Receive When You Connect to Third-Party Social Networks</strong></h3>
 <p>The information you allow us to access varies by App and is affected by the privacy settings you establish on those
     Third-Party Social Networks. You can control and find out more about these settings from the Third-Party Social
@@ -334,7 +334,7 @@
 <p>If you are EEA-based user you have certain rights in connection with your personal information and how we handle it.
     Some of these rights may be subject to some exceptions or limitations. You can exercise these rights at any time by
     following the instructions below or sending us relevant requests to <a
-            href="mailto:info@soygul.com">info@soygul.com </a></p>
+            href="mailto:info@quanticdev.com">info@quanticdev.com </a></p>
 <p>Your rights include:</p>
 <ul>
     <li><strong>Right to withdraw your consent</strong> in accordance with Art. 7 para. 3 GDPR (e.g. you may withdraw
@@ -429,23 +429,23 @@
 <h2><strong>14. CHANGES TO OUR PRIVACY POLICY</strong></h2>
 <p>We will occasionally update this Privacy Policy as necessary to protect our users, furnish current information, and
     respond to legal and technical changes. The most current version of the Privacy Policy will govern our use of your
-    information and will be available at <a href="https://soygul.com/privacy.html">https://soygul.com/privacy.html</a>.
+    information and will be available at <a href="https://quanticdev.com/privacy">https://quanticdev.com/privacy</a>.
 </p>
 <p>For previous versions of this Privacy Policy, please contact us via <a
-        href="mailto:info@soygul.com">info@soygul.com</a>
+        href="mailto:info@quanticdev.com">info@quanticdev.com</a>
 </p>
 <h2><strong>15. CONTACT US</strong></h2>
 <p>If you have questions or concerns about this Privacy Policy, please contact us through one of the following ways:</p>
 <ol>
     <li>for privacy questions and exercising your rights via our privacy email: <a
-            href="mailto:info@soygul.com">info@soygul.com</a>
+            href="mailto:info@quanticdev.com">info@quanticdev.com</a>
     </li>
-    <li>our data protection officer: <a href="mailto:info@soygul.com">info@soygul.com</a></li>
+    <li>our data protection officer: <a href="mailto:info@quanticdev.com">info@quanticdev.com</a></li>
     <li>if you have a concern or compliance regarding our treatment of your personal data you can contact the relevant
         data protection authority. For more information on which authority to contact, please email us here <a
-                href="mailto:info@soygul.com">info@soygul.com</a>
+                href="mailto:info@quanticdev.com">info@quanticdev.com</a>
     </li>
     <li>for general information, please feel free to contact us via our email: <a
-            href="mailto:info@soygul.com">info@soygul.com</a>
+            href="mailto:info@quanticdev.com">info@quanticdev.com</a>
     </li>
 </ol>

@@ -13,6 +13,8 @@
   </head>
 
   <body>
+    {% include cookie-consent.html %}
+
     <header>
       <div class="container">
         <a href="/" style="text-decoration: none;">
@@ -55,7 +57,5 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-
-    {% include cookie-consent.html %}
   </body>
 </html>
