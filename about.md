@@ -1,17 +1,9 @@
 # About QuanticDev
 Teoman "QuanticDev" Soygul's engineering and software development resources. The articles and videos are mostly on software and engineering, while occasionally diving into tech topics, tech news, analysis, and more. All the articles and videos are based on my experiences as a Senior Software Engineer with a decade of experience with an education in electronics and semiconductor physics, and the developer of several popular open-source projects, apps, and games.
 
-### Contact
-You can reach me at [info@quanticdev.com](mailto:info@quanticdev.com) or using social media links below.
-
-You can also directly use this contact form:
-
-<form action="mailto:info@quanticdev.com">      
-  <input name="name" type="text" class="feedback-input" placeholder="Name" />   
-  <input name="email" type="text" class="feedback-input" placeholder="Email" />
-  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-  <input type="submit" value="SUBMIT"/>
-</form>
+## Contact
+You can reach me at [info@quanticdev.com](mailto:info@quanticdev.com)
+You can also use the social media links below.
 
 ### Social
 * YouTube: [youtube.com/quanticdev](https://www.youtube.com/quanticdev){:target="_blank"}
