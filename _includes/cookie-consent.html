@@ -38,7 +38,6 @@
       const gaScript = document.createElement('script');
       gaScript.async = true;
       gaScript.src = 'https://www.google-analytics.com/analytics.js';
-      console.log('gdpr consent received')
     } else if(readCookie('cookie-notice-dismissed')=='rejected') {
       // do nothing
     } else  {
@@ -50,7 +49,7 @@
         document.getElementById('cookie-notice').style.display = 'none';
     });
 
-    document.getElementById('cookie-notice-rejected').addEventListener("click",function() {
+    document.getElementById('cookie-notice-reject').addEventListener("click",function() {
       createCookie('cookie-notice-dismissed','rejected',31);
       document.getElementById('cookie-notice').style.display = 'none';
     });
