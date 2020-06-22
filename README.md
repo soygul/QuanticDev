@@ -53,4 +53,5 @@ If you want to contribute to any article, you are welcome to make a pull request
 ## Ramblings
 * Nothing here yet..
 
-#### Your Host: Teoman "QuanticDev" Soygul ([soygul.com](https://soygul.com){:target="_blank"}) · info(at)quanticdev.com
+## Your Host
+Teoman "QuanticDev" Soygul ([soygul.com](https://soygul.com){:target="_blank"}) · info(at)quanticdev.com
