@@ -32,6 +32,12 @@
     }
 
     if(readCookie('cookie-notice-dismissed')=='true') {
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-44071631-2', 'auto');
+      ga('send', 'pageview');
+      const gaScript = document.createElement('script');
+      gaScript.async = true;
+      gaScript.src = 'https://www.google-analytics.com/analytics.js';
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }

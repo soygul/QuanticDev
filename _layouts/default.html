@@ -6,13 +6,6 @@
 
     {% if page.url == "/" %}<title>{{ site.description }}</title>{% else %}<title>{{ page.title | default: site.title }}</title>{% endif %}
 
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-44071631-2', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
-
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="shortcut icon" href="/favicon.png">
 
@@ -47,7 +40,7 @@
     {% if page.url != "/" %}
     <footer class="container">
       <small>
-        <a href="/about">About & Contact</a> · <a href="https://soygul.com/privacy.html" target="_blank">Terms & Privacy</a> · MIT License
+        <a href="/about">About & Contact</a> · <a href="/privacy" target="_blank">Terms & Privacy</a> · MIT License
       </small>
     </footer>
     {% endif %}
