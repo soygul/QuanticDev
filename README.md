@@ -12,6 +12,7 @@ QuanticDev's engineering and software development resources. All the articles an
 If you want to contribute to any article, you are welcome to make a pull request or new issue on GitHub. You can comment under YouTube videos, or read existing comments.
 
 ## Software Engineering
+* [Is Windows Good for Developers Again?](/articles/is-windows-good-for-developers)
 * [Responding to Harvard's Survey Request About My Open-Source Contributions [Video Only]](https://www.youtube.com/watch?v=rtmHrhOeAfI)
 * [Fastest PHP Best Practices Guide](/articles/fastest-php-best-practices)
 * [State of Software Engineering in 2020](/articles/software-engineering-in-2020)
