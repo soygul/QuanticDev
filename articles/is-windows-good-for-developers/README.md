@@ -31,7 +31,7 @@ Now that we investigated the new Windows Package Manager, I want to test the new
 
 We have all our development tools ready both in Arch Linux Subsystem and on our host Windows system. I will go ahead and clone my open-source "js-api" project from my GitHub account to this machine. Once it is cloned, I will do "npm install" to install all missing packages and start my js-api server using "npm start". Thanks to having a fast SSD, everything is decently quick and seems to work well. I will repeat the same task on Arch, but with one of my even bigger (however unmaintained) open-source projects: KOAN.js. This project has both frontend and backend packages, so if there is any slowness in I/O operations, we should observe it. Even with substantially more dependencies, "npm install" is again as quick as it was on Windows. This tells me that both disk and network performance are near-native inside WSL 2 virtual machines.
 
-## Downsides
+## Downsides of WSL and winget
 Even though winget in combination with WSL 2 + Arch is looking good, it is not all sunshine and rainbows. First off, winget does not have dependency management. This means that it just downloads and executes .exe files. Though dependency management is on their roadmap.
 
 ![winget Dependency Management](images/winget-dependency-management.png)
