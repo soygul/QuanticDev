@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!--    <script>-->
-<!--      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;-->
-<!--      ga('create', 'UA-44071631-2', 'auto');-->
-<!--      ga('send', 'pageview');-->
-<!--    </script>-->
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-44071631-2', 'auto');
+      ga('send', 'pageview');
+    </script>
     <script async src='https://www.google-analytics.com/analytics.js'></script>
 
     {% if page.url == "/" %}<title>{{ site.description }}</title>{% else %}<title>{{ page.title | default: site.title }}</title>{% endif %}
@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    {% include cookie-consent.html %}
+<!--    {% include cookie-consent.html %}-->
 
     <header>
       <div class="container">
