@@ -5,6 +5,6 @@ Shop for material related to the articles and videos as well as QuanticDev's ori
 <script id="rb-xzfcxvzx" type="text/javascript">new RBExternalPortfolio('www.redbubble.com', 'quanticdev', 2, 3).renderIframe();</script>
 
 # Samples
-![QuanticDev Sticker](assets/images/quanticdev_sticker.jpg)
-
 ![QuanticDev Poster](assets/images/quanticdev_poster.jpg)
+
+![QuanticDev Sticker](assets/images/quanticdev_sticker.jpg)
