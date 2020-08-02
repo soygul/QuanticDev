@@ -13,10 +13,9 @@ You can also use the social media links below.
 
 ### Personal
 * My personal website: [soygul.com](https://soygul.com){:target="_blank"}
-* My questions & answers on: [Stack Overflow](https://stackoverflow.com/users/628273/teoman-soygul){:target="_blank"}
 
 ### Contributing
-If you want to contribute to any article, you are welcome to make a pull request or new issue on GitHub. You can comment under YouTube videos, or read existing comments.
+If you want to contribute to any article, you are welcome to make a pull request or open a new issue on GitHub. You can comment under YouTube videos of the articles, or read existing comments there.
 
 ### Intro Video
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/7CC8d-AbQv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
