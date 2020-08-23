@@ -7,7 +7,7 @@ You can also use the social media links below.
 
 ### Social
 * YouTube: [youtube.com/quanticdev](https://www.youtube.com/quanticdev){:target="_blank"}
-* Twitter: [twitter.com/quantic_dev](https://twitter.com/quantic_dev){:target="_blank"}
+* Twitter: [twitter.com/quanticdev](https://twitter.com/quanticdev){:target="_blank"}
 * Instagram: [instagram.com/quantic_dev](https://www.instagram.com/quantic_dev){:target="_blank"}
 * GitHub: [github.com/soygul/QuanticDev](https://github.com/soygul/QuanticDev){:target="_blank"}
 

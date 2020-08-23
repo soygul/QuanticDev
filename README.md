@@ -5,7 +5,7 @@ QuanticDev's engineering and software development resources. All the articles an
 
 ### Social
 * YouTube: [youtube.com/quanticdev](https://www.youtube.com/quanticdev)
-* Twitter: [twitter.com/quantic_dev](https://twitter.com/quantic_dev)
+* Twitter: [twitter.com/quanticdev](https://twitter.com/quanticdev)
 * Instagram: [instagram.com/quantic_dev](https://www.instagram.com/quantic_dev)
 
 ### Contributing
