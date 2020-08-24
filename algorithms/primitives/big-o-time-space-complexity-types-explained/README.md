@@ -70,6 +70,7 @@ This is the endgame. Factorial complexity means that you are trying to compute a
 ## Alternative Big O Notation
 If you were wondering what the thumbnail of this article was about, hold on tight. I have compiled an alternative version of the big O notation. I always found things easy to remember when they rhyme, especially with humor. So, here is my take on big O notation, which can help you remember the rankings of big O types:
 
+```
 O(1) = O(yeah)
 O(logn) = O(nice)
 O(n) = O(k)
@@ -77,6 +78,7 @@ O(n^2) = O(my)
 O(2^n) = O(no)
 O(n!) = O(mg)
 O(n^n) = O(sh*t!)
+```
 
 If you want to have the alternative big O notation as a sticker, so you can stick it to unusual places, you can get it from [quanticdev.com/shop](/shop){:target="_blank"}. I will leave the link to it in the resources section above. If you really want to confuse fellow software engineers, you can also get it as a small poster, bigger poster, framed print, hoodie, phone case, mug, blanket, or even a shower curtain!
 
