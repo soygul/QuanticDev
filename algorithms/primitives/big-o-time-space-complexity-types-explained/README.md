@@ -20,7 +20,7 @@ You can find the video narration of this article on YouTube with illustrations: 
 Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Alternative Big O Notation poster, stickers, mugs, and more:
-* [https://quanticdev.com/shop](https://quanticdev.com/shop){:target="_blank"}
+* [https://quanticdev.com/shop](/shop){:target="_blank"}
 * [https://www.redbubble.com/shop/ap/54268092](https://www.redbubble.com/shop/ap/54268092){:target="_blank"} (Alternative Big O Notation artwork)
 * [https://www.redbubble.com/shop/ap/54006599](https://www.redbubble.com/shop/ap/54006599){:target="_blank"} (Quantic Developers Club artwork)
 
