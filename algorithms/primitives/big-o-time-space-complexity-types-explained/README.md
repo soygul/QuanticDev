@@ -1,52 +1,86 @@
 # Big O Time/Space Complexity Types Explained - Logarithmic, Polynomial, Exponential, and More
-Today we are going to make a comparison of subarray vs substring vs subsequence vs subset. These are all similar concepts but have important differences. For instance, if you have a requirement to write an algorithm to find the subsets of a certain data and you come up with something that only finds the subsequences, you will only be half done. Or in an interview situation, you need to be extra careful about your choice of wording. If a question asks you to return a subsequence and you return a subset, you might fail the interview. Let me start by describing each concept with examples. Finally, I will give you a comparison table.
+Today we will investigate the most important time and space complexity types. Time and space complexities are a measure of a function's processing power and memory requirements. Many time/space complexity types have special names that you can use while communicating with others. While some of the names for complexity types are well known, like linear and constant time, some others are living in the shadows, like quadratic and factorial time. In this article, I will use the big O notation to denote the complexities, which is specifically used to describe the worst-case performance of algorithms.
+
+Table of contents:
+* Overview
+* Constant Time/Space Complexity: O(1)
+* Logarithmic Complexity: O(logn)
+* Linear Complexity: O(n)
+* Polynomial Complexity: O(n^k)
+* Exponential Complexity: O(2^n)
+* Factorial Complexity: O(n!)
+* Alternative Big O Notation
+* Conclusion
 
 ## Resources
-You can find the video narration of this article on YouTube with illustrations: [https://www.youtube.com/watch?v=uzhN-QhzR2g](https://www.youtube.com/watch?v=uzhN-QhzR2g){:target="_blank"}
+You can find the video narration of this article on YouTube with illustrations: [https://www.youtube.com/watch?v=4K1O6SXRSws](https://www.youtube.com/watch?v=4K1O6SXRSws){:target="_blank"}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uzhN-QhzR2g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4K1O6SXRSws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-## Subarray
-A subarray is a contiguous sequence of elements within an array. For instance, the subarrays of the array `{1, 2, 1}` would be `{1}`, `{2}`, `{1, 2}`, `{2, 1}`, `{1, 2, 1}`, `{}`. Things to note:
-* You can use braces (aka curly brackets) `{}` or square brackets `[]` to denote arrays.
-* A subarray should be a contiguous subsequence of the parent array. As a result, `{1, 1}` is not a valid subarray of the array `{1, 2, 1}`, since `{2}` in the middle is skipped, so it is not a contiguous subsequence anymore.
-* The full array itself is a subarray of itself.
-* An empty array is a subarray of any array.
-* You cannot have duplicates in subarrays. The element `{1}` appears twice in the array `{1, 2, 1}` but you can only count `{1}` once as the subarray of `{1, 2, 1}`.
-* Order of elements in the subarray should be the same as in the array. As a result, `{2, 1, 1}` is not a subarray of `{1, 2, 1}`.
+Alternative Big O Notation poster, stickers, mugs, and more:
+* https://quanticdev.com/shop[xxx](xxx){:target="_blank"}
+* https://www.redbubble.com/shop/ap/54268092[xxx](xxx){:target="_blank"} (Redbubble shop direct link)
+* https://www.redbubble.com/shop/ap/54006599[xxx](xxx){:target="_blank"} (Quantic Developers Club artwork)
 
-## Substring
-A substring is exactly the same thing as a subarray but in the context of strings. For instance, the substrings of the string `"ara"` would be `"a"`, `"r"`, `"ar"`, `"ra"`, `"ara"`, `""`. Things to note:
-* A substring is just a subarray that is made up of only characters.
-* You can use single `'` or double quotes `"` to denote substrings.
-* All the rules mentioned for subarrays also apply to substrings.
+My "Kadane's Algorithm" video, which is a great demonstration of an O(n) linear time complexity and O(1) constant space complexity algorithm:
+* https://www.youtube.com/watch?v=4csAswCkXZM[xxx](xxx){:target="_blank"}
 
-## Subsequence
-Both in mathematics and computer science, a subsequence is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements. This means a subsequence is a generalized subarray, where the rule of contiguity does not apply. For instance, the subsequences of the sequence `<A, B, A>` would be `<A>`, `<B>`, `<A, B>`, `<B, A>`, `<A, A>`, `<A, B, A>`, `<>`.
-* In math, it is customary to use angle brackets (`<>`) to denote subsequences. In programming, you can use whatever your programming language uses for arrays and lists.
-* Unlike subarrays, subsequences do not need to be contiguous so `<A, A>` is a perfectly valid subsequence of `<A, B, A>` whereas it is not a valid subarray.
-* Subsequences still need to preserve element order just like subarrays, so `<A, A, B>` and `<B, A, A>` are not valid subsequences.
-* Apart from the contiguity difference mentioned above, the rest of the rules that apply to subarrays also apply to subsequences.
+Wikipedia articles referenced in this video:
+* List of all time/space complexities: https://en.wikipedia.org/wiki/Time_complexity[xxx](xxx){:target="_blank"}
+* Asymptotic analysis: https://en.wikipedia.org/wiki/Asymptotic_analysis[xxx](xxx){:target="_blank"}
 
-Tip: Subsequences is a great interview question topic. I have an algorithm article coming up on Longest Common Subsequence questions. If you want to read it when it is out, don't forget to follow me on social media.
+## Constant Time/Space Complexity: O(1)
+Simplest of all complexities. Not complex at all! If an operation always completes in the same amount of CPU time regardless of the input size, it is called a constant time operation. If it always uses the same amount of memory regardless of the input size, it is called a constant space operation.
 
-## Subset
-A set is subset of another set if all its elements are contained by that set. This means, neither contiguity nor ordering of elements matter. For instance, the subsets of the set `{1, 2, 3}` would be `{1}`, `{2}`, `{3}`, `{1, 2}`, `{1, 3}`, `{2, 3}`, `{1, 2, 3}`, `{}`.
-* Subsets do not need to be contiguous. `{1, 3}` is a perfectly valid subset.
-* Subsets do not need to preserve element order. As a result, both `{1, 2}` and `{2, 1}` represent the same subset. While listing the subsets of the set, you can either write `{1, 2}` or `{2, 1}`, and it does not matter. But you cannot list both at the same time since they are exactly the same thing.
-* Note on Sets: Unlike arrays, strings, and sequences, sets do not allow duplicate elements. As a result, `{1, 2, 1}` would not be a valid set.
+The classic example of constant time complexity is arrays. Accessing an element by its index will always take the same amount of time regardless of the array size. Same goes for hash-table lookup. No matter how many elements a hash table has, retrieving an element by its key will always take a constant amount of time.
 
-## Comparison Table
+When it comes to constant space complexity, calculating Fibonacci numbers is a great example. To calculate the next Fibonacci number, all you need to keep in memory is the previous two Fibonacci numbers. Hence, you will always use a constant amount of memory, no matter how big the Fibonacci number that you are trying to calculate.
 
-| | Subarray | Substring | Subsequence | Subset |
-|---|---|---|---|---|
-| Contiguous | Yes | Yes | No | No |
-| Elements Ordered | Yes | Yes | Yes | No |
+## Logarithmic Complexity: O(logn)
+This is a complexity type found in efficient algorithms, where the time complexity of a function only grows logarithmically in relation to the input. Let me remind you that log⁡n is the shorthand for log_10⁡n, and the definition of logarithm is: log_a⁡n=x only if a^x=n. Since big O notation is asymptotic, we always use log⁡n regardless of the logarithm's base. The logarithm's base changes nothing but a constant multiplier, hence it is irrelevant to our analysis. If you want to learn more about asymptotic analysis, I will put the Wikipedia link in the video description below.
 
-As you can see in the table, subarrays and substrings need to be made up of contiguous sequence of elements of their parents, while subsequences and subsets do not have to be. In addition, all of subarrays, substrings and subsequences should preserve element order, meaning their elements should appear in the same order that they appear in their parents, while subsets can have their elements appear in any order.
+## Binary search is a classic example of logarithmic time complexity. Imagine you have a sorted array of integers. When you are searching for a specific value, all you need to do is to get the middle element of the array and compare it to the value that you are looking for. If the middle element is less than the value you are looking for, you can safely discard the first half of the array, and repeat the same process on the second half, until you find your value. As a result, you will discard half of the remaining elements on each iteration, which will give you a log_2⁡n time complexity in the worst-case scenario, where n is the number of elements in the array. As I said, in big O notation, we do not care about the base of logarithms, so we denote the time complexity of binary search as just O(logn).
 
-While memorizing all the details about these data structures is hard, learning them is not. And the best way to learn them is to use them in real life. Not everyone does algorithm-heavy programming, so my recommendation for most developers is to solve algorithm questions from time to time. They are not only good exercise to keep your computer science fundamentals sharp, but they will also help you to be familiar with new and improved problem-solving techniques. Computer science is a very active branch of science and existing algorithms are being improved every day, and new solutions for existing questions are being found. Solving an algorithm question once in a while is not only fun, but it is tremendously helpful in interview situations.
+Logarithmic space complexity, however, is quite rare to see. I have only seen it once in a real-life problem, which was quite an edge case, so there is no need to worry about it.
 
-If you want to keep your algorithm game up and be ready for interviews at any time, follow me on social media, and in return, I will give you the best and most popular interview questions and the best possible solutions to them. And that is it for this quick article, I will see you in the next algorithm question article. I am planning for a hard one that I plan to ask in the next hiring event, so watch out!
+## Linear Complexity: O(n)
+This is yet another straightforward complexity type. If an algorithm's time/space usage only grows linearly with the number of elements in the input, then it has linear time/space complexity. A great example of this is Kadane's Algorithm. When you have an array of integers, and you are looking for the subarray with the maximum possible sum, you can apply Kadane's Algorithm to get the solution in linear time. Kadane's Algorithm only needs to read each member of the array once; hence you can process the entire array in only O(n) time. On the other hand, it has O(1) space complexity, since it only needs to create a couple of variables. If you want to learn more about Kadane's Algorithm, I have a dedicated video on it with a ton of illustrations, and the link to it is in the video description.
+
+## Polynomial Complexity: O(n^k)
+If an algorithm takes n to the power of k time, where k is some constant, it has polynomial time complexity. Let me remind you that a polynomial takes the form of [dir: "this"] An^k + Bn^(k-1) + …. + Fn^2 + Gn + H, where A, B, …, G, H are some constants. Remember that big O notation is asymptotic, so if an algorithm takes An^3 + n amount of time, we simply denote it as O(n^3).
+
+A decent number of sorting algorithms run on polynomial time, including bubble sort, insertion sort, selection sort and more. Also, basic arithmetic operations (multiplication, division, etc.) can be implemented in polynomial time.
+
+O(n^2) polynomial complexity has the special name of "quadratic complexity". Likewise, O(n^3) is called "cubic complexity". For instance, brute force approaches to max-min subarray sum problems generally have O(n^2) quadratic time complexity. You can see an example of this in my Kadane's Algorithm video.
+
+## Exponential Complexity: O(2^n)
+This is where things are starting to get serious. When the complexity of an algorithm is proportional to a constant k raised to the power of n, you get exponential complexity. Remember that n is the number of elements in the input. With this complexity type, when your input array is big enough, resource consumption will quickly approach infinity! Yet again, due to the asymptotic nature of big O notation, you can ignore the constant k and always denote exponential complexity as O(2^n), as n gets very big, the value of k will not matter.
+
+The classic example of exponential complexity is password cracking. To be able to discover someone's password, you need to try every possible combination of every letter. Say that you have a password of length of 5 (n=5), which is made up of only English letters (k=26). Your time complexity in the worst-case scenario would be O(k^n) = 26^5, which can be computed in less than a second. Now if you have a password of length 10, and you use special characters that can be typed using a regular computer keyboard (~100 of them, including digits and letters), your time complexity would be 100^10. This would take years to compute and try using a single computer (assuming there is some slow hashing involved). That is why you should always use a 10+ character password with special characters in it! Even longer, if you want to be safe against organizational attacks.
+
+[Tip: If you want this video to reach more fellow software engineers like you, give it a thumbs up. Google tends to promote more favorable content to more people, which in turn generates more thumbs up, which then leads to exponential views... hopefully!]
+
+## Factorial Complexity: O(n!)
+This is the endgame. Factorial complexity means that you are trying to compute all possible permutations of a given input. You might remember that in high-school, you are thought how to calculate all permutations of a list. Now that is your factorial time complexity! Brute-force solution to traveling salesman problem is also O(n!), where you basically calculate all possible paths to your destination and then take the shortest one. Of course, there are much more creative and efficient approaches to solving it, which I will get into in another video full of illustrations. If you want to see it when it is out, don't forget to sub, so you won't miss it.
+
+## Alternative Big O Notation
+If you were wondering what the thumbnail of this video was about, hold on tight. I have compiled an alternative version of the big O notation. I always found things easy to remember when they rhyme, especially with humor. So, here is my take on big O notation, which can help you remember the rankings of big O types:
+
+O(1) = O(yeah)
+O(logn) = O(nice)
+O(n) = O(k)
+O(n^2) = O(my)
+O(2^n) = O(no)
+O(n!) = O(mg)
+O(n^n) = O(sh*t!)
+
+If you want to have the alternative big O notation as a sticker, so you can stick it to unusual places, you can get it from [quanticdev.com/shop](https://quanticdev.com/shop){:target="_blank"}. I will leave the link to it in the video description below. If you really want to confuse fellow software engineers, you can also get it as a small poster, bigger poster, framed print, hoodie, phone case, mug, blanket, or even a shower curtain! And if you want to join the quantic developers club, you can get a sticker for your computer or even a nice canvas poster for your study corner.
+
+Anything you order or gift helps the channel, while hopefully bringing you some motivation. If you want to see the full collection, check out quanticdev shop.
+
+Side Note: Asymptotically, O(n^n) is equal to O(2^n), so the last line in the alternative big O notation list is just for the humor's sake.
+
+## Conclusion
+Big O notation list goes longer than what I covered here. If you want to see the rest of it, check out the Wikipedia link in the description. However, rest assured that it is enough if you are familiar with the ones that I mentioned. The rest gets increasingly rare to see in real-world situations, and they are much less likely to appear in an algorithm interview. As always, you can find the written version of this guide in quanticdev.com, along with all the other articles. And if you want to see future algorithms videos like this one, don't forget to sub. I will see you on the next one.
