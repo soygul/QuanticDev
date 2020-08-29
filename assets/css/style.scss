@@ -57,3 +57,7 @@ video {
 body {
   overflow-wrap: break-word;
 }
+
+#main_content {
+  -webkit-font-smoothing: revert;
+}
