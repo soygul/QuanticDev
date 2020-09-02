@@ -11,7 +11,7 @@ You can find the video narration of this article on YouTube: [https://www.youtub
 
 Video has live instructions for this guide. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-Lenovo affiliate link which you can use in your purchase to help out the QuanticDev channel:
+Lenovo affiliate link which you can use in your purchase to help out the QuanticDev website:
 * [https://lenovo.7eer.net/A97BN](https://lenovo.7eer.net/A97BN){:target="_blank"}
 
 My [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine){:target="_blank"} article which can help you set up your shiny new laptop.
