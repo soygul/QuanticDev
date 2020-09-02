@@ -10,22 +10,10 @@ You can find the video narration of this article on YouTube: [https://www.youtub
 
 Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-Some of serverless providers:
-* Firebase (Google) Functions: [https://firebase.google.com/docs/functions](https://firebase.google.com/docs/functions){:target="_blank"}
-  * Has two more variants: Google Cloud Functions and Google AppEngine.
-* AWS (Amazon) Lambda: [https://aws.amazon.com/lambda](https://aws.amazon.com/lambda){:target="_blank"}
-* Azure (Microsoft) Functions: [https://azure.microsoft.com/en-us/services/functions](https://azure.microsoft.com/en-us/services/functions){:target="_blank"}
-* There are many other smaller providers and alternatives which are mentioned and put to comparison in the article.
+Lenovo affiliate link which you can use in your purchase to help out the QuanticDev channel:
+* [https://lenovo.7eer.net/A97BN](https://lenovo.7eer.net/A97BN){:target="_blank"}
 
-An example way to utilizing persistent connections (WebSockets) in serverless environment:
-* WebSocket APIs in Amazon API Gateway: [https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway](https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway){:target="_blank"}
-
-Example of one-click deployment of my open-source project (KOAN) to Heroku:
-* [https://github.com/soygul/koan#heroku-deployment](https://github.com/soygul/koan#heroku-deployment){:target="_blank"}
-
-Hacker News discussion thread on serverless:
-* [https://news.ycombinator.com/item?id=21046547](https://news.ycombinator.com/item?id=21046547){:target="_blank"}
-* And many others before it: [https://hn.algolia.com/?q=serverless](https://hn.algolia.com/?q=serverless){:target="_blank"}
+My [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine){:target="_blank"} article which can help you set up your shiny new laptop.
 
 ## Lenovo ThinkPad E595 (E Series)
 For this guide, we will buy a Lenovo ThinkPad E595, so let's start by checking it out. The Lenovo ThinkPad E595 has acceptable bezels on its great IPS display and a passable 720p webcam on the top bezel. The 45Wh battery should last you for 6-7 hours of coding. It is charged through the USB-C port with a USB-C charger, has HDMI, Ethernet socket, and a MicroSD slot. It does not have a dedicated graphics card, which means more power efficiency and fewer problems with Linux. Ryzen's integrated Vega graphics is quite adequate anyway. Even the video editing software started utilizing the integrated Vega graphics card to accelerate editing and rendering. Now let's jump in and buy one of these guys.
