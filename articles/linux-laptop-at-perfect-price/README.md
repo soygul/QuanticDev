@@ -2,7 +2,7 @@
 Today I am going to give you a quick guide on how to get a great Linux laptop at a perfect price. In my experience, Lenovo ThinkPad laptops are one of the least problematic laptop series with Linux, so I will focus on them. ThinkPads with AMD Ryzen CPUs sell for roughly $200 less than their Intel competitors while offering better performance. In addition, you can get a ThinkPad T or E series laptop without the pre-installed Windows, which will save you another $100. I used to recommend the T series above anything, but these days they offer very little over the E series.
 
 ## Note for Future ThinkPad Releases
-Even though I use ThinkPad E595 as an example in this article, new ThinkPads with newer AMD Ryzen CPUs will be out nearly every year. For future laptop releases, you can apply the same technique that I will be demonstrating here and get the same sweet deals. As of writing this, ThinkPad E15/E14 and T15/T14 are partially available, so you can try your luck with them.
+Even though I use ThinkPad E595 as an example in this article, new ThinkPads with newer AMD Ryzen CPUs will be out nearly every year. For future laptop releases, you can apply the same technique that I will be demonstrating here and get the same sweet deals. As of writing this note (Sep-2020), ThinkPad E15/E14 and T15/T14 are partially available, so you can try your luck with them.
 
 ## Resources
 You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=9Wx1fM_oWH8](https://www.youtube.com/watch?v=9Wx1fM_oWH8){:target="_blank"}
