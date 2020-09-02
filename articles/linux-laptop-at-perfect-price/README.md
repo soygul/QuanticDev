@@ -1,4 +1,4 @@
-# How to Get a Great Linux Laptop at a Perfect Price - Lenovo ThinkPad With No OS Installed
+# How to Get a Great Linux Laptop at a Perfect Price - Lenovo ThinkPad Without a Pre-installed OS
 Today I am going to give you a quick guide on how to get a great Linux laptop at a perfect price. In my experience, Lenovo ThinkPad laptops are one of the least problematic laptop series with Linux, so I will focus on them. ThinkPads with AMD Ryzen CPUs sell for roughly $200 less than their Intel competitors while offering better performance. In addition, you can get a ThinkPad T or E series laptop without the pre-installed Windows, which will save you another $100. I used to recommend the T series above anything, but these days they offer very little over the E series.
 
 ## Note for Future ThinkPad Releases
