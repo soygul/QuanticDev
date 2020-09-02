@@ -1,12 +1,12 @@
 # 31 - How to Get a Great Linux Laptop at a Perfect Price - Lenovo ThinkPad With No OS Installed
-What is serverless (aka function-as-a-service or FaaS)? Is it worth the investment for your next project? Who uses serverless?
+Today I am going to give you a quick guide on how to get a great Linux laptop at a perfect price. In my experience, Lenovo ThinkPad laptops are one of the least problematic laptop series with Linux, so I will focus on them. ThinkPads with AMD Ryzen CPUs sell for roughly $200 less than their Intel competitors while offering better performance. In addition, you can get a ThinkPad T or E series laptop without the pre-installed Windows, which will save you another $100. I used to recommend the T series above anything, but these days they offer very little over the E series.
 
-This article goes into detail about the uses, advantages, and disadvantages of serverless. It will also give you a live example of serverless deployment using Firebase Functions. You will learn about the alternatives of serverless, as well as recommendations on when and where to use it. Finally you will learn which big enterprises use serverless and my recommendations for you.
+Note: I would like to give future viewers a tip. Even though I use ThinkPad E595 as an example in this video, new ThinkPads with newer AMD Ryzen CPUs will be out nearly every year. For future laptop releases, you can apply the same technique that I will be demonstrating here and get the same sweet deals.
 
 ## Resources
-You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=Kqk013ioclA](https://www.youtube.com/watch?v=Kqk013ioclA){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=9Wx1fM_oWH8](https://www.youtube.com/watch?v=9Wx1fM_oWH8){:target="_blank"}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Kqk013ioclA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9Wx1fM_oWH8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
@@ -27,114 +27,17 @@ Hacker News discussion thread on serverless:
 * [https://news.ycombinator.com/item?id=21046547](https://news.ycombinator.com/item?id=21046547){:target="_blank"}
 * And many others before it: [https://hn.algolia.com/?q=serverless](https://hn.algolia.com/?q=serverless){:target="_blank"}
 
-## What is Serverless?
-First off, what is serverless (aka function-as-a-service or FaaS)? Serverless means you write and deploy standalone functions on the cloud, instead of entire apps. Each function serves a distinct need and handles a distinct event, like a web request. This is the reason as to why serverless is also called function-as-a-service.
+## Lenovo ThinkPad E595 (E Series)
+For this guide, we will buy a Lenovo ThinkPad E595, so let's start by checking it out. The Lenovo ThinkPad E595 has acceptable bezels on its great IPS display and a passable 720p webcam on the top bezel. The 45Wh battery should last you for 6-7 hours of coding. It is charged through the USB-C port with a USB-C charger, has HDMI, Ethernet socket, and a MicroSD slot. It does not have a dedicated graphics card, which means more power efficiency and fewer problems with Linux. Ryzen's integrated Vega graphics is quite adequate anyway. Even the video editing software started utilizing the integrated Vega graphics card to accelerate editing and rendering. Now let's jump in and buy one of these guys.
 
-The functions you write are only loaded in memory when there is a request or event for them to handle and unloaded after serving that request. They also share the same hardware and possibly the same runtime with everybody else's functions. As a result, you generally only pay for the CPU time consumed by your functions, and not for the entire server or VM.
+# Purchase Guide
+Start by going to the Lenovo website at lenovo.com, or using my affiliate link in the description, in case you want to help the channel out. Once the website loads, scroll all the way down and select your country from the dropdown on the bottom right. After that, click on "Laptops" from the top navigation menu. On the new page, look for E595. If you want an identical 14" laptop, you can go with the E495, but for productivity, I recommend E595 for its bigger screen. Once you click on E595's thumbnail, you will see that it also has Intel counterpart, but we want the AMD one, so make sure that AMD is selected. Click on "Show All" to see all the pre-configured models. From the models list, click on the cheapest one on the left with the Ryzen 3 CPU. This step is important because only the cheapest one offers the option to purchase without the pre-installed Windows. Do not worry though, we will beef up its configuration after the selection. The prices you see on my screen are all in Swedish Krona and includes 25% VAT. To get the price in US Dollars, divide it by 10 (this is based on the exchange rate while recording this video). So, the cheapest base model on my screen is 5660 Krona, which is 566 Dollars, or 453 Dollars without 25% VAT. Click on "Customize & Buy", and you will be taken to the component configuration page.
 
-![Serverless Architecture](images/serverless-architecture.png)
+The first thing to do on the configuration page is to select the Ryzen 5 option. It has double the cores of Ryzen 3 and a better integrated GPU. You can also go with Ryzen 7 if you have the budget or the need for speed. However, this is a laptop in the end, so you are guaranteed to be thermally throttled at some point, so you will start to get diminishing returns as you go higher on the core count. Below the CPU selection, you will see the Operation System selection box. Windows 10 Home is selected by default, but we do not want it. Select "No Operating System", and you will instantly save $100. After that, scroll down and select your memory. You can go with 16 GB or 32 GB depending on the tools you will use.
 
-Let us see an example of how serverless works in a simplified diagram. The diagram above starts with the client on top. The client could be a browser, could be a mobile app, could be another internal service. The client sends a request to say Firebase Functions, which hosts the target domain and API endpoints at mysite.com. Internally, the request is handled by a load balancer. Load balancer chooses a server with low utilization, and that server loads the code and dependencies for your function and executes it. The server can be handling many functions at the same time for many unrelated domains. Each request to your functions can be executed by different servers. That is at the load balancer's discretion.
+Now scroll down a bit and deselect the default selected 1 TB 5400 RPM spinning disk from the storage options. I recommend avoiding spinning disks, but if you have some large files that you want to store on a slower disk, you can leave it selected. Or you can add a larger capacity disk to that slot later when you need it. Just make sure that the dimensions of the 3rd party disk that you are planning to use are correct for your laptop. Scroll down again, and you will see the second hard-drive option. The default selected one is a 128 GB M.2 SSD. Change that to the 512 GB or 1 TB one so you will have ample fast storage for all your apps. Finally, you can change your keyboard layout to a different language. And that is it. Rest of the configuration is greyed-out by default. Add your new laptop to your cart, and you will see that it adds up to $634. That is $507 without 25% VAT. It is probably the best machine you can get at this price and quality for a Linux compatible machine. Since the price is so low, Lenovo will not let you put in any discount coupons. But if you are a student, you can go to the Laptops > Student Discount section from the top menu. If you still have a .edu email address, you can get a 20% discount from that price. Isn't being a student a great thing now (no, it is not!).
 
-## Live Example with Firebase Functions
-Implement and deploy a simple "getDate" function using Firebase Functions. Visit the video to watch me do this exercise.
-
-Remember, Firebase has a generous free quota, so you will not pay anything for this sample project.
-
-## Benefits of Serverless
-* Low cost of development.
-  * Very little to learn or care about. Most of the chores are automated for you.
-  * SDKs and documentations are mostly very clear and concise.
-* Only billed for function execution based on time and other resources consumed.
-  * You only pay for processing power, memory, bandwidth, etc. consumed during function runtime. If your functions are sleeping, you pay nothing — no ongoing cost as in regular servers.
-* Little to no DevOps.
-  * No server maintenance.
-  * No security patches or OS installation to handle.
-  * No network maintenance.
-  * Disaster recovery is automatic.
-  * Logging and auditing are built-in.
-  * Deployment, versioning, and reverting is easy.
-  * SSL certificates are built-in.
-* Automatic scaling.
-  * Can easily be scaled since you are forced to write stateless functions and think about scaling right from the start.
-* Functions do not need to be public.
-  * They can be private functions handling only internal events. For instance, handling an AWS S3 "file upload complete" event to process images uploaded by your users.
-  * Providers also allow timed functions so they can run at arbitrary time intervals to perform routine tasks.
-  * I am sure you can also come up with many innovative ways to use functions to handle all your backend workload in an event-driven fashion with minimal cost.
-
-Cost of labor is will always higher than the cost of serverless. Say if you go with cheaper AWS EC2 servers instead, you will still have to learn and configure AWS, which is a titanic task in itself.
-
-## Drawbacks of Serverless
-* Vendor lock-in.
-  * You will have to use the provider's serverless SDK and write vendor-specific code.
-  * Your API design will be based on the provider's toolset rather than the optimum one for the problem.
-  * You are bound to couple your functions with other vendor-provided tools to persist state, handle file uploads, WebSockets, etc.
-  * On the other hand, you are always vendor locked-in. Changing your hosting provider is a major investment, no matter what technology you use.
-* No persistent connections as functions are only allowed to run for a limited amount of time.
-  * Some providers give you the option to use WebSockets through various mechanisms, but this adds complexity. WebSocket APIs accessible through Amazon API Gateway is a good example of this.
-* An order of magnitude more expensive than AWS EC2, which in turn is an order of magnitude more expensive than bare metal server. If you are cost-sensitive, just connecting a Raspberry PI to your network could be a cost-effective option. Do not forget, DevOps will eventually cost you more!
-  * Utilize other services like Firebase Authentication whenever possible to delegate work to other Web services. This will decrease the load on your costly functions.
-* Limited programming language availability.
-  * Not all providers support all runtimes.
-  * You will also be limited in your library choices due to the runtime restrictions. i.e., you might not be able to use gRPC out of the box.
-* No local state.
-  * Once your function execution is complete, all memory is released. Anything you store in memory will be lost.
-  * Best is to use Redis or Memcached or other tools offered by your cloud provider.
-  * On the bright side, this will enable you to scale easily as you are forced to do stateless design right from the start.
-  * You can store longer living data in a database as usual.
-* Your functions share the same server or even the same runtime with everybody else, which is always a security consideration in case sandboxing is buggy.
-  * There have been very innovative attacks on sandboxing techniques using side-channel attacks lately. You can Google for more info as it is a complicated subject.
-* Local development, debugging, and testing will need specialized tooling from the vendor.
-  * Most cloud providers already have local emulators and mock libraries to help with this.
-* Cold starts.
-  * Cold starts of your functions will be costly. For instance, in JavaScript, all libs will be evaluated from scratch, though vendors are coming up with ingenious solutions for it. Choose your vendor considering their cold startup performance on languages that they support.
-  * Cache whatever you can to reduce the impact of cold starts. Different caching mechanisms are offered by different serverless vendors.
-
-What we discussed about Amazon Web Services 5 years ago is now on the new serverless discussion. Back then, we were discussion if AWS was a reliable alternative to bare metal servers. I am confident that serverless will gain more acceptance as AWS did.
-
-## Alternatives
-* Heroku
-  * My personal favorite. You still write traditional forever running server apps, but deployment, scaling, and DevOps is fully automated for you.
-  * Great and easy to use tooling.
-  * You can deploy projects with a single button click. Check out the resources section above for a demonstration of one-click deployment of one of my open-source projects to Heroku.
-* Google App Engine
-  * As an example, Snapchat's fast development and success is partly attributed to App Engine and its ease of use.
-* Serverless.com
-  * Open source serverless app framework.
-  * Abstracts away serverless providers, giving you a uniform API. The downside is that it adds complexity.
-* Containers using Docker and Kubernetes.
-  * Abstracts away all hosting providers.
-  * Can run on cloud, bare metal, on Raspberry Pi, etc.
-  * More maintenance and much steeper learning curve.
-  * More abstraction means more obscure errors.
-  * Serverless providers are starting to offer container support, but I have no experience with it: https://cloud.google.com/knative
-
-## Who Uses Serverless?
-Many big corps use serverless functions by today, and many others will join the ranks in the coming years. Since they are so versatile, they can be used to handle many small internal tasks. However, notable examples that use function-as-a-service providers as the backbone of their businesses are as follows.
-* Snapchat is built on Google App Engine. They signed a $2 billion, five-year contract with Google Cloud Services in 2017. This probably made them the largest serverless deployment on earth at the time. So, if you are experienced with serverless, and want to work for Snapchat, knock on their door already!
-* Netflix is slowly switching to serverless. As they put it, they are creating a rule-based self-managing infrastructure using AWS Lambda. They are using event-based triggers to help automate the encoding process of media files, the validation of backup completions, and deployments at scale.
-* iRobot (creator of Roomba robotic vacuum), is building their IoT platform using AWS Lambda, and is managed by fewer than 10 people.
-* Reddit Videos: According to Hacker News discussions, Reddit's video hosting service is being built and operated by a single engineer on a serverless stack.
-* You can find more examples via Googling "serverless case studies".
-
-Serverless is all about bringing your product to the market as fast as possible with as little mistakes as possible. The companies aobe did just that and succeeded.
-
-## My Personal Experience
-My personal experience with function-as-a-service is mixed.
-* Last year I tried using it for the entire server-side of one of my open-source projects. However, I could not do that as none of the major serverless providers supported the latest version of Node.js, which I needed for async/await functionality. I have recently checked it again, and Firebase Functions now supports the latest LTS version of Node.js.
-* I also tried using serverless for one of my games. However, that also failed since I needed persistent connections throughout the gameplay session using WebSockets. No major serverless providers supported a sensible way of using WebSockets. This also changed. Amazon now supports creating WebSocket connections through their API Gateway, which is accessible from Lambda functions.
-* On the positive side, I have successfully utilized Firebase Functions to handle user authentication events raised by Firebase Authentication. When a user logs in, Firebase Authentication triggers my authentication handler function. That function checks if the user is logging in for the first time so I can create relevant user tables in my databases. I still use it today, and it has been working a treat.
-
-If you want to experiment with serverless, I recommend Firebase Functions. In my experience, it is the easiest of the bunch and has a generous free tier.
-
-## My Recommendation
-I recommend giving serverless a go for your next project. You can quickly come up with a proof-of-concept version of your project and demo it to stakeholders. After you hold discussions around this proof-of-concept build and iterating over your design, you can finalize your decision on whether to use serverless or regular servers. You will still need to factor in all the plusses and minuses mentioned in this article while making a decision.
-
-On the other hand, I do not recommend converting an existing project to serverless. Caveats are too much to handle for an existing project with pre-existing limitations.
+Tip: I have a dedicated video on how to setup a clean Linux productivity and development environment using Manjaro Linux. It is a 10-minute guide that takes you from installing Linux for the first time on your new laptop to developing a React app with your shiny new Linux tools. If you want to watch it, the link is in the video description below.
 
 ## Conclusion
-Currently, serverless is in usable state if you are can live its restrictions. On the other hand, it is fast improving. Will it outpace other technologies like containers? We will see.
-
-My personal favorite is still Heroku. It is still a very nice compromise between cloud servers and serverless. However, as I said, I would recommend giving serverless a spin if you can live with the restrictions. If nothing, it could be a good learning experience. I also highly recommend Docker and Kubernetes if they suit your project, but do not forget, they have a much higher learning curve.
-
-Good luck on your serverless journey. If you want to contribute to the article, you can make a pull request on GitHub.
+[dir: E15 screenshot] Don't forget, whenever a next generation of ThinkPads with newer AMD Ryzen processors come out, you can always apply the same technique. I will leave an affiliate link to the Lenovo ThinkPad website in the video description below. If you want to support the channel, you can use it in your purchase, and the channel will get a small percentage of the sale. And if you know someone who needs a great Linux laptop for an amazing price, share this guide with them. [dir: screenshot of playlist] Finally, if you want to catch future guides like this one when they are out, don't forget to sub. And I will see you next time.
