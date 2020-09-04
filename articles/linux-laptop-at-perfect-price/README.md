@@ -2,7 +2,7 @@
 Today I am going to give you a quick guide on how to get a great Linux laptop at a perfect price. In my experience, Lenovo ThinkPad laptops are one of the least problematic laptop series with Linux, so I will focus on them. ThinkPads with AMD Ryzen CPUs sell for roughly $200 less than their Intel competitors while offering better performance. In addition, you can get a ThinkPad T or E series laptop without the pre-installed Windows, which will save you another $100. I used to recommend the T series above anything, but these days they offer very little over the E series.
 
 ## Note for Future ThinkPad Releases
-Even though I use ThinkPad E595 as an example in this article, new ThinkPads with newer AMD Ryzen CPUs will be out nearly every year. For future laptop releases, you can apply the same technique that I will be demonstrating here and get the same sweet deals. As of writing this note (Sep-2020), ThinkPad E15/E14 and T15/T14 are partially available, so you can try your luck with them. This guide might also work with non E/T series laptops.
+Even though I use ThinkPad E595 as an example in this article, new ThinkPads with newer AMD Ryzen CPUs will be out nearly every year. For future laptop releases, you can apply the same technique that I will be demonstrating here and get the same sweet deals. As of writing this note (Sep-2020), ThinkPad E15/E14 and T15/T14 are partially available, so you can try your luck with them. This guide might also work with non E/T series laptops. If you want to check the Linux compatibility of future models, I have the link to the compatibility table in the next section.
 
 ## Resources
 You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=9Wx1fM_oWH8](https://www.youtube.com/watch?v=9Wx1fM_oWH8){:target="_blank"}
@@ -13,6 +13,9 @@ Video has live instructions for this guide. If you want to read the comments or 
 
 Lenovo affiliate link which you can use in your purchase to help out the QuanticDev website:
 * [https://lenovo.7eer.net/A97BN](https://lenovo.7eer.net/A97BN){:target="_blank"}
+
+If you want to check the Linux compatibility of future Lenovo laptops, below is the compatibility table:
+* [https://wiki.archlinux.org/index.php/Laptop/Lenovo#E_series](https://wiki.archlinux.org/index.php/Laptop/Lenovo#E_series){:target="_blank"}
 
 My [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine){:target="_blank"} article which can help you set up your shiny new laptop.
 
@@ -40,4 +43,4 @@ Now scroll down a bit and deselect the 1 TB 5400 RPM spinning disk from the stor
 I have a dedicated article on how to setup a clean **Linux productivity and development environment using Manjaro Linux**. It is a 10-minute guide that takes you from installing Linux for the first time on your new laptop to developing a React app with your shiny new Linux tools. If you want to read it, the link is in the resources section above.
 
 ## Conclusion
-Don't forget, whenever a next generation of ThinkPads with newer AMD Ryzen processors come out, you can always apply the same technique. I will leave an affiliate link to the Lenovo ThinkPad website in the resources section above. If you want to support quanticdev, you can use it in your purchase, and the website will get a small percentage of the sale. Finally, if you know someone who needs a great Linux laptop for an amazing price, share this guide with them.
+Don't forget, whenever a next generation of ThinkPads with newer AMD Ryzen processors come out, you can always apply the same technique. If you want to check the Linux compatibility of future models, I have the link to the compatibility table in the resources section above. In addition, I will leave an affiliate link to the Lenovo ThinkPad website in the resources section. If you want to support quanticdev, you can use it in your purchase, and the website will get a small percentage of the sale. Finally, if you know someone who needs a great Linux laptop for an amazing price, share this guide with them.
