@@ -9,7 +9,7 @@ QuanticDev's engineering and software development resources. All the articles an
 * Instagram: [instagram.com/quantic_dev](https://www.instagram.com/quantic_dev)
 
 ### Contributing
-If you want to contribute to any article, you are welcome to make a pull request or new issue on GitHub. You can comment under YouTube videos, or read existing comments.
+If you want to contribute to any article, you are welcome to make a pull request or create a new issue on GitHub. You can comment under YouTube videos, or read existing comments.
 
 ## Software Engineering
 * [Is Windows Good for Developers Again?](/articles/is-windows-good-for-developers)

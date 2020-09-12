@@ -15,7 +15,7 @@ You can also use the social media links below.
 * My personal website: [soygul.com](https://soygul.com){:target="_blank"}
 
 ### Contributing
-If you want to contribute to any article, you are welcome to make a pull request or open a new issue on GitHub. You can comment under YouTube videos of the articles, or read existing comments there.
+If you want to contribute to any article, you are welcome to make a pull request or create a new issue on GitHub. You can comment under YouTube videos of the articles, or read existing comments there.
 
 ### Intro Video
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/7CC8d-AbQv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
