@@ -32,7 +32,7 @@ You can find the video narration of this article on YouTube: [https://www.youtub
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-gL_FHJX3mY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
+Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 The University of Chicago's White Paper: "How Many Jobs Can be Done at Home?":
 * [https://bfi.uchicago.edu/wp-content/uploads/BFI_White-Paper_Dingel_Neiman_3.2020.pdf](https://bfi.uchicago.edu/wp-content/uploads/BFI_White-Paper_Dingel_Neiman_3.2020.pdf){:target="_blank"}

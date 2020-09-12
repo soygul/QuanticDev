@@ -6,7 +6,7 @@ You can find the video narration of this article on YouTube: [https://www.youtub
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GKlfcNzTqrg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
+Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
   * Importance of written communication: "Jeff Bezos Turned Narrative into Amazon's Competitive Advantage", Hacker News discussion thread: [https://news.ycombinator.com/item?id=19115686](https://news.ycombinator.com/item?id=19115686){:target="_blank"}
 
 ## Article

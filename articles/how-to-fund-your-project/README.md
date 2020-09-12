@@ -6,7 +6,7 @@ You can find the analysis of most the funds and grants listed in the article as 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uOX3IU_OSig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-In addition to what is listed below, the video analyzes different funding types like advertising on your project, sponsorships, selling relevant merchandise, and getting venture capital. Analysis is done from a Senior Software Engineer's perspective, but it applies to any project. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
+In addition to what is listed below, the video analyzes different funding types like advertising on your project, sponsorships, selling relevant merchandise, and getting venture capital. Analysis is done from a Senior Software Engineer's perspective, but it applies to any project. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 My following article will get you started on your first step in pitching your project:
 * [How to Set up a Free Website with GitHub Pages & How I Created QuanticDev.com](/articles/website-with-github-pages){:target="_blank"}

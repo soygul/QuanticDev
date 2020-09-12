@@ -6,7 +6,7 @@ You can find the video narration of this article on YouTube with illustrations: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8F_srpzXQ6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
+Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Relevant articles referred to in this article:
 * [Raspberry Pi Guide for Developers](/articles/raspberry-pi-guide-for-developers){:target="_blank"}

@@ -9,7 +9,7 @@ You can find the video narration of this article on YouTube: [https://www.youtub
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9Wx1fM_oWH8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Video has live instructions for this guide. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
+Video has live instructions for this guide. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Lenovo affiliate link which you can use in your purchase to help out the QuanticDev website:
 * [https://lenovo.7eer.net/A97BN](https://lenovo.7eer.net/A97BN){:target="_blank"}

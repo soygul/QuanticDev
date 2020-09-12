@@ -8,7 +8,7 @@ You can find the video narration of this article on YouTube: [https://www.youtub
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A6Ud7EGAxrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
+Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 * Software design patterns implementations in all programming languages: [https://github.com/DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns){:target="_blank"}
 

@@ -6,7 +6,7 @@ You can find the video narration of this article on YouTube: [https://www.youtub
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W0qAMLShAkk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
+If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Hacker News discussions on this article: [https://news.ycombinator.com/item?id=23583611](https://news.ycombinator.com/item?id=23583611){:target="_blank"}
 

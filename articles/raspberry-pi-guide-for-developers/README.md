@@ -16,7 +16,7 @@ You can find the video narration of this article on YouTube: [https://www.youtub
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/idCG0wSi-fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
+Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 * Get a Raspberry Pi and accessories: [https://www.raspberrypi.org/products](https://www.raspberrypi.org/products){:target="_blank"}
 * Download full Raspbian OS that includes recommended software: [https://www.raspberrypi.org/downloads/raspbian](https://www.raspberrypi.org/downloads/raspbian){:target="_blank"}

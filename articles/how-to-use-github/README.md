@@ -28,7 +28,7 @@ Part #2 - My Full Development Workflow Using GitHub: [https://www.youtube.com/wa
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wRAIY-RLSvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
+Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 * My "Android Docker" open-source projects used as an exercise in this article: [https://github.com/soygul/android-docker](https://github.com/soygul/android-docker){:target="_blank"}
 * Alternatives to GitHub: [https://alternativeto.net/software/github](https://alternativeto.net/software/github){:target="_blank"}
