@@ -1,5 +1,14 @@
-# Is Windows Good for Developers Again?
-Hi, I am the QuanticDev, a senior software engineer with education in semiconductor physics and electronics, and today I will show you my recent maximum value PC build. I am a long time Mac and Linux user on the laptop side for my software engineering tasks, but I am tired of the fan noise. [dir: insert fan noise clip] So, I decided to create a desktop build and get the maximum bang for my buck, while retaining great upgradability. [dir: passmark_cpu/gpu.png] PassMark benchmark software has a great website where you can keep track of the price/performance index of CPUs and GPUs that are available on the market, so I used that to choose the components. Keep in mind that PassMark is a synthetic benchmark, so it will match workstation workloads like programming and graphics design better than gaming. On a side note, even though I've studied semiconductor physics and electronics, they were of no use while doing this build. [dir: photo of my project] Microelectronic circuits you study in college are very low level, and PC parts are higher level components. Let me give you the specs right away, and then I will tell you what I plan to do with this build.
+# Maximum Value PC Build by a Software Engineer - Complete PC Build Guide
+Today we will build a PC from scratch with the maximum possible value for the money. I am a long time Mac and Linux user on the laptop side for my software engineering tasks, but I am tired of the fan noise. So, I decided to create a desktop build and get the maximum bang for my buck, while retaining great upgradability. You can find the specs in the next section.
+
+Table of contents:
+* [Overview](#overview)
+* [PC Specs](#pc-specs)
+* [Choice of Components](#choice-of-components)
+* [PC Build Guide](#pc-build-guide)
+* [OS Installation (Manjaro Linux)](#os-installation-manjaro-linux)
+* [Settings](#settings)
+* [Conclusion](#conclusion)
 
 ## Resources
 You can find the video narration of this article on YouTube: Part #1 - GitHub Advantages, Alternatives, and Setup: [https://www.youtube.com/watch?v=LUE3avxvPMA](https://www.youtube.com/watch?v=LUE3avxvPMA){:target="_blank"}
@@ -16,6 +25,9 @@ Arch Linux WSL project used in this article:
 * [https://github.com/yuk7/ArchWSL](https://github.com/yuk7/ArchWSL){:target="_blank"}
 
 My separate [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine){:target="_blank"} article also referred to in this article.
+
+## Overview
+[dir: passmark_cpu/gpu.png] PassMark benchmark software has a great website where you can keep track of the price/performance index of CPUs and GPUs that are available on the market, so I used that to choose the components. Keep in mind that PassMark is a synthetic benchmark, so it will match workstation workloads like programming and graphics design better than gaming. On a side note, even though I've studied semiconductor physics and electronics, they were of no use while doing this build. [dir: photo of my project] Microelectronic circuits you study in college are very low level, and PC parts are higher level components. Let me give you the specs right away, and then I will tell you what I plan to do with this build.
 
 ## PC Specs
 [dir: boxes photo in the background]
@@ -66,7 +78,7 @@ And the grand finale. Unscrew the PCI slot 1 grid on the back of the chassis, lo
 
 Make sure that computer boots to the BIOS screen and no weird noises are coming from the PC. With my part choices, this PC will be deadly quiet. Do not forget to do a final cleanup and pack away all the leftovers from the build. I recommend keeping the original boxes if possible, in case you need to send a part for repair in the future.
 
-## OS Installation
+## OS Installation (Manjaro Linux)
 I plan to use Manjaro Linux on this machine and run other OSes as QEMU VMs if I need them. With a great deal of experimentation, I have settled on Manjaro as the perfect OS for programming. [dir: manjaro thumb] If you want to watch my video guide that takes you from installing the OS for the first time to developing a small web app on Manjaro Linux, you can find the link to it in the video description below. If you were wondering how the computer was working after OS installation, I edited this video on this machine, so it sure works well! [dir: screenshot] It also games for sure! I will put a clip of the computer in full action at the end of this video.
 
 ## Settings
