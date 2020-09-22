@@ -1,5 +1,5 @@
 # Maximum Value PC Build by a Software Engineer - Complete PC Build Guide
-Today we will build a PC from scratch with the maximum possible value for the money. I am a long time Mac and Linux user on the laptop side for my software engineering tasks, but I am tired of the fan noise. So, I decided to create a desktop build and get the maximum bang for my buck, while retaining great upgradability. You can find the specs in the next section.
+Today we will build a PC from scratch with the maximum possible value for the money. I am a long time Mac and Linux user on the laptop side for my software engineering tasks, but I am tired of the fan noise. So, I decided to create a desktop build and get the maximum bang for my buck, while retaining great upgradability. I would like to remind you that this build is targeting mainly programming with lightweight photo/video/3D work. You can find the specs in the next section.
 
 Table of contents:
 * [Overview](#overview)
@@ -11,44 +11,48 @@ Table of contents:
 * [Conclusion](#conclusion)
 
 ## Resources
-You can find the video narration of this article on YouTube: Part #1 - GitHub Advantages, Alternatives, and Setup: [https://www.youtube.com/watch?v=LUE3avxvPMA](https://www.youtube.com/watch?v=LUE3avxvPMA){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=LUE3avxvPMA](https://www.youtube.com/watch?v=LUE3avxvPMA){:target="_blank"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LUE3avxvPMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
+Video has the live PC build if you want to see it. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-Windows Package Manager "winget" and user submitted package repositories:
-* [https://github.com/microsoft/winget-cli](https://github.com/microsoft/winget-cli){:target="_blank"}
-* [https://github.com/microsoft/winget-pkgs](https://github.com/microsoft/winget-pkgs){:target="_blank"}
+Quantic Developers Club stickers and posters if you can to decorate your new PC:
+* [quanticdev.com/shop](https://quanticdev.com/shop){:target="_blank"}
 
-Arch Linux WSL project used in this article:
-* [https://github.com/yuk7/ArchWSL](https://github.com/yuk7/ArchWSL){:target="_blank"}
+Best value CPUs & GPUs by price/performance index:
+* [https://www.cpubenchmark.net/cpu_value_available.html](https://www.cpubenchmark.net/cpu_value_available.html){:target="_blank"}
+* [https://www.videocardbenchmark.net/gpu_value.html](https://www.videocardbenchmark.net/gpu_value.html){:target="_blank"}
 
-My separate [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine){:target="_blank"} article also referred to in this article.
+My [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine){:target="_blank"} article which will hep you with the first-time OS installation and developer environment setup.
 
 ## Overview
 [dir: passmark_cpu/gpu.png] PassMark benchmark software has a great website where you can keep track of the price/performance index of CPUs and GPUs that are available on the market, so I used that to choose the components. Keep in mind that PassMark is a synthetic benchmark, so it will match workstation workloads like programming and graphics design better than gaming. On a side note, even though I've studied semiconductor physics and electronics, they were of no use while doing this build. [dir: photo of my project] Microelectronic circuits you study in college are very low level, and PC parts are higher level components. Let me give you the specs right away, and then I will tell you what I plan to do with this build.
 
 ## PC Specs
 [dir: boxes photo in the background]
-* CPU: AMD Ryzen 5 3600: ~$200
-  * Alternative: Ryzen 3 3100/3300X: ~$100
+Parts list with affiliate links if you want to help out the website:
+
+* CPU: AMD Ryzen 5 3600: ~$200: https://amzn.to/32yqDUk
+  * Alternative: Ryzen 3 3100/3300X: ~$100: https://amzn.to/3hC4AjZ
   * Future: Ryzen 4600/4300X/4100 when they are out.
-* GPU: NVIDIA GeForce GTX 1650 SUPER: ~$200
-  * Alternative: GTX 1060 6GB: ~$100
+* GPU: NVIDIA GeForce GTX 1650 SUPER: ~$200: https://amzn.to/3kiMAMY
+  * Alternative: GTX 1060 6GB: ~$100: (check out Ebay)
   * Future: GTX 3060 when it is out.
-* MOBO: MSI X570 Tomahawk WiFi: ~$200
-  * Alternative: MSI B550 Gaming Carbon WiFi: ~$200
-* RAM: Corsair Vengeance LPX Black DDR4 3200MHz 2x16GB: ~$150
-* SSD Disk (NVMe): WD Blue SN550 M.2 2280 1TB: ~$100
-* Power Supply: Corsair RM750X V2 750W: ~$120
-* Chassis: Fractal Design Define 7: ~$150
-  * Alternative: Fractal Meshify C: ~$90
-* Keyboard: HyperX Alloy FPS: ~$70 / Mouse: Logitech G502: ~$50
-* Headset: Logitech G Pro / Desk Speaker: Creative Pebble V2
+* MOBO: MSI X570 Tomahawk WiFi: ~$200: https://amzn.to/3iCEcHW
+  * Alternative: MSI B550 Gaming Carbon WiFi: ~$200: https://amzn.to/2E6dNTM
+* RAM: Corsair Vengeance LPX Black DDR4 3200MHz 2x16GB: ~$150: https://amzn.to/3ks0UmH
+* SSD Disk (NVMe): WD Blue SN550 M.2 2280 1TB: ~$100: https://amzn.to/3iD2W2P
+* Power Supply: Corsair RM750X V2 750W: ~$120: https://amzn.to/2Rz7v2g
+* Chassis: Fractal Design Define 7: ~$150: https://amzn.to/32AGaD7
+  * Alternative: Fractal Design Meshify C: ~$90: https://amzn.to/32B2mgr
+* Keyboard: HyperX Alloy FPS: ~$70: https://amzn.to/3hDegdK
+* Mouse: Logitech G502: ~$50: https://amzn.to/3c2CTj3
+* Headset: Logitech G Pro: https://amzn.to/3muTT68
+* Desk Speaker: Creative Pebble V2: https://amzn.to/32AJmhV
 * Total: ~$900 - ~$1200
 
-If you want to replicate parts of this build and if you want to help the channel, you can use the Amazon affiliate links in the video description below, so the channel will get a percentage of your purchases. I generally recommend getting your parts from no more than two different sources, so the returns and repairs won't be a nightmare.
+If you want to replicate parts of this build and if you want to help the website, you can use the Amazon affiliate links in the video description below, so the website will get a percentage of your purchases. I generally recommend getting your parts from no more than two different sources, so the returns and repairs won't be a nightmare.
 
 ## Choice of Components
 Before starting the actual build, I want to talk about my component choices. Remember that I chose my components with primarily software engineering and light video/photo editing in mind.
