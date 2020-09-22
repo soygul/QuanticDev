@@ -1,6 +1,8 @@
 # Maximum Value PC Build by a Software Engineer - Complete PC Build Guide
 Today we will build a PC from scratch with the maximum possible value for the money. I am a long time Mac and Linux user on the laptop side for my software engineering tasks, but I am tired of the fan noise. So, I decided to create a desktop build and get the maximum bang for my buck, while retaining great upgradability. I would like to remind you that this build is targeting mainly programming with lightweight photo/video/3D work. You can find the specs in the next section.
 
+![Maximum Value PC Build by a Software Engineer - Complete PC Build Guide](images/thumb.jpg)
+
 Table of contents:
 * [Overview](#overview)
 * [PC Specs](#pc-specs)
