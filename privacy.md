@@ -10,10 +10,10 @@
     (together "Services"). By using our Services, you agree to be bound by this Privacy Policy and consent
     to our processing of information as specified therein.</p>
 <h2><strong>1. INFORMATION WE COLLECT FROM YOU</strong></h2>
-<p>Most of the information that we collect about you comes directly from you when you play our Apps or interact with
+<p>Most of the information that we collect about you comes directly from you when you use our Apps or interact with
     third-party ads in our Apps or with our ads in other publisher's Apps. In general, the information we
     collect about you relates to the type of device you are using, information that helps us identify your device, how
-    you play our Apps and may include information that you submit to us when you voluntarily contact us. We may also
+    you use our Apps and may include information that you submit to us when you voluntarily contact us. We may also
     collect information from app store platforms and partners and other third parties such as information about your
     interests and in-app purchases (provided that we never receive your payment or credit card information).</p>
 <p>The information that we may collect about you through the Services broadly falls into the following categories:</p>
