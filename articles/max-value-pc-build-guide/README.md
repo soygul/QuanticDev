@@ -76,45 +76,59 @@ On the GPU side, I didn't choose the first item in the list again since I want a
 ## PC Build Guide
 Now let's build some value! You can use the rest of this article as a PC build guide as I will explain all the intricacies of building PC with modern components. If you want to watch this guide as a video, check the YouTube link in the resources section above.
 
+It is important to start with the M.2 NVMe SSD since it will be covered by other components soon. Use the M.2 slot closest to your CPU since it will generally be the fastest one. On my B550 board, it is the only PCIe 4.0 slot for M.2. Consult your motherboard's guide if you are unsure of the M.2 socket locations.
+
 ![M.2 NVMe SSD Installation](images/ssd_installation.jpg)
 
-It is important to start with the M.2 NVMe SSD since it will be covered by other components soon. Use the M.2 slot closest to your CPU since it will generally be the fastest one. On my B550 board, it is the only PCIe 4.0 slot for M.2. Consult your motherboard's guide if you are unsure of the M.2 socket locations. Start by unscrewing the heatsink. Turn the heatsink around so you can peel off the protective plastic from underneath the heatsink. You will realize that there is a dent on the connection side of the SSD. This dent should align with the one on the mobo. Place the SDD on the socket and apply moderate amounts of force to slide it in. Use the M.2 screw bundled with your motherboard to screw the card in. Finally, screw the heatsink back on. By the way, the heatsink on the mobo chipset might also have plastic over it, don't forget to peel it for maximum cooling.
+Start by unscrewing the heatsink. Turn the heatsink around so you can peel off the protective plastic from underneath the heatsink. You will realize that there is a dent on the connection side of the SSD. This dent should align with the one on the mobo. Place the SDD on the socket and apply moderate amounts of force to slide it in. Use the M.2 screw bundled with your motherboard to screw the card in. Finally, screw the heatsink back on. By the way, the heatsink on the mobo chipset might also have plastic over it, don't forget to peel it for maximum cooling.
+
+Now onto the RAMs. It is important to continue with the RAMs in case if you have a big heatsink that will block the slots. Unlike the M.2 SSD, you want to start by populating the socket furthest away from the CPU. You want to give the CPU as much breathing room as possible.
 
 ![RAM Installation](images/ram_installation.jpg)
 
-Now onto the RAMs. It is important to continue with the RAMs in case if you have a big heatsink that will block the slots. Unlike the M.2 SSD, you want to start by populating the socket furthest away from the CPU. You want to give the CPU as much breathing room as possible. In addition, you want to have one socket empty between the sticks if you only have two. This ensures that the RAMs work in dual-channel mode. So, we will use the socket 2 and 4. Make sure to align the dent on the RAM stick with the one on the mobo, just like we did for the SSD.
+In addition, you want to have one socket empty between the sticks if you only have two. This ensures that the RAMs work in dual-channel mode. So, we will use the socket 2 and 4. Make sure to align the dent on the RAM stick with the one on the mobo, just like we did for the SSD.
+
+Onto the CPU. Be very careful with the CPU; it has thin and very bendable gold-coated pins. The CPU will only fit the socket at the right orientation.
 
 ![CPU Installation](images/cpu_installation.jpg)
 
-Onto the CPU. Be very careful with the CPU; it has thin and very bendable gold-coated pins. The CPU will only fit the socket at the right orientation. To find it, check for the gold-coated corner of the CPU. It should match the marked corner of the mobo. If you are unsure, turn the CPU so that the text "RYZEN" is readable from the mobo's I/O panel side. Raise the CPU arm on the mobo and put the CPU in. It should slide in with no force. If it doesn't fit, do not push it in or you will bend the pins. Check the orientation and let gravity do the work. Now lover the CPU arm back in, and the processor is secured in place.
+To find it, check for the gold-coated corner of the CPU. It should match the marked corner of the mobo. If you are unsure, turn the CPU so that the text "RYZEN" is readable from the mobo's I/O panel side. Raise the CPU arm on the mobo and put the CPU in. It should slide in with no force. If it doesn't fit, do not push it in or you will bend the pins. Check the orientation and let gravity do the work. Now lover the CPU arm back in, and the processor is secured in place.
+
+Next, let's install the fan. I find Ryzen's bundled cooler adequate for a 6-core processor so I won't go with a custom cooler. As a result, we don't need the pre-installed aftermarket cooler brackets.
 
 ![CPU Fan Installation](images/cpu_fan_installation.jpg)
 
-Next, let's install the fan. I find Ryzen's bundled cooler adequate for a 6-core processor so I won't go with a custom cooler. As a result, we don't need the pre-installed aftermarket cooler brackets. Remove the brackets with a screwdriver. Be extra careful when removing the cooler from its packaging since it has the thermal pad pre-applied, and if you touch the bottom of the cooler or put it down, it will peel away. Before putting the cooler on the CPU, make sure that screws do line up with the screw holes on the mobo. If you are unsure, just turn the cooler so that "AMD" logo on the shroud is on the I/O panel side. After tightening the screws, connect the fan power cable to the power header labeled "CPU_FAN" on the mobo.
+Remove the brackets with a screwdriver. Be extra careful when removing the cooler from its packaging since it has the thermal pad pre-applied, and if you touch the bottom of the cooler or put it down, it will peel away. Before putting the cooler on the CPU, make sure that screws do line up with the screw holes on the mobo. If you are unsure, just turn the cooler so that "AMD" logo on the shroud is on the I/O panel side. After tightening the screws, connect the fan power cable to the power header labeled "CPU_FAN" on the mobo.
+
+Now it is time to place the mobo inside the chassis.
 
 ![Motherboard Installation](images/motherboard_installation.jpg)
 
-Now it is time to place the mobo inside the chassis. Put the chassis on your desk sideways and check out the mobo screw sockets on the chassis. The default configuration will be for ATX mobos. If you have a smaller motherboard, you might have to rearrange the screw sockets. You can easily unscrew the screw sockets if you need to. Just make sure that they match to the holes on your mobo. If the chassis back fan is pre-installed, don't forget to remove it before putting in the mobo so it won't get in the way.
+Put the chassis on your desk sideways and check out the mobo screw sockets on the chassis. The default configuration will be for ATX mobos. If you have a smaller motherboard, you might have to rearrange the screw sockets. You can easily unscrew the screw sockets if you need to. Just make sure that they match to the holes on your mobo. If the chassis back fan is pre-installed, don't forget to remove it before putting in the mobo so it won't get in the way.
+
+After the mobo we'll need to install the power supply. In our case, we only need 3 cables; 1x 24-pin mobo power cable, 1x CPU, and 1x PCIe cable. Both the cables and the sockets are labeled so you cannot miss them.
 
 ![Power Supply Cables](images/power_supply_cables.jpg)
 
-After the mobo we'll need to install the power supply. In our case, we only need 3 cables; 1x 24-pin mobo power cable, 1x CPU, and 1x PCIe cable. Both the cables and the sockets are labeled so you cannot miss them. Connect the cables to the power supply and slide the power supply into its socket in the chassis, which is generally at the bottom back. If your chassis has a bottom filter, make sure to install the power supply fan facing down. This way, it will suck in cool air from outside the chassis when the fan is running. Even when the power supply fan is not running, cool air will still be sucked in from the bottom just with the pressure difference and will be released from the back grill. When sliding the power supply, make sure not to peel the vibration dampening pads right under the power supply.
-
-![Power Supply Installation](images/power_supply_installation.jpg)
+Connect the cables to the power supply and slide the power supply into its socket in the chassis, which is generally at the bottom back. If your chassis has a bottom filter, make sure to install the power supply fan facing down. This way, it will suck in cool air from outside the chassis when the fan is running. Even when the power supply fan is not running, cool air will still be sucked in from the bottom just with the pressure difference and will be released from the back grill. When sliding the power supply, make sure not to peel the vibration dampening pads right under the power supply.
 
 Once the PSU is in place, screw it to the chassis and inspect your cables. Route the cables from the back of the chassis and onto your motherboard, and connect them onto their labeled sockets on the mobo.
 
-![Computer Cable Management](images/computer_cable_management.jpg) 
+![Power Supply Installation](images/power_supply_installation.jpg)
  
 Make sure that both the cables from the power supply and from the chassis' front connectors are in place.
 
-![Motherboard Power Cables Installation](images/motherboard_power_cables_installation.jpg)
+![Computer Cable Management](images/computer_cable_management.jpg) 
 
 All the sockets are clearly labeled, but you might still want to check the mobo's manual just in case. The only unconnected power cable should now be the PCIe cable, which we will use in a moment.
 
+![Motherboard Power Cables Installation](images/motherboard_power_cables_installation.jpg)
+
+And the grand finale. Unscrew the PCI slot 1 grid on the back of the chassis, lower the PCIe socket lock on the right side of the socket, and place your graphics card on the 1st PCIe slot. This is the slot that is closest to the CPU, and will generally be the faster one of the others.
+
 ![Graphics Card Installation](images/graphics_card_installation.jpg)
 
-And the grand finale. Unscrew the PCI slot 1 grid on the back of the chassis, lower the PCIe socket lock on the right side of the socket, and place your graphics card on the 1st PCIe slot. This is the slot that is closest to the CPU, and will generally be the faster one of the others. Screw the card in, raise the PCIe lock to the right of the socket, and connect PCIe power cable from the previous step. All the back I/O of the chassis should look nice and clean. Check your cabling one last time. Finally, connect your power supply to the wall socket with the power cable, and your monitor to your graphics card using an HDMI or DisplayPort cable. The electronics engineer's superstition says that if you close any chassis without testing final circuit assembly, it won't work.
+Screw the card in, raise the PCIe lock to the right of the socket, and connect PCIe power cable from the previous step. All the back I/O of the chassis should look nice and clean. Check your cabling one last time. Finally, connect your power supply to the wall socket with the power cable, and your monitor to your graphics card using an HDMI or DisplayPort cable. The electronics engineer's superstition says that if you close any chassis without testing final circuit assembly, it won't work.
 
 Make sure that the computer boots to the BIOS screen and no weird noises are coming from the PC. With my part choices, this PC will be deadly quiet. Do not forget to do a final cleanup and pack away all the leftovers from the build. I recommend keeping the original boxes if possible, in case you need to send a part for repair in the future.
 
