@@ -20,7 +20,7 @@ You can find my live PC build video on YouTube, in case you want visual instruct
 
 If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-Quantic Developers Club stickers and posters if you can to decorate your new PC:
+Quantic Developers Club stickers and posters if you want to decorate your new PC:
 * [quanticdev.com/shop](https://quanticdev.com/shop){:target="_blank"}
 
 Best value CPUs & GPUs by price/performance index:
@@ -30,14 +30,16 @@ Best value CPUs & GPUs by price/performance index:
 My [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine){:target="_blank"} article which will hep you with the first-time OS installation and developer environment setup.
 
 ## Overview
-PassMark benchmark software has a great website where you can keep track of the price/performance index of CPUs and GPUs that are available on the market, so I used that to choose the components. Keep in mind that PassMark is a synthetic benchmark, so it will match workstation workloads like programming and graphics design better than gaming. On a side note, even though I've studied semiconductor physics and electronics, they were of no use while doing this build. Microelectronic circuits you study in college are very low level, and PC parts are higher level components. Let me give you the specs right away, and then I will tell you what I plan to do with this build.
+PassMark benchmark software has a great website where you can keep track of the price/performance index of CPUs and GPUs that are available on the market, so I used that to choose the components. Keep in mind that PassMark is a synthetic benchmark, so it will match workstation workloads like programming and graphics design better than gaming. On a side note, even though I've studied semiconductor physics and electronics, they were of no use while doing this build. Microelectronic circuits you study in college are very low level, and PC parts are higher level components. Obviously, semiconductor physics is also completely irrelevant to a PC build!
+
+Let me give you the specs right away, and then I will tell you what I plan to do with this build.
 
 ## PC Specs
 Parts list with affiliate links if you want to help out the website:
 
 * CPU: AMD Ryzen 5 3600: ~$200: https://amzn.to/32yqDUk
   * Alternative: Ryzen 3 3100/3300X: ~$100: https://amzn.to/3hC4AjZ
-  * Future: Ryzen 4600/4300X/4100 when they are out.
+  * Future: Ryzen 4600/4300X/4100 or 5600/5300X/5100 when they are out.
 * GPU: NVIDIA GeForce GTX 1650 SUPER: ~$200: https://amzn.to/3kiMAMY
   * Alternative: GTX 1060 6GB: ~$100: (check out Ebay)
   * Future: GTX 3060 when it is out.
@@ -54,14 +56,14 @@ Parts list with affiliate links if you want to help out the website:
 * Desk Speaker: Creative Pebble V2: https://amzn.to/32AJmhV
 * Total: ~$900 - ~$1200
 
-If you want to replicate parts of this build and if you want to help the website, you can use the Amazon affiliate links in the video description below, so the website will get a percentage of your purchases. I generally recommend getting your parts from no more than two different sources, so the returns and repairs won't be a nightmare.
+If you want to replicate parts of this build and if you want to help the QuanticDev website, you can use the Amazon affiliate links above, so the website will get a percentage of your purchases. I generally recommend getting your parts from no more than two different sources, so the returns and repairs won't be a nightmare.
 
 ## Choice of Components
 Before starting the actual build, I want to talk about my component choices. Remember that I chose my components with primarily software engineering and light video/photo editing in mind.
 
 ![PassMark CPU Value Chart](images/passmark_cpu.png)
 
-Starting with the CPU, if we refer to the PassMark website, you can see that I didn't choose the top item in the list since it is an Intel CPU and I do not want anything Intel. I didn't choose the Ryzen 3100 either since I wanted something with at least 6 cores. Neither did I choose the Ryzen 2600 either, even though it has 6 cores, as I wanted a latest-gen CPU to get the best power efficiency. So, you see that these price/performance indexes are not the cannon. You still need to do your own research and choose the components that satisfy your requirements. At the end of the day, requirements analysis is the most important step in software engineering! I would have loved to get a Ryzen 4000 series processor, but they are not even announced yet, and I know that availability will be a problem when they come out. Also, I decided not to get a custom CPU cooler since it is not necessary for a measly 65W CPU. When I upgrade to a higher core count Ryzen 4000 CPU, I will get a Noctua NH-D15 to go with it.
+Starting with the CPU, if we refer to the PassMark website, you can see that I didn't choose the top item in the list since it is an Intel CPU and I do not want anything Intel. I didn't choose the Ryzen 3100 either since I wanted something with at least 6 cores. Neither did I choose the Ryzen 2600 either, even though it has 6 cores, as I wanted a latest-gen CPU to get the best power efficiency. So, you see that these price/performance indexes are not the cannon. You still need to do your own research and choose the components that satisfy your requirements. At the end of the day, requirements analysis is the most important step in software engineering! I would have loved to get a Ryzen 4000 series processor, but they are not even announced yet, and I know that availability will be a problem when they come out. Also, I decided not to get a custom CPU cooler since it is not necessary for a measly 65W CPU. When I upgrade to a higher core count Ryzen 4000/5000 CPU, I will get a Noctua NH-D15 to go with it.
 
 ![PassMark GPU Value Chart](images/passmark_gpu.png)
 
@@ -96,7 +98,7 @@ Now it is time to place the mobo inside the chassis. Put the chassis on your des
 
 ![Power Supply Cables](images/power_supply_cables.jpg)
 
-At this point, my camera died so I will continue with photos. After the mobo we'll need to install the power supply. In our case, we only need 3 cables; 1x 24-pin mobo power cable, 1x CPU, and 1x PCIe cable. Both the cables and the sockets are labeled so you cannot miss them. Connect the cables to the power supply and slide the power supply into its socket in the chassis, which is generally at the bottom back. If your chassis has a bottom filter, make sure to install the power supply fan facing down. This way, it will suck in cool air from outside the chassis when the fan is running. Even when the power supply fan is not running, cool air will still be sucked in from the bottom just with the pressure difference and will be released from the back grill. When sliding the power supply, make sure not to peel the vibration dampening pads right under the power supply.
+After the mobo we'll need to install the power supply. In our case, we only need 3 cables; 1x 24-pin mobo power cable, 1x CPU, and 1x PCIe cable. Both the cables and the sockets are labeled so you cannot miss them. Connect the cables to the power supply and slide the power supply into its socket in the chassis, which is generally at the bottom back. If your chassis has a bottom filter, make sure to install the power supply fan facing down. This way, it will suck in cool air from outside the chassis when the fan is running. Even when the power supply fan is not running, cool air will still be sucked in from the bottom just with the pressure difference and will be released from the back grill. When sliding the power supply, make sure not to peel the vibration dampening pads right under the power supply.
 
 ![Power Supply Installation](images/power_supply_installation.jpg)
 
@@ -119,21 +121,22 @@ Make sure that the computer boots to the BIOS screen and no weird noises are com
 ![Computer Build Cleanup](images/coomputer_build_cleanup.jpg)
 
 ## OS Installation (Manjaro Linux)
-I plan to use Manjaro Linux on this machine and run other OSes as QEMU VMs if I need them. With a great deal of experimentation, I have settled on Manjaro as the perfect OS for programming. [dir: manjaro thumb] If you want to watch my video guide that takes you from installing the OS for the first time to developing a small web app on Manjaro Linux, you can find the link to it in the video description below. If you were wondering how the computer was working after OS installation, I edited this video on this machine, so it sure works well! [dir: screenshot] It also games for sure! I will put a clip of the computer in full action at the end of this video.
+I plan to use Manjaro Linux on this machine and run other OSes as QEMU VMs if I need them. With a great deal of experimentation, I have settled on Manjaro as the perfect OS for programming. If you want to read my guide that takes you from installing the OS for the first time to developing a small web app on Manjaro Linux, you can find the link to it in the resources section above. If you were wondering how the computer was working after OS installation, I edited the video version of this article on this machine, so it sure works well! It also games for sure! I will put a clip of the computer in full action at the end of this article.
 
 ## Settings
+The only BIOS setting I've changed up to this point was the fan curves. 
 
 ![BIOS Settings](images/bios_settings.png)
 
-The only BIOS setting I've changed up to this point was the fan curves. I set the CPU fans not to run until CPU reaches 65 degrees Celsius. I highly doubt that running the CPU hot at all times will decrease its longevity. At least, this is what Apple has been doing with MacBooks for years. I also set the chassis fans to start only when the mobo reaches 50 degrees Celsius. I chose a big chassis, so I want to utilize its surface area for passive cooling before the fans kick in. With this configuration, the computer makes near 0 noise. I can hear my phone chargers very high-pitched noise from the other room better than my computer next to me.
+I set the CPU fans not to run until CPU reaches 75 degrees Celsius. I highly doubt that running the CPU hot at all times will decrease its longevity. At least, this is what Apple has been doing with MacBooks for years. I also set the chassis fans to start only when the mobo reaches 55 degrees Celsius. I chose a big chassis, so I want to utilize its surface area for passive cooling before the fans kick in. With this configuration, the computer makes near 0 noise. I can hear my phone chargers very high-pitched noise from the other room better than my computer next to me.
 
 ## Conclusion
-If you want to help the channel out and decorate your new PC, you can order some glorious QuanticDev stickers for your PC, or even a poster for your wall.
+If you want to help the QuanticDev website out and decorate your new PC, you can order some glorious QuanticDev stickers for your PC, or even a poster for your wall.
 
 ![Quantic Developers Club Poster](images/quantic_developers_club_poster.jpg)
 
-If you want to watch my other guides on Raspberry Pi, Linux, programming and more, I will put the link to the playlist in the video description below. As I use this computer, I will post updates on how it is going. I will also post an update if I make any upgrades or do mods. I might even try using Windows on it and see how it compares to Unix titans for programming. If you want to catch the updates when they are out, don't forget to sub. And if you want to help your programmer friends to build their own computers, share this guide with them.
+If you want to ready my other guides on Raspberry Pi, Linux, programming and more, you can find the links to them on the home page. As I use this computer, I will post updates on how it is going. I will also post an update if I make any upgrades or do mods. I might even try using Windows on it and see how it compares to Unix titans for programming. If you want to catch the updates when they are out, don't forget to follow my socials. And if you want to help your programmer friends to build their own computers, share this guide with them.
 
-Now I'm going to leave you alone with a clip of this PC in action.
+Here is a clip of this PC in action:
 
 <video width="1920" height="1080" controls><source src="videos/computer_build_black_mesa_gameplay.mp4" type="video/mp4"></video>
