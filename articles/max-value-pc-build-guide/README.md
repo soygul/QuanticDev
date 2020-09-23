@@ -37,23 +37,23 @@ Let me give you the specs right away, and then I will tell you what I plan to do
 ## PC Specs
 Parts list with affiliate links if you want to help out the website:
 
-* CPU: AMD Ryzen 5 3600: ~$200: https://amzn.to/32yqDUk
-  * Alternative: Ryzen 3 3100/3300X: ~$100: https://amzn.to/3hC4AjZ
+* CPU: AMD Ryzen 5 3600: ~$200: [https://amzn.to/32yqDUk](https://amzn.to/32yqDUk){:target="_blank"}
+  * Alternative: Ryzen 3 3100/3300X: ~$100: [https://amzn.to/3hC4AjZ](https://amzn.to/3hC4AjZ){:target="_blank"}
   * Future: Ryzen 4600/4300X/4100 or 5600/5300X/5100 when they are out.
-* GPU: NVIDIA GeForce GTX 1650 SUPER: ~$200: https://amzn.to/3kiMAMY
+* GPU: NVIDIA GeForce GTX 1650 SUPER: ~$200: [https://amzn.to/3kiMAMY](https://amzn.to/3kiMAMY){:target="_blank"}
   * Alternative: GTX 1060 6GB: ~$100: (check out Ebay)
   * Future: GTX 3060 when it is out.
-* MOBO: MSI X570 Tomahawk WiFi: ~$200: https://amzn.to/3iCEcHW
-  * Alternative: MSI B550 Gaming Carbon WiFi: ~$200: https://amzn.to/2E6dNTM
-* RAM: Corsair Vengeance LPX Black DDR4 3200MHz 2x16GB: ~$150: https://amzn.to/3ks0UmH
-* SSD Disk (NVMe): WD Blue SN550 M.2 2280 1TB: ~$100: https://amzn.to/3iD2W2P
-* Power Supply: Corsair RM750X V2 750W: ~$120: https://amzn.to/2Rz7v2g
-* Chassis: Fractal Design Define 7: ~$150: https://amzn.to/32AGaD7
-  * Alternative: Fractal Design Meshify C: ~$90: https://amzn.to/32B2mgr
-* Keyboard: HyperX Alloy FPS: ~$70: https://amzn.to/3hDegdK
-* Mouse: Logitech G502: ~$50: https://amzn.to/3c2CTj3
-* Headset: Logitech G Pro: https://amzn.to/3muTT68
-* Desk Speaker: Creative Pebble V2: https://amzn.to/32AJmhV
+* MOBO: MSI X570 Tomahawk WiFi: ~$200: [https://amzn.to/3iCEcHW](https://amzn.to/3iCEcHW){:target="_blank"}
+  * Alternative: MSI B550 Gaming Carbon WiFi: ~$200: [https://amzn.to/2E6dNTM](https://amzn.to/2E6dNTM){:target="_blank"}
+* RAM: Corsair Vengeance LPX Black DDR4 3200MHz 2x16GB: ~$150: [https://amzn.to/3ks0UmH](https://amzn.to/3ks0UmH){:target="_blank"}
+* SSD Disk (NVMe): WD Blue SN550 M.2 2280 1TB: ~$100: [https://amzn.to/3iD2W2P](https://amzn.to/3iD2W2P){:target="_blank"}
+* Power Supply: Corsair RM750X V2 750W: ~$120: [https://amzn.to/2Rz7v2g](https://amzn.to/2Rz7v2g){:target="_blank"}
+* Chassis: Fractal Design Define 7: ~$150: [https://amzn.to/32AGaD7](https://amzn.to/32AGaD7){:target="_blank"}
+  * Alternative: Fractal Design Meshify C: ~$90: [https://amzn.to/32B2mgr](https://amzn.to/32B2mgr){:target="_blank"}
+* Keyboard: HyperX Alloy FPS: ~$70: [https://amzn.to/3hDegdK](https://amzn.to/3hDegdK){:target="_blank"}
+* Mouse: Logitech G502: ~$50: [https://amzn.to/3c2CTj3](https://amzn.to/3c2CTj3){:target="_blank"}
+* Headset: Logitech G Pro: [https://amzn.to/3muTT68](https://amzn.to/3muTT68){:target="_blank"}
+* Desk Speaker: Creative Pebble V2: [https://amzn.to/32AJmhV](https://amzn.to/32AJmhV){:target="_blank"}
 * Total: ~$900 - ~$1200
 
 If you want to replicate parts of this build and if you want to help the QuanticDev website, you can use the Amazon affiliate links above, so the website will get a percentage of your purchases. I generally recommend getting your parts from no more than two different sources, so the returns and repairs won't be a nightmare.
