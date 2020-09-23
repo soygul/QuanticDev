@@ -1,4 +1,4 @@
-# Maximum Value PC Build by a Software Engineer - Complete PC Build Guide
+# Maximum Value PC Build by a Software Engineer - Complete Desktop Computer Build Guide
 
 ![Maximum Value PC Build by a Software Engineer - Complete PC Build Guide](images/thumb.jpg)
 

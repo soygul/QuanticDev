@@ -46,7 +46,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Stripe's $35B valuation in 8 years - How a tech startup reaches billion-dollar valuation? [Video Only]](https://www.youtube.com/watch?v=nlFAbBvu7hA)
 
 ## Guides
-* [Maximum Value PC Build by a Software Engineer - Complete PC Build Guide](/articles/max-value-pc-build-guide)
+* [Maximum Value PC Build by a Software Engineer - Complete Desktop Computer Build Guide](/articles/max-value-pc-build-guide)
 * [How to Get a Great Linux Laptop at a Perfect Price - Lenovo ThinkPad Without a Pre-installed OS](/articles/linux-laptop-at-perfect-price)
 * [How to Find Funding for Your Project](/articles/how-to-fund-your-project)
 * [Essential Software for Working From Home](/articles/essential-software-for-working-from-home)
