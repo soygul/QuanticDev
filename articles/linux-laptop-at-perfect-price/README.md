@@ -16,6 +16,7 @@ Lenovo affiliate link which you can use in your purchase to help out the Quantic
 
 If you want to check the Linux compatibility of future Lenovo laptops, below is the compatibility table:
 * [https://wiki.archlinux.org/index.php/Laptop/Lenovo#E_series](https://wiki.archlinux.org/index.php/Laptop/Lenovo#E_series){:target="_blank"}
+* [https://www.thinkwiki.org/wiki/E14_hardware_tweaks](https://www.thinkwiki.org/wiki/E14_hardware_tweaks){:target="_blank"}
 
 My [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine){:target="_blank"} article which can help you set up your shiny new laptop.
 
