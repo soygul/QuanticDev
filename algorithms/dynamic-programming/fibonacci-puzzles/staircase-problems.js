@@ -15,10 +15,13 @@ const assert = require('assert')
 //   Space complexity: O()
 //   Call Stack: O()
 function climbStairsRecursive (stairCount, maxSteps) {
+  if (stairCount === 1 || maxSteps === 1) return 1
+
   let stepsTaken = 0
 
-  for (let i = 1; i <= maxSteps && stairCount - 1 > 0; i++) {
-    stepsTaken += climbStairsRecursive(stairCount - 1, maxSteps)
+  for (let i = 1; i <= maxSteps && stairCount - i > 0; i++) {
+    stepsTaken++
+    stepsTaken += climbStairsRecursive(stairCount - i, maxSteps)
   }
 
   return stepsTaken
@@ -28,7 +31,10 @@ function climbStairsRecursive (stairCount, maxSteps) {
 //   Time complexity: O()
 //   Space complexity: O()
 //   Call Stack: O()
-function climbStairsRecursiveMemoized (stairCount, maxSteps) {}
+function climbStairsRecursiveMemoized (stairCount, maxSteps) {
+  // todo: implement me
+  return climbStairsFibonacci(stairCount, maxSteps)
+}
 
 // best solution with:
 //   Time complexity: O()
