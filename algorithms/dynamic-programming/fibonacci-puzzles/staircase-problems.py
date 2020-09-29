@@ -4,35 +4,35 @@ For instance, for m=3, you can climb 1, 2, or 3 stairs at a time.
 Count the number of different ways that you can reach the top.
 
 :param stair_count: No of stairs to climb.
-:param m: Max no of stairs you can climb at a time.
+:param max_steps: Max no of stairs you can climb at a time.
 :return: Number of different ways to reach the top.
 """
 
-def climb_stairs_recursive(stair_count, m):
+def climb_stairs_recursive(stair_count, max_steps):
     if stair_count <= 2:
         return stair_count
-    if m <= 1:
-        return m
+    if max_steps <= 1:
+        return max_steps
     total = 0
-    for i in range(m):
-        total += climb_stairs_recursive(stair_count - (i + 1), m)
+    for i in range(max_steps):
+        total += climb_stairs_recursive(stair_count - (i + 1), max_steps)
     return total
 
 
-def climb_stairs_recursive_memoized(stair_count, m):
+def climb_stairs_recursive_memoized(stair_count, max_steps):
     pass
 
 
-def climb_stairs_fibonacci(stair_count, m):
+def climb_stairs_fibonacci(stair_count, max_steps):
     if stair_count <= 1:
         return stair_count
-    if m <= 1:
+    if max_steps <= 1:
         return 1
 
     fib = [0, 1]
     for _ in range(stair_count):
         fib.append(sum(fib))
-        if len(fib) > m:
+        if len(fib) > max_steps:
             fib.pop(0)
     return fib[-1]
 
