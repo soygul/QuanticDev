@@ -1,17 +1,17 @@
 const assert = require('assert')
 
-// best solution with:
-//   Time complexity: O()
-//   Space complexity: O()
-//   Call Stack: O()
-
 /**
- * Given a number of stairs, you can climb at most m stairs at a time.
+ * Given n number of stairs, you can climb at most m stairs at a time.
  * For instance, for m=3, you can climb 1, 2, or 3 stairs at a time.
  * Count the number of different ways that you can reach the top.
  *
- * @param stairCount - No of stairs to climb.
- * @param maxSteps - Max no of stairs you can climb at a time.
+ * Solution below uses the optimal approach of calculating a fibonacci-like sequence.
+ *
+ * Time Complexity: O(m*n)
+ * Space Complexity: O(m)
+ *
+ * @param stairCount - No of stairs to climb (n).
+ * @param maxSteps - Max no of stairs you can climb at a time (m).
  * @returns {number} - Number of different ways to reach the top.
  */
 function climbStairs (stairCount, maxSteps) {
