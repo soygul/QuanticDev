@@ -5,7 +5,7 @@ const assert = require('assert')
  * For instance, for m=3, you can climb 1, 2, or 3 stairs at a time.
  * Count the number of different ways that you can reach the top.
  *
- * Solution below uses the optimal approach of calculating a fibonacci-like sequence.
+ * Solution below uses the optimal approach of calculating the solution using a fibonacci-like sequence.
  *
  * Time Complexity: O(m*n)
  * Space Complexity: O(m)
@@ -22,7 +22,7 @@ function climbStairs (stairCount, maxSteps) {
   // first two fibonacci-like numbers are always 0 and 1 so just return them as is
   if (stairCount <= 1) return stairCount
 
-  // if you can only take 1 step at a time, no matter how high the stairs, there is only 1 way to climb it
+  // if you can only take 1 step at a time, no matter how many stairs there are, there is only 1 way to climb it
   if (maxSteps === 1) return 1
 
   // fibonacci-like numbers sequence where each number is the sum of m numbers before it
@@ -34,18 +34,26 @@ function climbStairs (stairCount, maxSteps) {
     // sum previous m numbers
     fib.push(fib.reduce((total, n) => total + n))
 
-    // we only need to know last m numbers so remove any extras
+    // remove the first number, since we only need to know last m numbers
     if (fib.length > maxSteps) fib.shift()
   }
 
   return fib.pop()
 }
 
-// worst solution with recursion:
-//   Time complexity: O(2 ^ stairCount)
-//   Space complexity: O()
-//   Call Stack: O()
+/**
+ * Solution to the same {climbStairs} question using recursion.
+ * This is a pretty bad solution since both time complexity and call stack depth can blow up if there are too many stairs.
+ *
+ * Time Complexity: O()
+ * Space Complexity: O()
+ * Call Stack: O()
+ */
 function climbStairs_bad (stairCount, maxSteps) {
+  // validate input
+  assert(stairCount >= 0, 'Cannot have negative stairs.')
+  assert(maxSteps > 0, 'Max no of stairs you can climb at a time must be greater than 0.')
+
   if (maxSteps > stairCount) maxSteps = stairCount
 
   let numWays = 0
