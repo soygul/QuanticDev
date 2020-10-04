@@ -5,7 +5,7 @@ const assert = require('assert')
  * For instance, for m=3, you can climb 1, 2, or 3 stairs at a time.
  * Count the number of different ways that you can reach the top.
  *
- * Solution below uses the optimal approach of calculating the solution using a fibonacci-like sequence.
+ * Solution below uses the optimal approach of calculating the solution using a Fibonacci-like sequence.
  *
  * Time Complexity: O(m*n)
  * Space Complexity: O(m)
@@ -19,17 +19,17 @@ function climbStairs (stairCount, maxSteps) {
   assert(stairCount >= 0, 'Cannot have negative stairs.')
   assert(maxSteps > 0, 'Max no of stairs you can climb at a time must be greater than 0.')
 
-  // first two fibonacci-like numbers are always 0 and 1 so just return them as is
+  // first two Fibonacci-like numbers are always 0 and 1 so just return them as is
   if (stairCount <= 1) return stairCount
 
   // if you can only take 1 step at a time, no matter how many stairs there are, there is only 1 way to climb it
   if (maxSteps === 1) return 1
 
-  // fibonacci-like numbers sequence where each number is the sum of m numbers before it
-  // first 2 fibonacci numbers are 0 and 1 so we start with those
+  // Fibonacci-like numbers sequence where each number is the sum of m numbers before it
+  // first 2 Fibonacci numbers are 0 and 1 so we start with those
   const fib = [0, 1]
 
-  // calculate next fibonacci-like number and push it to the end of the array
+  // calculate next Fibonacci-like number and push it to the end of the array
   for (let i = 0; i < stairCount; i++) {
     // sum previous m numbers
     fib.push(fib.reduce((total, n) => total + n))
@@ -57,11 +57,8 @@ function climbStairs_bad (stairCount, maxSteps) {
   let numWays = 0
 
   for (let i = 1; i <= maxSteps && i <= stairCount; i++) {
-    if (i === stairCount) {
-      numWays++
-    } else {
-      numWays += climbStairs_bad(stairCount - i, maxSteps)
-    }
+    if (i === stairCount) numWays++
+    else numWays += climbStairs_bad(stairCount - i, maxSteps)
   }
 
   return numWays
@@ -69,21 +66,35 @@ function climbStairs_bad (stairCount, maxSteps) {
 
 /**
  * Solution to the same {climbStairs} question above, but using recursion with memoization.
- * This is not as bad as the recursive only solution but still worse than the fibonacci-like solution.
- * This could be an acceptable answer in an interview situation if you cannot come up with the fibonacci-like solution.
+ * This is not as bad as the recursive only solution, but still worse than the Fibonacci-like solution.
+ * This could be an acceptable answer in an interview situation if you cannot come up with the Fibonacci-like solution.
  *
  * Time Complexity: O(m^n) (Linear)
  * Space Complexity: O(n)
  * Call Stack: O(n)
  */
-function climbStairs_bad2 (stairCount, maxSteps) {
-  // todo: implement me
-  return climbStairs(stairCount, maxSteps)
+function climbStairs_bad2 (stairCount, maxSteps, visitedSteps = []) {
+  // validate input
+  assert(stairCount >= 0, 'Cannot have negative stairs.')
+  assert(maxSteps > 0, 'Max no of stairs you can climb at a time must be greater than 0.')
+
+  let numWays = 0
+
+  for (let i = 1; i <= maxSteps && i <= stairCount; i++) {
+    if (i === stairCount) {
+      numWays++
+    } else {
+      if (!visitedSteps[stairCount - i]) visitedSteps[stairCount - i] = climbStairs_bad2(stairCount - i, maxSteps, visitedSteps)
+      numWays += visitedSteps[stairCount - i]
+    }
+  }
+
+  return numWays
 }
 
 /**
  * very similar climbStairs except possibleStepsList = [1, 2, 4, 7]
- * this can still be solved using fibonacci-like sequences instead of recursion,
+ * this can still be solved using Fibonacci-like sequences instead of recursion,
  * but we need to calculate all of [1, 2, 3, 4, 5, 6, 7] since upper steps can depend on any of them
  * @param stairCount
  * @param possibleStepsList
