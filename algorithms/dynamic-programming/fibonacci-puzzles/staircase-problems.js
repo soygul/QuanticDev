@@ -54,13 +54,14 @@ function climbStairs_bad (stairCount, maxSteps) {
   assert(stairCount >= 0, 'Cannot have negative stairs.')
   assert(maxSteps > 0, 'Max no of stairs you can climb at a time must be greater than 0.')
 
-  if (maxSteps > stairCount) maxSteps = stairCount
-
   let numWays = 0
 
   for (let i = 1; i <= maxSteps && i <= stairCount; i++) {
-    if (i === stairCount) return i
-    numWays += climbStairs_bad(stairCount - i, maxSteps)
+    if (i === stairCount) {
+      numWays++
+    } else {
+      numWays += climbStairs_bad(stairCount - i, maxSteps)
+    }
   }
 
   return numWays
