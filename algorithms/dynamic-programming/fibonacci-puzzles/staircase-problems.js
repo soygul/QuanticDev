@@ -93,13 +93,25 @@ function climbStairs_bad2 (stairCount, maxSteps, visitedSteps = []) {
 }
 
 /**
- * very similar climbStairs except possibleStepsList = [1, 2, 4, 7]
- * this can still be solved using Fibonacci-like sequences instead of recursion,
- * but we need to calculate all of [1, 2, 3, 4, 5, 6, 7] since upper steps can depend on any of them
+ * Given n number of stairs, you can climb [x, y, z, ...] stairs at a time.
+ * For instance, you can climb 2, 5 or 6 stairs at a time.
+ * Count the number of different ways that you can reach the top.
+ *
+ * This can still be solved using Fibonacci-like sequences instead of recursion,
+ * but we need to calculate all of [1, 2, 3, 4, 5, 6, 7] since upper steps can depend on any of them.
+ *
+ * Time Complexity: O(m*n)
+ * Space Complexity: O(m)
+ *
  * @param stairCount
  * @param possibleStepsList
+ * @returns {number} - Number of different ways to reach the top.
  */
-function climbStairsWithVariableSteps (stairCount, possibleStepsList) {}
+function climbStairsWithVariableSteps (stairCount, possibleStepsList) {
+  // validate input
+  assert(stairCount >= 0, 'Cannot have negative stairs.')
+  if (!possibleStepsList || !possibleStepsList.length) return 0
+}
 
 /**
  * Tests
