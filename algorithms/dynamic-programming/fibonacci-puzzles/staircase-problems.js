@@ -97,20 +97,29 @@ function climbStairs_bad2 (stairCount, maxSteps, visitedSteps = []) {
  * For instance, you can climb 2, 5 or 6 stairs at a time.
  * Count the number of different ways that you can reach the top.
  *
- * This can still be solved using Fibonacci-like sequences instead of recursion,
- * but we need to calculate all of [1, 2, 3, 4, 5, 6, 7] since upper steps can depend on any of them.
+ * This can again be solved using a Fibonacci-like sequence instead of recursion.
  *
  * Time Complexity: O(m*n)
  * Space Complexity: O(m)
  *
- * @param stairCount
- * @param possibleStepsList
+ * @param stairCount - No of stairs to climb.
+ * @param possibleStepsList - A sorted list of integers representing the number of different steps that can be taken at a time.
  * @returns {number} - Number of different ways to reach the top.
  */
 function climbStairsWithVariableSteps (stairCount, possibleStepsList) {
   // validate input
   assert(stairCount >= 0, 'Cannot have negative stairs.')
   if (!possibleStepsList || !possibleStepsList.length) return 0
+
+  // calculate the Fibonacci-like sequence
+  const fib = [1]
+
+  for (let i = 1; i <= stairCount; i++) {
+    fib[i] = 0
+    possibleStepsList.forEach(s => fib[i] += fib[i - s] || 0)
+  }
+
+  return fib.pop()
 }
 
 /**
@@ -118,99 +127,109 @@ function climbStairsWithVariableSteps (stairCount, possibleStepsList) {
  */
 
 // test case #0
-const stairs0 = 0
+const stairCount0 = 0
 const maxSteps0 = 2
 const solution0 = 0
 
-const calculatedSolution0 = climbStairs(stairs0, maxSteps0)
-const calculatedSolution0_bad = climbStairs_bad(stairs0, maxSteps0)
-const calculatedSolution0_bad2 = climbStairs_bad2(stairs0, maxSteps0)
+const calculatedSolution0 = climbStairs(stairCount0, maxSteps0)
+const calculatedSolution0_bad = climbStairs_bad(stairCount0, maxSteps0)
+const calculatedSolution0_bad2 = climbStairs_bad2(stairCount0, maxSteps0)
 
-console.log(`Example Stairs #0: ${stairs0}, maxSteps: ${maxSteps0}, Solution: ${solution0}`)
+console.log(`Example Stairs #0: stairCount: ${stairCount0}, maxSteps: ${maxSteps0}, Solution: ${solution0}`)
 assert.deepStrictEqual(calculatedSolution0, solution0)
 assert.deepStrictEqual(calculatedSolution0_bad, solution0)
 assert.deepStrictEqual(calculatedSolution0_bad2, solution0)
 
 // test case #1
-const stairs1 = 1
+const stairCount1 = 1
 const maxSteps1 = 2
 const solution1 = 1
 
-const calculatedSolution1 = climbStairs(stairs1, maxSteps1)
-const calculatedSolution1_bad = climbStairs_bad(stairs1, maxSteps1)
-const calculatedSolution1_bad2 = climbStairs_bad2(stairs1, maxSteps1)
+const calculatedSolution1 = climbStairs(stairCount1, maxSteps1)
+const calculatedSolution1_bad = climbStairs_bad(stairCount1, maxSteps1)
+const calculatedSolution1_bad2 = climbStairs_bad2(stairCount1, maxSteps1)
 
-console.log(`Example Stairs #1: ${stairs1}, maxSteps: ${maxSteps1}, Solution: ${solution1}`)
+console.log(`Example Stairs #1: stairCount: ${stairCount1}, maxSteps: ${maxSteps1}, Solution: ${solution1}`)
 assert.deepStrictEqual(calculatedSolution1, solution1)
 assert.deepStrictEqual(calculatedSolution1_bad, solution1)
 assert.deepStrictEqual(calculatedSolution1_bad2, solution1)
 
 // test case #2
-const stairs2 = 2
+const stairCount2 = 2
 const maxSteps2 = 2
 const solution2 = 2
 
-const calculatedSolution2 = climbStairs(stairs2, maxSteps2)
-const calculatedSolution2_bad = climbStairs_bad(stairs2, maxSteps2)
-const calculatedSolution2_bad2 = climbStairs_bad2(stairs2, maxSteps2)
+const calculatedSolution2 = climbStairs(stairCount2, maxSteps2)
+const calculatedSolution2_bad = climbStairs_bad(stairCount2, maxSteps2)
+const calculatedSolution2_bad2 = climbStairs_bad2(stairCount2, maxSteps2)
 
-console.log(`Example Stairs #2: ${stairs2}, maxSteps: ${maxSteps2}, Solution: ${solution2}`)
+console.log(`Example Stairs #2: stairCount: ${stairCount2}, maxSteps: ${maxSteps2}, Solution: ${solution2}`)
 assert.deepStrictEqual(calculatedSolution2, solution2)
 assert.deepStrictEqual(calculatedSolution2_bad, solution2)
 assert.deepStrictEqual(calculatedSolution2_bad2, solution2)
 
 // test case #3
-const stairs3 = 7
+const stairCount3 = 7
 const maxSteps3 = 2
 const solution3 = 21
 
-const calculatedSolution3 = climbStairs(stairs3, maxSteps3)
-const calculatedSolution3_bad = climbStairs_bad(stairs3, maxSteps3)
-const calculatedSolution3_bad2 = climbStairs_bad2(stairs3, maxSteps3)
+const calculatedSolution3 = climbStairs(stairCount3, maxSteps3)
+const calculatedSolution3_bad = climbStairs_bad(stairCount3, maxSteps3)
+const calculatedSolution3_bad2 = climbStairs_bad2(stairCount3, maxSteps3)
 
-console.log(`Example Stairs #3: ${stairs3}, maxSteps: ${maxSteps3}, Solution: ${solution3}`)
+console.log(`Example Stairs #3: stairCount: ${stairCount3}, maxSteps: ${maxSteps3}, Solution: ${solution3}`)
 assert.deepStrictEqual(calculatedSolution3, solution3)
 assert.deepStrictEqual(calculatedSolution3_bad, solution3)
 assert.deepStrictEqual(calculatedSolution3_bad2, solution3)
 
 // test case #4
-const stairs4 = 40
+const stairCount4 = 40
 const maxSteps4 = 1
 const solution4 = 1
 
-const calculatedSolution4 = climbStairs(stairs4, maxSteps4)
-const calculatedSolution4_bad = climbStairs_bad(stairs4, maxSteps4)
-const calculatedSolution4_bad2 = climbStairs_bad2(stairs4, maxSteps4)
+const calculatedSolution4 = climbStairs(stairCount4, maxSteps4)
+const calculatedSolution4_bad = climbStairs_bad(stairCount4, maxSteps4)
+const calculatedSolution4_bad2 = climbStairs_bad2(stairCount4, maxSteps4)
 
-console.log(`Example Stairs #4: ${stairs4}, maxSteps: ${maxSteps4}, Solution: ${solution4}`)
+console.log(`Example Stairs #4: stairCount: ${stairCount4}, maxSteps: ${maxSteps4}, Solution: ${solution4}`)
 assert.deepStrictEqual(calculatedSolution4, solution4)
 assert.deepStrictEqual(calculatedSolution4_bad, solution4)
 assert.deepStrictEqual(calculatedSolution4_bad2, solution4)
 
 // test case #5
-const stairs5 = 16
+const stairCount5 = 16
 const maxSteps5 = 7
 const solution5 = 31489
 
-const calculatedSolution5 = climbStairs(stairs5, maxSteps5)
-const calculatedSolution5_bad = climbStairs_bad(stairs5, maxSteps5)
-const calculatedSolution5_bad2 = climbStairs_bad2(stairs5, maxSteps5)
+const calculatedSolution5 = climbStairs(stairCount5, maxSteps5)
+const calculatedSolution5_bad = climbStairs_bad(stairCount5, maxSteps5)
+const calculatedSolution5_bad2 = climbStairs_bad2(stairCount5, maxSteps5)
 
-console.log(`Example Stairs #5: ${stairs5}, maxSteps: ${maxSteps5}, Solution: ${solution5}`)
+console.log(`Example Stairs #5: stairCount: ${stairCount5}, maxSteps: ${maxSteps5}, Solution: ${solution5}`)
 assert.deepStrictEqual(calculatedSolution5, solution5)
 assert.deepStrictEqual(calculatedSolution5_bad, solution5)
 assert.deepStrictEqual(calculatedSolution5_bad2, solution5)
 
 // test case #6
-const stairs6 = 30
+const stairCount6 = 30
 const maxSteps6 = 30
 const solution6 = 536870912
 
-const calculatedSolution6 = climbStairs(stairs6, maxSteps6)
-const calculatedSolution6_bad = climbStairs_bad(stairs6, maxSteps6)
-const calculatedSolution6_bad2 = climbStairs_bad2(stairs6, maxSteps6)
+const calculatedSolution6 = climbStairs(stairCount6, maxSteps6)
+const calculatedSolution6_bad = climbStairs_bad(stairCount6, maxSteps6)
+const calculatedSolution6_bad2 = climbStairs_bad2(stairCount6, maxSteps6)
 
-console.log(`Example Stairs #6: ${stairs6}, maxSteps: ${maxSteps6}, Solution: ${solution6}`)
+console.log(`Example Stairs #6: stairCount: ${stairCount6}, maxSteps: ${maxSteps6}, Solution: ${solution6}`)
 assert.deepStrictEqual(calculatedSolution6, solution6)
 assert.deepStrictEqual(calculatedSolution6_bad, solution6)
 assert.deepStrictEqual(calculatedSolution6_bad2, solution6)
+
+// test case #7 (for variable steps question)
+const stairCount7 = 9
+const possibleStepsList = [2, 5, 7]
+const solution7 = 5
+
+const calculatedSolution7 = climbStairsWithVariableSteps(stairCount7, possibleStepsList)
+
+console.log(`Example Stairs #7 (for variable steps question): stairCount: ${stairCount7}, possibleStepsList: ${JSON.stringify(possibleStepsList)}, Solution: ${solution7}`)
+assert.deepStrictEqual(calculatedSolution7, solution7)
