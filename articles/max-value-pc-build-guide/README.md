@@ -27,7 +27,7 @@ Best value CPUs & GPUs by price/performance index:
 My [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine){:target="_blank"} article which will hep you with the first-time OS installation and developer environment setup.
 
 ## Overview
-PassMark benchmark software has a great website where you can keep track of the price/performance index of CPUs and GPUs that are available on the market, so I used that to choose the components. Keep in mind that PassMark is a synthetic benchmark, so it will match workstation workloads like programming and graphics design better than gaming. On a side note, even though I've studied semiconductor physics and electronics, they were of no use while doing this build. Microelectronic circuits you study in college are very low level, and PC parts are higher level components. Obviously, semiconductor physics is also completely irrelevant to a PC build!
+PassMark benchmark software has a great website where you can keep track of the price/performance index of CPUs and GPUs that are available on the market, so I used that to choose the components. Keep in mind that PassMark is a synthetic benchmark, so it will match workstation workloads like programming and graphics design better than gaming. And for the curious, even though I've studied semiconductor physics and electronics, they were of no use while doing this build. Microelectronic circuits you study in college are very low level, and PC parts are higher level components. Obviously, semiconductor physics is also completely irrelevant to a PC build!
 
 Let me give you the specs right away, and then I will tell you what I plan to do with this build.
 
