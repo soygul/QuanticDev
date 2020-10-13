@@ -18,7 +18,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Fastest PHP Best Practices Guide](/articles/fastest-php-best-practices)
 * [State of Software Engineering in 2020](/articles/software-engineering-in-2020)
 * [Most Popular Programming and Markup Languages 2010 - 2023 (extrapolated) on GitHub [Video Only]](https://www.youtube.com/watch?v=LjWn2aJ3o2g)
-* [How to Correctly Use Github for Software Development - My Full Workflow With Tutorial](/articles/how-to-use-github)
+* [How to Correctly Use GitHub for Software Development - My Full Workflow With Tutorial](/articles/how-to-use-github)
 * [Raspberry Pi: A Developer's Companion - A Complete Guide with Docker](/articles/raspberry-pi-guide-for-developers)
 * [What Is Serverless (Function-as-a-Service), and Is It Worth?](/articles/serverless)
 * [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine)
