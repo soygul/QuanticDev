@@ -10,8 +10,13 @@ def climb_stairs(stair_count, max_steps):
     For instance, for m=3, you can climb 1, 2, or 3 stairs at a time.
     Count the number of different ways that you can reach the top.
 
-    :param stair_count: No of stairs to climb.
-    :param max_steps: Max no of stairs you can climb at a time.
+    Solution below uses the optimal approach of calculating the solution using a Fibonacci-like sequence.
+
+    Time Complexity: O(m*n)
+    Space Complexity: O(m)
+
+    :param stair_count: No of stairs to climb (n).
+    :param max_steps: Max no of stairs you can climb at a time (m).
     :return: Number of different ways to reach the top.
     """
     if stair_count <= 1:
