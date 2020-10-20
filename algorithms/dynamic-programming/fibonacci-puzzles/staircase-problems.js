@@ -45,9 +45,9 @@ function climbStairs (stairCount, maxSteps) {
  * Solution to the same {climbStairs} question above, but using recursion.
  * This is a terrible solution since both processor time use and call stack depth grow exponential with the total number of stairs.
  *
- * Time Complexity: O(2^n) (Exponential)
+ * Time Complexity: O(2^n) (Size of recursion tree will grow exponentially.)
  * Space Complexity: O(1)
- * Call Stack: O(2^n) (Exponential)
+ * Call Stack: O(n) (Depth of recursion tree will grow linearly. See the related article for the visualization of this.)
  */
 function climbStairs_bad (stairCount, maxSteps) {
   // validate input
@@ -69,9 +69,9 @@ function climbStairs_bad (stairCount, maxSteps) {
  * This is not as bad as the recursive only solution, but still worse than the Fibonacci-like solution.
  * This could be an acceptable answer in an interview situation if you cannot come up with the Fibonacci-like solution.
  *
- * Time Complexity: O(m^n) (Linear)
+ * Time Complexity: O(n) (Size of the recursion tree will be linear this time due to result reuse.)
  * Space Complexity: O(n)
- * Call Stack: O(n)
+ * Call Stack: O(n) (Depth of recursion tree will grow linearly.)
  */
 function climbStairs_bad2 (stairCount, maxSteps, visitedSteps = []) {
   // validate input
