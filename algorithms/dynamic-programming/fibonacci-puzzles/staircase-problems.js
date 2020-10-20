@@ -100,7 +100,8 @@ function climbStairs_bad2 (stairCount, maxSteps, visitedSteps = []) {
  * This can again be solved using a Fibonacci-like sequence instead of recursion.
  *
  * Time Complexity: O(m*n)
- * Space Complexity: O(n) // can be optimized to O(m) where m is the length of possibleStepsList array
+ * Space Complexity: O(n) // can be optimized to O(m)
+ *  (m is the length of possibleStepsList array)
  *
  * @param stairCount - No of stairs to climb.
  * @param possibleStepsList - A sorted list of integers representing the number of different steps that can be taken at a time.
