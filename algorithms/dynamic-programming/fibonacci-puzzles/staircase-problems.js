@@ -27,7 +27,7 @@ function climbStairs (stairCount, maxSteps) {
 
   // Fibonacci-like numbers sequence where each number is the sum of m numbers before it
   // first 2 Fibonacci numbers are 0 and 1 so we start with those
-  const fib = [0, 1]
+  const fib = [1]
 
   // calculate next Fibonacci-like number and push it to the end of the array
   for (let i = 0; i < stairCount; i++) {

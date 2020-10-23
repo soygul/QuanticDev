@@ -24,7 +24,7 @@ def climb_stairs(stair_count, max_steps):
     if max_steps <= 1:
         return 1
 
-    fib = [0, 1]
+    fib = [1]
     for _ in range(stair_count):
         fib.append(sum(fib))
         if len(fib) > max_steps:
