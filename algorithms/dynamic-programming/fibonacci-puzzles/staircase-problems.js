@@ -26,19 +26,18 @@ function climbStairs (stairCount, maxSteps) {
   if (maxSteps === 1) return 1
 
   // Fibonacci-like numbers sequence where each number is the sum of m numbers before it
-  // first 2 Fibonacci numbers are 0 and 1 so we start with those
-  const fib = [1]
+  const stairs = [1]
 
   // calculate next Fibonacci-like number and push it to the end of the array
   for (let i = 0; i < stairCount; i++) {
     // sum previous m numbers
-    fib.push(fib.reduce((total, n) => total + n))
+    stairs.push(stairs.reduce((total, n) => total + n))
 
     // remove the first number, since we only need to know last m numbers
-    if (fib.length > maxSteps) fib.shift()
+    if (stairs.length > maxSteps) stairs.shift()
   }
 
-  return fib.pop()
+  return stairs.pop()
 }
 
 /**
@@ -113,14 +112,14 @@ function climbStairsWithVariableSteps (stairCount, possibleStepsList) {
   if (!possibleStepsList || !possibleStepsList.length) return 0
 
   // calculate the Fibonacci-like sequence
-  const fib = [1]
+  const stairs = [1]
 
   for (let i = 1; i <= stairCount; i++) {
-    fib[i] = 0
-    possibleStepsList.forEach(s => fib[i] += fib[i - s] || 0)
+    stairs[i] = 0
+    possibleStepsList.forEach(s => stairs[i] += stairs[i - s] || 0)
   }
 
-  return fib.pop()
+  return stairs.pop()
 }
 
 /**
