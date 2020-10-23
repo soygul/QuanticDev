@@ -3,7 +3,7 @@ const assert = require('assert')
 /**
  * Given n number of stairs, you can climb at most m stairs at a time.
  * For instance, for m=3, you can climb 1, 2, or 3 stairs at a time.
- * Count the number of different ways that you can reach the top.
+ * Count the number of different ways that you can reach to the top.
  *
  * Solution below uses the optimal approach of calculating the solution using a Fibonacci-like sequence.
  *
@@ -95,7 +95,7 @@ function climbStairs_bad2 (stairCount, maxSteps, visitedSteps = []) {
 /**
  * Given n number of stairs, you can climb [x, y, z, ...] stairs at a time.
  * For instance, you can climb 2, 5 or 6 stairs at a time.
- * Count the number of different ways that you can reach the top.
+ * Count the number of different ways that you can reach to the top.
  *
  * This can again be solved using a Fibonacci-like sequence instead of recursion.
  *
