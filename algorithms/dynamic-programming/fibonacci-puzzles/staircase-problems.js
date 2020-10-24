@@ -117,6 +117,7 @@ function climbStairsWithVariableSteps (stairCount, possibleStepsList) {
   for (let i = 1; i <= stairCount; i++) {
     stairs[i] = 0
     possibleStepsList.forEach(s => stairs[i] += stairs[i - s] || 0)
+    // todo: trim the stairs array to save space
   }
 
   return stairs.pop()
