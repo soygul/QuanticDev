@@ -8,6 +8,8 @@ Table of contents:
 * [How to Get Starts on GitHub Then?](#how-to-get-starts-on-github-then)
 * [Conclusion](#conclusion)
 
+![KOAN Logo](media/koan_logo.png)
+
 ## Resources
 You can find the video version of this article on YouTube: [https://www.youtube.com/watch?v=vOQyo64WBAA](https://www.youtube.com/watch?v=vOQyo64WBAA){:target="_blank"}
 
@@ -29,7 +31,7 @@ Relevant articles referred to in this article:
 ## KOAN Project
 First things first. My project, KOAN, is a full-stack web framework template which you can use as a starting point for your JavaScript web apps. On the backend, it uses Koa framework plus Node.js and MongoDB. On the frontend, it uses Angular and WebSockets for real-time interactions between logged-in users.
 
-![KOAN Logo](media/koan_logo.png)
+![KOAN Heroku Demo](media/koan_heroku_demo.png)
 
 A web app boilerplate with built-in WebSocket support is what got the attention of JavaScript newsletters in the first place. Also, few open-source projects offer a complete working sample of their projects, so creating a Facebook clone with KOAN was a great demonstration of its capabilities.
 
@@ -66,7 +68,6 @@ Now you have seen a successful project with a successful execution, which result
 * Build your project on top of best frameworks and tools. I built KOAN using Koa Framework, Angular, Node.js, and MongoDB. The reason why I built KOAN on top of these tools was that they were the best tools for the business at the time. On top of that, they were trending tools with strong userbase growth, so I was sure of their future success (and I was right!). The success of the tools that I used also contributed to the success of KOAN.
 * ![KOAN Heroku Demo Login](media/koan_heroku_demo_login.png)
 * Present your project as best as possible. As you have just seen, KOAN has a great live demonstration. The live example being a Facebook clone helps you compare it to Facebook directly, and demonstrates what you can do with it. The project also has very clean and concise documentation, along with fully commented source code.
-* ![KOAN Heroku Demo](media/koan_heroku_demo.png)
 * Introduce your project with a well-organized README file at your project's home. A good README on GitHub is generally in the following format:
   * Introduce the project.
   * Introduce the technology.
