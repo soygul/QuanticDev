@@ -1,3 +1,11 @@
+## Template
+Xxxxxxxxxx
+
+![XXXXXXXXXXXXXXXXXX](media/XXXXXXXXXXXXXXXXXX.jpg)
+
+<video width="790" height="300" controls><source src="media/kadanes-algorithm.mp4" type="video/mp4"></video>
+
+
 # TITLE
 Intro
 
@@ -18,18 +26,11 @@ Video has additional tips and illustrations. If you want to read the comments or
 * XXXXXXXXXXXXXXX: [XXXXXXXXXXXXXXXXX](XXXXXXXXXXXXXXXXX){:target="_blank"}
 
 Resources mentioned in the article:
-* [https://github.com/soygul/js-api](https://github.com/soygul/js-api){:target="_blank"}
-* [https://www.npmjs.com/package/js-api](https://www.npmjs.com/package/js-api){:target="_blank"}
+* [XXXXXXXXXXXXXX](XXXXXXXXXXXXXX){:target="_blank"}
+* [XXXXXXXXXXXXXXXXX](XXXXXXXXXXXXXXXXX){:target="_blank"}
 
 ## Overview
 Overview
 
 # Conclusion
 Conclusion
-
-## Template
-Xxxxxxxxxx
-
-![XXXXXXXXXXXXXXXXXX](media/XXXXXXXXXXXXXXXXXX.jpg)
-
-<video width="790" height="300" controls><source src="media/kadanes-algorithm.mp4" type="video/mp4"></video>
