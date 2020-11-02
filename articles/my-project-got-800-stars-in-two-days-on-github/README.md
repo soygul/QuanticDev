@@ -29,14 +29,22 @@ Relevant articles referred to in this article:
 ## KOAN Project
 First things first. My project, KOAN, is a full-stack web framework template which you can use as a starting point for your JavaScript web apps. On the backend, it uses Koa framework plus Node.js and MongoDB. On the frontend, it uses Angular and WebSockets for real-time interactions between logged-in users.
 
-![KOAN GitHub README](media/koan_github_README.png)
+![KOAN Logo](media/koan_logo.png)
 
 A web app boilerplate with built-in WebSocket support is what got the attention of JavaScript newsletters in the first place. Also, few open-source projects offer a complete working sample of their projects, so creating a Facebook clone with KOAN was a great demonstration of its capabilities.
 
 ![KOAN on Newsletters](media/koan_on_newsletters.png)
 
 ## KOAN Demonstration
-[dir: video demo] Now let me demonstrate the project to you, and then we can investigate why it was successful. Let's start with the KOAN's GitHub project page. It is an open-source project with the MIT license. It is a 7-year-old project, and I didn't update it much in the last five years, so it has been losing stars since then, almost back to day 2! If we check out the README file, you can see that it is very clean and well structured. It starts with introducing the technology stack, continues with the live example and getting started instructions. Getting started is easy, you clone the repo, do `npm install && npm start`, and you have a basic working Facebook clone on your computer. You can see that I even have a "Deploy to Heroku" button for one-click sample deployments of this project for people who want a quick start. Finally, the readme provides the rest of the configuration, testing, and licensing information. [dir: screenshot: server/ws.js] If we check out the source code, you can see that it is equally well documented. [dir: coding horror ref] As a wise man once said, code comments should tell you the why, and the code itself should tell you how. [Tip: Coding Horror reference!]
+Now let me demonstrate the project to you, and then we can investigate why it was successful. Let's start with the KOAN's GitHub project page. It is an open-source project with the MIT license. It is a 7-year-old project, and I didn't update it much in the last five years, so it has been losing stars since then, almost back to day 2!
+
+![KOAN GitHub README](media/koan_github.png)
+
+If we check out the README file, you can see that it is very clean and well structured. It starts with introducing the technology stack, continues with the live example and getting started instructions. Getting started is easy, you clone the repo, do `npm install && npm start`, and you have a basic working Facebook clone on your computer.
+
+![KOAN GitHub README](media/koan_github_README.png)
+
+You can see that I even have a "Deploy to Heroku" button for one-click sample deployments of this project for people who want a quick start. Finally, the readme provides the rest of the configuration, testing, and licensing information. [dir: screenshot: server/ws.js] If we check out the source code, you can see that it is equally well documented. [dir: coding horror ref] As a wise man once said, code comments should tell you the why, and the code itself should tell you how. [Tip: Coding Horror reference!]
 
 Now let's go ahead and check the live sample. You can see that I created a Facebook clone as an example usage of KOAN template. Yet again, the very first page of the demo website starts by introducing the project: "KOAN (Koa, Angular, Node): Full-stack JavaScript Web development boilerplate.". It also introduces the technology stack:
 
