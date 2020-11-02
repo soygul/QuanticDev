@@ -57,6 +57,8 @@ Now let's go ahead and check the live sample. You can see that I created a Faceb
 * Node.js is the superglue, runtime for the backend, build system for the front.
 * Finally, MongoDB is our NoSQL database of choice in this stack and sample app.
 
+![KOAN Heroku Demo Login](media/koan_heroku_demo_login.png)
+
 Let's log in and see how it goes. Default credentials are pre-filled, so I will just use them. Logins with other social accounts is a feature that I implemented as a bonus. After login, you can see that it is a clone of Facebook in its early days. You can type comments or create new posts. You can also check your profile page, notifications, and messages. Remember when I said that the project was using WebSockets. The green dot near your name indicates that you are connected to the Node.js backend using a WebSocket connection. Let me open another window and log in as another user. When I submit a comment on one tab, it appears on the other in real-time, thanks to the persistent WebSocket connection to the backend. I won't go into the details, but this very basic feature alone made this project very valuable to many starters who are looking to implement a real-time web app with WebSockets.
 
 By the way, if you are interested, I have an entire article demonstrating my open-source project workflow using Git, GitHub, and Docker. You can find the link to it in the resources section.
@@ -66,7 +68,6 @@ Now you have seen a successful project with a successful execution, which result
 
 * Create something useful. There is a very fine line between working on something genuinely useful versus an unrealistic and unattainable goal. Use your best intuition to create something that will help people, do your market research, look for things that you need in your daily life. Don't just depend on wishful thinking.
 * Build your project on top of best frameworks and tools. I built KOAN using Koa Framework, Angular, Node.js, and MongoDB. The reason why I built KOAN on top of these tools was that they were the best tools for the business at the time. On top of that, they were trending tools with strong userbase growth, so I was sure of their future success (and I was right!). The success of the tools that I used also contributed to the success of KOAN.
-* ![KOAN Heroku Demo Login](media/koan_heroku_demo_login.png)
 * Present your project as best as possible. As you have just seen, KOAN has a great live demonstration. The live example being a Facebook clone helps you compare it to Facebook directly, and demonstrates what you can do with it. The project also has very clean and concise documentation, along with fully commented source code.
 * Introduce your project with a well-organized README file at your project's home. A good README on GitHub is generally in the following format:
   * Introduce the project.
