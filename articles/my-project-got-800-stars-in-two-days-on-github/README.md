@@ -31,6 +31,19 @@ Resources mentioned in the article:
 * [XXXXXXXXXXXXXX](XXXXXXXXXXXXXX){:target="_blank"}
 * [XXXXXXXXXXXXXXXXX](XXXXXXXXXXXXXXXXX){:target="_blank"}
 
+My open-source project KOAN that is the focus of this video:
+●	https://github.com/soygul/koan (source code)
+●	https://koan.herokuapp.com (demo page)
+
+JavaScript Newsletter Issue that featured my project:
+●	https://news.extly.com/more-news/2022-joomla-developer/developer-news/11859-node-roundup-money-and-npm-isaac-schlueter-interview-koan.html
+
+My "How to Correctly Use GitHub for Software Development - My Full Workflow With Tutorial" video. It can help you get in the zone to create similar successful projects:
+●	https://www.youtube.com/watch?v=wRAIY-RLSvo
+
+My "How to Find Funding for Your Project" video, which can help you to find funding in developing your open-source projects into a commercial product:
+●	https://www.youtube.com/watch?v=uOX3IU_OSig
+
 ## KOAN Project
 [dir: screenshot of koan github readme with tech stack] First things first. My project, KOAN, is a full-stack web framework template which you can use as a starting point for your JavaScript web apps. On the backend, it uses Koa framework plus Node.js and MongoDB. On the frontend, it uses Angular and WebSockets for real-time interactions between logged-in users. [dir: extly.com: zoom to websocket line] A web app boilerplate with built-in WebSocket support is what got the attention of JavaScript newsletters in the first place. Also, few open-source projects offer a complete working sample of their projects, so creating a Facebook clone with KOAN was a great demonstration of its capabilities.
 
