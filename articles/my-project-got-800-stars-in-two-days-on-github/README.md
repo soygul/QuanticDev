@@ -1,13 +1,5 @@
-## Template
-Xxxxxxxxxx
-
-![XXXXXXXXXXXXXXXXXX](media/XXXXXXXXXXXXXXXXXX.jpg)
-
-<video width="790" height="300" controls><source src="media/kadanes-algorithm.mp4" type="video/mp4"></video>
-
-
 # My Project Got 800 Stars in Two Days on GitHub - KOAN (Open-Source)
-In this video I will tell you how my open-source JavaScript project got 800 stars on GitHub within two days of publishing it. My project is called KOAN (github.com/soygul/koan), and I created it to preserve my general knowledge in Koa and Angular frameworks, as well as Node.js and MongoDB, by making a ready-to-use project template. Upon submitting it to a couple of JavaScript newsletters for review, it exploded and got 800 stars in its first two days of existence! So how did this happen? Did I get lucky? Or did I build something special that people wanted or needed? Or did I simply game the GitHub? Well, watch on.
+In this article, you will discover how my open-source JavaScript project got 800 stars on GitHub within two days of publishing it. My project is called KOAN (github.com/soygul/koan), and I created it to preserve my general knowledge in Koa and Angular frameworks, as well as Node.js and MongoDB, by making a ready-to-use project template. Upon submitting it to a couple of JavaScript newsletters for review, it exploded and got 800 stars in its first two days of existence! So how did this happen? Did I get lucky? Or did I build something special that people wanted or needed? Or did I simply game the GitHub? Well, read on.
 
 Table of contents:
 * [Resources](#resources)
@@ -17,37 +9,31 @@ Table of contents:
 * [Conclusion](#conclusion)
 
 ## Resources
-You can find the video version of this article on YouTube: [https://www.youtube.com/watch?v=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX](https://www.youtube.com/watch?v=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX){:target="_blank"}
+You can find the video version of this article on YouTube: [https://www.youtube.com/watch?v=vOQyo64WBAA](https://www.youtube.com/watch?v=vOQyo64WBAA){:target="_blank"}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vOQyo64WBAA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
-
-* XXXXXXXXXXXXXXX: [XXXXXXXXXXXXXXXXX](XXXXXXXXXXXXXXXXX){:target="_blank"}
-* XXXXXXXXXXXXXXX: [XXXXXXXXXXXXXXXXX](XXXXXXXXXXXXXXXXX){:target="_blank"}
-* XXXXXXXXXXXXXXX: [XXXXXXXXXXXXXXXXX](XXXXXXXXXXXXXXXXX){:target="_blank"}
-
-Resources mentioned in the article:
-* [XXXXXXXXXXXXXX](XXXXXXXXXXXXXX){:target="_blank"}
-* [XXXXXXXXXXXXXXXXX](XXXXXXXXXXXXXXXXX){:target="_blank"}
+Video has live demonstration of my project KOAN. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 My open-source project KOAN that is the focus of this video:
-●	https://github.com/soygul/koan (source code)
-●	https://koan.herokuapp.com (demo page)
+* [https://github.com/soygul/koan](https://github.com/soygul/koan){:target="_blank"} (source code)
+* [https://koan.herokuapp.com](https://koan.herokuapp.com){:target="_blank"} (demo page)
 
 JavaScript Newsletter Issue that featured my project:
-●	https://news.extly.com/more-news/2022-joomla-developer/developer-news/11859-node-roundup-money-and-npm-isaac-schlueter-interview-koan.html
+* [https://news.extly.com/more-news/2022-joomla-developer/developer-news/11859-node-roundup-money-and-npm-isaac-schlueter-interview-koan.html](https://news.extly.com/more-news/2022-joomla-developer/developer-news/11859-node-roundup-money-and-npm-isaac-schlueter-interview-koan.html){:target="_blank"}
 
-My "How to Correctly Use GitHub for Software Development - My Full Workflow With Tutorial" video. It can help you get in the zone to create similar successful projects:
-●	https://www.youtube.com/watch?v=wRAIY-RLSvo
-
-My "How to Find Funding for Your Project" video, which can help you to find funding in developing your open-source projects into a commercial product:
-●	https://www.youtube.com/watch?v=uOX3IU_OSig
+Relevant articles referred to in this article:
+* My [How to Correctly Use GitHub for Software Development - My Full Workflow With Tutorial](/articles/how-to-use-github){:target="_blank"} guide. It can help you get in the zone to create similar successful projects.
+* My [How to Find Funding for Your Project](/articles/how-to-fund-your-project){:target="_blank"} guide, which can help you to find funding in developing your open-source projects into a commercial product.
 
 ## KOAN Project
-[dir: screenshot of koan github readme with tech stack] First things first. My project, KOAN, is a full-stack web framework template which you can use as a starting point for your JavaScript web apps. On the backend, it uses Koa framework plus Node.js and MongoDB. On the frontend, it uses Angular and WebSockets for real-time interactions between logged-in users. [dir: extly.com: zoom to websocket line] A web app boilerplate with built-in WebSocket support is what got the attention of JavaScript newsletters in the first place. Also, few open-source projects offer a complete working sample of their projects, so creating a Facebook clone with KOAN was a great demonstration of its capabilities.
+First things first. My project, KOAN, is a full-stack web framework template which you can use as a starting point for your JavaScript web apps. On the backend, it uses Koa framework plus Node.js and MongoDB. On the frontend, it uses Angular and WebSockets for real-time interactions between logged-in users.
 
-[dir: qd.com thumb] Before moving onto the actual project demonstration, let me remind you that I publish lots of additional content on quanticdev.com in addition to YouTube. If you want to check it out, or maybe even buy some Quantic Developers Club merch, head over to quanticdev.com
+![KOAN GitHub README](media/koan_github_README.png)
+
+A web app boilerplate with built-in WebSocket support is what got the attention of JavaScript newsletters in the first place. Also, few open-source projects offer a complete working sample of their projects, so creating a Facebook clone with KOAN was a great demonstration of its capabilities.
+
+![KOAN on Newsletters](media/koan_on_newsletters.png)
 
 ## KOAN Demonstration
 [dir: video demo] Now let me demonstrate the project to you, and then we can investigate why it was successful. Let's start with the KOAN's GitHub project page. It is an open-source project with the MIT license. It is a 7-year-old project, and I didn't update it much in the last five years, so it has been losing stars since then, almost back to day 2! If we check out the README file, you can see that it is very clean and well structured. It starts with introducing the technology stack, continues with the live example and getting started instructions. Getting started is easy, you clone the repo, do `npm install && npm start`, and you have a basic working Facebook clone on your computer. You can see that I even have a "Deploy to Heroku" button for one-click sample deployments of this project for people who want a quick start. Finally, the readme provides the rest of the configuration, testing, and licensing information. [dir: screenshot: server/ws.js] If we check out the source code, you can see that it is equally well documented. [dir: coding horror ref] As a wise man once said, code comments should tell you the why, and the code itself should tell you how. [Tip: Coding Horror reference!]
