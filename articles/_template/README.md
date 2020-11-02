@@ -1,4 +1,4 @@
-# TITLE HERE
+# TITLE
 Intro
 
 Table of contents:
@@ -6,9 +6,9 @@ Table of contents:
 * [Conclusion](#conclusion)
 
 ## Resources
-You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=idCG0wSi-fk](https://www.youtube.com/watch?v=idCG0wSi-fk){:target="_blank"}
+You can find the video version of this article on YouTube: [https://www.youtube.com/watch?v=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX](https://www.youtube.com/watch?v=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX){:target="_blank"}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/idCG0wSi-fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
@@ -148,3 +148,6 @@ See the video if you want to watch me do this exercise for you.
 And that is it. You now have a sample Node.js web app running inside a Docker container in your Raspberry. If you want to experiment, you can find more useful Docker images on Docker Hub using the link in the resources section.
 
 I highly recommend getting a Raspberry to any developer just based on the sheer usefulness of it. You pay a tiny fraction of the price of a computer, and even just the learning experience you get out of it is a huge value. One day, we will be able to use ARM as our primary development platform, and on that day Raspberry like tiny computers will be our primary workstations. Until that day, hold on to your Raspberry. And I will see you next time.
+
+# Conclusion
+Conclusion
