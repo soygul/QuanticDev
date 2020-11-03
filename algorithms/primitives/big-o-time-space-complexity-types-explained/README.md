@@ -2,15 +2,16 @@
 Today we will investigate the most important time and space complexity types. Time and space complexities are a measure of a function's processing power and memory requirements. Many time/space complexity types have special names that you can use while communicating with others. While some of the names for complexity types are well known, like linear and constant time, some others are living in the shadows, like quadratic and factorial time. In this article, I will use the big O notation to denote the complexities, which is specifically used to describe the worst-case performance of algorithms. Note that any time you see "^" character in this article, it means "power". For instance "n^2" means "n squared".
 
 Table of contents:
-* Overview
-* Constant Time/Space Complexity: O(1)
-* Logarithmic Complexity: O(logn)
-* Linear Complexity: O(n)
-* Polynomial Complexity: O(n^k)
-* Exponential Complexity: O(2^n)
-* Factorial Complexity: O(n!)
-* Alternative Big O Notation
-* Conclusion
+* [Resources](#resources)
+* [Overview](#overview)
+* [Constant Time/Space Complexity: O(1)](#constant-timespace-complexity-o1)
+* [Logarithmic Complexity: O(logn)](#logarithmic-complexity-ologn)
+* [Linear Complexity: O(n)](#linear-complexity-on)
+* [Polynomial Complexity: O(n^k)](#polynomial-complexity-onk)
+* [Exponential Complexity: O(2^n)](#exponential-complexity-o2n)
+* [Factorial Complexity: O(n!)](#factorial-complexity-on)
+* [Alternative Big O Notation](#alternative-big-o-notation)
+* [Conclusion](#conclusion)
 
 ## Resources
 You can find the video narration of this article on YouTube with illustrations: [https://www.youtube.com/watch?v=4K1O6SXRSws](https://www.youtube.com/watch?v=4K1O6SXRSws){:target="_blank"}
