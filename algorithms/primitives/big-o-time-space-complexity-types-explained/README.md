@@ -3,7 +3,6 @@ Today we will investigate the most important time and space complexity types. Ti
 
 Table of contents:
 * [Resources](#resources)
-* [Overview](#overview)
 * [Constant Time/Space Complexity: O(1)](#constant-timespace-complexity-o1)
 * [Logarithmic Complexity: O(logn)](#logarithmic-complexity-ologn)
 * [Linear Complexity: O(n)](#linear-complexity-on)
