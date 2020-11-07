@@ -1,5 +1,5 @@
 # Alternative Big O Notation
-I always found things easy to remember when they rhyme, especially with humor. So, here is compilation of alternative Big O notation from various sources, which can help you remember the rankings of Big O types:
+I always found things easy to remember when they rhyme, especially with humor. So, here is my take on big O notation, which can help you remember the rankings of big O types:
 
 ```
 O(1) = O(yeah)
@@ -23,3 +23,8 @@ If you really want to confuse fellow software engineers, you can also get it as 
 [![Alternative Big O Notation Poster](media/alternative_big_o_notation_poster.jpg)](https://www.redbubble.com/shop/ap/54268092){:target="_blank"}
 
 **Side Note**: Asymptotically, O(n^n) is equal to O(2^n), so the last line in the alternative big O notation list is just for the humor's sake.
+
+## Video?
+Did I forget to say that there is also a video version of this article (!)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Jy8s3wdBBQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
