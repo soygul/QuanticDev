@@ -33,6 +33,7 @@ Resources mentioned in the article:
 
 Relevant articles referred to in this article:
 * [XXXXXXXXXXXXXX](/articles/xxxxxxx){:target="_blank"}
+* [XXXXXXXXXXXXXX](/algorithms/xxxxxxx){:target="_blank"}
 
 ## Overview
 Overview
