@@ -130,7 +130,7 @@ Below illustration demonstrates how inefficient recursive solution is. Notice th
 
 Following is an illustration of how recursion tree is traversed in our `ways()` function with 5 steps:
 
-<video width="1042" height="736" controls><source src="media/memoized_recursive_fibonacci_animation.mp4" type="video/mp4"></video>
+<video width="1042" height="736" controls><source src="media/recursive_fibonacci_animation.mp4" type="video/mp4"></video>
 
 ### Solution: Recursion With Memoization
 * Start with ways(n) = ways(n-1) + ways(n-2)
