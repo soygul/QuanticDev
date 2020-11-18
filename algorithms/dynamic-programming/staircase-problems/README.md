@@ -1,21 +1,13 @@
-## Template
-Xxxxxxxxxx
-
-![XXXXXXXXXXXXXXXXXX](media/XXXXXXXXXXXXXXXXXX)
-
-<video width="790" height="300" controls><source src="media/kadanes-algorithm.mp4" type="video/mp4"></video>
-
-
 # Staircase Problem + 3 Variants - Different Ways to Reach the N'th Stair With M Different Steps
 In a staircase problem, you try to calculate the different ways to reach the n'th stair where you are allowed to take up to m steps at a time. Say you are given a staircase problem with 5 stairs to climb, and you can take 1 or 2 steps at a time. How would you solve this problem? This and its variants are the focus in this video. It is a great problem to demonstrate the properties of dynamic programming and how to solve problems with it. Due to this, staircase problem and its variants like unique paths problem are commonly used as programming interview questions.
-
-![Staircase Problems](media/thumb.png)
 
 In the article, you will find the solutions to the following questions, as well as their time and space complexities:
 
 * Medium Difficulty: Staircase Problem - Different Ways to Reach the N'th Stair: Given n stairs, you can climb 1 or 2 stairs at a time. Count the number of different ways that you can reach the top.
 * Medium Difficulty: Generalized Fibonacci-like Sequences: Same question but you can climb up to m steps at a time.
 * Medium Difficulty: Generalized Fibonacci-like Sequences With Variable Steps: Same question but you can only climb 2, 3, 6 steps at a time.
+
+![Staircase Problems](media/thumb.png)
 
 Table of contents:
 * [Resources](#resources)
@@ -24,7 +16,6 @@ Table of contents:
 * [Staircase Problem - Different Ways to Reach the N'th Stair](#xxxxx)
 * [Generalized Fibonacci-like Sequences](#xxxxx)
 * [Generalized Fibonacci-like Sequences With Variable Steps](#xxxxx)
-* [xxxxx](#xxxxx)
 * [Conclusion](#conclusion)
 
 ## Resources
@@ -96,8 +87,8 @@ Calculate solution for n=4:
 * Continue with stair 2:
   * ways(2) = ways(1) + ways(0) = 1 + 1 = 2
 * Calculate consecutive ones via adding the previous two until you reach n (stair count).
-* Time complexity: 𝑶(𝒏) (linear time)
-* Space complexity: 𝑶(𝟏) (constant space)
+* Time complexity: O(n) (linear time)
+* Space complexity: O(1) (constant space)
 
 Code: Iteration (Fibonacci Sequence)
 ```
@@ -114,11 +105,141 @@ return b
 ### Solution: Recursion
 * Start with ways(n) = ways(n-1) + ways(n-2)
 * Recurse all the way down to ways(0) = 1, ways(1) = 1
-* Time Complexity: 𝑶(𝟐^𝒏 ) (exponential time)
+* Time Complexity: O(2^n) (exponential time)
   * Size of recursion tree will grow exponentially. (visualization in a moment)
-* Space Complexity: 𝑶(𝟏) (constant space)
+* Space Complexity: O(1) (constant space)
   * No extra variables allocated in mem per recursive call.
-* Call Stack: 𝑶(𝒏)
+* Call Stack: O(n)
   * Depth of recursion tree will grow linearly.
 
+Code: Recursion
+```
+def ways(n):
+if n <= 1:  # Recursion needs to stop at some point!
+    return 1
+return ways(n-1) + ways(n-2)
+```
 
+Recursion Trees:
+Below illustration demonstrates how inefficient recursive solution is. Notice the duplicated branches. They are the source of inefficiency. Solution for this is to use memoization.
+
+![Recursion Tree](media/recursion_tree.png)
+
+Following is an illustration of how recursion tree is traversed in our `ways()` function with 5 steps:
+
+<video width="1042" height="736" controls><source src="media/memoized_recursive_fibonacci_animation.mp4" type="video/mp4"></video>
+
+### Solution: Recursion With Memoization
+* Start with ways(n) = ways(n-1) + ways(n-2)
+* Keep track of visited stairs in a knownWays hash table.
+* Recurse all the way down to ways(0) = 1, ways(1) = 1 
+* Time Complexity: O(n) (Linear)
+* Space Complexity: O(n)
+* Call Stack: O(n)
+
+Code: Recursion With Memoization
+```
+def ways(n, knownWays = {}):
+if n <= 1:
+    return 1
+if n not in knownWays:
+    knownWays[n] =
+          ways(n-1, knownWays) +
+          ways(n-2, knownWays)
+return knownWays[n]
+```
+
+Here is another animation of the execution of our memorized `ways()` function with 5 stairs:
+
+<video width="1042" height="736" controls><source src="media/memoized_recursive_fibonacci_animation.mp4" type="video/mp4"></video>
+
+## Tips
+* If thinking in forward does not work, try to solve the problem backwards. Reverse thinking can help you find ways to utilize dynamic programming.
+* If you want to see rest of my Algorithms Series, the link to the playlist is in the description.
+
+## Generalized Fibonacci-like Sequences
+Question: Given n stairs, you can climb up to m stairs at a time. Count the number of different ways that you can reach to the top.
+
+Difficulty: Medium
+
+Formula:
+We generate our formula again using reverse thinking. We will start form the top and calculate unique paths leading to top from previous steps.
+
+* ways(n, m) = ways(n-1, m) + ways(n-2, m) + … + ways(n-m, m)
+* If m=3 (which means you can take 1, 2, or 3 steps at a time):
+* ways(4) = ways(3) + ways(2) + ways(1)
+* ways(3) = ways(2) + ways(1) + ways(0)
+* ways(2) = ways(1) + ways(0)
+* This is a Fibonacci-like sequence!
+
+Solution: Iteration (Fibonacci-like Sequences)
+* Start with stairs 0 and 1.
+* Calculate consecutive ones via adding the previous m numbers.
+* Keep repeating previous step until you reach n’th number.
+* This is essentially using sliding windows technique to calculate Fibonacci-like sequence. (more info next)
+* Time complexity: O(mxn)
+* Space complexity: O(m)
+
+Code: Iteration (Fibonacci-like Sequences)
+```
+def ways(n, m):
+stairs = [1]  # index = 0
+for _ in range(n):
+    stairs.append(sum(stairs))
+    if len(stairs) > m:
+        stairs.pop(0)
+return stairs[-1]
+```
+
+## Tips
+* Fibonacci sequences can be calculated in 𝑶(𝒍𝒐𝒈𝒏) time using Matrix Exponentiation or directly with the Fibonacci formula. This is probably an overkill for interview situations though.
+* Write tests if you have time. Especially for corner cases like n=0, n=1, etc.
+* Like the Staircase Problem, there are many more possible interview questions that can utilize Fibonacci-like sequences: Unique Paths Problem, Decode Ways Problem, etc. I will make separate videos for them so sub if you don't want to miss them!
+
+## Generalized Fibonacci-like Sequences With Variable Steps
+Question: Given n stairs, you can climb x, y, z, … (i.e. 2, 3, 5) stairs at a time. Count the number of different ways that you can reach to the top.
+
+Difficulty: Medium
+
+Formula:
+Once again, we formulate our solution using top-to-bottom approach.
+
+* ways(n, [x, y, z, …]) = ways(n-x, [x, y, z, …]) + ways(n-y, [x, y, z, …]) + ways(n-z, [x, y, z, …]) + ...
+* If x=2, y=3, z=5:
+* ways(6) = ways(4) + ways(3) + ways(1)
+* ways(5) = ways(3) + ways(2) + ways(0)
+* ways(4) = ways(2) + ways(1) 
+* ways(3) = ways(1) + ways(0) 
+* ways(2) = ways(0) 
+* ways(1) = 0
+* ways(0) = 1
+* Again a Fibonacci-like sequence!
+
+Solution: Iteration (Fibonacci-like Sequences)
+* Start with the stair 0.
+* Calculate consecutive ones via adding stair-x, stair-y, stair-z together.
+* Keep repeating until you reach n’th stair.
+* Time complexity: 𝑶(𝒎×𝒏)
+* Space complexity: 𝑶(𝒎) (m is the length of [x, y, x, ...])
+
+Code: Iteration (Fibonacci-like Sequences)
+```
+function ways (n, possibleStepsList) {
+const stairs = [1]
+
+for (let i = 1; i <= n; i++) {
+  stairs[i] = 0
+  possibleStepsList.forEach(s => stairs[i] += stairs[i - s] || 0)
+  // todo: trim the stairs array to save space
+}
+
+return fib.pop()
+}
+```
+
+## Tips
+* Memory efficient Fibonacci based solutions are essentially sliding window solutions. If you want to watch my dedicated video on "Sliding Windows Technique", I will put the link to it in the video description below. The video has four easy to hard questions with solutions in it.
+* If you want to refresh your memory on Big O notation, I have another dedicated video titled: "Big O Time/Space Complexity Types Explained" for you. The link to it is also in the video description below.
+* By the way, if you want to have some fun with the Big O notation, see my "Alternative Big O Notation" mugs and stickers at quanticdev.com/shop
+
+![Alternative Big O Notation Bug](media/alternative_big_o_notation_mug.jpg)
