@@ -1,5 +1,5 @@
 # Staircase Problem + 3 Variants - Different Ways to Reach the N'th Stair With M Different Steps
-In a staircase problem, you try to calculate the different ways to reach the n'th stair where you are allowed to take up to m steps at a time. Say you are given a staircase problem with 5 stairs to climb, and you can take 1 or 2 steps at a time. How would you solve this problem? This and its variants are the focus in this video. It is a great problem to demonstrate the properties of dynamic programming and how to solve problems with it. Due to this, staircase problem and its variants like unique paths problem are commonly used as programming interview questions.
+In a staircase problem, you try to calculate the different ways to reach the n'th stair where you are allowed to take up to m steps at a time. Say you are given a staircase problem with 5 stairs to climb, and you can take 1 or 2 steps at a time. How would you solve this problem? This and its variants are the focus in this article. It is a great problem to demonstrate the properties of dynamic programming and how to solve problems with it. Due to this, staircase problem and its variants like unique paths problem are commonly used as programming interview questions.
 
 In the article, you will find the solutions to the following questions, as well as their time and space complexities:
 
@@ -32,11 +32,11 @@ My other articles relevant to staircase problems:
 * My [Sliding Window Technique + 4 Questions](/algorithms/dynamic-programming/sliding-window){:target="_blank"} article, which will help you solve Fibonacci problems more efficiently.
 * My [Big O Time/Space Complexity Types Explained](/algorithms/primitives/big-o-time-space-complexity-types-explained){:target="_blank"} article, which can help you refresh your memory on Big O notation:
 
-Recursion visualization tool used in the video:
+Recursion visualization tool used in the article:
 * [https://recursion.now.sh](https://recursion.now.sh){:target="_blank"}
 
 ## Overview
-* Staircase problem is just a special case of "unique variations" questions like that of unique paths problem. I might make quick videos for those too, but you can apply the same methods that you will learn here to solve them also.
+* Staircase problem is just a special case of "unique variations" questions like that of unique paths problem. I might make quick articles for those too, but you can apply the same methods that you will learn here to solve them also.
 * You can identify variation finding questions if you are asked to find unique ways of doing XXX.
 * Solutions to these problems are a subset of Dynamic Programming (the technique of solving a problem by dividing it into subproblems). We can solve them using recursion or iteration.
 * Since solutions to these questions resemble Fibonacci Sequences, they are referred to as Fibonacci Puzzles, and they commonly appear in programming interviews and LeetCode. Especially the staircase problem!
@@ -194,7 +194,7 @@ return stairs[-1]
 ## Tips
 * Fibonacci sequences can be calculated in 𝑶(𝒍𝒐𝒈𝒏) time using Matrix Exponentiation or directly with the Fibonacci formula. This is probably an overkill for interview situations though.
 * Write tests if you have time. Especially for corner cases like n=0, n=1, etc.
-* Like the Staircase Problem, there are many more possible interview questions that can utilize Fibonacci-like sequences: Unique Paths Problem, Decode Ways Problem, etc. I will make separate videos for them so sub if you don't want to miss them!
+* Like the Staircase Problem, there are many more possible interview questions that can utilize Fibonacci-like sequences: Unique Paths Problem, Decode Ways Problem, etc. I will make separate articles for them so sub if you don't want to miss them!
 
 ## Generalized Fibonacci-like Sequences With Variable Steps
 Question: Given n stairs, you can climb x, y, z, … (i.e. 2, 3, 5) stairs at a time. Count the number of different ways that you can reach to the top.
@@ -238,8 +238,8 @@ return fib.pop()
 ```
 
 ## Tips
-* Memory efficient Fibonacci based solutions are essentially sliding window solutions. If you want to watch my dedicated video on "Sliding Windows Technique", I will put the link to it in the video description below. The video has four easy to hard questions with solutions in it.
-* If you want to refresh your memory on Big O notation, I have another dedicated video titled: "Big O Time/Space Complexity Types Explained" for you. The link to it is also in the video description below.
-* By the way, if you want to have some fun with the Big O notation, see my "Alternative Big O Notation" mugs and stickers at quanticdev.com/shop
+* Memory efficient Fibonacci based solutions are essentially sliding window solutions. If you want to watch my dedicated article on "Sliding Windows Technique", I will put the link to it in the resources section above. The article has four easy to hard questions with solutions in it.
+* If you want to refresh your memory on Big O notation, I have another dedicated article titled: "Big O Time/Space Complexity Types Explained" for you. The link to it is also in the resources section above.
+* By the way, if you want to have some fun with the Big O notation, see my "Alternative Big O Notation" mugs and stickers at [quanticdev.com/shop](https://quanticdev.com/shop){:target="_blank"}
 
 ![Alternative Big O Notation Bug](media/alternative_big_o_notation_mug.jpg)
