@@ -1,5 +1,5 @@
 # Staircase Problem + 3 Variants - Different Ways to Reach the N'th Stair With M Different Steps
-In a staircase problem, you try to calculate the different ways to reach the n'th stair where you are allowed to take up to m steps at a time. Say you are given a staircase problem with 5 stairs to climb, and you can take 1 or 2 steps at a time. How would you solve this problem? This and its variants are the focus in this article. It is a great problem to demonstrate the properties of dynamic programming and how to solve problems with it. Due to this, staircase problem and its variants like unique paths problem are commonly used as programming interview questions.
+In a staircase problem, you try to calculate the different ways to reach the n'th stair where you are allowed to take up to m steps at a time. Say you are given a staircase problem with 5 stairs to climb, and you can take 1 or 2 steps at a time. How would you solve this problem? This and its variants are the focus of this article. It is a great problem to demonstrate the properties of dynamic programming and how to solve problems with it. Due to this, staircase problem and its variants like unique paths problem are commonly used as programming interview questions.
 
 In this article, you will find the solutions to the following questions, as well as their time and space complexities:
 
@@ -46,10 +46,10 @@ If you want video solutions for the below questions, visit the YouTube link in t
 
 ## Staircase Problem - Different Ways to Reach the N'th Stair
 Question:
-Given n stairs, you can climb 1 or 2 stairs at a time. Count the number of different ways that you can reach to the top.
+* Given n stairs, you can climb 1 or 2 stairs at a time. Count the number of different ways that you can reach to the top.
 
 Difficulty:
-Medium.
+* Medium.
 
 Requirements:
 * There are no bounds specified for n.
@@ -59,6 +59,7 @@ Analysis:
 * There is no lower bound specified for n so users might try to put in zero as the parameter. Write a test for n=0 case.
 
 Formula:
+
 To formulate a way to calculate all possible ways to reach a stair, think in reverse. What are the unique paths that lead to n'th stair. It is the sum of unique paths leading to n-1'th stair plus n-2'nd stairs.
 
 * `ways(n) = ways(n-1) + ways(n-2)`
@@ -92,8 +93,7 @@ Calculate solution for n=4:
 * Time complexity: O(n) (linear time)
 * Space complexity: O(1) (constant space)
 
-Code:
-Iteration (Fibonacci Sequence)
+Code: Iteration (Fibonacci Sequence)
 ```
 def ways(n):
 a, b = 1, 1
@@ -123,7 +123,8 @@ if n <= 1:  # Recursion needs to stop at some point!
 return ways(n-1) + ways(n-2)
 ```
 
-Recursion Trees:
+#### Recursion Trees:
+
 Below illustration demonstrates how inefficient recursive solution is. Notice the duplicated branches. They are the source of inefficiency. Solution for this is to use memoization.
 
 ![Recursion Tree](media/recursion_tree.png)
@@ -140,8 +141,7 @@ Following is an illustration of how recursion tree is traversed in our `ways()` 
 * Space Complexity: O(n)
 * Call Stack: O(n)
 
-Code:
-Recursion With Memoization
+Code: Recursion With Memoization
 ```
 def ways(n, knownWays = {}):
 if n <= 1:
@@ -163,12 +163,13 @@ Here is another animation of the execution of our memorized `ways()` function wi
 
 ## Generalized Fibonacci-like Sequences
 Question:
-Given n stairs, you can climb up to m stairs at a time. Count the number of different ways that you can reach to the top.
+* Given n stairs, you can climb up to m stairs at a time. Count the number of different ways that you can reach to the top.
 
 Difficulty:
-Medium.
+* Medium.
 
 Formula:
+
 We generate our formula again using reverse thinking. We will start form the top and calculate unique paths leading to top from previous steps.
 
 *` ways(n, m) = ways(n-1, m) + ways(n-2, m) + ... + ways(n-m, m)`
@@ -178,8 +179,7 @@ We generate our formula again using reverse thinking. We will start form the top
 * ways(2) = ways(1) + ways(0)
 * This is a Fibonacci-like sequence!
 
-Solution:
-Iteration (Fibonacci-like Sequences)
+### Solution: Iteration (Fibonacci-like Sequences)
 * Start with stairs 0 and 1.
 * Calculate consecutive ones via adding the previous m numbers.
 * Keep repeating previous step until you reach n’th number.
@@ -187,8 +187,7 @@ Iteration (Fibonacci-like Sequences)
 * Time complexity: O(m*n)
 * Space complexity: O(m)
 
-Code:
-Iteration (Fibonacci-like Sequences)
+Code: Iteration (Fibonacci-like Sequences)
 ```
 def ways(n, m):
 stairs = [1]  # index = 0
@@ -206,12 +205,13 @@ return stairs[-1]
 
 ## Generalized Fibonacci-like Sequences With Variable Steps
 Question:
-Given n stairs, you can climb x, y, z, ... (i.e. 2, 3, 5) stairs at a time. Count the number of different ways that you can reach to the top.
+* Given n stairs, you can climb x, y, z, ... (i.e. 2, 3, 5) stairs at a time. Count the number of different ways that you can reach to the top.
 
 Difficulty:
-Medium.
+* Medium.
 
 Formula:
+
 Once again, we formulate our solution using top-to-bottom approach.
 
 * `ways(n, [x, y, z, ...]) = ways(n-x, [x, y, z, ...]) + ways(n-y, [x, y, z, ...]) + ways(n-z, [x, y, z, ...]) + ...`
@@ -225,15 +225,14 @@ Once again, we formulate our solution using top-to-bottom approach.
 * ways(0) = 1
 * Again a Fibonacci-like sequence!
 
-Solution: Iteration (Fibonacci-like Sequences)
+### Solution: Iteration (Fibonacci-like Sequences)
 * Start with the stair 0.
 * Calculate consecutive ones via adding stair-x, stair-y, stair-z together.
 * Keep repeating until you reach n’th stair.
 * Time complexity: O(m*n)
 * Space complexity: O(m) (m is the length of [x, y, x, ...])
 
-Code:
-Iteration (Fibonacci-like Sequences)
+Code: Iteration (Fibonacci-like Sequences)
 ```
 function ways (n, possibleStepsList) {
 const stairs = [1]
