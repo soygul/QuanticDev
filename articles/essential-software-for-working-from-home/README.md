@@ -47,15 +47,15 @@ Working from home is the new necessity, maybe even the future of many jobs. Jona
 ## Team Chat
 Communication is the primary requirement of any functional business. Asynchronous communication is especially important if the business is distributed over many time zones. This requires a team chat app where you can communicate mostly with text messages. In addition, you should be to share images, diagrams, documents, and more. My favorite tool for this task is Slack. 
 
-![Slack Desktop and Mobile](images/slack_desktop_and_mobile.png)
+![Slack Desktop and Mobile](media/slack_desktop_and_mobile.png)
 
 I have been using Slack for the last 5 years, and it has been working a treat. When you pop open Slack in the morning, you can just click the "All unread" button and see all your new messages in all channels and start replying them. It is bliss. After WhatsApp, Slack must be the most stable chat app I have ever used. Given that Slack's scope is substantially bigger than WhatsApp, they are doing a good job. In addition, file, image, and video sharing have been working great. To have additional features like shared team whiteboard, task manager, or wikis, you can always use Slack apps from 3rd parties. 
 
-![Slack Apps](images/slack_apps.png)
+![Slack Apps](media/slack_apps.png)
 
 On top of apps, you can use bots to automate mundane tasks like creating wiki entries from your chats, or even calendar entries.
 
-![Slack Bot](images/slack_bot.png)
+![Slack Bot](media/slack_bot.png)
 
 A lot of team chat apps, including Slack, have built-in video conferencing. Almost all team chat apps also have very usable free tiers. However, their free tiers have some limitations, like only allowing a limited number of participants in video conferences. Same goes for storage space. For all the memes and cat video you can share in chat, you only get 5 GB of storage space for free. On the bright side, you can connect your Google Drive or other cloud file storage services to have additional space.
 
@@ -70,7 +70,7 @@ These points are a generalization, and it will differ from app to app. I would r
 
 So, let us start with the current most capable video conferencing service, Zoom. 
 
-![Zoom Meeting](images/zoom_meeting.jpg)
+![Zoom Meeting](media/zoom_meeting.jpg)
 
 Having used video conferencing tools for more than a decade, I have never used something as stable as Zoom. It just works. Until Zoom, no other service I used offered a stable experience with 10+ participants. Some people sounding like they are talking through a walkie-talkie, no video on some others, and terrible echo on most... they just drove me nuts for years. Zoom seems to be handling the massively varied devices and connections of all participants quite well. I will not go into the technical details as they will get outdated in no time, but if you are interested, Google these magic words: "Zoom + WebRTC". You can then read what Zoom is doing behind the scenes and how it uses some technologies differently than others.
 
@@ -78,7 +78,7 @@ The alternatives that I can recommend, which will not give you a decade of pain 
 
 Finally, I always recommend Googling for current known security issues with any communication tool that you are about to use. Zoom recently had major security issues, and others can have them too.
 
-![Zoombombing](images/zoombombing.png)
+![Zoombombing](media/zoombombing.png)
 
 Knowing about security issues beforehand can help you to avoid them or avoid that tool entirely. As always, never share confidential information like passwords in chat or a video call.
 
@@ -89,7 +89,7 @@ Another Tip: I have an article on the most valuable things you can learn in an h
 ## Online Office Suite: Mail, Calendar, and File Sharing
 For an office suite that you can use online with minimal pain, you have only a few choices. Collaborative office suites that I can recommend are restricted to Microsoft Office 365 and Google Suite.
 
-![Word Online](images/word_online.png)
+![Word Online](media/word_online.png)
 
 There are a massive number of tools that need to be in an office suite like a mail client, team calendar, file sharing, presentation software and more. Not every company can deliver all these tools at once, so you are either going to use Microsoft or Google or choose a collection of smaller tools. Even though online tools are likely to destroy your privacy, for strictly business purposes, I think it is well worth the considerable convenience that they bring. Most office suites have free tiers if you want to test them out as an individual. But for business purposes, they will roughly set you back $10 a user per month.
 
@@ -98,14 +98,14 @@ If you know better alternatives to Microsoft and Google in office space with a s
 ## Project Management
 I will keep this part simple. If you want project management, go with Trello.
 
-![Trello Board](images/trello_board.png)
+![Trello Board](media/trello_board.png)
 
 It has everything you need. If you think you need more, you are just adding complexity to your setup. Every company finds excuses to add unnecessary complexity to their workflow via inventing not-so-essential requirements. But if you really like pain, the other alternatives that I can offer to Trello are AirTable, Asana, Pivotal Tracker, Wrike, and Jira (!).
 
 ## All-in-One
 GitHub is a unique tool for technical people. You can literally use it for everything. You can share code; you can edit documents collaboratively; you can use it for project management, or even for website hosting, just as I do with QuanticDev website.
 
-![QuanticDev GitHub Repo](images/quanticdev_github_repo.png)
+![QuanticDev GitHub Repo](media/quanticdev_github_repo.png)
 
 It is strictly for technical people so you will do a lot of command-line work, but if your team is made up of technical people, I have a great article explaining how I use GitHub on my daily development workflow for all my needs. If you want to see it, the link is in the resources section on top.
 

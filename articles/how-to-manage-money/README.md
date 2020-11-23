@@ -25,14 +25,14 @@ Video has additional tips and illustrations. If you want to read the comments or
 ## My Wealth Distribution as a Software Engineer
 Let me start by giving you the chart on how I allocate my wealth.
 
-![My Portfolio](images/my_portfolio.jpg)
+![My Portfolio](media/my_portfolio.jpg)
 
 I keep to a straightforward formula of dividing my wealth into 3 roughly equal parts between real estate, index funds, and bonds. I keep a decent amount of liquidity in case of emergencies. Since funds can take up to 2 weeks to liquidate, it is important to have some cash in hand. I will expand on this 3-legged investment strategy point-by-point in the next sections.
 
 I kept to this simple and diversified investment strategy for a long time now, and here is how it has been doing.
 * Return on my real-estate investments was about 100%. This is based on the approximate sales value of adjacent and identical estates and is a rough estimate. I will explain why it grew so much in a moment.
 * MSCI World Index Fund price doubled in the last 10 years.I got only about 60% return on my investment since I was late in getting into the index funds. I also started allocating some of my money for JPMorgan US Technology Fund, and it grew about 450% in the last 10 years, which I missed. I will discuss why I made this change later.
-  ![MSCI World Index 10 year performance](images/msci_world_10y_performance.png)
+  ![MSCI World Index 10 year performance](media/msci_world_10y_performance.png)
 * The return on my JPMorgan Global Bond Fund was a modest 13% in the last 6 years.
 
 My bond investments had minimal return, but the other 2 had an amazing run. This is not all luck though. These are the results of very conscious choices that I made while deciding what to do with my money. I will also talk more about it in a moment.
@@ -72,7 +72,7 @@ Source: https://www.investopedia.com/terms/i/indexfund.asp
 
 The most significant advantage of index funds is the ease of mind. You do not have to think about the performance of a single company or individual stocks. Markets tend to move up over time since stocks pay dividends. So, your investment in the index funds will grow along with the markets.
 
-![Dow Jones Industrial Average 100 years](images/dow_jones_industrial_average_100_years.png)
+![Dow Jones Industrial Average 100 years](media/dow_jones_industrial_average_100_years.png)
 
 Also, index funds tend to have very low management fee. For instance, the MSCI World Index Fund that I invest in has a 0.2% management fee. As a result, you will lose little of your investment to managements costs, as there is very little to manage.
 
@@ -92,7 +92,7 @@ Source: https://www.investopedia.com/terms/b/bond.asp
 
 Bonds are low-risk low-return investments and are a good way of preserving value rather than making money. The best thing about them is the ease of mind. They do not fluctuate much, and you do not have to think about them after investing. One thing to note is the fact that currencies themselves fluctuate.
 
-![Euro vs USD](images/euro_vs_usd.png)
+![Euro vs USD](media/euro_vs_usd.png)
 
 For this reason, it is safest to choose a bond fund that has a mix of holdings in major currencies; USD, Euro, and Yen. Another risk is the corporate bankruptcies. You can mitigate that if you invest in funds that hold mostly government bonds.
 
@@ -107,7 +107,7 @@ There are many more investment instruments like commodities etc. outside of what
 ## My Failures
 I did not start investing in the stock market early on, so I could not ride the last economic boom. Especially the tech boom. Instead, I opted to pay back my mortgage as soon as possible. In my defense, I did not know that interest rates would stay low for so long. Check the below chart for yearly mortgate rates for the last 50 years:
 
-![Yearly Mortgate Rates](images/yearly_mortgage_rates.png)
+![Yearly Mortgate Rates](media/yearly_mortgage_rates.png)
 
 I always planned for the worst-case scenario and prioritized being debt-free. However, it has the bonus effect of removing one complexity from your life.
 

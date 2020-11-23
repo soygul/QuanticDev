@@ -82,11 +82,11 @@ O(n^n) = O(sh*t!)
 
 If you want to have the alternative big O notation as a sticker, so you can stick it to unusual places, you can get it from [quanticdev.com/shop](/shop){:target="_blank"}. I will leave the link to it in the resources section above. If you really want to confuse fellow software engineers, you can also get it as a small poster, bigger poster, framed print, hoodie, phone case, mug, blanket, or even a shower curtain!
 
-[![Alternative Big O Notation Poster](images/alternative_big_o_notation_poster.jpg)](https://www.redbubble.com/shop/ap/54268092){:target="_blank"}
+[![Alternative Big O Notation Poster](media/alternative_big_o_notation_poster.jpg)](https://www.redbubble.com/shop/ap/54268092){:target="_blank"}
 
 And if you want to join the quantic developers club, you can get a sticker for your computer or even a nice canvas poster for your study corner.
 
-[![Quantic Developers Club Artwork](images/quanticdev_sticker.jpg)](https://www.redbubble.com/shop/ap/54006599){:target="_blank"}
+[![Quantic Developers Club Artwork](media/quanticdev_sticker.jpg)](https://www.redbubble.com/shop/ap/54006599){:target="_blank"}
 
 Anything you order or gift helps the channel, while hopefully bringing you some motivation. If you want to see the full collection, check out [quanticdev shop](/shop){:target="_blank"}.
 

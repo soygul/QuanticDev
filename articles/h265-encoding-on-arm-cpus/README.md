@@ -20,7 +20,7 @@ Relevant resources referred to in this article:
 * [Nvidia NVENC hardware encoder quality test for H.264](https://www.youtube.com/watch?v=-fi9o2NyPaY){:target="_blank"}
 
 # The Numbers
-![H.265 with x265 on ARM vs x86 (Mobile vs Desktop)](images/x265-arm_vs_x86.png)
+![H.265 with x265 on ARM vs x86 (Mobile vs Desktop)](media/x265-arm_vs_x86.png)
 
 As I mentioned, I did the FFmpeg H.265 software encoding comparison between ARM and x86. The speed difference between my quad-core Intel i7 4850HQ 15" MacBook Pro and my 8-core Exynos 7885 Samsung phone was an astounding 1000%!
 * 4-core Intel i7 4850HQ: ~3.3 fps @ 45 Watts

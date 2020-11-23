@@ -13,11 +13,11 @@ Hacker News discussions on this article: [https://news.ycombinator.com/item?id=2
 # The Cleanup
 I want to remind anyone who would like to try this to turn off their computers first. I don't care about this machine anymore, so I just left it in sleep mode. I also recommend setting the vacuum to minimum possible setting and be very gentle while sweeping. It would be very easy to suck in any loose components or wires. In addition, dust particles traveling inside the vacuum hose will build up some static. This can create some static discharge onto the electronic components. In my experience, this can only happen if you are cleaning something amazingly dusty, like an old desktop computer. If you have an air compressor/blower available, or at least a can of compressed air, it is a better option. For the record, I used a 1.2 mm P5 Pentalobe Screwdriver to open the back panel. You can find it pretty much in any hardware store.
 
-![MacBook Pro Open Back](images/macbook_battery_service_recommended.jpg)
+![MacBook Pro Open Back](media/macbook_battery_service_recommended.jpg)
 
 Once I open the back panel, you can see that batteries are badly swollen. Even in that shape, they are stable, but I would not recommend trying to poke a hole in them. You would be likely to short circuit the inner panels, and it could start venting poisonous lithium gasses.
 
-![MacBook Pro Open Back](images/macbook_pro_open_back.jpg)
+![MacBook Pro Open Back](media/macbook_pro_open_back.jpg)
 
 As you can see, both the fan blades and the heat pipe grills are clogged with 7 years' worth of dust! No wonder why the machine was overheating all the time.
 

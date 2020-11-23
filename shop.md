@@ -5,6 +5,6 @@ Shop for material related to the articles and videos as well as QuanticDev's ori
 <script id="rb-xzfcxvzx" type="text/javascript">new RBExternalPortfolio('www.redbubble.com', 'quanticdev', 2, 3).renderIframe();</script>
 
 # Samples
-[![QuanticDev Poster](assets/images/quanticdev_poster.jpg)](https://quanticdev.redbubble.com){:target="_blank"}
+[![QuanticDev Poster](assets/media/quanticdev_poster.jpg)](https://quanticdev.redbubble.com){:target="_blank"}
 
-[![QuanticDev Sticker](assets/images/quanticdev_sticker.jpg)](https://quanticdev.redbubble.com){:target="_blank"}
+[![QuanticDev Sticker](assets/media/quanticdev_sticker.jpg)](https://quanticdev.redbubble.com){:target="_blank"}

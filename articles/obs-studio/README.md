@@ -24,11 +24,11 @@ Video has live demonstrations. If you want to read the comments or leave a comme
 ## Overview
 I am the QuanticDev, and today I am going to show you how to use OBS Studio to live-stream or record yourself, your screen, or both together. OBS Studio is an open-source software for video recording and live streaming.
 
-![OBS Studio Screenshot](images/obs_studio_screenshot.jpg)
+![OBS Studio Screenshot](media/obs_studio_screenshot.jpg)
 
 It has been gaining traction over the years with the rise of live streaming on social media. Gaming focused streaming platforms like YouTube Live and Twitch added fuel to the fire. You can use OBS to stream to pretty much any platform while recording your stream locally. You can even use it as a virtual cam for video conference, for instance, Zoom calls. You can also apply a bunch of filters to your video and audio like noise reduction. I personally use it to record my screen for product demos or to create pre-recorded presentations. When I am preparing to make a webcast, I record my final practice session. If anything happens during the live session, I can at least playback the recorded version. Now let's jump in and record a simple product demo while streaming it live at the same time! The product in question is my very own "Choose Your Own Adventure" game called Crowner. 
 
-![Crowner Screenshot](images/crowner_screenshot.png)
+![Crowner Screenshot](media/crowner_screenshot.png)
 
 I will stream the gameplay on Twitch.tv while saving it locally to an mp4 file.
 
@@ -50,6 +50,6 @@ One final thing I want to show you is the picture-in-picture mode. If you want t
 ## Conclusion
 You can repeat the same steps and record your PowerPoint window to create a pre-recorded presentation. Or you can record your entire screen to create guides just as I did, and stream it live on YouTube at the same time! I highly recommend setting aside 10 minutes to setup OBS on your computer, as it will fill all your future recording/webcasting needs. It is open-source and free. And if you are a developer, it has bounties like this one that can benefit everyone, and earn you $10,000 while at it!
 
-![OBS Studio GitHub 10000USD Bounty](images/github_10000USD_bounty.png)
+![OBS Studio GitHub 10000USD Bounty](media/github_10000USD_bounty.png)
 
 OBS Studio is open-source at its fines. Use it, share it, donate to it. And while at it, you can give me a sub so I can inform you about my other finest selections from the open-source world. If you know someone that is starting streaming, or a colleague that wants to record presentations, share this article with them to give them a helping hand.

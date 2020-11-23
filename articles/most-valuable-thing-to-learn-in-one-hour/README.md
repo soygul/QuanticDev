@@ -39,11 +39,11 @@ Tip: If you have any ideas on skills that are essential and can be learned quick
 ## Raspberry Pi
 [Raspberry Pi](https://www.raspberrypi.org/){:target="_blank"} is a tiny computer with a powerful mobile CPU that costs only $35.
 
-![Raspberry Pi Screen](images/raspberry_pi_screen.jpg)
+![Raspberry Pi Screen](media/raspberry_pi_screen.jpg)
 
 You can use it as a spare computer, you can use it as a home server, or you can make it into a smart home dashboard with a small screen attached. If you have no prior experience with electronics, it could be your gateway into electronics. You can buy many attachments for it like a temperature sensor, camera, GPS module etc. and build creative things with them. Programming a Raspberry Pi is quite easy, and it has good documentation. It can also help you get into programming if you choose to go in that direction.
 
-![Raspberry Pi Kit](images/raspberry_pi_kit.jpg)
+![Raspberry Pi Kit](media/raspberry_pi_kit.jpg)
 
 You can get a Raspberry Pi Kit which includes everything necessary to turn your Raspberry into a replacement computer. If you go with a kit that includes a touch screen or a keyboard with integrated touchpad, you can even use it as a portable computer. There is so much to learn with a Raspberry Pi!
 
@@ -54,7 +54,7 @@ Most schools and larger companies provide free education on first aid and CPR. I
 
 At the minimum, have a first aid kit at your home.
 
-![First Aid Kit](images/first_aid_kit.jpg)
+![First Aid Kit](media/first_aid_kit.jpg)
 
 They mostly come bundled with instructions, so read the leaflet. You can quickly learn how to attend burns and wounds with some online videos too, but make sure that it is from a credible source. Knowing the simplest things like how to apply pressure or do a tourniquet to stop bleeding can save somebody's life, or even yours!
 
@@ -65,7 +65,7 @@ There are a million guides out there each tailored towards a specific industry. 
 
 First off, know your worth. Knowing where you stand on the income chain will help you negotiate effectively. There are many websites that list salaries for different industries and companies like [LinkedIn Salaries](https://www.linkedin.com/salary/){:target="_blank"}, [Glassdoor Salaries](https://www.glassdoor.com/Salaries/){:target="_blank"}, [levels.fyi](https://www.levels.fyi/){:target="_blank"}, and more.
 
-![Level.fyi](images/levels_fyi.png)
+![Level.fyi](media/levels_fyi.png)
 
 Search for salary listing sites that are relevant to your line of work and use them.
 

@@ -34,11 +34,11 @@ We have all our development tools ready both in Arch Linux Subsystem and on our 
 ## Downsides of WSL and winget
 Even though winget in combination with WSL 2 + Arch is looking good, it is not all sunshine and rainbows. First off, winget does not have dependency management. This means that it just downloads and executes .exe files. Though dependency management is on their roadmap.
 
-![winget Dependency Management](images/winget-dependency-management.png)
+![winget Dependency Management](media/winget-dependency-management.png)
 
 In addition, you can only find the latest versions of packages, and not the older stable ones. This might be a deal-breaker for many developers that want to pin their systems to specific versions of development tools.
 
-![winget Package Versions](images/winget-package-versions.png)
+![winget Package Versions](media/winget-package-versions.png)
 
 In addition, WSL's distro selection is very limited. Though, WSL 2 switched to a fully flagged virtual machine approach, so I assume that the situation will improve over time.
 

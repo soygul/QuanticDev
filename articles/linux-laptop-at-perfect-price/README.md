@@ -23,11 +23,11 @@ My [Cleanest Linux Productivity and Development Environment using Manjaro Linux]
 ## Lenovo ThinkPad E595 (E Series)
 For this guide we will buy a Lenovo ThinkPad E595, so let's start by checking it out. The ThinkPad E595 has acceptable bezels on its great IPS display and a passable 720p webcam on the top bezel. The 45Wh battery should last you for 6-7 hours of coding. (Note that E15 is the successor to E595, and it will become available in August 2020, so you might try that instead.)
 
-![Lenovo ThinkPad E595](images/lenovo_thinkpad_e595.png)
+![Lenovo ThinkPad E595](media/lenovo_thinkpad_e595.png)
 
 It is charged through the USB-C port with a USB-C charger, has HDMI, Ethernet socket, and a MicroSD slot. It does not have a dedicated graphics card, which means more power efficiency and fewer problems with Linux. Ryzen's integrated Vega graphics is quite adequate anyway. Even the video editing software started utilizing the integrated Vega graphics card to accelerate editing and rendering.
 
-![Lenovo ThinkPad E595 Ports](images/lenovo_thinkpad_e595_ports.jpg)
+![Lenovo ThinkPad E595 Ports](media/lenovo_thinkpad_e595_ports.jpg)
 
 Now let's jump in and buy one of these guys.
 

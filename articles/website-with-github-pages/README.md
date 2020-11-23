@@ -35,17 +35,17 @@ Free website hosting:
 ## QuanticDev.com Intro
 I host [quanticdev.com on GitHub Pages](https://github.com/soygul/QuanticDev){:target="_blank"}, and here is how it is looking right now on mobile.
 
-![quanticdev.com mobile](images/quanticdev_com-mobile.jpg)
+![quanticdev.com mobile](media/quanticdev_com-mobile.jpg)
 
 After I published, I made over a hundred changes to the website and every time it got deployed with no problems. I have the source code of the website along with the articles on a public repository on GitHub. 
 
-![quanticdev.com github source code](images/quanticdev_com-github_source.jpg)
+![quanticdev.com github source code](media/quanticdev_com-github_source.jpg)
 
 All the articles are written in markdown so people can easily contribute to it. You can even edit the articles directly on GitHub's UI.
 
 Currently, quanticdev.com has a small number of regular visitors, and it has been working a treat. Recently, [one of my articles](https://news.ycombinator.com/item?id=21913129){:target="_blank"} reached the front page of Hacker News and the traffic to my website exploded.
 
-![quanticdev.com google analytics](images/quanticdev_com-google_analytics.jpg)
+![quanticdev.com google analytics](media/quanticdev_com-google_analytics.jpg)
 
 Even then, I had no hiccups, and GitHub served my website with no problems or slowdowns.
 
@@ -93,7 +93,7 @@ Now that we know what GitHub Pages is and what is it not, let us go ahead and de
 * You can link to your new page using simple markdown syntax like this: `[another-page](another-page)`. HTML equivalent of that would be just a relative link with URL: "another-page".
 * I will not go into the details of deployment of React apps to GitHub Pages. But to verify that it can be done, I did it and here is how it looks:
 
-![GitHub Pages with React](images/github_pages_react.jpg)
+![GitHub Pages with React](media/github_pages_react.jpg)
 
 If you want more information on React + GitHub Pages, documentation link is in the description below.
 

@@ -38,24 +38,24 @@ Most popular Docker images that you can use on your Raspberry:
 ## Why Raspberry Pi
 Raspberry Pi is a very compact and cheap computer. The new Raspberry Pi 4 with 1GB of RAM costs only $35. I have it on my desk at work, and here it is how it sits.
 
-![Raspberry Pi attached to phone](images/raspberry_connected.jpg)
+![Raspberry Pi attached to phone](media/raspberry_connected.jpg)
 
 I have all my charging cables attached to the USB ports. I charge my phones, my headphones, my powerbank, and it all works great since I have the Raspberry attached to a 3A charger. More than its physical usefulness, you want it as a computer. It has a powerful CPU and adequate amounts of RAM for many computing tasks. However, it is especially useful for experimenting, learning, and home-server type of workloads. I will talk more about this in a moment.
 
-![Raspberry Pi attached to phone](images/raspberry_hardware_features.jpg)
+![Raspberry Pi attached to phone](media/raspberry_hardware_features.jpg)
 
 ## Why Docker
 Docker helps you containerize apps. Why do you want containerized apps? Primarily due to ease of use. You can define all their dependencies in a single Dockerfile, they do not pollute your computer with their files, and they work in isolation for security purposes. When you mess up an app container, you can trash it and create a new one in seconds. Since Docker uses OverlayFS, you can even go back in disk history, just like snapshots in a virtual machine.
 
-![OverlayFS](images/overlayfs.png)
+![OverlayFS](media/overlayfs.png)
 
 For instance, say you want to host your own website on your Raspberry. Say you need Node.js and MongoDB for it. All you have to do is to install Docker on your Raspberry and pull Node and Mongo images. After you set up your containers, you can start hosting your website. It is a very good learning experience for Docker, and it will help you dig deeper into the Linux ecosystem.
 
 For those who are worried, performance is pretty good since Docker is not virtualization, it still uses the kernel primitives directly. As you can see in the charts, both CPU and network overhead of Docker are negligible.
 
-![Raspberry Pi attached to phone](images/docker_performance_cpu.png)
+![Raspberry Pi attached to phone](media/docker_performance_cpu.png)
 
-![Raspberry Pi attached to phone](images/docker_performance_latency.png)
+![Raspberry Pi attached to phone](media/docker_performance_latency.png)
 
 ## How Do I Use My Raspberry Pi as a Developer?
 My use case for Raspberry Pi is exactly as I describe	d up to this point. I host small internal services in Docker containers at home and at work. Most of them are for experimenting and just messing around. Some of them are for small tasks like FTP server for my external drive and periodically recording the home temperature. I also use it as the staging server for most of my web projects. I use a laptop, so it is not always on, but my Raspberry is. Some of the long-running automated tests for those web services require them to be running for 24 hours straight, so I just deploy them to container in Raspberry and run on it.
