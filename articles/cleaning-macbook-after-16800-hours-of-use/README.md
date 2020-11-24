@@ -10,7 +10,7 @@ If you want to read the comments or leave a comment, do so under the YouTube vid
 
 Hacker News discussions on this article: [https://news.ycombinator.com/item?id=23583611](https://news.ycombinator.com/item?id=23583611){:target="_blank"}
 
-# The Cleanup
+## The Cleanup
 I want to remind anyone who would like to try this to turn off their computers first. I don't care about this machine anymore, so I just left it in sleep mode. I also recommend setting the vacuum to minimum possible setting and be very gentle while sweeping. It would be very easy to suck in any loose components or wires. In addition, dust particles traveling inside the vacuum hose will build up some static. This can create some static discharge onto the electronic components. In my experience, this can only happen if you are cleaning something amazingly dusty, like an old desktop computer. If you have an air compressor/blower available, or at least a can of compressed air, it is a better option. For the record, I used a 1.2 mm P5 Pentalobe Screwdriver to open the back panel. You can find it pretty much in any hardware store.
 
 ![MacBook Pro Open Back](media/macbook_battery_service_recommended.jpg)

@@ -19,7 +19,7 @@ Relevant resources referred to in this article:
 * [x265 Source Code](https://github.com/videolan/x265){:target="_blank"}
 * [Nvidia NVENC hardware encoder quality test for H.264](https://www.youtube.com/watch?v=-fi9o2NyPaY){:target="_blank"}
 
-# The Numbers
+## The Numbers
 ![H.265 with x265 on ARM vs x86 (Mobile vs Desktop)](media/x265-arm_vs_x86.png)
 
 As I mentioned, I did the FFmpeg H.265 software encoding comparison between ARM and x86. The speed difference between my quad-core Intel i7 4850HQ 15" MacBook Pro and my 8-core Exynos 7885 Samsung phone was an astounding 1000%!
@@ -40,5 +40,5 @@ So why is the H.265 encoding with FFmpeg 10-times slower on an ARM processor? Ac
 
 I went ahead and checked the x265 project's source code on GitHub and seen that ARM code is very rarely updated whereas the x86 code is much more frequently maintained. It is safe to assume that H.265 software encoding performance on ARM devices like phones and tablets will not improve anytime soon. It might be possible to use the hardware encoders found on these devices to accelerate H.265 encoding massively. However, hardware encoders generally perform worse than software encoders in terms of quality, and they do not offer a rich selection of parameters that you can use with the software encoder. For instance, I do not know of any H.265 encoder that supports Constant Rate Factor yet, which is my go-to encoding mode.
 
-# Conclusion
+## Conclusion
 If you want to use your spare Android or iPhone for H.265 video encoding, forget about it! It is painstakingly slow. I am back to leaving my laptop on during nights for rendering. However, I have recently read that the latest generation of Nvidia cards delivers excellent H.264 quality with their NVENC hardware encoder. If you want to check out the quality analysis video, the link is in the resources section above. If I decide to build a desktop render machine with Nvidia hardware, I will test it on H.265 and let you guys know.

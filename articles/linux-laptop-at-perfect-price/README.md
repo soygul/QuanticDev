@@ -31,7 +31,7 @@ It is charged through the USB-C port with a USB-C charger, has HDMI, Ethernet so
 
 Now let's jump in and buy one of these guys.
 
-# Purchase Guide
+## Purchase Guide
 Start by going to the Lenovo website at lenovo.com, or using my affiliate link in the resources section above, in case you want to help quanticdev.com. Once the website loads, scroll all the way down and select your country from the dropdown on the bottom right. After that, click on "Laptops" from the top navigation menu. On the new page, look for E595. If you want an identical 14" laptop, you can go with the E495, but for productivity, I recommend E595 for its bigger screen. Once you click on E595's thumbnail, you will see that it also has Intel counterpart, but we want the AMD one, so make sure that AMD is selected. Click on **"Show All"** to see all the pre-configured models. From the models list, click on the **cheapest one on the left with the Ryzen 3 CPU**. This step is important because only the cheapest one offers the option to purchase without the pre-installed Windows. Do not worry though, we will beef up its configuration after the selection. So, the cheapest base model currently is **$453** (US Dollars without VAT). Click on **"Customize & Buy"**, and you will be taken to the component configuration page.
 
 **Note**: If you want to see me doing all these for you live, check out the YouTube video in the resources section above.
