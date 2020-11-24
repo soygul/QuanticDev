@@ -26,9 +26,11 @@ You can find my YouTube uploader code on GitHub too:
 * [https://gist.github.com/soygul/42677432fa89df7fd783e0232a43a8cf](https://gist.github.com/soygul/42677432fa89df7fd783e0232a43a8cf){:target="_blank"}
 
 ## youtube-upload.js
+Below is my entire YouTube uploader code in Javascript. If you can't get it to work, I do a live demonstration in the video posted above, so you can follow it. In fact, that video was uploaded using the below code!
+
 ```js
 // YouTube API video uploader using JavaScript/Node.js
-// You can find the full visual guide at: https://www.youtube.com/watch?v=HBuTxzDceJw
+// You can find the full visual guide at: https://www.youtube.com/watch?v=gncPwSEzq1s
 // You can find the brief written guide at: https://quanticdev.com/articles/automating-my-youtube-uploads-using-nodejs
 //
 // Upload code is adapted from: https://developers.google.com/youtube/v3/quickstart/nodejs
