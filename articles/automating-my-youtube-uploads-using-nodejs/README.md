@@ -191,6 +191,10 @@ function storeToken(token) {
 ```
 
 ## Project Design Document
+Software development process starts with a design document. If you are interested, you can learn more about [Software/Systems Development Life Cycle on Wikipedia](https://en.wikipedia.org/wiki/Systems_development_life_cycle){:target="_blank"}.
+
+![Software and Systems Development Life Cycle](media/software_development_life_cycle.png)
+
 Below is the software design document that I created for this project. If you want, you can take inspirations from it in your own projects.
 
 Objective:
