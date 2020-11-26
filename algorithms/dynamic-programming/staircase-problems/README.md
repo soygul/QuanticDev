@@ -7,7 +7,7 @@ In this article, you will find the solutions to the following questions, as well
 * Medium Difficulty: Generalized Fibonacci-like Sequences: Same question but you can climb up to m steps at a time.
 * Medium Difficulty: Generalized Fibonacci-like Sequences With Variable Steps: Same question but you can only climb 2, 3, 6 steps at a time.
 
-![Staircase Problems](media/thumb.png)
+[![Staircase Problems](media/thumb.png)](https://www.youtube.com/watch?v=qSE2iKRU4UA){:target="_blank"}
 
 Table of contents:
 * [Resources](#resources)
