@@ -30,6 +30,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Fundamental Engineering Principles - What are the expectations form developers and engineers?](/articles/engineering-principles)
 
 ## Algorithms
+* [Recursion Visualization](/algorithms/dynamic-programming/staircase-problems)
 * [Staircase Problems](/algorithms/dynamic-programming/staircase-problems)
 * [Alternative Big O Notation](/algorithms/primitives/alternative-big-o-notation)
 * [Big O Time/Space Complexity Types Explained - Logarithmic, Polynomial, Exponential, and More](/algorithms/primitives/big-o-time-space-complexity-types-explained)
