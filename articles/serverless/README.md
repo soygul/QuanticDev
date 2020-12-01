@@ -61,6 +61,10 @@ Remember, Firebase has a generous free quota, so you will not pay anything for t
   * They can be private functions handling only internal events. For instance, handling an AWS S3 "file upload complete" event to process images uploaded by your users.
   * Providers also allow timed functions so they can run at arbitrary time intervals to perform routine tasks.
   * I am sure you can also come up with many innovative ways to use functions to handle all your backend workload in an event-driven fashion with minimal cost.
+* Easy to debug.
+  * Each serverless function is a stateless mini app. As long as you keep a record of all input and output of those functions, you can replay any series of events. However, if you have stored state like a database, you will have to capture the database changeset for a complete event replay.
+* Easy to test.
+  * Many serverless vendors provide simulators which you can run locally to simulate their cloud environment to be able to do integration testing of the functions locally. In addition, stateless functions are very easy to unit test.
 
 Cost of labor is will always higher than the cost of serverless. Say if you go with cheaper AWS EC2 servers instead, you will still have to learn and configure AWS, which is a titanic task in itself.
 
@@ -89,6 +93,8 @@ Cost of labor is will always higher than the cost of serverless. Say if you go w
 * Cold starts.
   * Cold starts of your functions will be costly. For instance, in JavaScript, all libs will be evaluated from scratch, though vendors are coming up with ingenious solutions for it. Choose your vendor considering their cold startup performance on languages that they support.
   * Cache whatever you can to reduce the impact of cold starts. Different caching mechanisms are offered by different serverless vendors.
+* When things do go wrong, they are quite hard to debug.
+  * 
 
 What we discussed about Amazon Web Services 5 years ago is now on the new serverless discussion. Back then, we were discussion if AWS was a reliable alternative to bare metal servers. I am confident that serverless will gain more acceptance as AWS did.
 
