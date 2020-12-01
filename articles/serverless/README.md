@@ -62,7 +62,7 @@ Remember, Firebase has a generous free quota, so you will not pay anything for t
   * Providers also allow timed functions so they can run at arbitrary time intervals to perform routine tasks.
   * I am sure you can also come up with many innovative ways to use functions to handle all your backend workload in an event-driven fashion with minimal cost.
 * Easy to debug.
-  * Each serverless function is a stateless mini app. As long as you keep a record of all input and output of those functions, you can replay any series of events. However, if you have stored state like a database, you will have to capture the database changeset for a complete event replay.
+  * Each serverless function is a stateless mini app. As long as you keep a record of all input and output of those functions (i.e. with structured logging), you can replay any series of events. However, if you have stored state like a database, you will have to capture the database changeset for a complete event replay.
 * Easy to test.
   * Many serverless vendors provide simulators which you can run locally to simulate their cloud environment to be able to do integration testing of the functions locally. In addition, stateless functions are very easy to unit test.
 
