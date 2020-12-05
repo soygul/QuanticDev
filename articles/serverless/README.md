@@ -113,7 +113,7 @@ What we discussed about Amazon Web Services 5 years ago is now on the new server
   * Can run on cloud, bare metal, on Raspberry Pi, etc.
   * More maintenance and much steeper learning curve.
   * More abstraction means more obscure errors.
-  * Serverless providers are starting to offer container support, but I have no experience with it: https://cloud.google.com/knative
+  * Serverless providers are starting to offer container support, but I have no experience with it: https://cloud.google.com/knative or https://cloud.google.com/run
 
 ## Who Uses Serverless?
 Many big corps use serverless functions by today, and many others will join the ranks in the coming years. Since they are so versatile, they can be used to handle many small internal tasks. However, notable examples that use function-as-a-service providers as the backbone of their businesses are as follows.
