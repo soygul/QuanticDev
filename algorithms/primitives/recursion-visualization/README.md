@@ -22,12 +22,12 @@ You can find the video version of this article on YouTube: [https://www.youtube.
 
 The video has all the illustrations along with the narrative. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-The [Recursion Visualization Tool](XXXXXXXXXXXXXX){:target="_blank"} I used in this video.
+The [Recursion Visualization Tool](/tools/recursion-visualization){:target="_blank"} I used in this video.
 
 [My "Staircase Problem + 3 Variants" article](/algorithms/dynamic-programming/staircase-problems){:target="_blank"}, which is a great real-world application of recursive solutions, as well as memoization and plain iteration.
 
 ## Power Function
-What you see is the visualization of a "2 to the power of n" function which is implemented using recursion:
+What you see is the visualization of a "2 to the power of n" (2^n) function which is implemented using recursion:
 
 <video width="1280" height="1012" controls><source src="media/power_of_2.mp4" type="video/mp4"></video>
 
@@ -40,7 +40,7 @@ def pow(x, n):
     return x * pow(x, n-1)
 ```
 
-At each level, we multiply the result of the deeper recursive call with two, hence calculating two raised to the power of n. A much better way of implementing this would be to use fast-power, but for demonstration sake, we will stick with recursion. As you saw in the animation, our call stack goes all the way down and then back up, bringing back the result from the deepest level. So, our call stack never bounces up and down. Let's get back to our Fibonacci example to investigate a recursion where the call stack depth increases and decreases along with where we are at the calculation.
+At each level, we multiply the result of the deeper recursive call with 2, hence calculating 2 raised to the power of n. A much better way of implementing this would be to use fast-power, but for demonstration sake, we will stick with recursion. As you saw in the animation, our call stack goes all the way down and then back up, bringing back the result from the deepest level. So, our call stack never bounces up and down. Let's switch to a Fibonacci example to investigate a recursion where the call stack depth increases and decreases along with where we are at the calculation.
 
 ## Calculating 5th Fibonacci Number Using Recursion
 In this example, you are seeing the visualization of the calculation of 5th Fibonacci number using recursion:
@@ -75,8 +75,4 @@ What if the Fibonacci numbers were the sum of the previous three Fibonacci numbe
 As you can see, the only difference this time is the width of the recursion tree. Our height still maxes out at five, but the width of our recursion tree grows by a factor of three this time. This will again result in exponential time complexity, one that grows cubically.
 
 ## Conclusion
-If you want to see an excellent example of recursion in programming interviews, check out my "Staircase Problems" video. Solutions of staircase problems, and other unique paths problems, are Fibonacci-like sequences. In my video, I explain how to solve them using recursion, memoized recursion, and simple iteration. You can find the link to it in the video description below. And if you want to see my future computer science videos, don't forget to sub.
-
-By the way, I post most of my video guides as articles too. If you want to check them out, head over to quanticdev.com. It is an open-source website, and its code is on GitHub. If you wish to contribute to it, feel free to fork it on GitHub and make a pull request.
-
-If you are interested, the source for the visualization tool that I used is in the video description below. I will now leave you alone with the slow-motion calculation of 10th Fibonacci number using recursion.
+If you want to see an excellent example of recursion in programming interviews, check out my "Staircase Problems + 3 Variants" article. Solutions of staircase problems, and other unique paths problems, are Fibonacci-like sequences. In that article, I explain how to solve them using recursion, memoized recursion, and simple iteration. You can find the link to it in the resources section above. And if you want to see my other algorithms articles, check out the home page. Finally, the source for the visualization tool that I used is also in the resources section.
