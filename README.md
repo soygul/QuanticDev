@@ -42,16 +42,6 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Subarray vs Substring vs Subsequence vs Subset](/algorithms/primitives/subarray-vs-substring-vs-subsequence-vs-subset)
 * [Sliding Window Technique](/algorithms/dynamic-programming/sliding-window)
 
-## Hardware & Software
-* [Cleaning My MacBook After 16800 Hours of Use!](/articles/cleaning-macbook-after-16800-hours-of-use)
-* [How Fast is H.265/HEVC Software Encoding on ARM CPUs (iPhone/Android) With FFmpeg?](/articles/h265-encoding-on-arm-cpus)
-
-## Product Management
-* [How to Present Like Apple? - Recreating an Apple Keynote](/articles/how-to-present-like-apple)
-
-## Case Studies
-* [Stripe's $35B valuation in 8 years - How a tech startup reaches billion-dollar valuation?](https://www.youtube.com/watch?v=nlFAbBvu7hA) [Video Only]
-
 ## Guides
 * [Maximum Value PC Build by a Software Engineer - Complete Desktop Computer Build Guide](/articles/max-value-pc-build-guide)
 * [How to Get a Great Linux Laptop at a Perfect Price - Lenovo ThinkPad Without a Pre-installed OS](/articles/linux-laptop-at-perfect-price)
@@ -61,6 +51,16 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [How to Manage Money as a Techie - How I Invest as a Software Engineer](/articles/how-to-manage-money)
 * [How to Set up a Free Website with GitHub Pages & How I Created quanticdev.com](/articles/website-with-github-pages)
 * [What Is the Most Valuable Thing You Can Learn in One Hour?](/articles/most-valuable-thing-to-learn-in-one-hour)
+
+## Hardware & Software
+* [Cleaning My MacBook After 16800 Hours of Use!](/articles/cleaning-macbook-after-16800-hours-of-use)
+* [How Fast is H.265/HEVC Software Encoding on ARM CPUs (iPhone/Android) With FFmpeg?](/articles/h265-encoding-on-arm-cpus)
+
+## Product Management
+* [How to Present Like Apple? - Recreating an Apple Keynote](/articles/how-to-present-like-apple)
+
+## Case Studies
+* [Stripe's $35B valuation in 8 years - How a tech startup reaches billion-dollar valuation?](https://www.youtube.com/watch?v=nlFAbBvu7hA) [Video Only]
 
 ## Other
 * [Physicist Reviews Black Mesa Research Facility](https://www.youtube.com/watch?v=GLGRkMQdm78) [Video Only]
