@@ -24,7 +24,7 @@ The video has all the illustrations along with the narrative. If you want to rea
 
 The [Recursion Visualization Tool](/tools/recursion-visualization){:target="_blank"} I used in this video.
 
-[My "Staircase Problem + 3 Variants" article](/algorithms/dynamic-programming/staircase-problems){:target="_blank"}, which is a great real-world application of recursive solutions, as well as memoization and plain iteration.
+My ["Staircase Problem + 3 Variants"](/algorithms/dynamic-programming/staircase-problems){:target="_blank"} article, which is a great real-world application of recursive solutions, as well as memoization and plain iteration.
 
 ## Power Function
 What you see is the visualization of a "2 to the power of n" (2^n) function which is implemented using recursion:
