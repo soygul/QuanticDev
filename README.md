@@ -18,14 +18,14 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Automating My YouTube Uploads Using Node.js](/articles/automating-my-youtube-uploads-using-nodejs)
 * [My Project Got 800 Stars in Two Days on GitHub - KOAN (Open-Source)](/articles/my-project-got-800-stars-in-two-days-on-github)
 * [Is Windows Good for Developers Again?](/articles/is-windows-good-for-developers)
-* [Responding to Harvard's Survey Request About My Open-Source Contributions [Video Only]](https://www.youtube.com/watch?v=rtmHrhOeAfI)
+* [Responding to Harvard's Survey Request About My Open-Source Contributions](https://www.youtube.com/watch?v=rtmHrhOeAfI) [Video Only]
 * [Fastest PHP Best Practices Guide](/articles/fastest-php-best-practices)
 * [State of Software Engineering in 2020](/articles/software-engineering-in-2020)
 * [How to Correctly Use GitHub for Software Development - My Full Workflow With Tutorial](/articles/how-to-use-github)
 * [Raspberry Pi: A Developer's Companion - A Complete Guide with Docker](/articles/raspberry-pi-guide-for-developers)
 * [What Is Serverless (Function-as-a-Service), and Is It Worth?](/articles/serverless)
 * [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine)
-* [Software Quality Assurance - How Do Software Companies Test Their Products? [Video Only]](https://www.youtube.com/watch?v=ztb8HNc2kCU)
+* [Software Quality Assurance - How Do Software Companies Test Their Products?](https://www.youtube.com/watch?v=ztb8HNc2kCU) [Video Only]
 * [Software Design Patterns, Principles, and Best Practices](/articles/software-design-patterns)
 
 ## Engineering Essentials
@@ -50,7 +50,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [How to Present Like Apple? - Recreating an Apple Keynote](/articles/how-to-present-like-apple)
 
 ## Case Studies
-* [Stripe's $35B valuation in 8 years - How a tech startup reaches billion-dollar valuation? [Video Only]](https://www.youtube.com/watch?v=nlFAbBvu7hA)
+* [Stripe's $35B valuation in 8 years - How a tech startup reaches billion-dollar valuation?](https://www.youtube.com/watch?v=nlFAbBvu7hA) [Video Only]
 
 ## Guides
 * [Maximum Value PC Build by a Software Engineer - Complete Desktop Computer Build Guide](/articles/max-value-pc-build-guide)
@@ -61,6 +61,9 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [How to Manage Money as a Techie - How I Invest as a Software Engineer](/articles/how-to-manage-money)
 * [How to Set up a Free Website with GitHub Pages & How I Created quanticdev.com](/articles/website-with-github-pages)
 * [What Is the Most Valuable Thing You Can Learn in One Hour?](/articles/most-valuable-thing-to-learn-in-one-hour)
+
+## Other
+* [Physicist Reviews Black Mesa Research Facility](https://www.youtube.com/watch?v=GLGRkMQdm78) [Video Only]
 
 ## Your Host
 Teoman "QuanticDev" Soygul ([soygul.com](https://soygul.com){:target="_blank"}) · info(at)quanticdev.com
