@@ -12,7 +12,7 @@ QuanticDev's engineering and software development resources. All the articles an
 If you want to contribute to any article, you are welcome to make a pull request or create a new issue on GitHub. You can comment under YouTube videos, or read existing comments.
 
 ## Tools
-[Recursion Visualization](/tools/recursion-visualization)
+* [Recursion Visualizer](/tools/recursion-visualization)
 
 ## Software Engineering
 * [Automating My YouTube Uploads Using Node.js](/articles/automating-my-youtube-uploads-using-nodejs)
