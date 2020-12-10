@@ -30,14 +30,14 @@ class AnimatedCode(Scene):
         code = create_code("""xxxxxx""")
         self.clear()
         self.play(ShowCreation(code, run_time=10))
-        self.wait()
+        self.wait(5)
 
         self.play(*highlight_line(code, 2, 6))
-        self.wait()
+        self.wait(5)
 
         code2 = create_code("""xxxxxx""")
         self.play(Transform(code, code2))
-        self.wait()
+        self.wait(5)
 
     def construct(self):
         code = create_code("""db.connect('postgresql://localhost/testdb')
@@ -50,7 +50,7 @@ post = user.new_blog_post('Test Blog Post Title', 'Lorem ipsum dolor sit amet...
 post.upload_thumbnail('./test_thumbnail.jpg')
 post.publish()""")
         self.play(ShowCreation(code, run_time=10))
-        self.wait()
+        self.wait(5)
 
         code2 = create_code("""db.connect('postgresql://localhost/testdb') \\
     .initialize() \\
@@ -60,79 +60,79 @@ post.publish()""")
     .upload_thumbnail('./test_thumbnail.jpg') \\
     .publish()""")
         self.play(Transform(code, code2))
-        self.wait()
+        self.wait(5)
 
-#         self.clear()
-#
-#         code = create_code("""db.connect('postgresql://localhost/testdb')
-# db.initialize()""")
-#         self.play(ShowCreation(code, run_time=10))
-#         self.wait()
-#
-#         self.clear()
-#
-#         code = create_code("""db.connect('postgresql://localhost/testdb').initialize()""")
-#         self.play(ShowCreation(code, run_time=10))
-#         self.wait()
-#
-#         self.clear()
-#
-#         code = create_code("""db.connect('postgresql://localhost/testdb') \\
-#     .initialize() \\
-#     .close()""")
-#         self.play(ShowCreation(code, run_time=10))
-#         self.wait()
-#
-#         self.clear()
-#
-#         code = create_code("""class DB:
-#     def connect(self, url):
-#         pass
-#
-#     def initialize(self):
-#         pass
-#
-#     def close(self):
-#         pass""")
-#         self.play(ShowCreation(code, run_time=10))
-#         self.wait()
-#
-#         self.clear()
-#
-#         code = create_code("""class DB:
-#     def connect(self, url):
-#         # todo
-#         return self
-#
-#     def initialize(self):
-#         # todo
-#         return self
-#
-#     def close(self):
-#         # todo
-#         return selfs""")
-#         self.play(ShowCreation(code, run_time=10))
-#         self.wait()
-#
-#         self.clear()
-#
-#         code = create_code("""db.connect('postgresql://localhost/testdb')
-# log.info('Initializing the database.')
-# db.initialize()""")
-#         self.play(ShowCreation(code, run_time=10))
-#         self.wait()
-#
-#         self.clear()
-#
-#         code = create_code("""db.connect('postgresql://localhost/testdb') \\
-#     .log_info('Initializing the database.') \\
-#     .initialize()""")
-#         self.play(ShowCreation(code, run_time=10))
-#         self.wait()
-#
-#         code = create_code("""subscribers
-#   .filter(p => p.liked_the_video === true)
-#   .sort(p => p.name)
-#   .pat_on_the_back()""", ext='js')
-#         self.play(ShowCreation(code, run_time=10))
-#         self.wait()
+        self.clear()
+
+        code = create_code("""db.connect('postgresql://localhost/testdb')
+db.initialize()""")
+        self.play(ShowCreation(code, run_time=10))
+        self.wait(5)
+
+        self.clear()
+
+        code = create_code("""db.connect('postgresql://localhost/testdb').initialize()""")
+        self.play(ShowCreation(code, run_time=10))
+        self.wait(5)
+
+        self.clear()
+
+        code = create_code("""db.connect('postgresql://localhost/testdb') \\
+    .initialize() \\
+    .close()""")
+        self.play(ShowCreation(code, run_time=10))
+        self.wait(5)
+
+        self.clear()
+
+        code = create_code("""class DB:
+    def connect(self, url):
+        pass
+
+    def initialize(self):
+        pass
+
+    def close(self):
+        pass""")
+        self.play(ShowCreation(code, run_time=10))
+        self.wait(5)
+
+        self.clear()
+
+        code = create_code("""class DB:
+    def connect(self, url):
+        # todo
+        return self
+
+    def initialize(self):
+        # todo
+        return self
+
+    def close(self):
+        # todo
+        return selfs""")
+        self.play(ShowCreation(code, run_time=10))
+        self.wait(5)
+
+        self.clear()
+
+        code = create_code("""db.connect('postgresql://localhost/testdb')
+log.info('Initializing the database.')
+db.initialize()""")
+        self.play(ShowCreation(code, run_time=10))
+        self.wait(5)
+
+        self.clear()
+
+        code = create_code("""db.connect('postgresql://localhost/testdb') \\
+    .log_info('Initializing the database.') \\
+    .initialize()""")
+        self.play(ShowCreation(code, run_time=10))
+        self.wait(5)
+
+        code = create_code("""subscribers
+  .filter(p => p.liked_the_video === true)
+  .sort(p => p.name)
+  .pat_on_the_back()""", ext='js')
+        self.play(ShowCreation(code, run_time=10))
+        self.wait(5)
