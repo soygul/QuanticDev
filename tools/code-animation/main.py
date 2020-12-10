@@ -39,7 +39,7 @@ class AnimatedCode(Scene):
         self.wait(5)
 
         code2 = create_code("""xxxxxx""")
-        self.play(Transform(code, code2))
+        self.play(Transform(code, code2, run_time=2))
         self.wait(5)
 
     def construct(self):
@@ -62,28 +62,24 @@ post.publish()""")
     .new_blog_post('Test Blog Post Title', 'Lorem ipsum dolor sit amet...') \\
     .upload_thumbnail('./test_thumbnail.jpg') \\
     .publish()""")
-        self.play(Transform(code, code2))
+        self.play(Transform(code, code2, run_time=2))
         self.wait(5)
 
         self.clear()
 
         code = create_code("""db.connect('postgresql://localhost/testdb')
 db.initialize()""")
-        self.play(ShowCreation(code, run_time=10))
+        self.play(ShowCreation(code, run_time=5))
         self.wait(5)
 
-        self.clear()
-
-        code = create_code("""db.connect('postgresql://localhost/testdb').initialize()""")
-        self.play(ShowCreation(code, run_time=10))
+        code2 = create_code("""db.connect('postgresql://localhost/testdb').initialize()""")
+        self.play(Transform(code, code2, run_time=2))
         self.wait(5)
 
-        self.clear()
-
-        code = create_code("""db.connect('postgresql://localhost/testdb') \\
+        code3 = create_code("""db.connect('postgresql://localhost/testdb') \\
     .initialize() \\
     .close()""")
-        self.play(ShowCreation(code, run_time=10))
+        self.play(Transform(code2, code3, run_time=2))
         self.wait(5)
 
         self.clear()
@@ -100,9 +96,7 @@ db.initialize()""")
         self.play(ShowCreation(code, run_time=10))
         self.wait(5)
 
-        self.clear()
-
-        code = create_code("""class DB:
+        code2 = create_code("""class DB:
     def connect(self, url):
         # todo
         return self
@@ -113,8 +107,8 @@ db.initialize()""")
 
     def close(self):
         # todo
-        return selfs""")
-        self.play(ShowCreation(code, run_time=10))
+        return self""")
+        self.play(Transform(code, code2, run_time=2))
         self.wait(5)
 
         self.clear()
@@ -127,10 +121,10 @@ db.initialize()""")
 
         self.clear()
 
-        code = create_code("""db.connect('postgresql://localhost/testdb') \\
+        code2 = create_code("""db.connect('postgresql://localhost/testdb') \\
     .log_info('Initializing the database.') \\
     .initialize()""")
-        self.play(ShowCreation(code, run_time=10))
+        self.play(Transform(code, code2, run_time=2))
         self.wait(5)
 
         code = create_code("""subscribers
