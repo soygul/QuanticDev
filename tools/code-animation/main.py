@@ -24,11 +24,20 @@ class AnimatedCode(Scene):
     config['pixel_height'] = 2160
     config['pixel_width'] = 3840
 
-    def construct(self):
+    def animation_template(self):
         code = create_code("""xxxxxx""")
         self.play(ShowCreation(code, run_time=10))
         self.wait()
-        # self.play(*highlight_line(code, 2, 6))
-        # self.wait()
-        # self.play(*highlight_line(code, 8, 10))
-        # self.wait()
+
+        self.play(*highlight_line(code, 2, 6))
+        self.wait()
+
+    def construct(self):
+        code1 = create_code("""db.connect('postgresql://localhost/testdb')
+db.initialize()""")
+        self.play(ShowCreation(code1, run_time=10))
+        self.wait()
+
+        code2 = create_code("""db.connect('postgresql://localhost/testdb').initialize()""")
+        self.play(ShowCreation(code2, run_time=10))
+        self.wait()
