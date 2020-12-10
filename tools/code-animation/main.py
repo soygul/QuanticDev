@@ -9,15 +9,18 @@ def highlight_line(code: Code, line_from, line_to):
     return [ApplyMethod(code.code[line_no].set_opacity, 1 if line_no in lines else .3) for line_no in range(len(code.code))]
 
 
-def create_code(code_src: str, ext: str = 'py'):
+def create_code(code_src: str, ext: str = 'py', scale_factor: float = .7):
     file = f'code.{ext}'
     with open(file, 'w') as f:
         f.write(code_src.replace("""
 """, """ 
 """))  # hack: not to get newlines trimmed by LaTex renderer, we replace '\n' with '\n '
-    code = Code(file)
+
+    code = Code(file, scale_factor=scale_factor)
+
     with open(file, 'w') as f:
         f.write('')
+
     return code
 
 
