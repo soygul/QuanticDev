@@ -10,11 +10,14 @@ def highlight_line(code: Code, line_from, line_to):
 
 
 class AnimatedCode(Scene):
+    config['pixel_height'] = 2160
+    config['pixel_width'] = 3840
+
     def construct(self):
         code = Code("code.py")
-        self.play(ShowCreation(code, lag_ratio=5))
+        self.play(ShowCreation(code, run_time=10))
         self.wait()
-        self.play(*highlight_line(code, 2, 6))
-        self.wait()
-        self.play(*highlight_line(code, 8, 10))
-        self.wait()
+        # self.play(*highlight_line(code, 2, 6))
+        # self.wait()
+        # self.play(*highlight_line(code, 8, 10))
+        # self.wait()
