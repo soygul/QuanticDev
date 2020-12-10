@@ -32,11 +32,15 @@ class AnimatedCode(Scene):
         self.play(*highlight_line(code, 2, 6))
         self.wait()
 
+        self.clear()
+
     def construct(self):
         code1 = create_code("""db.connect('postgresql://localhost/testdb')
 db.initialize()""")
         self.play(ShowCreation(code1, run_time=10))
         self.wait()
+
+        self.clear()
 
         code2 = create_code("""db.connect('postgresql://localhost/testdb').initialize()""")
         self.play(ShowCreation(code2, run_time=10))
