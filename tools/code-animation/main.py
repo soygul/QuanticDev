@@ -30,6 +30,10 @@ class AnimatedCode(Scene):
     config['pixel_width'] = 3840
 
     def animation_template(self):
+        title = Tex('Title')
+        title.to_corner(UP + LEFT)
+        self.play(title)
+
         self.clear()
         code = create_code("""xxxxxx""")
         self.play(ShowCreation(code, run_time=10, rate_func=linear))
