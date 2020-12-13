@@ -15,6 +15,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Recursion Visualizer](/tools/recursion-visualization)
 
 ## Software Engineering
+* [Method Chaining is Awesome](/articles/method-chaining)
 * [Automating My YouTube Uploads Using Node.js](/articles/automating-my-youtube-uploads-using-nodejs)
 * [My Project Got 800 Stars in Two Days on GitHub - KOAN (Open-Source)](/articles/my-project-got-800-stars-in-two-days-on-github)
 * [Is Windows Good for Developers Again?](/articles/is-windows-good-for-developers)
