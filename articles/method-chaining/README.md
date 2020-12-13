@@ -27,7 +27,7 @@ db.connect('postgresql://localhost/testdb') \
 
 Table of contents:
 * [Resources](#resources)
-* [Inspiration for This Video](#inspiration-for-this-video)
+* [Inspiration for This Article](#inspiration-for-this-article)
 * [Method Chaining](#method-chaining)
 * [Benefits and Drawbacks](#benefits-and-drawbacks)
 * [Conclusion](#conclusion)
@@ -106,7 +106,7 @@ Now we can safely chain the methods in our database class. As you might have rea
 Method chaining can also be used to build a fluent interface or implement the builder pattern. If you want to read more on the subject, I have links to several Wiki articles for them in the resources section above. Now let's analyze the benefits and drawbacks of method chains.
 
 ## Benefits and Drawbacks
-[dir: bullets] The benefit of method chaining is obvious; cleaner and concise code. You don't have to keep repeating calls to same objects for consecutive operations on the same object, which is especially useful in repetitive code like test code. You also don't need to create temporary variables to store results from previous method calls. However, this will make it difficult to put debug points on the right method in the chain. To get around this limitation, you can separate each method call with a new line.
+The benefit of method chaining is obvious; cleaner and concise code. You don't have to keep repeating calls to same objects for consecutive operations on the same object, which is especially useful in repetitive code like test code. You also don't need to create temporary variables to store results from previous method calls. However, this will make it difficult to put debug points on the right method in the chain. To get around this limitation, you can separate each method call with a new line.
 
 One interesting side effect of method chaining is that it will make logging harder. You normally put logging code in between method calls like this:
 
@@ -125,14 +125,13 @@ db.connect('postgresql://localhost/testdb') \
 ```
 
 ## Conclusion
-[dir: bullets] In conclusion, method chaining is not a silver bullet, but for where it fits, it brings conciseness and clarity, which I always like. In my experience, tests and data filtering and manipulation code are prime candidates for method chaining. Next time you are going to implement a framework or a utility class, you can provide chainable methods to make life easier for the prospective users of that code.
+In conclusion, method chaining is not a silver bullet, but for where it fits, it brings conciseness and clarity, which I always like. In my experience, tests and data filtering and manipulation code are prime candidates for method chaining. Next time you are going to implement a framework or a utility class, you can provide chainable methods to make life easier for the prospective users of that code.
 
 ```javascript
-subscribers
-  .filter(p => p.liked_the_video === true)
-  .sort(p => p.name)
+readers
+  .filter(p => p.folowed_me_on_twitter === true)
+  .sort(p => p.time)
   .pat_on_the_back()
 ```
 
-You might have noticed that I have used various code animations for this video. I will make a separate video on how I make my animated code videos. If you don't want to miss it, don't forget to sub. I also have a ton of other programming and algorithms articles. [dir: quanticdev.com] If you want to check them out, head over to quanticdev.com. In the future, I will make all the articles into a condensed and guided course, so watch out for that. And that is it for this quick guide. I will see you next time.
-
+If you have checked out the video in the resources section, I have used various code animations for it this time. I will produce a separate article on how I make my code animations. If you don't want to miss it, follow me on my socials.
