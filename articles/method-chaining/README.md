@@ -106,7 +106,7 @@ Now we can safely chain the methods in our database class. As you might have rea
 Method chaining can also be used to build a fluent interface or implement the builder pattern. If you want to read more on the subject, I have links to several Wiki articles for them in the resources section above. Now let's analyze the benefits and drawbacks of method chains.
 
 ## Benefits and Drawbacks
-The benefit of method chaining is obvious; cleaner and concise code. You don't have to keep repeating calls to same objects for consecutive operations on the same object, which is especially useful in repetitive code like test code. You also don't need to create temporary variables to store results from previous method calls. However, this will make it difficult to put debug points on the right method in the chain. To get around this limitation, you can separate each method call with a new line.
+The benefit of method chaining is obvious; cleaner and concise code. You don't have to keep repeating calls to same objects for consecutive operations on the same object, which is especially useful in repetitive code like test code. You also don't need to create temporary variables to store results from previous method calls. However, this will make it difficult to put debug points on the right method in the chain. To get around this limitation, you can separate each method call with a new line or add a chainable `breakpoint()` method. Some programming language debuggers already support adding debug points on methods in the chain directly.
 
 One interesting side effect of method chaining is that it will make logging harder. You normally put logging code in between method calls like this:
 
