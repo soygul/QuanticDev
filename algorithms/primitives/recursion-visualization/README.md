@@ -22,7 +22,7 @@ You can find the video version of this article on YouTube: [https://www.youtube.
 
 The video has all the illustrations along with the narrative. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-The [Recursion Visualization Tool](/tools/recursion-visualization){:target="_blank"} I used in this video. Made of Bruno Papa.
+The [Recursion Visualization Tool](/tools/recursion-visualization){:target="_blank"} I used in this video. Made by Bruno Papa.
 
 My ["Staircase Problem + 3 Variants"](/algorithms/dynamic-programming/staircase-problems){:target="_blank"} article, which is a great real-world application of recursive solutions, as well as memoization and plain iteration.
 
