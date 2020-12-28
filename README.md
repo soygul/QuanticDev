@@ -15,6 +15,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Recursion Visualizer](/tools/recursion-visualization)
 
 ## Software Engineering
+* [How I Mass Refactored Our Production Codebase Without Fear](https://www.youtube.com/watch?v=oJEPBRrcyiw) [Video Only]
 * [Method Chaining is Awesome](/articles/method-chaining)
 * [Automating My YouTube Uploads Using Node.js](/articles/automating-my-youtube-uploads-using-nodejs)
 * [My Project Got 800 Stars in Two Days on GitHub - KOAN (Open-Source)](/articles/my-project-got-800-stars-in-two-days-on-github)
