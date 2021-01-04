@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flappy Bird in 205 Bytes!</title>
+</head>
+<body onload="startGame()" onclick="M = 9">
+    <script>
+        function startGame() {
+            const gameCanvas = document.getElementById('game-canvas')
+            const gameCanvas2dContext = gameCanvas.getContext('2d')
+            const gameTick = 49 // milliseconds
+            let tmp
+
+            setInterval(
+                function () {
+                    const canvasWidth = gameCanvas.width = 150
+                    if (tmp < canvasWidth && P < tmp & tmp < P + gameTick | 9 < p) {
+                        gameCanvas2dContext.fillText(S++, 9, 9 | gameCanvas2dContext.fillRect(p * 0, tmp -= --M, 9, 9 | gameCanvas2dContext.fillRect(p, 9, 9 | gameCanvas2dContext.fillRect(p, P + gameTick, 9, canvasWidth), P)))
+                    } else {
+                        // restart game
+                        p = M = tmp = S = 6
+                    }
+                    p = p - 6 || (P = S % gameTick, canvasWidth)
+                },
+                gameTick
+            )
+        }
+    </script>
+
+    <canvas id="game-canvas"></canvas>
+</body>
+</html>
