@@ -14,7 +14,7 @@ A subarray is a contiguous sequence of elements within an array. For instance, t
 * A subarray should be a contiguous subsequence of the parent array. As a result, `{1, 1}` is not a valid subarray of the array `{1, 2, 1}`, since `{2}` in the middle is skipped, so it is not a contiguous subsequence anymore.
 * The full array itself is a subarray of itself.
 * An empty array is a subarray of any array.
-* You cannot have duplicates in subarrays. The element `{1}` appears twice in the array `{1, 2, 1}` but you can only count `{1}` once as the subarray of `{1, 2, 1}`.
+* You cannot have duplicate subarray members. The element `{1}` appears twice in the array `{1, 2, 1}` but you can only count `{1}` once as the subarray of `{1, 2, 1}`.
 * Order of elements in the subarray should be the same as in the array. As a result, `{2, 1, 1}` is not a subarray of `{1, 2, 1}`.
 
 ## Substring
