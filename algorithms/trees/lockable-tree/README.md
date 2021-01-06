@@ -30,7 +30,7 @@ Design a tree with nodes that can be locked if none of its ancestors or descenda
 * Space complexity: `O(1)`
 
 ## Improvement
-Let's try to implement a basic `lock()` method with `O(h)` time complexity target (`h` = `height of the tree`):
+Let's try to implement a basic `lock()` method with `O(h)` time complexity target (`h` = `height of the tree`):
 * Calculate time complexity for: locking the root node.
 * Calculate time complexity for: locking bottom nodes.
 * Calculate time complexity for: locking sibling nodes.
