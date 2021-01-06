@@ -1,9 +1,9 @@
 ## Template
 Xxxxxxxxxx
 
-![XXXXXXXXXXXXXXXXXX](media/XXXXXXXXXXXXXXXXXX)
+<video width="1920" height="1080" controls><source src="media/kadanes-algorithm.mp4" type="video/mp4"></video>
 
-<video width="790" height="300" controls><source src="media/kadanes-algorithm.mp4" type="video/mp4"></video>
+![XXXXXXXXXXXXXXXXXX](media/XXXXXXXXXXXXXXXXXX)
 
 
 # TITLE
