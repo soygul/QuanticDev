@@ -15,20 +15,20 @@ Table of contents:
 * [Conclusion](#conclusion)
 
 ## Resources
-You can find the video version of this article on YouTube: [https://www.youtube.com/watch?v=oJEPBRrcyiw](https://www.youtube.com/watch?v=oJEPBRrcyiw){:target="_blank"}
+You can find the video narrative of this article on YouTube: [https://www.youtube.com/watch?v=oJEPBRrcyiw](https://www.youtube.com/watch?v=oJEPBRrcyiw){:target="_blank"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oJEPBRrcyiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-Resources mentioned in the article:
+Resources mentioned in this article:
 * [My "Software Quality Assurance" video](https://www.youtube.com/watch?v=ztb8HNc2kCU){:target="_blank"}, where I describe how software companies test their products, starting with unit tests and going all the way to end-to-end (acceptance) testing level.
 * [My "Method Chaining is Awesome" article](/articles/method-chaining){:target="_blank"}, which draws inspiration from some of the refactors that I did, which is the subject of this article.
 
 Appium, which I recommend for automated desktop/mobile testing with a singular codebase:
 * [https://github.com/appium/appium](https://github.com/appium/appium){:target="_blank"}
 
-Remote mobile device testing software:
+Remote (manual) mobile device testing software:
 * [https://github.com/openstf/stf](https://github.com/openstf/stf){:target="_blank"}
 
 ## What Did I Do?
