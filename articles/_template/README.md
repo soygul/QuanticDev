@@ -1,9 +1,9 @@
 ## Template
 Xxxxxxxxxx
 
-![XXXXXXXXXXXXXXXXXX](media/XXXXXXXXXXXXXXXXXX)
+<video width="1920" height="1080" controls><source src="media/kadanes-algorithm.mp4" type="video/mp4"></video>
 
-<video width="790" height="300" controls><source src="media/kadanes-algorithm.mp4" type="video/mp4"></video>
+![XXXXXXXXXXXXXXXXXX](media/XXXXXXXXXXXXXXXXXX)
 
 
 # TITLE
@@ -27,7 +27,7 @@ You can find the video version of this article on YouTube: [https://www.youtube.
 
 The video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-Resources mentioned in the article:
+Resources mentioned in this article:
 * [XXXXXXXXXXXXXX](XXXXXXXXXXXXXX){:target="_blank"}
 * [XXXXXXXXXXXXXXXXX](XXXXXXXXXXXXXXXXX){:target="_blank"}
 

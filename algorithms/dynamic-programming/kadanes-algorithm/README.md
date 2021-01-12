@@ -25,7 +25,7 @@ Kadane's Algorithm uses optimal substructures to solve the max/min subarray sum 
 ## Question #1: Medium Difficulty: Given an array of integers, find the subarray with the maximum/minimum possible sum
 Example Input: `[1, 2, -4, 3, 4, -2]`
 
-Requirements Analysis:
+Requirements Analysis:
 * Analyze the requirements even in simple questions, they might not be so simple!
 * Input size could be anything so we should limit memory usage.
 * We should be able to handle negative numbers.
@@ -56,12 +56,12 @@ Approach #2: Kadane's Algorithm
 <video width="790" height="300" controls><source src="media/kadanes-algorithm.mp4" type="video/mp4"></video>
 
 Rules:
-* Maximum subarray sum at every index =  maximum subarray sum at previous index + element value at index
-* If max sum at an index is < 0, set sum at that index to 0.
+* Maximum subarray sum at every index = maximum subarray sum at previous index + element value at index
+* If max sum at an index is < 0, set sum at that index to 0.
 * `MaxSum(index) = Max(MaxSum(index - 1) + arr[index], 0)`
 
 ## Tips!
-* You can use a modified version of Sliding Windows Technique instead of Kadane's Algorithm. It is simpler but not as efficient. If you are interested, I have the link to my Sliding Window Technique article in the resources section above.
+* You can use a modified version of Sliding Windows Technique instead of Kadane's Algorithm. It is simpler but not as efficient. If you are interested, I have the link to my Sliding Window Technique article in the resources section above.
 * Kadane's Algorithm is just a specialized accumulation algorithm. You will frequently see it and similar accumulation algorithms in programming interviews.
 
 ## Question #2: Medium Difficulty: Given an array of integers, find the subarray with the maximum/minimum possible sum with at least k elements
@@ -78,15 +78,15 @@ Solution: Sliding Window on Kadane's Algorithm
 ## Proof of Correctness of Kadane's Algorithm
 * Define: `MaxSum(i) = Max(Sum(0->i), Sum(1->i), Sum(2->i), ..., Sum(i->i))` where `Sum(x->i)` is the sum of all elements from index x to i. So we list all possible subarrays and take the one with the maximum sum here. We established this in the brute-force solution.
 * Note: `Sum(x->i+1) = Sum(x->i) + El(i+1)` where `El(i+1)` is the element value at index `i+1`.
-* As a Result: `MaxSum(i+1) = Max(Sum(0->i) + El(i), Sum(1->i) + El(i+1), ..., Sum(i->i) + El(i+1), El(i+1))= Max(Max(Sum(0->i) + El(i+1), Sum(1->i) + El(i+1), ..., Sum(i->i) + El(i+1)), El(i+1))`
+* As a Result: `MaxSum(i+1) = Max(Sum(0->i) + El(i), Sum(1->i) + El(i+1), ..., Sum(i->i) + El(i+1), El(i+1))= Max(Max(Sum(0->i) + El(i+1), Sum(1->i) + El(i+1), ..., Sum(i->i) + El(i+1)), El(i+1))`
 * Note: `max(a+y, b+y, c+y)=max(a, b, c) + y`
-* As a Result: `MaxSum(i+1) = Max(Max(Sum(0->i), Sum(1->i), Sum(2->i), ..., Sum(i->i)) + El(i+1), El(i+1))= Max(MaxSum(i) + El(i+1), El(i+1))`
+* As a Result: `MaxSum(i+1) = Max(Max(Sum(0->i), Sum(1->i), Sum(2->i), ..., Sum(i->i)) + El(i+1), El(i+1))= Max(MaxSum(i) + El(i+1), El(i+1))`
 * Note: We used `MaxSum(i+1) = Max(MaxSum(i) + El(i+1), 0)` in our problems before, which is also valid.
 * You can also use `induction` or `contradiction` to prove Kadane's Algorithm.
 
 ## More Tips!
-* In interviews, you can always get questions combining multiple algorithms and techniques.
-* You can be asked to prove the correctness of an algorithm in a more senior interview.
+* In interviews, you can always get questions combining multiple algorithms and techniques.
+* You can be asked to prove the correctness of an algorithm in a more senior interview.
 * You can check out rest of my algorithms articles on the home page.
 
 ## Video Solutions
