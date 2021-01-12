@@ -41,14 +41,16 @@ Changes were mostly technical (i.e. swap one JSON library with another, adapt th
 After I was done with the refactors, I made zero manual testing on our products. Neither did I have any fear of breaking things during this mass refactor. And oh boy, did break things! So why was I not fearful of breaking things? Because I knew that I could identify and fix what I broke during the refactoring process. I will talk more about our quality assurance tech in a moment.
 
 ## What is Our Product?
-Our product is a large enterprise VPN software. It has key hardware integrations, so reliability is quite important. When you integrate software and hardware features, you get a large surface area for bugs. Testing the hardware integrations is incredibly daunting since you need to get the hardware in test to the right state to test things correctly every time. In addition, we have clients for all major desktop and mobile OSes, and a vast DevOps infrastructure to automate the assembly of these clients. I want to leave a bit of mystery here, as I will write a separate article on what I do in my day-to-day work.
+Our product is a large enterprise VPN software. It has been under development by a large team for the last 5+ years, so it has a considerably complex codebase. It has key hardware integrations, so reliability is quite important. When you integrate software and hardware features, you get a large surface area for bugs. Testing the hardware integrations is incredibly daunting since you need to get the hardware in test to the right state to test things correctly every time. In addition, we have clients for all major desktop and mobile OSes, and a vast DevOps infrastructure to automate the assembly of these clients. I want to leave a bit of mystery here, as I will write a separate article on what I do in my day-to-day work.
 
 ## Why Was I So Confident?
 As a senior engineer, it is my duty to initiate and take on riskier projects. When done right, a large refactor and a refresh of the codebase can make working with the products a joy again. While initiating this mass refactor project, I was fully confident that I would not end up destroying our products, as I knew that a considerable number of automated end-to-end tests that I implemented over long years got my back. Also, I have recently created a mobile device farm, extending our end-to-end testing coverage to mobile devices. As you can see in the following photo, I have Android devices on the left and iOS devices on the right, and a MacBook as the host. All the connected devices are controller by the host machine:
 
 ![My Device Farm Implementation](media/device_farm.jpg)
 
-Mass end-to-end testing like this, also known as acceptance testing, makes mass refactoring a less worrisome task. However, you still have to trigger tests every time you complete a part of your refactor and make sure to fix any broken tests or features. Depending on the test suite size and availability of automation hardware, this might take days. Before going further into device farms, let me briefly mention automated testing.
+Mass end-to-end testing like this, also known as acceptance testing, makes mass refactoring a less worrisome task. However, you still have to trigger tests every time you complete a part of your refactor and make sure to fix any broken tests or features. Depending on the test suite size and availability of automation hardware, this might take days. Of course, to verify the full correctness of my refactors, I had the run the entire test suite, and not just the end-to-end tests. Our unit and integration test coverage is also solid and they run on our CI servers as a part of our build process. Especially having integration tests that verify our software design decisions were invaluable, including our API endpoints and other 3rd party software integrations. Especially when dealing with our software's modules written in scripting languages (JavaScript, Python, etc.), our unit tests came in quite handy. I depend on those unit tests to verify that I broke none of the expected input/output types, as the compiler cannot do it for me in a dynamic programming languages
+
+Before going into device farms, let me briefly mention automated testing.
 
 ## What is Automated Testing?
 In summary, automated testing has three main parts:
@@ -84,6 +86,8 @@ As a bonus in my implementation, people can RDP into the main test machine and c
 ![OpenSFT](media/opensft.png)
 
 Finally, I arranged it so that any phone can be plugged/unplugged from the device farm at any moment. The test framework will select another available device and will continue running the tests. This is especially useful if you use some of these devices for manual testing or app development from time to time.
+
+## What is Next?
 
 ## Conclusion
 In conclusion, real-device testing using device farms is essential for quality sensitive products. I highly recommend it if you want to ensure optimum quality, especially if you have mobile apps. They also enable you to modify your codebase in the future with confidence, just like I did. You also don't need to build your own, you can use third-party device farm providers, and they offer reasonable pricing. If you have any recommendations for device farm providers, let me know, and I'll check them out.
