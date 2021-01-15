@@ -20,7 +20,7 @@ What are the expectations form developers and engineers? Below are the fundament
     * If you need to go talk to someone about a technical matter, go prepared; take notes on what to talk, list the conversation topics.
     * If you need to show them something, prepare it beforehand. Do not waste peoples' time. They will like you better.
   * Written communication
-    * When it comes to writing, makes perfect. Make a habit of writing.
+    * When it comes to writing, practice makes perfect. Make a habit of writing.
     * Write good emails, and be clear and concise in team chat apps.
     * Write good commit messages.
     * Write documentation files (readmes, design docs, etc.) wherever possible.
