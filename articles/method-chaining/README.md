@@ -129,7 +129,7 @@ In conclusion, method chaining is not a silver bullet, but for where it fits, it
 
 ```javascript
 readers
-  .filter(p => p.folowed_me_on_twitter === true)
+  .filter(p => p.followed_me_on_twitter === true)
   .sort(p => p.time)
   .pat_on_the_back()
 ```
