@@ -26,14 +26,14 @@ You can find the video version of this article on YouTube: [https://www.youtube.
 The video has illustrations for all the problems and their solutions. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Solution code to examples are available on:
-* [https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/fibonacci-puzzles](https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/fibonacci-puzzles){:target="_blank"}
+* [https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/staircase-problems](https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/staircase-problems){:target="_blank"}
 
 My other articles relevant to staircase problems:
 * My [Sliding Window Technique + 4 Questions](/algorithms/dynamic-programming/sliding-window){:target="_blank"} article, which will help you solve Fibonacci problems more efficiently.
 * My [Big O Time/Space Complexity Types Explained](/algorithms/primitives/big-o-time-space-complexity-types-explained){:target="_blank"} article, which can help you refresh your memory on Big O notation:
 
 Recursion visualization tool used in the article:
-* [https://recursion.now.sh](https://recursion.now.sh){:target="_blank"}
+* [https://quanticdev.com/tools/recursion-visualization](https://quanticdev.com/tools/recursion-visualization){:target="_blank"}
 
 ## Overview
 * Staircase problem is just a special case of "unique variations" questions like that of unique paths problem. I might make quick articles for those too, but you can apply the same methods that you will learn here to solve them also.
