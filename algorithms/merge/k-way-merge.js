@@ -1,1 +1,2 @@
-// prefer tournament tree over heap if it is not complicated
+// k-way (multiway) merge using tournament trees
+// can be used for distributed and streaming sorting
