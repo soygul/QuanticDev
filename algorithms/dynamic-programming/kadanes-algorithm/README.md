@@ -72,7 +72,7 @@ Max Sum at Each Index: `[1, 3,  0,  3, 7,  5]`
 Solution: Sliding Window on Kadane's Algorithm
 * Apply Kadane's Algorithm to the array and store maximum sum up to every index in another array.
 * Use a sliding sum window of k elements on given array. Check if max sum at previous index makes the sliding window sum bigger.
-* Time Complexity: `O(2n)`
+* Time Complexity: `O(n)`
 * Space Complexity: `O(n)` (can be made `O(1)`)
 
 ## Proof of Correctness of Kadane's Algorithm
