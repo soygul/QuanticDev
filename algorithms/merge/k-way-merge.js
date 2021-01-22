@@ -7,6 +7,8 @@ const stream = require('stream')
  * In this solution, we will use tournament trees to generate a single sorted stream of data from all the given input.
  * Since the output will be a stream rather than a concrete array, we need no extra space to store the solution.
  * The caller of this function will have to read the output stream element by element.
+ * We do this since this function is intended to be used with huge amounts of data, where the final merged array
+ * will not fit into the memory.
  *
  * This is a rather complex problem and I highly recommend you check out the animated video solution to get a better
  * understanding of the solution.
