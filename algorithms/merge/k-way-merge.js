@@ -1,36 +1,25 @@
 const assert = require('assert')
+const stream = require('stream')
 
 /**
- * Given an array of integers, find the subarray with the maximum/minimum possible sum.
- * There might be multiple subarrays with the same sum, but we only keep track of one.
- * Solution is implemented using Kadane's Algorithm.
+ * Given k sorted arrays, merge them into a single sorted array.
  *
- * @param inputArr - An array of integers.
- * @param isMaxSum - If true, find the subarray with the maximum possible sum. If false, find the minimum instead.
- * @returns [] - The subarray with the maximum/minimum possible sum.
+ * In this solution, we will use tournament trees to generate a single sorted stream of data from all the given input.
+ * Since the output will be a stream rather than a concrete array, we need no extra space to store the solution.
+ * The caller of this function will have to read the output stream element by element.
+ *
+ * This is a rather complex problem and I highly recommend you check out the animated video solution to get a better
+ * understanding of the solution.
+ *
+ * Time Complexity: Θ(k logn) - Notice the big Theta notation.
+ * Auxiliary Space: ~2k
+ *
+ * @param inputArrays - An array of arrays to be merged.
+ * @returns - The merged array as a stream.
  */
-function getMaxMinSubarray (inputArr, isMaxSum = true) {
+function kWayMerge (inputArrays) {
   // validate the input
-  assert(Array.isArray(inputArr) && inputArr.every(n => Number.isInteger(n)), 'Input should be an array of integers.')
-
-  // now calculate the maximum (or minimum) sum up to each index using kadane's algo
-  let currentSum = 0; let currentSumStart = 0; let currentSumEnd = 0
-  let maxSum = 0; let maxSumStart = 0; let maxSumEnd = 0
-  const maxMinFn = isMaxSum ? Math.max : Math.min
-
-  inputArr.forEach((n, i) => {
-    if (currentSum === 0) currentSumStart = i
-    currentSumEnd = i
-    currentSum = maxMinFn(0, currentSum + n)
-
-    maxSum = maxMinFn(maxSum, currentSum)
-    if (maxSum === currentSum) {
-      maxSumStart = currentSumStart
-      maxSumEnd = currentSumEnd
-    }
-  })
-
-  return maxSum === 0 ? [] : inputArr.slice(maxSumStart, maxSumEnd + 1)
+  assert(Array.isArray(inputArrays) && inputArrays.every(arr => Array.isArray(arr)), 'Input should be an array of arrays.')
 }
 
 /**
