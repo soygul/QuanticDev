@@ -17,8 +17,6 @@ const assert = require('assert')
 function kWayMerge (inputArrays) {
   // validate the input
   assert(Array.isArray(inputArrays) && inputArrays.every(arr => Array.isArray(arr)), 'Input should be an array of arrays.')
-
-
 }
 
 /**
