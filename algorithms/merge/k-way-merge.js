@@ -1,27 +1,24 @@
 const assert = require('assert')
-const stream = require('stream')
 
 /**
  * Given k sorted arrays, merge them into a single sorted array.
  *
- * In this solution, we will use tournament trees to generate a single sorted stream of data from all the given input.
- * Since the output will be a stream rather than a concrete array, we need no extra space to store the solution.
- * The caller of this function will have to read the output stream element by element.
- * We do this since this function is intended to be used with huge amounts of data, where the final merged array
- * will not fit into the memory.
+ * In this solution, we will use tournament trees to generate a single sorted array as efficiently as possible.
  *
- * This is a rather complex problem and I highly recommend you check out the animated video solution to get a better
- * understanding of the solution.
+ * This is a rather large topic and I highly recommend you check out the animated video to get a better
+ * understanding of this problem, it's variants (like distributed sort) and their solutions.
  *
- * Time Complexity: Θ(k logn) - Notice the big Theta notation.
- * Auxiliary Space: ~2k
+ * Time Complexity: Θ(n logk) - Notice the big Theta notation. k is the number of given input arrays.
+ * Auxiliary Space: ~2k (to store the tournament tree) + n to store the output
  *
  * @param inputArrays - An array of arrays to be merged.
- * @returns - The merged array as a stream.
+ * @returns - The merged array (sorted).
  */
 function kWayMerge (inputArrays) {
   // validate the input
   assert(Array.isArray(inputArrays) && inputArrays.every(arr => Array.isArray(arr)), 'Input should be an array of arrays.')
+
+
 }
 
 /**
