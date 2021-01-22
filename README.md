@@ -1,5 +1,5 @@
 # QuanticDev
-QuanticDev's engineering and software development resources. All the articles and videos are based on my experiences as a software engineer with a decade of experience and education in electronics and semiconductor physics. In my career, I have developed several popular open-source projects, apps, and games.
+QuanticDev's engineering and software development resources. All the articles and videos are based on my experiences as a software engineer with a decade of experience and education in electronics and semiconductor physics. In my career, I have developed several popular open-source projects, apps, games, services, and more.
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/6A8rwX2J2HA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
