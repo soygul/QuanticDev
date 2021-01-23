@@ -15,6 +15,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Recursion Visualizer](/tools/recursion-visualization)
 
 ## Software Engineering
+* [Our Startup Office Tour - But He Gets Wider After Every Corner](https://www.youtube.com/watch?v=Et5I2w59Pkw) [Video Only]
 * [How I Mass Refactored Our Production Codebase Without Fear - Engineering Stories](/articles/how-i-mass-refactored-our-production-codebase-without-fear)
 * [Method Chaining is Awesome](/articles/method-chaining)
 * [Automating My YouTube Uploads Using Node.js](/articles/automating-my-youtube-uploads-using-nodejs)
