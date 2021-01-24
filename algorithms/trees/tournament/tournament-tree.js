@@ -20,13 +20,19 @@ class TournamentTree {
         this.nodes[level + 1].push(left < right ? [left, i] : [right, i + 1])
       }
     }
-
-    throw new Error(JSON.stringify(this.nodes))
   }
 
   popRoot () {
-    // remove the root element from the tree
+    // working our way back, remove all the branches that the root element came from
+    let prevElem = this.nodes[this.nodes.length - 1][0]
+    const root = prevElem[0]
+    for (let i = this.nodes.length - 1; i >= 0; i--) {
+      const prevIndex = prevElem[1]
+      prevElem = this.nodes[i][prevIndex]
+      this.nodes[i][prevIndex] = null
+    }
 
+    return root
   }
 
   pushLeave () {
@@ -43,6 +49,8 @@ module.exports = TournamentTree
 // test case #1: mixed integers
 const exampleInput1 = [4, 3, 1, 2, 5]
 const solution1 = [1, 2, 3, 4, 5]
+
+throw new Error(new TournamentTree(exampleInput1).popRoot())
 
 const calculatedMaxSolution1 = new TournamentTree(exampleInput1)
 // const calculatedMinSolution1 = getMaxMinSubarray(exampleInput1, false)
