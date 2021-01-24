@@ -1,6 +1,8 @@
 const assert = require('assert')
 
 class TournamentTree {
+  missingLeaveIndex = 0
+
   constructor (dataArr) {
     // store entire tree as array of arrays in a bottom-up manner
     // index 0 = leaves, index 1 = bottom branches, index 1++ = higher branches all the way to the root
@@ -29,14 +31,16 @@ class TournamentTree {
     for (let i = this.nodes.length - 1; i >= 0; i--) {
       const prevIndex = prevElem[1]
       prevElem = this.nodes[i][prevIndex]
-      this.nodes[i][prevIndex] = null
+      this.nodes[i][prevIndex] = Infinity
+
+      if (i === 0) this.missingLeaveIndex = prevIndex
     }
 
     return root
   }
 
   pushLeave () {
-
+    // insert the leave into the blank spot
   }
 }
 
