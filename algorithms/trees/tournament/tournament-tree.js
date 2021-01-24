@@ -59,9 +59,18 @@ class TournamentTree {
       index1 = nextLevelIndex
     }
 
-    console.log(this.nodes)
-
     this.missingLeaveIndex = null
+  }
+
+  sort () {
+    // return the full sorted array
+    const sorted = []
+    for (let i = 0; i < this.nodes[0].length; i++) {
+      sorted.push(this.popRoot())
+      this.pushLeave(Infinity)
+    }
+
+    return sorted
   }
 }
 
@@ -71,66 +80,10 @@ module.exports = TournamentTree
  * Tests
  */
 
-// test case #1: mixed integers
+// test case #1
 const exampleInput1 = [4, 3, 1, 2, 5]
 const solution1 = [1, 2, 3, 4, 5]
+const calculatedSolution1 = new TournamentTree(exampleInput1).sort()
 
-const tree = new TournamentTree(exampleInput1)
-tree.popRoot()
-
-throw new Error(tree.pushLeave(-1))
-
-const calculatedMaxSolution1 = new TournamentTree(exampleInput1)
-// const calculatedMinSolution1 = getMaxMinSubarray(exampleInput1, false)
-//
-// console.log(`Example Input #1: ${JSON.stringify(exampleInput1)}, Max Sum Subarray: ${JSON.stringify(calculatedMaxSolution1)}, Min Sum Subarray: ${JSON.stringify(calculatedMinSolution1)}`)
-// assert.deepStrictEqual(calculatedMaxSolution1, maxSolution1)
-// assert.deepStrictEqual(calculatedMinSolution1, minSolution1)
-//
-// // test case #2: empty array
-// const exampleInput2 = []
-// const maxSolution2 = []
-// const minSolution2 = []
-//
-// const calculatedMaxSolution2 = getMaxMinSubarray(exampleInput2, true)
-// const calculatedMinSolution2 = getMaxMinSubarray(exampleInput2, false)
-//
-// console.log(`Example Input #2: ${JSON.stringify(exampleInput2)}, Max Sum Subarray: ${JSON.stringify(calculatedMaxSolution2)}, Min Sum Subarray: ${JSON.stringify(calculatedMinSolution2)}`)
-// assert.deepStrictEqual(calculatedMaxSolution2, maxSolution2)
-// assert.deepStrictEqual(calculatedMinSolution2, minSolution2)
-//
-// // test case #3: all 0's
-// const exampleInput3 = [0, 0, 0]
-// const maxSolution3 = []
-// const minSolution3 = []
-//
-// const calculatedMaxSolution3 = getMaxMinSubarray(exampleInput3, true)
-// const calculatedMinSolution3 = getMaxMinSubarray(exampleInput3, false)
-//
-// console.log(`Example Input #3: ${JSON.stringify(exampleInput3)}, Max Sum Subarray: ${JSON.stringify(calculatedMaxSolution3)}, Min Sum Subarray: ${JSON.stringify(calculatedMinSolution3)}`)
-// assert.deepStrictEqual(calculatedMaxSolution3, maxSolution3)
-// assert.deepStrictEqual(calculatedMinSolution3, minSolution3)
-//
-// // test case #4: all negative
-// const exampleInput4 = [-1, -2, -3, -4, -5]
-// const maxSolution4 = []
-// const minSolution4 = [-1, -2, -3, -4, -5]
-//
-// const calculatedMaxSolution4 = getMaxMinSubarray(exampleInput4, true)
-// const calculatedMinSolution4 = getMaxMinSubarray(exampleInput4, false)
-//
-// console.log(`Example Input #4: ${JSON.stringify(exampleInput4)}, Max Sum Subarray: ${JSON.stringify(calculatedMaxSolution4)}, Min Sum Subarray: ${JSON.stringify(calculatedMinSolution4)}`)
-// assert.deepStrictEqual(calculatedMaxSolution4, maxSolution4)
-// assert.deepStrictEqual(calculatedMinSolution4, minSolution4)
-//
-// // test case #5: all positive
-// const exampleInput5 = [1, 2, 3, 4, 5]
-// const maxSolution5 = [1, 2, 3, 4, 5]
-// const minSolution5 = []
-//
-// const calculatedMaxSolution5 = getMaxMinSubarray(exampleInput5, true)
-// const calculatedMinSolution5 = getMaxMinSubarray(exampleInput5, false)
-//
-// console.log(`Example Input #5: ${JSON.stringify(exampleInput5)}, Max Sum Subarray: ${JSON.stringify(calculatedMaxSolution5)}, Min Sum Subarray: ${JSON.stringify(calculatedMinSolution5)}`)
-// assert.deepStrictEqual(calculatedMaxSolution5, maxSolution5)
-// assert.deepStrictEqual(calculatedMinSolution5, minSolution5)
+console.log(`Example Input Array #1: ${exampleInput1}, and the exact solution: ${solution1}, and calculated solution: ${calculatedSolution1}`)
+assert.deepStrictEqual(calculatedSolution1, solution1)
