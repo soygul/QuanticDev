@@ -4,7 +4,7 @@ class TournamentTree {
   constructor (dataArr) {
     // store entire tree as array of arrays in a bottom-up manner
     // index 0 = leaves, index 1 = bottom branches, index 1++ = higher branches all the way to the root
-    this.nodes = [dataArr]
+    this.nodes = [dataArr.map(e => [e, null])]
 
     // construct the rest of the tournament tree
     for (let level = 0; this.nodes[level].length > 1; level++) {
@@ -13,14 +13,24 @@ class TournamentTree {
 
       // assign this level's tournament winners to next level
       for (let i = 0; i < this.nodes[level].length; i = i + 2) {
-        const left = this.nodes[level][i]
-        const right = this.nodes[level][i + 1] || Infinity
+        const left = this.nodes[level][i][0]
+        const right = this.nodes[level][i + 1] ? this.nodes[level][i + 1][0] : Infinity
 
-        this.nodes[level + 1].push(left < right ? left : right)
+        // store the node value along with its index in the lower level so we can track it backward when removing the root
+        this.nodes[level + 1].push(left < right ? [left, i] : [right, i + 1])
       }
     }
 
     throw new Error(JSON.stringify(this.nodes))
+  }
+
+  popRoot () {
+    // remove the root element from the tree
+
+  }
+
+  pushLeave () {
+
   }
 }
 
