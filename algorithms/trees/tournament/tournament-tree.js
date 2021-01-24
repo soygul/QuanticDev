@@ -1,7 +1,7 @@
 const assert = require('assert')
 
 class TournamentTree {
-  missingLeaveIndex = 0
+  missingLeaveIndex = null
 
   constructor (dataArr) {
     // store entire tree as array of arrays in a bottom-up manner
@@ -28,19 +28,40 @@ class TournamentTree {
     // working our way back, remove all the branches that the root element came from
     let prevElem = this.nodes[this.nodes.length - 1][0]
     const root = prevElem[0]
-    for (let i = this.nodes.length - 1; i >= 0; i--) {
+    for (let level = this.nodes.length - 1; level >= 0; level--) {
       const prevIndex = prevElem[1]
-      prevElem = this.nodes[i][prevIndex]
-      this.nodes[i][prevIndex] = Infinity
+      prevElem = this.nodes[level][prevIndex]
+      this.nodes[level][prevIndex] = Infinity
 
-      if (i === 0) this.missingLeaveIndex = prevIndex
+      if (level === 0) this.missingLeaveIndex = prevIndex
     }
 
     return root
   }
 
-  pushLeave () {
+  pushLeave (value) {
     // insert the leave into the blank spot
+    this.nodes[0][this.missingLeaveIndex] = [value, null]
+
+    // rebuild the missing branches
+    let index1 = this.missingLeaveIndex
+    for (let level = 0; level < this.nodes.length - 1; level++) {
+      let index2 = index1 - 1
+      let nextLevelIndex = index2 / 2
+      if (index1 % 2 === 0) {
+        index2 = index1 + 1
+        nextLevelIndex = index1 / 2
+      }
+
+      const e1 = this.nodes[level][index1][0]
+      const e2 = this.nodes[level][index2] ? this.nodes[level][index2][0] : Infinity
+      this.nodes[level + 1][nextLevelIndex] = e1 < e2 ? [e1, index1] : [e2, index2]
+      index1 = nextLevelIndex
+    }
+
+    console.log(this.nodes)
+
+    this.missingLeaveIndex = null
   }
 }
 
@@ -54,7 +75,10 @@ module.exports = TournamentTree
 const exampleInput1 = [4, 3, 1, 2, 5]
 const solution1 = [1, 2, 3, 4, 5]
 
-throw new Error(new TournamentTree(exampleInput1).popRoot())
+const tree = new TournamentTree(exampleInput1)
+tree.popRoot()
+
+throw new Error(tree.pushLeave(-1))
 
 const calculatedMaxSolution1 = new TournamentTree(exampleInput1)
 // const calculatedMinSolution1 = getMaxMinSubarray(exampleInput1, false)
