@@ -28,13 +28,15 @@ class TournamentTree {
   popRoot () {
     // working our way back, remove all the branches that the root element came from
     let ancestor = this.nodes[this.nodes.length - 1][0]
+    let currentIndex = 0
     const root = ancestor[0]
     for (let level = this.nodes.length - 1; level >= 0; level--) {
-      const ancestorIndex = ancestor[1]
-      ancestor = this.nodes[level][ancestorIndex]
-      this.nodes[level][ancestorIndex] = Infinity
+      // current node will become the ancestor in the next loop
+      ancestor = this.nodes[level][currentIndex]
+      this.nodes[level][currentIndex] = Infinity
 
-      if (level === 0) this.missingLeafIndex = ancestorIndex
+      if (level === 0) this.missingLeafIndex = currentIndex
+      currentIndex = ancestor[1]
     }
 
     return root
@@ -64,12 +66,15 @@ class TournamentTree {
   }
 
   sort () {
-    // return the full sorted array
+    // return the full sorted array by repeatedly popping the root node
+    // and pushing Infinity as sentinel value for the missing leaves
     const sorted = []
     for (let i = 0; i < this.nodes[0].length; i++) {
       sorted.push(this.popRoot())
       this.pushLeaf(Infinity)
     }
+
+    console.log(this.nodes)
 
     return sorted
   }
