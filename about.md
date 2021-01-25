@@ -1,5 +1,5 @@
 # About QuanticDev
-Teoman "QuanticDev" Soygul's engineering and software development resources. The articles and videos are mostly on software and engineering, while occasionally diving into tech topics, tech news, analysis, and more. All the articles and videos are based on my experiences as a software engineer with a decade of experience and education in electronics and semiconductor physics. In my career, I have developed several popular open-source projects, apps, and games.
+Teoman "QuanticDev" Soygul's engineering and software development resources. The articles and videos are mostly on software and engineering, while occasionally diving into tech topics, tech news, analysis, and more. All the articles and videos are based on my experiences as a software engineer with a decade of experience and education in electronics and semiconductor physics. In my career, I have developed several popular open-source projects, apps, games, services, and more.
 
 ## Contact
 You can reach me at [info@quanticdev.com](mailto:info@quanticdev.com)

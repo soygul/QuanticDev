@@ -1,6 +1,13 @@
 from manim import *
 
 
+"""
+$ manim code.py/js -p
+
+-p: preview: open vide file after rendering
+"""
+
+
 def highlight_line(code: Code, line_from, line_to):
     if not line_to:
         line_to = line_from
