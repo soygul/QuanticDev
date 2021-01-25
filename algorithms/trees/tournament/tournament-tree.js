@@ -74,8 +74,6 @@ class TournamentTree {
       this.pushLeaf(Infinity)
     }
 
-    console.log(this.nodes)
-
     return sorted
   }
 }
@@ -87,9 +85,23 @@ module.exports = TournamentTree
  */
 
 // test case #1
-const exampleInput1 = [4, 3, 1, 2, 5]
-const solution1 = [1, 2, 3, 4, 5]
-const calculatedSolution1 = new TournamentTree(exampleInput1).sort()
+const exampleInput1 = [5, 1, 9, 3]
+const tree1 = new TournamentTree(exampleInput1)
 
-console.log(`Example Input Array #1: ${exampleInput1}, and the exact solution: ${solution1}, and calculated solution: ${calculatedSolution1}`)
-assert.deepStrictEqual(calculatedSolution1, solution1)
+assert.deepStrictEqual(tree1.popRoot(), 1)
+tree1.pushLeaf(2)
+assert.deepStrictEqual(tree1.popRoot(), 2)
+tree1.pushLeaf(Infinity) // need this since popRoot leaves blank branches behind
+assert.deepStrictEqual(tree1.popRoot(), 3)
+tree1.pushLeaf(1)
+assert.deepStrictEqual(tree1.popRoot(), 1)
+tree1.pushLeaf(10)
+assert.deepStrictEqual(tree1.popRoot(), 5)
+
+// test case #2
+const exampleInput2 = [4, 3, 1, 2, 5]
+const solution2 = [1, 2, 3, 4, 5]
+const calculatedSolution2 = new TournamentTree(exampleInput2).sort()
+
+console.log(`Example Input Array #1: ${exampleInput2}, and the exact solution: ${solution2}, and calculated solution: ${calculatedSolution2}`)
+assert.deepStrictEqual(calculatedSolution2, solution2)
