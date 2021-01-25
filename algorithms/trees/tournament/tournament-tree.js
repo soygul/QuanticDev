@@ -1,7 +1,8 @@
 const assert = require('assert')
 
 class TournamentTree {
-  missingLeaveIndex = null
+  nodes = [] // each element is represented like [value, ownChildIndex]
+  missingLeafIndex = null
 
   constructor (dataArr) {
     // store entire tree as array of arrays in a bottom-up manner
@@ -26,25 +27,25 @@ class TournamentTree {
 
   popRoot () {
     // working our way back, remove all the branches that the root element came from
-    let prevElem = this.nodes[this.nodes.length - 1][0]
-    const root = prevElem[0]
+    let ancestor = this.nodes[this.nodes.length - 1][0]
+    const root = ancestor[0]
     for (let level = this.nodes.length - 1; level >= 0; level--) {
-      const prevIndex = prevElem[1]
-      prevElem = this.nodes[level][prevIndex]
-      this.nodes[level][prevIndex] = Infinity
+      const ancestorIndex = ancestor[1]
+      ancestor = this.nodes[level][ancestorIndex]
+      this.nodes[level][ancestorIndex] = Infinity
 
-      if (level === 0) this.missingLeaveIndex = prevIndex
+      if (level === 0) this.missingLeafIndex = ancestorIndex
     }
 
     return root
   }
 
-  pushLeave (value) {
-    // insert the leave into the blank spot
-    this.nodes[0][this.missingLeaveIndex] = [value, null]
+  pushLeaf (value) {
+    // insert the leaf into the blank spot
+    this.nodes[0][this.missingLeafIndex] = [value, null]
 
     // rebuild the missing branches
-    let index1 = this.missingLeaveIndex
+    let index1 = this.missingLeafIndex
     for (let level = 0; level < this.nodes.length - 1; level++) {
       let index2 = index1 - 1
       let nextLevelIndex = index2 / 2
@@ -59,7 +60,7 @@ class TournamentTree {
       index1 = nextLevelIndex
     }
 
-    this.missingLeaveIndex = null
+    this.missingLeafIndex = null
   }
 
   sort () {
@@ -67,7 +68,7 @@ class TournamentTree {
     const sorted = []
     for (let i = 0; i < this.nodes[0].length; i++) {
       sorted.push(this.popRoot())
-      this.pushLeave(Infinity)
+      this.pushLeaf(Infinity)
     }
 
     return sorted
