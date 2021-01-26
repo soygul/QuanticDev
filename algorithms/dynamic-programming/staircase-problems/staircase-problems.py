@@ -1,6 +1,9 @@
 """
 This is the solution to the staircase problem using Fibonacci-like sequences.
 If you want to see the other solutions as well some other staircase problem variants, see the JavaScript file.
+
+If you want to see the video description of this algorithm, you can find it here: https://www.youtube.com/watch?v=qSE2iKRU4UA
+It has animated description and several interview questions and their solutions in it.
 """
 
 

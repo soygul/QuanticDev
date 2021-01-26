@@ -10,6 +10,9 @@ const assert = require('assert')
  * Time Complexity: O(m*n)
  * Space Complexity: O(m)
  *
+ * If you want to see the video description of this algorithm, you can find it here: https://www.youtube.com/watch?v=qSE2iKRU4UA
+ * It has animated description and several interview questions and their solutions in it.
+ *
  * @param stairCount - No of stairs to climb (n).
  * @param maxSteps - Max no of stairs you can climb at a time (m).
  * @returns {number} - Number of different ways to reach the top.
