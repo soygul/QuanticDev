@@ -4,6 +4,9 @@ const assert = require('assert')
  * Lockable tree node that can be locked only if none of the ancestors or descendants are locked.
  * Locking/unlocking operations run in O(h) time (h = height of the tree).
  * This is a very minimal implementation and could be improved with getters/setters, parameter validation, and thread safety.
+ *
+ * If you want to see the video description of this algorithm, you can find it here: https://www.youtube.com/watch?v=1mTGZHcs7zw
+ * It has animated description and several interview questions and their solutions in it.
  */
 class LockableNode {
   /**
