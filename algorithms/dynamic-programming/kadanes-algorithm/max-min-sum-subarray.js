@@ -5,6 +5,9 @@ const assert = require('assert')
  * There might be multiple subarrays with the same sum, but we only keep track of one.
  * Solution is implemented using Kadane's Algorithm.
  *
+ * If you want to see the video description of this algorithm, you can find it here: https://www.youtube.com/watch?v=4csAswCkXZM
+ * It has animated description and several interview questions and their solutions in it.
+ *
  * @param inputArr - An array of integers.
  * @param isMaxSum - If true, find the subarray with the maximum possible sum. If false, find the minimum instead.
  * @returns [] - The subarray with the maximum/minimum possible sum.
