@@ -6,8 +6,9 @@ const TournamentTree = require('../trees/tournament/tournament-tree')
  *
  * In this solution, we will use tournament trees to generate a single sorted array as efficiently as possible.
  *
- * This is a rather large topic and I highly recommend you check out the animated video to get a better
- * understanding of this problem, it's variants (like distributed sort) and their solutions.
+ * This is a rather large topic and I highly recommend you check out my animated video on this topic to get a better
+ * understanding of this problem and it's variants (like distributed sort) and their solutions.
+ * You can find the video here: https://www.youtube.com/watch?v=Xo54nlPHSpg
  *
  * Time Complexity: Θ(n logk) - Notice the big Theta notation. k is the number of given input arrays.
  * Auxiliary Space: ~2k (to store the tournament tree) + n to store the output

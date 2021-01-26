@@ -10,6 +10,8 @@ def two_way_merge(array1, array2):
     Auxiliary Space: O(n) - We will store the final sorted data in an array of size O(n),
                             which is the combined length of the given arrays.
 
+    If you want to see the fully animated video explanation, it is here: https://www.youtube.com/watch?v=Xo54nlPHSpg
+
     :param array1: A sorted array of values.
     :param array2: Another sorted array of values.
     :return: A single sorted array.
