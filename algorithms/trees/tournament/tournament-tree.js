@@ -1,5 +1,12 @@
 const assert = require('assert')
 
+/**
+ * Tournament Tree implementation used in my K-Way Merge algorithm video: https://www.youtube.com/watch?v=Xo54nlPHSpg
+ *
+ * Both K-Way Merge and Tournament Trees have interesting uses in computer science, especially in distributed computing.
+ * Check out the video if you want to see some examples.
+ * Video is fully animated to make it easy for you to understand these complex topics, and relevant programming interview questions.
+ */
 class TournamentTree {
   nodes = [] // each element is represented like [value, ownChildIndex]
   missingLeafIndex = null
