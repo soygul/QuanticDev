@@ -3,6 +3,9 @@ const assert = require('assert')
 /**
  * Given a string and n characters, find the shortest substring that contains all the given characters.
  *
+ * If you want to see the video description of this algorithm, you can find it here: https://www.youtube.com/watch?v=jM2dhDPYMQM
+ * It has animated description and several interview questions and their solutions in it.
+ *
  * @param inputString - Any string.
  * @param characters - A string of characters that the substring should contain.
  * @returns {string} - The shortest substring containing all the desired characters.

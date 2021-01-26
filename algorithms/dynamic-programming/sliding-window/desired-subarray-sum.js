@@ -3,6 +3,9 @@ const assert = require('assert')
 /**
  * Given a array of positive integers, find the subarrays of integers that add up to a given number.
  *
+ * If you want to see the video description of this algorithm, you can find it here: https://www.youtube.com/watch?v=jM2dhDPYMQM
+ * It has animated description and several interview questions and their solutions in it.
+ *
  * @param inputArr - An array of positive integers.
  * @param desiredSum - The desired sum as an integer.
  * @returns {[]} - An array of subarrays that add up to the desired sum.

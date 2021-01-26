@@ -4,6 +4,9 @@ const assert = require('assert')
  * Given an array of 0's and 1's,
  * find the maximum sequence of continuous 1's that can be formed by flipping at-most k 0's to 1's.
  *
+ * If you want to see the video description of this algorithm, you can find it here: https://www.youtube.com/watch?v=jM2dhDPYMQM
+ * It has animated description and several interview questions and their solutions in it.
+ *
  * @param inputArr - An array of 0's and 1's.
  * @param maxFlips - Maximum no of 0's that can be flipped to 1's.
  * @returns {number} - Length of the maximum possible sequence of continuous 1's.

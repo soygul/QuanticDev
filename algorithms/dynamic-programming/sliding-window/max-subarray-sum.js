@@ -3,6 +3,9 @@ const assert = require('assert')
 /**
  * Given an array of integers, find maximum sum subarray of the required size.
  *
+ * If you want to see the video description of this algorithm, you can find it here: https://www.youtube.com/watch?v=jM2dhDPYMQM
+ * It has animated description and several interview questions and their solutions in it.
+ *
  * @param inputArr - An array of integers.
  * @param subarraySize - Desired subarray size as a positive integer.
  * @returns [] - A subarray of size {subarraySize} that has the maximum possible sum.
