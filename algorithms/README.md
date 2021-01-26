@@ -1,5 +1,5 @@
 # Algorithm Questions
-**See [QuanticDev Home](/../../#algorithms) for a list of all algorithm interview question articles.**
+**See [QuanticDev Home](/../../#algorithms) for a list of all _algorithm interview question articles_.**
 
 Accompanying code for `Algorithm Questions` video series.
 
