@@ -113,3 +113,27 @@ const calculatedSolution2 = new TournamentTree(exampleInput2).sort()
 
 console.log(`Example Input Array #2: ${exampleInput2}, and the exact solution: ${solution2}, and calculated solution: ${calculatedSolution2}`)
 assert.deepStrictEqual(calculatedSolution2, solution2)
+
+// test case #3
+const exampleInput3 = []
+const solution3 = []
+const calculatedSolution3 = new TournamentTree(exampleInput3).sort()
+
+console.log(`Example Input Array #3: ${JSON.stringify(exampleInput3)}, and the exact solution: ${JSON.stringify(solution3)}, and calculated solution: ${JSON.stringify(calculatedSolution3)}`)
+assert.deepStrictEqual(calculatedSolution3, solution3)
+
+// test case #4
+const exampleInput4 = [47]
+const solution4 = [47]
+const calculatedSolution4 = new TournamentTree(exampleInput4).sort()
+
+console.log(`Example Input Array #4: ${JSON.stringify(exampleInput4)}, and the exact solution: ${JSON.stringify(solution4)}, and calculated solution: ${JSON.stringify(calculatedSolution4)}`)
+assert.deepStrictEqual(calculatedSolution4, solution4)
+
+// test case #5
+const exampleInput5 = [-5, 0, -9, 1, -1, 10]
+const solution5 = [-9, -5, -1, 0, 1, 10]
+const calculatedSolution5 = new TournamentTree(exampleInput5).sort()
+
+console.log(`Example Input Array #5: ${JSON.stringify(exampleInput5)}, and the exact solution: ${JSON.stringify(solution5)}, and calculated solution: ${JSON.stringify(calculatedSolution5)}`)
+assert.deepStrictEqual(calculatedSolution5, solution5)
