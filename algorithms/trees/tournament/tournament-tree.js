@@ -104,11 +104,12 @@ tree1.pushLeaf(1)
 assert.deepStrictEqual(tree1.popRoot(), 1)
 tree1.pushLeaf(10)
 assert.deepStrictEqual(tree1.popRoot(), 5)
+console.log(`Example Input Array #1: ${exampleInput1}, and the tree: ${JSON.stringify(tree1)}, passed.`)
 
 // test case #2
 const exampleInput2 = [4, 3, 1, 2, 5]
 const solution2 = [1, 2, 3, 4, 5]
 const calculatedSolution2 = new TournamentTree(exampleInput2).sort()
 
-console.log(`Example Input Array #1: ${exampleInput2}, and the exact solution: ${solution2}, and calculated solution: ${calculatedSolution2}`)
+console.log(`Example Input Array #2: ${exampleInput2}, and the exact solution: ${solution2}, and calculated solution: ${calculatedSolution2}`)
 assert.deepStrictEqual(calculatedSolution2, solution2)
