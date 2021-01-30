@@ -12,6 +12,9 @@ class TournamentTree {
   missingLeafIndex = null
 
   constructor (dataArr) {
+    // validate the input
+    assert(Array.isArray(dataArr) && dataArr.length > 0 , 'Input should be an array, and it should have at least one element in it.')
+
     // we use flat representation using a simple array, just like in a binary heap: https://en.wikipedia.org/wiki/Heap_(data_structure)#Implementation
     // the only difference is, we also store the descendent index along with the value (i.e. [4, 76], so we can trace the nodes from root to leaf
     this.nodes = dataArr.map(n => [n, null])
@@ -118,8 +121,8 @@ console.log(`Example Input Array #2: ${exampleInput2}, and the exact solution: $
 assert.deepStrictEqual(calculatedSolution2, solution2)
 
 // test case #3
-const exampleInput3 = []
-const solution3 = []
+const exampleInput3 = [2, 2, 2, 2, 2]
+const solution3 = [2, 2, 2, 2, 2]
 const calculatedSolution3 = new TournamentTree(exampleInput3).sort()
 
 console.log(`Example Input Array #3: ${JSON.stringify(exampleInput3)}, and the exact solution: ${JSON.stringify(solution3)}, and calculated solution: ${JSON.stringify(calculatedSolution3)}`)
