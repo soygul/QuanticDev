@@ -8,27 +8,32 @@ const assert = require('assert')
  * Video is fully animated to make it easy for you to understand these complex topics, and relevant programming interview questions.
  */
 class TournamentTree {
-  nodes = [] // each element is represented like [value, ownChildIndex]
+  nodes = []
   missingLeafIndex = null
 
   constructor (dataArr) {
-    // store entire tree as array of arrays in a bottom-up manner
-    // index 0 = leaves, index 1 = bottom branches, index 1++ = higher branches all the way to the root
-    this.nodes = [dataArr.map(e => [e, null])]
+    // we use flat representation using a simple array, just like in a binary heap: https://en.wikipedia.org/wiki/Heap_(data_structure)#Implementation
+    this.nodes = dataArr
 
-    // construct the rest of the tournament tree
-    for (let level = 0; this.nodes[level].length > 1; level++) {
-      // create next level
-      this.nodes.push([])
+    // make sure that nodes array has required amount of leaves
+    const requiredLeafCount = 2 ** Math.ceil(Math.log2(this.nodes.length))
+    while (this.nodes.length < requiredLeafCount) this.nodes.push(Infinity)
 
-      // assign this level's tournament winners to next level
-      for (let i = 0; i < this.nodes[level].length; i = i + 2) {
-        const left = this.nodes[level][i][0]
-        const right = this.nodes[level][i + 1] ? this.nodes[level][i + 1][0] : Infinity
+    // make sure that the nodes array has space (to the left) for the ancestor nodes
+    const requiredNodeCount = requiredLeafCount *  2 - 1
+    while (this.nodes.length < requiredNodeCount) this.nodes.unshift(null)
 
-        // store the node value along with its index in the lower level so we can track it backward when removing the root
-        this.nodes[level + 1].push(left < right ? [left, i] : [right, i + 1])
-      }
+    // fill in rest of the array to complete the tournament tree
+    for (let i = 0; this.nodes.length > 1; i++) {
+
+      // // assign this level's tournament winners to next level
+      // for (let i = 0; i < this.nodes[level].length; i = i + 2) {
+      //   const left = this.nodes[level][i][0]
+      //   const right = this.nodes[level][i + 1] ? this.nodes[level][i + 1][0] : Infinity
+      //
+      //   // store the node value along with its index in the lower level so we can track it backward when removing the root
+      //   this.nodes[level + 1].push(left < right ? [left, i] : [right, i + 1])
+      // }
     }
   }
 
