@@ -13,27 +13,24 @@ class TournamentTree {
 
   constructor (dataArr) {
     // we use flat representation using a simple array, just like in a binary heap: https://en.wikipedia.org/wiki/Heap_(data_structure)#Implementation
-    this.nodes = dataArr
+    // the only difference is, we also store the ancestor index along with the value, so we can trace the nodes from root to leaf
+    this.nodes = dataArr.map(n => [n, null])
 
     // make sure that nodes array has required amount of leaves
     const requiredLeafCount = 2 ** Math.ceil(Math.log2(this.nodes.length))
-    while (this.nodes.length < requiredLeafCount) this.nodes.push(Infinity)
+    while (this.nodes.length < requiredLeafCount) this.nodes.push([Infinity, null])
 
     // make sure that the nodes array has space (to the left) for the ancestor nodes
     const requiredNodeCount = requiredLeafCount *  2 - 1
-    while (this.nodes.length < requiredNodeCount) this.nodes.unshift(null)
+    while (this.nodes.length < requiredNodeCount) this.nodes.unshift([null, null])
 
-    // fill in rest of the array to complete the tournament tree
-    for (let i = 0; this.nodes.length > 1; i++) {
+    // fill in the values for the blank ancestor nodes
+    // to do this, we traverse the array from left to right, hence traversing the tree bottom up
+    for (let i = this.nodes.length - 1; i > 0; i -= 2) {
+      const right = this.nodes[i][0]
+      const left = this.nodes[i - 1][0]
 
-      // // assign this level's tournament winners to next level
-      // for (let i = 0; i < this.nodes[level].length; i = i + 2) {
-      //   const left = this.nodes[level][i][0]
-      //   const right = this.nodes[level][i + 1] ? this.nodes[level][i + 1][0] : Infinity
-      //
-      //   // store the node value along with its index in the lower level so we can track it backward when removing the root
-      //   this.nodes[level + 1].push(left < right ? [left, i] : [right, i + 1])
-      // }
+      this.nodes[i / 2 - 1] = right < left ? [right, i] : [left, i - 1]
     }
   }
 
@@ -91,6 +88,10 @@ class TournamentTree {
 }
 
 module.exports = TournamentTree
+
+//temp
+const t = new TournamentTree([2, 4, 1, 3])
+throw new Error(JSON.stringify(t.nodes))
 
 /**
  * Tests
