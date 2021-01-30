@@ -27,10 +27,10 @@ class TournamentTree {
     // fill in the values for the blank ancestor nodes
     // to do this, we traverse the array from left to right, hence traversing the tree bottom up
     for (let i = this.nodes.length - 1; i > 0; i -= 2) {
-      const right = this.nodes[i][0]
-      const left = this.nodes[i - 1][0]
+      const rightValue = this.nodes[i][0]
+      const leftValue = this.nodes[i - 1][0]
 
-      this.nodes[i / 2 - 1] = right < left ? [right, i] : [left, i - 1]
+      this.nodes[i / 2 - 1] = rightValue < leftValue ? [rightValue, i] : [leftValue, i - 1]
     }
   }
 
@@ -39,8 +39,13 @@ class TournamentTree {
     const rootNodeValue = this.nodes[0][0]
 
     // loop until we reach a node without a descendant (a leaf node)
-    for (let i = 0, currentNode = this.nodes[i]; currentNode[1] !== null; i = currentNode[1], currentNode = this.nodes[i]) {
+    for (let i = 0, currentNode = this.nodes[i]; true; i = currentNode[1], currentNode = this.nodes[i]) {
       this.nodes[i] = [null, null]
+
+      if (currentNode[1] === null) {
+        this.missingLeafIndex = i
+        break
+      }
     }
 
     return rootNodeValue
@@ -48,22 +53,23 @@ class TournamentTree {
 
   pushLeaf (value) {
     // insert the leaf into the blank spot
-    this.nodes[0][this.missingLeafIndex] = [value, null]
+    this.nodes[this.missingLeafIndex] = [value, null]
+
+    // make sure we start iterating from right hand side leaf
+    const startIndex = this.missingLeafIndex % 2 === 0 ? this.missingLeafIndex : this.missingLeafIndex + 1
 
     // rebuild the missing branches
-    let index1 = this.missingLeafIndex
-    for (let level = 0; level < this.nodes.length - 1; level++) {
-      let index2 = index1 - 1
-      let nextLevelIndex = index2 / 2
-      if (index1 % 2 === 0) {
-        index2 = index1 + 1
-        nextLevelIndex = index1 / 2
-      }
+    for (let i = startIndex; i > 0; i = i / 2 - 1) {
+      // make sure we start from the right hand side leaf
+      i = i % 2 === 0 ? i : i + 1
 
-      const e1 = this.nodes[level][index1][0]
-      const e2 = this.nodes[level][index2] ? this.nodes[level][index2][0] : Infinity
-      this.nodes[level + 1][nextLevelIndex] = e1 < e2 ? [e1, index1] : [e2, index2]
-      index1 = nextLevelIndex
+      const rightValue = this.nodes[i][0]
+      const leftValue = this.nodes[i - 1][0]
+
+      let ancestorIndex = i / 2 - 1
+      if (ancestorIndex < 0) ancestorIndex = 0
+
+      this.nodes[ancestorIndex] = rightValue < leftValue ? [rightValue, i] : [leftValue, i - 1]
     }
 
     this.missingLeafIndex = null
@@ -73,8 +79,8 @@ class TournamentTree {
     // return the full sorted array by repeatedly popping the root node
     // and pushing Infinity as sentinel value for the missing leaves
     const sorted = []
-    for (let i = 0; i < this.nodes[0].length; i++) {
-      sorted.push(this.popRoot())
+    for (let root = this.popRoot(); root !== Infinity; root = this.popRoot()) {
+      sorted.push(root)
       this.pushLeaf(Infinity)
     }
 
@@ -83,11 +89,6 @@ class TournamentTree {
 }
 
 module.exports = TournamentTree
-
-//temp
-const t = new TournamentTree([77, 4, 5, 3])
-console.log(t.popRoot())
-throw new Error(JSON.stringify(t.nodes))
 
 /**
  * Tests
