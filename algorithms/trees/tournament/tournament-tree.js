@@ -13,7 +13,7 @@ class TournamentTree {
 
   constructor (dataArr) {
     // we use flat representation using a simple array, just like in a binary heap: https://en.wikipedia.org/wiki/Heap_(data_structure)#Implementation
-    // the only difference is, we also store the ancestor index along with the value, so we can trace the nodes from root to leaf
+    // the only difference is, we also store the descendent index along with the value (i.e. [4, 76], so we can trace the nodes from root to leaf
     this.nodes = dataArr.map(n => [n, null])
 
     // make sure that nodes array has required amount of leaves
@@ -36,19 +36,14 @@ class TournamentTree {
 
   popRoot () {
     // working our way back, remove all the branches that the root element came from
-    let ancestor = this.nodes[this.nodes.length - 1][0]
-    let currentIndex = 0
-    const root = ancestor[0]
-    for (let level = this.nodes.length - 1; level >= 0; level--) {
-      // current node will become the ancestor in the next loop
-      ancestor = this.nodes[level][currentIndex]
-      this.nodes[level][currentIndex] = Infinity
+    const rootNodeValue = this.nodes[0][0]
 
-      if (level === 0) this.missingLeafIndex = currentIndex
-      currentIndex = ancestor[1]
+    // loop until we reach a node without a descendant (a leaf node)
+    for (let i = 0, currentNode = this.nodes[i]; currentNode[1] !== null; i = currentNode[1], currentNode = this.nodes[i]) {
+      this.nodes[i] = [null, null]
     }
 
-    return root
+    return rootNodeValue
   }
 
   pushLeaf (value) {
@@ -90,7 +85,8 @@ class TournamentTree {
 module.exports = TournamentTree
 
 //temp
-const t = new TournamentTree([2, 4, 1, 3])
+const t = new TournamentTree([77, 4, 5, 3])
+console.log(t.popRoot())
 throw new Error(JSON.stringify(t.nodes))
 
 /**
