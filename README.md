@@ -14,6 +14,9 @@ If you want to contribute to any article, you are welcome to make a pull request
 ## Tools
 * [Recursion Visualizer](/tools/recursion-visualization)
 
+## Courses
+* _Algorithms, Systems Design, and Behavioral Interview courses will be up in the coming months._
+
 ## Software Engineering
 * [AI Socks Matching App in 10 Minutes](https://www.youtube.com/watch?v=nE_VbgEPogs) [Video Only]
 * [Our Startup Office Tour - But He Gets Wider After Every Corner](https://www.youtube.com/watch?v=Et5I2w59Pkw) [Video Only]
