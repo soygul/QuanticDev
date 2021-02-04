@@ -3,11 +3,12 @@ const assert = require('assert')
 /**
  * Tournament Tree implementation used in my K-Way Merge algorithm video: https://www.youtube.com/watch?v=Xo54nlPHSpg
  *
- * This is specifically named a "loser tournament tree" since smallest element becomes the root (similar to a min-heap).
+ * This implementation is specifically called a "loser tournament tree" since smallest element becomes the root (similar to a min-heap).
+ * Hence a "winner tournament tree" is similar to a max-heap.
  *
  * Both K-Way Merge and Tournament Trees have interesting uses in computer science, especially in distributed computing.
  * Check out the video if you want to see some examples.
- * Video is fully animated to make it easy for you to understand these complex topics, and relevant programming interview questions.
+ * The video is fully animated to make it easy for you to understand these complex topics, and the relevant programming interview questions.
  */
 class TournamentTree {
   nodes = []
@@ -15,7 +16,7 @@ class TournamentTree {
 
   constructor (dataArr) {
     // validate the input
-    assert(Array.isArray(dataArr) && dataArr.length > 0 , 'Input should be an array, and it should have at least one element in it.')
+    assert(Array.isArray(dataArr) && dataArr.length > 0, 'Input should be an array, and it should have at least one element in it.')
 
     // we use flat representation using a simple array, just like in a binary heap: https://en.wikipedia.org/wiki/Heap_(data_structure)#Implementation
     // the only difference is, we also store the descendent index along with the value (i.e. [4, 76], so we can trace the nodes from root to leaf
