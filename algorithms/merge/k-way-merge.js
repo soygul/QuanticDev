@@ -1,5 +1,5 @@
 const assert = require('assert')
-const TournamentTree = require('../trees/tournament/tournament-tree')
+const TournamentTree = require('../trees/tournament-tree/tournament-tree')
 
 /**
  * Given k sorted arrays, merge them into a single sorted array.
