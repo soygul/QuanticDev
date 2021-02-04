@@ -29,9 +29,10 @@ function kWayMerge (inputArrays) {
     mergedArr.push(tree.popRoot())
 
     if (inputArrays[tree.missingLeafIndex]) {
-      tree.pushLeaf(inputArrays[tree.missingLeafIndex].shift())
+      tree.insertLeaf(inputArrays[tree.missingLeafIndex].shift())
     } else {
-      tree.pushLeaf(Infinity)
+      // when we exhaust all the data in an array, just plug in a sentinel value
+      tree.insertLeaf(Infinity)
     }
   }
 
@@ -42,7 +43,7 @@ function kWayMerge (inputArrays) {
  * Tests
  */
 
-// test case #1: mixed integers
+// test case #1
 const exampleInput1 = [[4, 9], [1, 7], [3, 6]]
 const solution1 = [1, 3, 4, 6, 7, 9]
 

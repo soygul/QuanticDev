@@ -11,45 +11,40 @@ const assert = require('assert')
  * The video is fully animated to make it easy for you to understand these complex topics, and the relevant programming interview questions.
  */
 class TournamentTree {
-  nodes = []
+  nodes = [] // each element at each level is represented like [value, ownChildIndex]
   missingLeafIndex = null
 
   constructor (dataArr) {
-    // validate the input
-    assert(Array.isArray(dataArr) && dataArr.length > 0, 'Input should be an array, and it should have at least one element in it.')
+    // store entire tree as array of arrays in a bottom-up manner
+    // index 0 = leaves, index 1 = bottom branches, index 1++ = higher branches all the way to the root
+    this.nodes = [dataArr.map(e => [e, null])]
 
-    // we use flat representation using a simple array, just like in a binary heap: https://en.wikipedia.org/wiki/Heap_(data_structure)#Implementation
-    // the only difference is, we also store the descendent index along with the value (i.e. [4, 76], so we can trace the nodes from root to leaf
-    this.nodes = dataArr.map(n => [n, null])
+    // construct the rest of the tournament tree
+    for (let level = 0; this.nodes[level].length > 1; level++) {
+      // create next level
+      this.nodes.push([])
 
-    // make sure that nodes array has required amount of leaves
-    const requiredLeafCount = 2 ** Math.ceil(Math.log2(this.nodes.length))
-    while (this.nodes.length < requiredLeafCount) this.nodes.push([Infinity, null])
+      // assign this level's tournament victors to next level
+      for (let i = 0; i < this.nodes[level].length; i = i + 2) {
+        const left = this.nodes[level][i][0]
+        const right = this.nodes[level][i + 1] ? this.nodes[level][i + 1][0] : Infinity
 
-    // make sure that the nodes array has space (to the left) for the ancestor nodes
-    const requiredNodeCount = requiredLeafCount *  2 - 1
-    while (this.nodes.length < requiredNodeCount) this.nodes.unshift([null, null])
-
-    // fill in the values for the blank ancestor nodes
-    // to do this, we traverse the array from right to left, hence traversing the tree bottom up
-    for (let i = this.nodes.length - 1; i > 0; i -= 2) {
-      const rightValue = this.nodes[i][0]
-      const leftValue = this.nodes[i - 1][0]
-
-      this.nodes[i / 2 - 1] = rightValue < leftValue ? [rightValue, i] : [leftValue, i - 1]
+        // store the node value along with its index in the lower level so we can track it backward when removing the root
+        this.nodes[level + 1].push(left < right ? [left, i] : [right, i + 1])
+      }
     }
   }
 
   popRoot () {
     // working our way back, remove all the branches that the root element came from
-    const rootNodeValue = this.nodes[0][0]
+    const rootNodeValue = this.nodes[this.nodes.length - 1][0][0]
 
     // loop until we reach a node without a descendant (a leaf node)
-    for (let i = 0, currentNode = this.nodes[i]; true; i = currentNode[1], currentNode = this.nodes[i]) {
-      this.nodes[i] = [null, null]
+    for (let level = this.nodes.length - 1, i = 0, currentNode = this.nodes[level][i]; true; level--, i = currentNode[1], currentNode = this.nodes[level][i]) {
+      this.nodes[level][i] = [null, null]
 
-      if (currentNode[1] === null) {
-        this.missingLeafIndex = i
+      if (level === 0) {
+      this.missingLeafIndex = i
         break
       }
     }
@@ -57,25 +52,24 @@ class TournamentTree {
     return rootNodeValue
   }
 
-  pushLeaf (value) {
+  insertLeaf (value) {
     // insert the leaf into the blank spot
-    this.nodes[this.missingLeafIndex] = [value, null]
-
-    // make sure we start iterating from right hand side leaf
-    const startIndex = this.missingLeafIndex % 2 === 0 ? this.missingLeafIndex : this.missingLeafIndex + 1
+    this.nodes[0][this.missingLeafIndex] = [value, null]
 
     // rebuild the missing branches
-    for (let i = startIndex; i > 0; i = i / 2 - 1) {
-      // make sure we start from the right hand side leaf
-      i = i % 2 === 0 ? i : i + 1
+    let index1 = this.missingLeafIndex
+    for (let level = 0; level < this.nodes.length - 1; level++) {
+      let index2 = index1 - 1
+      let nextLevelIndex = index2 / 2
+      if (index1 % 2 === 0) {
+        index2 = index1 + 1
+        nextLevelIndex = index1 / 2
+      }
 
-      const rightValue = this.nodes[i][0]
-      const leftValue = this.nodes[i - 1][0]
-
-      let ancestorIndex = i / 2 - 1
-      if (ancestorIndex < 0) ancestorIndex = 0
-
-      this.nodes[ancestorIndex] = rightValue < leftValue ? [rightValue, i] : [leftValue, i - 1]
+      const e1 = this.nodes[level][index1][0]
+      const e2 = this.nodes[level][index2] ? this.nodes[level][index2][0] : Infinity
+      this.nodes[level + 1][nextLevelIndex] = e1 < e2 ? [e1, index1] : [e2, index2]
+      index1 = nextLevelIndex
     }
 
     this.missingLeafIndex = null
@@ -85,9 +79,9 @@ class TournamentTree {
     // return the full sorted array by repeatedly popping the root node
     // and pushing Infinity as sentinel value for the missing leaves
     const sorted = []
-    for (let root = this.popRoot(); root !== Infinity; root = this.popRoot()) {
-      sorted.push(root)
-      this.pushLeaf(Infinity)
+    for (let i = 0; i < this.nodes[0].length; i++) {
+      sorted.push(this.popRoot())
+      this.insertLeaf(Infinity)
     }
 
     return sorted
@@ -105,13 +99,13 @@ const exampleInput1 = [5, 1, 9, 3]
 const tree1 = new TournamentTree(exampleInput1)
 
 assert.deepStrictEqual(tree1.popRoot(), 1)
-tree1.pushLeaf(2)
+tree1.insertLeaf(2)
 assert.deepStrictEqual(tree1.popRoot(), 2)
-tree1.pushLeaf(Infinity) // need this since popRoot leaves blank branches behind
+tree1.insertLeaf(Infinity) // need this to make the calculation for the next root to happen
 assert.deepStrictEqual(tree1.popRoot(), 3)
-tree1.pushLeaf(1)
+tree1.insertLeaf(1)
 assert.deepStrictEqual(tree1.popRoot(), 1)
-tree1.pushLeaf(10)
+tree1.insertLeaf(10)
 assert.deepStrictEqual(tree1.popRoot(), 5)
 console.log(`Example Input Array #1: ${exampleInput1}, and the tree: ${JSON.stringify(tree1)}, passed.`)
 
