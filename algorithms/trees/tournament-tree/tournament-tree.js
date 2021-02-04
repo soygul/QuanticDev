@@ -11,7 +11,7 @@ const assert = require('assert')
  * The video is fully animated to make it easy for you to understand these complex topics, and the relevant programming interview questions.
  */
 class TournamentTree {
-  nodes = [] // each element at each level is represented like [value, ownChildIndex]
+  nodes = [] // each element at each level is represented like [value, selfIndexAtBelowLevel]
   missingLeafIndex = null
 
   constructor (dataArr) {
