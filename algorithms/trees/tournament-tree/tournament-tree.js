@@ -31,7 +31,7 @@ class TournamentTree {
     while (this.nodes.length < requiredNodeCount) this.nodes.unshift([null, null])
 
     // fill in the values for the blank ancestor nodes
-    // to do this, we traverse the array from left to right, hence traversing the tree bottom up
+    // to do this, we traverse the array from right to left, hence traversing the tree bottom up
     for (let i = this.nodes.length - 1; i > 0; i -= 2) {
       const rightValue = this.nodes[i][0]
       const leftValue = this.nodes[i - 1][0]
