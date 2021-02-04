@@ -13,23 +13,23 @@ Table of contents:
 * [Conclusion](#conclusion)
 
 ## Resources
-You can find the video narration of this article on YouTube with illustrations: [https://www.youtube.com/watch?v=4K1O6SXRSws](https://www.youtube.com/watch?v=4K1O6SXRSws){:target="_blank"}
+You can find the video narration of this article on YouTube with illustrations: [https://www.youtube.com/watch?v=4K1O6SXRSws](https://www.youtube.com/watch?v=4K1O6SXRSws){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4K1O6SXRSws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Alternative Big O Notation poster, stickers, mugs, and more:
-* [https://quanticdev.com/shop](/shop){:target="_blank"}
-* [https://www.redbubble.com/shop/ap/54268092](https://www.redbubble.com/shop/ap/54268092){:target="_blank"} (Alternative Big O Notation artwork)
-* [https://www.redbubble.com/shop/ap/54006599](https://www.redbubble.com/shop/ap/54006599){:target="_blank"} (Quantic Developers Club artwork)
+* [https://quanticdev.com/shop](/shop){:target="_blank"}{:rel="noopener"}
+* [https://www.redbubble.com/shop/ap/54268092](https://www.redbubble.com/shop/ap/54268092){:target="_blank"}{:rel="noopener"} (Alternative Big O Notation artwork)
+* [https://www.redbubble.com/shop/ap/54006599](https://www.redbubble.com/shop/ap/54006599){:target="_blank"}{:rel="noopener"} (Quantic Developers Club artwork)
 
 Other articles referred to in this article:
-* [My "Kadane's Algorithm" article](/algorithms/dynamic-programming/kadanes-algorithm){:target="_blank"}, which is a great demonstration of an O(n) linear time complexity and O(1) constant space complexity algorithm.
+* [My "Kadane's Algorithm" article](/algorithms/dynamic-programming/kadanes-algorithm){:target="_blank"}{:rel="noopener"}, which is a great demonstration of an O(n) linear time complexity and O(1) constant space complexity algorithm.
 
 Wikipedia articles referenced in this article:
-* List of all time/space complexities: [https://en.wikipedia.org/wiki/Time_complexity](https://en.wikipedia.org/wiki/Time_complexity){:target="_blank"}
-* Asymptotic analysis: [https://en.wikipedia.org/wiki/Asymptotic_analysis](https://en.wikipedia.org/wiki/Asymptotic_analysis){:target="_blank"}
+* List of all time/space complexities: [https://en.wikipedia.org/wiki/Time_complexity](https://en.wikipedia.org/wiki/Time_complexity){:target="_blank"}{:rel="noopener"}
+* Asymptotic analysis: [https://en.wikipedia.org/wiki/Asymptotic_analysis](https://en.wikipedia.org/wiki/Asymptotic_analysis){:target="_blank"}{:rel="noopener"}
 
 ## Constant Time/Space Complexity: O(1)
 Simplest of all complexities. Not complex at all! If an operation always completes in the same amount of CPU time regardless of the input size, it is called a constant time operation. If it always uses the same amount of memory regardless of the input size, it is called a constant space operation.
@@ -80,15 +80,15 @@ O(n!) = O(mg)
 O(n^n) = O(sh*t!)
 ```
 
-If you want to have the alternative big O notation as a sticker, so you can stick it to unusual places, you can get it from [quanticdev.com/shop](/shop){:target="_blank"}. I will leave the link to it in the resources section above. If you really want to confuse fellow software engineers, you can also get it as a small poster, bigger poster, framed print, hoodie, phone case, mug, blanket, or even a shower curtain!
+If you want to have the alternative big O notation as a sticker, so you can stick it to unusual places, you can get it from [quanticdev.com/shop](/shop){:target="_blank"}{:rel="noopener"}. I will leave the link to it in the resources section above. If you really want to confuse fellow software engineers, you can also get it as a small poster, bigger poster, framed print, hoodie, phone case, mug, blanket, or even a shower curtain!
 
-[![Alternative Big O Notation Poster](media/alternative_big_o_notation_poster.jpg)](https://www.redbubble.com/shop/ap/54268092){:target="_blank"}
+[![Alternative Big O Notation Poster](media/alternative_big_o_notation_poster.jpg)](https://www.redbubble.com/shop/ap/54268092){:target="_blank"}{:rel="noopener"}
 
 And if you want to join the quantic developers club, you can get a sticker for your computer or even a nice canvas poster for your study corner.
 
-[![Quantic Developers Club Artwork](media/quanticdev_sticker.jpg)](https://www.redbubble.com/shop/ap/54006599){:target="_blank"}
+[![Quantic Developers Club Artwork](media/quanticdev_sticker.jpg)](https://www.redbubble.com/shop/ap/54006599){:target="_blank"}{:rel="noopener"}
 
-Anything you order or gift helps the channel, while hopefully bringing you some motivation. If you want to see the full collection, check out [quanticdev shop](/shop){:target="_blank"}.
+Anything you order or gift helps the channel, while hopefully bringing you some motivation. If you want to see the full collection, check out [quanticdev shop](/shop){:target="_blank"}{:rel="noopener"}.
 
 Side Note: Asymptotically, O(n^n) is equal to O(2^n), so the last line in the alternative big O notation list is just for the humor's sake.
 

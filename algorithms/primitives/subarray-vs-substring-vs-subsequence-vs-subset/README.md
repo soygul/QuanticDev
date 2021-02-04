@@ -2,7 +2,7 @@
 Today we are going to make a comparison of subarray vs substring vs subsequence vs subset. These are all similar concepts but have important differences. For instance, if you have a requirement to write an algorithm to find the subsets of a certain data and you come up with something that only finds the subsequences, you will only be half done. Or in an interview situation, you need to be extra careful about your choice of wording. If a question asks you to return a subsequence and you return a subset, you might fail the interview. Let me start by describing each concept with examples. Finally, I will give you a comparison table.
 
 ## Resources
-You can find the video narration of this article on YouTube with illustrations: [https://www.youtube.com/watch?v=uzhN-QhzR2g](https://www.youtube.com/watch?v=uzhN-QhzR2g){:target="_blank"}
+You can find the video narration of this article on YouTube with illustrations: [https://www.youtube.com/watch?v=uzhN-QhzR2g](https://www.youtube.com/watch?v=uzhN-QhzR2g){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uzhN-QhzR2g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

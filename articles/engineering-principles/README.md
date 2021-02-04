@@ -2,12 +2,12 @@
 Elevate your engineering career via aligning with these fundamental engineering principles. This article will provide you with guidance on common expectations from an engineer. Exercise the given tips in your day-to-day work life, and the confidence will be steaming from your ears! Points mentioned in the article apply to all disciplines of engineering at all ranks; junior developer, senior electronics engineer, VP of engineering, all the same.
 
 ## Resources
-You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=GKlfcNzTqrg](https://www.youtube.com/watch?v=GKlfcNzTqrg){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=GKlfcNzTqrg](https://www.youtube.com/watch?v=GKlfcNzTqrg){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GKlfcNzTqrg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
-  * Importance of written communication: "Jeff Bezos Turned Narrative into Amazon's Competitive Advantage", Hacker News discussion thread: [https://news.ycombinator.com/item?id=19115686](https://news.ycombinator.com/item?id=19115686){:target="_blank"}
+  * Importance of written communication: "Jeff Bezos Turned Narrative into Amazon's Competitive Advantage", Hacker News discussion thread: [https://news.ycombinator.com/item?id=19115686](https://news.ycombinator.com/item?id=19115686){:target="_blank"}{:rel="noopener"}
 
 ## Article
 What are the expectations form developers and engineers? Below are the fundamental engineering principles, explained one-by-one in bullet points.

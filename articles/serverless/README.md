@@ -4,28 +4,28 @@ What is serverless (aka function-as-a-service or FaaS)? Is it worth the investme
 This article goes into detail about the uses, advantages, and disadvantages of serverless. It will also give you a live example of serverless deployment using Firebase Functions. You will learn about the alternatives of serverless, as well as recommendations on when and where to use it. Finally you will learn which big enterprises use serverless and my recommendations for you.
 
 ## Resources
-You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=Kqk013ioclA](https://www.youtube.com/watch?v=Kqk013ioclA){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=Kqk013ioclA](https://www.youtube.com/watch?v=Kqk013ioclA){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Kqk013ioclA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Some of serverless providers:
-* Firebase (Google) Functions: [https://firebase.google.com/docs/functions](https://firebase.google.com/docs/functions){:target="_blank"}
+* Firebase (Google) Functions: [https://firebase.google.com/docs/functions](https://firebase.google.com/docs/functions){:target="_blank"}{:rel="noopener"}
   * Has two more variants: Google Cloud Functions and Google AppEngine.
-* AWS (Amazon) Lambda: [https://aws.amazon.com/lambda](https://aws.amazon.com/lambda){:target="_blank"}
-* Azure (Microsoft) Functions: [https://azure.microsoft.com/en-us/services/functions](https://azure.microsoft.com/en-us/services/functions){:target="_blank"}
+* AWS (Amazon) Lambda: [https://aws.amazon.com/lambda](https://aws.amazon.com/lambda){:target="_blank"}{:rel="noopener"}
+* Azure (Microsoft) Functions: [https://azure.microsoft.com/en-us/services/functions](https://azure.microsoft.com/en-us/services/functions){:target="_blank"}{:rel="noopener"}
 * There are many other smaller providers and alternatives which are mentioned and put to comparison in the article.
 
 An example way to utilizing persistent connections (WebSockets) in serverless environment:
-* WebSocket APIs in Amazon API Gateway: [https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway](https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway){:target="_blank"}
+* WebSocket APIs in Amazon API Gateway: [https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway](https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway){:target="_blank"}{:rel="noopener"}
 
 Example of one-click deployment of my open-source project (KOAN) to Heroku:
-* [https://github.com/soygul/koan#heroku-deployment](https://github.com/soygul/koan#heroku-deployment){:target="_blank"}
+* [https://github.com/soygul/koan#heroku-deployment](https://github.com/soygul/koan#heroku-deployment){:target="_blank"}{:rel="noopener"}
 
 Hacker News discussion thread on serverless:
-* [https://news.ycombinator.com/item?id=21046547](https://news.ycombinator.com/item?id=21046547){:target="_blank"}
-* And many others before it: [https://hn.algolia.com/?q=serverless](https://hn.algolia.com/?q=serverless){:target="_blank"}
+* [https://news.ycombinator.com/item?id=21046547](https://news.ycombinator.com/item?id=21046547){:target="_blank"}{:rel="noopener"}
+* And many others before it: [https://hn.algolia.com/?q=serverless](https://hn.algolia.com/?q=serverless){:target="_blank"}{:rel="noopener"}
 
 ## What is Serverless?
 First off, what is serverless (aka function-as-a-service or FaaS)? Serverless means you write and deploy standalone functions on the cloud, instead of entire apps. Each function serves a distinct need and handles a distinct event, like a web request. This is the reason as to why serverless is also called function-as-a-service.

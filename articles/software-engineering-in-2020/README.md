@@ -13,23 +13,23 @@ Table of contents:
 * Conclusion
 
 ## Resources
-You can find the video narration of this article on YouTube with illustrations: [https://www.youtube.com/watch?v=GesAhP5jYLo](https://www.youtube.com/watch?v=GesAhP5jYLo){:target="_blank"}
+You can find the video narration of this article on YouTube with illustrations: [https://www.youtube.com/watch?v=GesAhP5jYLo](https://www.youtube.com/watch?v=GesAhP5jYLo){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GesAhP5jYLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Resources referenced in this article:
-* [GitHub Octoverse](https://octoverse.github.com){:target="_blank"}
-* [Wikipedia: List of largest technology companies by revenue](https://en.wikipedia.org/wiki/List_of_largest_technology_companies_by_revenue){:target="_blank"}
-* [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey){:target="_blank"}
-* [Hired: State of Software Engineers](https://hired.com/state-of-software-engineers){:target="_blank"}
+* [GitHub Octoverse](https://octoverse.github.com){:target="_blank"}{:rel="noopener"}
+* [Wikipedia: List of largest technology companies by revenue](https://en.wikipedia.org/wiki/List_of_largest_technology_companies_by_revenue){:target="_blank"}{:rel="noopener"}
+* [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey){:target="_blank"}{:rel="noopener"}
+* [Hired: State of Software Engineers](https://hired.com/state-of-software-engineers){:target="_blank"}{:rel="noopener"}
 
 My articles referred to in this article:
-* [How to Correctly Use GitHub for Software Development - My Full Dev Workflow](/articles/how-to-use-github){:target="_blank"}
+* [How to Correctly Use GitHub for Software Development - My Full Dev Workflow](/articles/how-to-use-github){:target="_blank"}{:rel="noopener"}
 
 Hacker News discussions on this article:
-* [https://news.ycombinator.com/item?id=22803081](https://news.ycombinator.com/item?id=22803081){:target="_blank"}
+* [https://news.ycombinator.com/item?id=22803081](https://news.ycombinator.com/item?id=22803081){:target="_blank"}{:rel="noopener"}
 
 ## Overview
 Software engineering has seen explosive growth over the last 20 years, and it seems to be keeping that momentum up. According to Fortune data, total revenue of top 15 technology companies in the world was a record 1.67 Trillion US Dollars in 2019, which is up 2% from 2018. There are more software companies than ever now.

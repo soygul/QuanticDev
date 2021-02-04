@@ -5,20 +5,20 @@ Today I am going to give you a quick guide on how to get a great Linux laptop at
 Even though I use ThinkPad E595 as an example in this article, new ThinkPads with newer AMD Ryzen CPUs will be out nearly every year. For future laptop releases, you can apply the same technique that I will be demonstrating here and get the same sweet deals. As of writing this note (Sep-2020), ThinkPad E15/E14 and T15/T14 are partially available, so you can try your luck with them. This guide might also work with non E/T series laptops. If you want to check the Linux compatibility of future models, I have the link to the compatibility table in the next section.
 
 ## Resources
-You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=9Wx1fM_oWH8](https://www.youtube.com/watch?v=9Wx1fM_oWH8){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=9Wx1fM_oWH8](https://www.youtube.com/watch?v=9Wx1fM_oWH8){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9Wx1fM_oWH8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has live instructions for this guide. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Lenovo affiliate link which you can use in your purchase to help out the QuanticDev website:
-* [https://lenovo.7eer.net/A97BN](https://lenovo.7eer.net/A97BN){:target="_blank"}
+* [https://lenovo.7eer.net/A97BN](https://lenovo.7eer.net/A97BN){:target="_blank"}{:rel="noopener"}
 
 If you want to check the Linux compatibility of future Lenovo laptops, below is the compatibility table:
-* [https://wiki.archlinux.org/index.php/Laptop/Lenovo#E_series](https://wiki.archlinux.org/index.php/Laptop/Lenovo#E_series){:target="_blank"}
-* [https://www.thinkwiki.org/wiki/E14_hardware_tweaks](https://www.thinkwiki.org/wiki/E14_hardware_tweaks){:target="_blank"}
+* [https://wiki.archlinux.org/index.php/Laptop/Lenovo#E_series](https://wiki.archlinux.org/index.php/Laptop/Lenovo#E_series){:target="_blank"}{:rel="noopener"}
+* [https://www.thinkwiki.org/wiki/E14_hardware_tweaks](https://www.thinkwiki.org/wiki/E14_hardware_tweaks){:target="_blank"}{:rel="noopener"}
 
-My [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine){:target="_blank"} article which can help you set up your shiny new laptop.
+My [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine){:target="_blank"}{:rel="noopener"} article which can help you set up your shiny new laptop.
 
 ## Lenovo ThinkPad E595 (E Series)
 For this guide we will buy a Lenovo ThinkPad E595, so let's start by checking it out. The ThinkPad E595 has acceptable bezels on its great IPS display and a passable 720p webcam on the top bezel. The 45Wh battery should last you for 6-7 hours of coding. (Note that E15 is the successor to E595, and it will become available in August 2020, so you might try that instead.)

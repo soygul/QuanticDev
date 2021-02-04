@@ -33,15 +33,15 @@ Table of contents:
 * [Conclusion](#conclusion)
 
 ## Resources
-You can find the video version of this article on YouTube: [https://www.youtube.com/watch?v=OdOl_O8hyBM](https://www.youtube.com/watch?v=OdOl_O8hyBM){:target="_blank"}
+You can find the video version of this article on YouTube: [https://www.youtube.com/watch?v=OdOl_O8hyBM](https://www.youtube.com/watch?v=OdOl_O8hyBM){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OdOl_O8hyBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The video has animated transitions for all the code if that help you understand better. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 If you want to read more on the subject, here are some good Wiki articles to check out:
-* [https://en.wikipedia.org/wiki/Method_chaining](https://en.wikipedia.org/wiki/Method_chaining){:target="_blank"}
-* [https://en.wikipedia.org/wiki/Fluent_interface](https://en.wikipedia.org/wiki/Fluent_interface){:target="_blank"}
+* [https://en.wikipedia.org/wiki/Method_chaining](https://en.wikipedia.org/wiki/Method_chaining){:target="_blank"}{:rel="noopener"}
+* [https://en.wikipedia.org/wiki/Fluent_interface](https://en.wikipedia.org/wiki/Fluent_interface){:target="_blank"}{:rel="noopener"}
 
 ## Inspiration for This Article
 The inspiration for this article comes from my recent mass cleanup of our test framework at the office. Like many other complex system developers, we have our custom test framework to do all sorts of automated end-to-end testing, simulating real user interactions with our apps on real devices. I can't show the code, but it has been neglected for several years now. While modernizing it, I also decided to refactor it to use chainable methods, just as you would expect from modern test frameworks. The resulting code was exceptionally clean and developer-friendly, and it was well worth the time investment. Before diving into specifics, let me summarize what method chaining is for you.

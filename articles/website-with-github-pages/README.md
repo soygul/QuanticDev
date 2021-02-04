@@ -13,27 +13,27 @@ Table of contents:
 * [Conclusion](#Conclusion)
 
 ## Resources
-You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=jPhmR3TiGq8](https://www.youtube.com/watch?v=jPhmR3TiGq8){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=jPhmR3TiGq8](https://www.youtube.com/watch?v=jPhmR3TiGq8){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jPhmR3TiGq8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Free website hosting:
-* GitHub Pages (for techies): [https://pages.github.com](https://pages.github.com){:target="_blank"}
-  * Supports Jekyll: [https://jekyllrb.com](https://jekyllrb.com){:target="_blank"}
+* GitHub Pages (for techies): [https://pages.github.com](https://pages.github.com){:target="_blank"}{:rel="noopener"}
+  * Supports Jekyll: [https://jekyllrb.com](https://jekyllrb.com){:target="_blank"}{:rel="noopener"}
   * Supports Static HTML + CSS + JavaScript
-  * Supports React (and anything that compiles to static HTML/JS/CSS): [https://create-react-app.dev/docs/deployment/#github-pages](https://create-react-app.dev/docs/deployment/#github-pages){:target="_blank"}
-* Google Sites (non-techies): [https://sites.google.com](https://sites.google.com){:target="_blank"}
+  * Supports React (and anything that compiles to static HTML/JS/CSS): [https://create-react-app.dev/docs/deployment/#github-pages](https://create-react-app.dev/docs/deployment/#github-pages){:target="_blank"}{:rel="noopener"}
+* Google Sites (non-techies): [https://sites.google.com](https://sites.google.com){:target="_blank"}{:rel="noopener"}
 * Alternatives for Bloggers
-  * Blogger (basic): [https://blogger.com](https://blogger.com){:target="_blank"}
-  * WordPress (more advanced): [https://wordpress.com](https://wordpress.com){:target="_blank"}
+  * Blogger (basic): [https://blogger.com](https://blogger.com){:target="_blank"}{:rel="noopener"}
+  * WordPress (more advanced): [https://wordpress.com](https://wordpress.com){:target="_blank"}{:rel="noopener"}
 * Alternatives for Programmers
-  * Heroku: [https://www.heroku.com](https://www.heroku.com){:target="_blank"}
-  * Firebase: [https://firebase.google.com](https://firebase.google.com){:target="_blank"}
+  * Heroku: [https://www.heroku.com](https://www.heroku.com){:target="_blank"}{:rel="noopener"}
+  * Firebase: [https://firebase.google.com](https://firebase.google.com){:target="_blank"}{:rel="noopener"}
 
 ## QuanticDev.com Intro
-I host [quanticdev.com on GitHub Pages](https://github.com/soygul/QuanticDev){:target="_blank"}, and here is how it is looking right now on mobile.
+I host [quanticdev.com on GitHub Pages](https://github.com/soygul/QuanticDev){:target="_blank"}{:rel="noopener"}, and here is how it is looking right now on mobile.
 
 ![quanticdev.com mobile](media/quanticdev_com-mobile.jpg)
 
@@ -43,13 +43,13 @@ After I published, I made over a hundred changes to the website and every time i
 
 All the articles are written in markdown so people can easily contribute to it. You can even edit the articles directly on GitHub's UI.
 
-Currently, quanticdev.com has a small number of regular visitors, and it has been working a treat. Recently, [one of my articles](https://news.ycombinator.com/item?id=21913129){:target="_blank"} reached the front page of Hacker News and the traffic to my website exploded.
+Currently, quanticdev.com has a small number of regular visitors, and it has been working a treat. Recently, [one of my articles](https://news.ycombinator.com/item?id=21913129){:target="_blank"}{:rel="noopener"} reached the front page of Hacker News and the traffic to my website exploded.
 
 ![quanticdev.com google analytics](media/quanticdev_com-google_analytics.jpg)
 
 Even then, I had no hiccups, and GitHub served my website with no problems or slowdowns.
 
-I have also been hosting my personal website, [soygul.com](https://soygul.com){:target="_blank"} on GitHub pages for several years now, and it has also been working perfectly. I have [all my posts as simple static HTML pages](https://github.com/soygul/soygul.com){:target="_blank"} and had no problems with it up to this point.
+I have also been hosting my personal website, [soygul.com](https://soygul.com){:target="_blank"}{:rel="noopener"} on GitHub pages for several years now, and it has also been working perfectly. I have [all my posts as simple static HTML pages](https://github.com/soygul/soygul.com){:target="_blank"}{:rel="noopener"} and had no problems with it up to this point.
 
 ## Why GitHub Pages
 Most tech people already use GitHub in one way or another. Open-source software, hardware schematics, etc., a lot is hosted on GitHub. If you are already using GitHub, you can set up your website without needing to learn any new tools. If you were to use another host, you would have to learn their tools and way of doing things which would introduce complexity to your workflow. Now let us check out the advantages, disadvantages, and alternatives to GitHub Pages.
@@ -62,7 +62,7 @@ Most tech people already use GitHub in one way or another. Open-source software,
 * Pull Requests: Other people can contribute to your website using GitHub Pull Requests. After you merge that Pull Request, your site will be automatically deployed. They will show up at the contributors list, which is good for them, and you will get good contributions in return, which is good for you.
 * GitHub Issues: People can report errors in your website simply using GitHub issues. They can also request features or start a discussion. You do not need an external issue tracker.
 * Jekyll and Plugin Support: GitHub Pages have built-in support for Jekyll and Jekyll plugins. It is one of the best static site and blog generators, and it has markdown support. It not only has a ton of great features but a ton more great plugins. You can simply enable plugins by adding their name to your site config file at your repo root. I use Jekyll and markdown for quanticdev.com, and it has been fantastic up to this point.
-* HTML Support: You can opt to generate your pages by hand using good old HTML, CSS, and JavaScript. I do this for [my personal website](https://github.com/soygul/soygul.com){:target="_blank"}, and it has been working a treat for the last 5 years.
+* HTML Support: You can opt to generate your pages by hand using good old HTML, CSS, and JavaScript. I do this for [my personal website](https://github.com/soygul/soygul.com){:target="_blank"}{:rel="noopener"}, and it has been working a treat for the last 5 years.
 * React Support: You can use any framework, including React, that can compile down to static HTML and JavaScript. If you want to learn how to do it, the link is in the description below. I will demonstrate this in the next section.
 * GitHub Actions: If you need to auto-generate custom RSS files or need to do other chores every time you make a change to your website, you can automate them using simple GitHub Actions.
 

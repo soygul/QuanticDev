@@ -6,13 +6,13 @@ You can reach me at [info@quanticdev.com](mailto:info@quanticdev.com)
 You can also use the social media links below.
 
 ### Social
-* YouTube: [youtube.com/quanticdev](https://www.youtube.com/quanticdev){:target="_blank"}
-* Twitter: [twitter.com/quanticdev](https://twitter.com/quanticdev){:target="_blank"}
-* Instagram: [instagram.com/quantic_dev](https://www.instagram.com/quantic_dev){:target="_blank"}
-* GitHub: [github.com/soygul/QuanticDev](https://github.com/soygul/QuanticDev){:target="_blank"}
+* YouTube: [youtube.com/quanticdev](https://www.youtube.com/quanticdev){:target="_blank"}{:rel="noopener"}
+* Twitter: [twitter.com/quanticdev](https://twitter.com/quanticdev){:target="_blank"}{:rel="noopener"}
+* Instagram: [instagram.com/quantic_dev](https://www.instagram.com/quantic_dev){:target="_blank"}{:rel="noopener"}
+* GitHub: [github.com/soygul/QuanticDev](https://github.com/soygul/QuanticDev){:target="_blank"}{:rel="noopener"}
 
 ### Personal
-* My personal website: [soygul.com](https://soygul.com){:target="_blank"}
+* My personal website: [soygul.com](https://soygul.com){:target="_blank"}{:rel="noopener"}
 
 ### Contributing
 If you want to contribute to any article, you are welcome to make a pull request or create a new issue on GitHub. You can comment under YouTube videos of the articles, or read existing comments there.

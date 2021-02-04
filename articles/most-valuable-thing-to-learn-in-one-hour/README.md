@@ -2,20 +2,20 @@
 This article will give you a list of the most valuable things you can learn in just an hour. There are many basic and valuable skills you can acquire in a very short amount of time, not only in technology but also in general life. Cooking, first aid & CPR, setting up a Raspberry Pi, cable management, or even learning to learn. These are all things that you can learn in under 60 minutes and will make a remarkable impact on your life. Obviously, learning is not mastering. Practice makes perfect, and you will have to practice over time to perfect your newly acquired skills.
 
 ## Resources
-You can find the video narration of this article on YouTube with illustrations: [https://www.youtube.com/watch?v=8F_srpzXQ6o](https://www.youtube.com/watch?v=8F_srpzXQ6o){:target="_blank"}
+You can find the video narration of this article on YouTube with illustrations: [https://www.youtube.com/watch?v=8F_srpzXQ6o](https://www.youtube.com/watch?v=8F_srpzXQ6o){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8F_srpzXQ6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Relevant articles referred to in this article:
-* [Raspberry Pi Guide for Developers](/articles/raspberry-pi-guide-for-developers){:target="_blank"}
-* [Software Engineer Compensation Guide](/articles/software-engineer-compensation-guide){:target="_blank"}
-* [Money Management for Techies](/articles/how-to-manage-money){:target="_blank"} (which also describes bonds and index funds)
+* [Raspberry Pi Guide for Developers](/articles/raspberry-pi-guide-for-developers){:target="_blank"}{:rel="noopener"}
+* [Software Engineer Compensation Guide](/articles/software-engineer-compensation-guide){:target="_blank"}{:rel="noopener"}
+* [Money Management for Techies](/articles/how-to-manage-money){:target="_blank"}{:rel="noopener"} (which also describes bonds and index funds)
 
 Hacker News discussions on the same topic:
-* [https://news.ycombinator.com/item?id=21913129](https://news.ycombinator.com/item?id=21913129){:target="_blank"} (for this article)
-* [https://news.ycombinator.com/item?id=21581361](https://news.ycombinator.com/item?id=21581361){:target="_blank"}
+* [https://news.ycombinator.com/item?id=21913129](https://news.ycombinator.com/item?id=21913129){:target="_blank"}{:rel="noopener"} (for this article)
+* [https://news.ycombinator.com/item?id=21581361](https://news.ycombinator.com/item?id=21581361){:target="_blank"}{:rel="noopener"}
 
 ## Cooking
 Cooking is probably the most valuable thing that you can learn in an hour. Cooking good food can save you a ton of time and money. It is also a great no-brainer activity to do after a heavy day of brain use. There are great tutorials to give you the fundamentals of cooking like preparation, seasoning, panning and baking. Cooking itself takes a great deal of time, but learning something new every day about cooking will take minimal time. It is also a great activity to do with friends; for instance, grilling outside when the weather is good.
@@ -37,7 +37,7 @@ A lot of us have a lot of gadgets at home and work, and most of us live with a c
 Tip: If you have any ideas on skills that are essential and can be learned quickly, let me know in the comments section on YouTube for the video version of this article.
 
 ## Raspberry Pi
-[Raspberry Pi](https://www.raspberrypi.org/){:target="_blank"} is a tiny computer with a powerful mobile CPU that costs only $35.
+[Raspberry Pi](https://www.raspberrypi.org/){:target="_blank"}{:rel="noopener"} is a tiny computer with a powerful mobile CPU that costs only $35.
 
 ![Raspberry Pi Screen](media/raspberry_pi_screen.jpg)
 
@@ -63,7 +63,7 @@ Most of us will always receive a salary for most of our lives and being able to 
 
 There are a million guides out there each tailored towards a specific industry. Now that you know how to Google effectively, go ahead and check out the guides that fit you the best. You can bookmark them and read or watch them while commuting. Let me give you a couple of tips that apply to everyone:
 
-First off, know your worth. Knowing where you stand on the income chain will help you negotiate effectively. There are many websites that list salaries for different industries and companies like [LinkedIn Salaries](https://www.linkedin.com/salary/){:target="_blank"}, [Glassdoor Salaries](https://www.glassdoor.com/Salaries/){:target="_blank"}, [levels.fyi](https://www.levels.fyi/){:target="_blank"}, and more.
+First off, know your worth. Knowing where you stand on the income chain will help you negotiate effectively. There are many websites that list salaries for different industries and companies like [LinkedIn Salaries](https://www.linkedin.com/salary/){:target="_blank"}{:rel="noopener"}, [Glassdoor Salaries](https://www.glassdoor.com/Salaries/){:target="_blank"}{:rel="noopener"}, [levels.fyi](https://www.levels.fyi/){:target="_blank"}{:rel="noopener"}, and more.
 
 ![Level.fyi](media/levels_fyi.png)
 

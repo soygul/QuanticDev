@@ -2,13 +2,13 @@
 I estimated that I had used my mac for approximately 10 hours a day, 5 days a week, 48 weeks a year, for 7 years straight, for a total for whopping 16800 hours. I have written the first versions of most of the software components of my startup using this computer. And all this time, this machine worked without a hiccup. It was never repaired, and I never opened the back cover. However, its battery is getting swollen, so it is a good time to upgrade to a newer machine. Before recycling the machine, I decided to open it for once and vacuum the fans to see if it makes a difference. Oh boy, did it make a difference! You can find the fan test in the video if you want to check it out.
 
 ## Resources
-You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=W0qAMLShAkk](https://www.youtube.com/watch?v=W0qAMLShAkk){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=W0qAMLShAkk](https://www.youtube.com/watch?v=W0qAMLShAkk){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W0qAMLShAkk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-Hacker News discussions on this article: [https://news.ycombinator.com/item?id=23583611](https://news.ycombinator.com/item?id=23583611){:target="_blank"}
+Hacker News discussions on this article: [https://news.ycombinator.com/item?id=23583611](https://news.ycombinator.com/item?id=23583611){:target="_blank"}{:rel="noopener"}
 
 ## The Cleanup
 I want to remind anyone who would like to try this to turn off their computers first. I don't care about this machine anymore, so I just left it in sleep mode. I also recommend setting the vacuum to minimum possible setting and be very gentle while sweeping. It would be very easy to suck in any loose components or wires. In addition, dust particles traveling inside the vacuum hose will build up some static. This can create some static discharge onto the electronic components. In my experience, this can only happen if you are cleaning something amazingly dusty, like an old desktop computer. If you have an air compressor/blower available, or at least a can of compressed air, it is a better option. For the record, I used a 1.2 mm P5 Pentalobe Screwdriver to open the back panel. You can find it pretty much in any hardware store.

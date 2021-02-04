@@ -20,25 +20,25 @@ Table of contents:
 * [Conclusion](#conclusion)
 
 ## Resources
-You can find the video narration of this article on YouTube: Part #1 - GitHub Advantages, Alternatives, and Setup: [https://www.youtube.com/watch?v=xX8no5eRck0](https://www.youtube.com/watch?v=xX8no5eRck0){:target="_blank"}
+You can find the video narration of this article on YouTube: Part #1 - GitHub Advantages, Alternatives, and Setup: [https://www.youtube.com/watch?v=xX8no5eRck0](https://www.youtube.com/watch?v=xX8no5eRck0){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xX8no5eRck0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Part #2 - My Full Development Workflow Using GitHub: [https://www.youtube.com/watch?v=wRAIY-RLSvo](https://www.youtube.com/watch?v=wRAIY-RLSvo){:target="_blank"}
+Part #2 - My Full Development Workflow Using GitHub: [https://www.youtube.com/watch?v=wRAIY-RLSvo](https://www.youtube.com/watch?v=wRAIY-RLSvo){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wRAIY-RLSvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-* My "Android Docker" open-source projects used as an exercise in this article: [https://github.com/soygul/android-docker](https://github.com/soygul/android-docker){:target="_blank"}
-* Alternatives to GitHub: [https://alternativeto.net/software/github](https://alternativeto.net/software/github){:target="_blank"}
-* GitHub Flow guide: [https://guides.github.com/introduction/flow](https://guides.github.com/introduction/flow){:target="_blank"}
+* My "Android Docker" open-source projects used as an exercise in this article: [https://github.com/soygul/android-docker](https://github.com/soygul/android-docker){:target="_blank"}{:rel="noopener"}
+* Alternatives to GitHub: [https://alternativeto.net/software/github](https://alternativeto.net/software/github){:target="_blank"}{:rel="noopener"}
+* GitHub Flow guide: [https://guides.github.com/introduction/flow](https://guides.github.com/introduction/flow){:target="_blank"}{:rel="noopener"}
 
 Relevant articles referred to in this article:
-* [How to Set up a Free Website with GitHub Pages - How I Created quanticdev.com](/articles/website-with-github-pages){:target="_blank"}
-* [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine){:target="_blank"}
-* [Software Design Patterns, Principles, and Best Practices](/articles/software-design-patterns){:target="_blank"}
-* [Software Quality Assurance - How Do Software Companies Test Their Products?](https://www.youtube.com/watch?v=ztb8HNc2kCU){:target="_blank"}
+* [How to Set up a Free Website with GitHub Pages - How I Created quanticdev.com](/articles/website-with-github-pages){:target="_blank"}{:rel="noopener"}
+* [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine){:target="_blank"}{:rel="noopener"}
+* [Software Design Patterns, Principles, and Best Practices](/articles/software-design-patterns){:target="_blank"}{:rel="noopener"}
+* [Software Quality Assurance - How Do Software Companies Test Their Products?](https://www.youtube.com/watch?v=ztb8HNc2kCU){:target="_blank"}{:rel="noopener"}
 
 ## Why GitHub
 I am not proud of embracing a single vendor since they easily turn into monopolies. But the fact is, GitHub is pretty much the standard for sharing code in software development. And not only software development, but you can also find hardware blueprints, circuit schemas, or even websites and articles, just as I do with quanticdev.com. 

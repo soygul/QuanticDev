@@ -7,15 +7,15 @@ In the article, you will find the solutions to the following questions, as well 
 * Hard: Prove Kadane's Algorithm: Prove the correctness of Kadane's Algorithm.
 
 ## Resources
-You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=4csAswCkXZM](https://www.youtube.com/watch?v=4csAswCkXZM){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=4csAswCkXZM](https://www.youtube.com/watch?v=4csAswCkXZM){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4csAswCkXZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-* Solution code to examples are available on: [https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/kadanes-algorithm](https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/kadanes-algorithm){:target="_blank"}
+* Solution code to examples are available on: [https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/kadanes-algorithm](https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/kadanes-algorithm){:target="_blank"}{:rel="noopener"}
 
-* My Sliding Window Technique article: [Sliding Window Technique + 4 Questions](/algorithms/dynamic-programming/sliding-window){:target="_blank"}
+* My Sliding Window Technique article: [Sliding Window Technique + 4 Questions](/algorithms/dynamic-programming/sliding-window){:target="_blank"}{:rel="noopener"}
 
 ## Overview
 When all integers in a given array are positive, you can use the much simpler Sliding Windows Technique. For arrays with negative numbers, you can modify it to be all positive numbers and then apply the sliding window technique, but that requires extra processing; hence it is not the optimum solution. I have a separate article discussing the sliding window technique in depth along with various sample questions, and you can find the link to it above.
@@ -49,7 +49,7 @@ Approach #2: Kadane's Algorithm
 * Time complexity: `O(n)` (linear time complexity)
 * Space complexity: `O(1)` (constant space complexity)
 * Inverse the "less than / greater than" checks to find the minimum subarray sum.
-* You can find the code for this solution at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/kadanes-algorithm/max-min-sum-subarray.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/kadanes-algorithm/max-min-sum-subarray.js){:target="_blank"}
+* You can find the code for this solution at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/kadanes-algorithm/max-min-sum-subarray.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/kadanes-algorithm/max-min-sum-subarray.js){:target="_blank"}{:rel="noopener"}
 * You can also watch me solving this problem in the video in the resources section.
 
 ## How Does It Work?

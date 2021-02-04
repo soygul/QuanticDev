@@ -16,7 +16,7 @@ Table of contents:
 * [Conclusion](#conclusion)
 
 ## Resources
-You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=GXgm1vvqgfQ](https://www.youtube.com/watch?v=GXgm1vvqgfQ){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=GXgm1vvqgfQ](https://www.youtube.com/watch?v=GXgm1vvqgfQ){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GXgm1vvqgfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

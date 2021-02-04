@@ -11,22 +11,22 @@ Table of contents:
 ![KOAN Logo](media/koan_logo.png)
 
 ## Resources
-You can find the video version of this article on YouTube: [https://www.youtube.com/watch?v=vOQyo64WBAA](https://www.youtube.com/watch?v=vOQyo64WBAA){:target="_blank"}
+You can find the video version of this article on YouTube: [https://www.youtube.com/watch?v=vOQyo64WBAA](https://www.youtube.com/watch?v=vOQyo64WBAA){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vOQyo64WBAA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has live demonstration of my project KOAN. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 My open-source project KOAN that is the focus of this video:
-* [https://github.com/soygul/koan](https://github.com/soygul/koan){:target="_blank"} (source code)
-* [https://koan.herokuapp.com](https://koan.herokuapp.com){:target="_blank"} (demo page)
+* [https://github.com/soygul/koan](https://github.com/soygul/koan){:target="_blank"}{:rel="noopener"} (source code)
+* [https://koan.herokuapp.com](https://koan.herokuapp.com){:target="_blank"}{:rel="noopener"} (demo page)
 
 JavaScript Newsletter Issue that featured my project:
-* [https://news.extly.com/more-news/2022-joomla-developer/developer-news/11859-node-roundup-money-and-npm-isaac-schlueter-interview-koan.html](https://news.extly.com/more-news/2022-joomla-developer/developer-news/11859-node-roundup-money-and-npm-isaac-schlueter-interview-koan.html){:target="_blank"}
+* [https://news.extly.com/more-news/2022-joomla-developer/developer-news/11859-node-roundup-money-and-npm-isaac-schlueter-interview-koan.html](https://news.extly.com/more-news/2022-joomla-developer/developer-news/11859-node-roundup-money-and-npm-isaac-schlueter-interview-koan.html){:target="_blank"}{:rel="noopener"}
 
 Relevant articles referred to in this article:
-* My [How to Correctly Use GitHub for Software Development - My Full Workflow With Tutorial](/articles/how-to-use-github){:target="_blank"} guide. It can help you get in the zone to create similar successful projects.
-* My [How to Find Funding for Your Project](/articles/how-to-fund-your-project){:target="_blank"} guide, which can help you to find funding in developing your open-source projects into a commercial product.
+* My [How to Correctly Use GitHub for Software Development - My Full Workflow With Tutorial](/articles/how-to-use-github){:target="_blank"}{:rel="noopener"} guide. It can help you get in the zone to create similar successful projects.
+* My [How to Find Funding for Your Project](/articles/how-to-fund-your-project){:target="_blank"}{:rel="noopener"} guide, which can help you to find funding in developing your open-source projects into a commercial product.
 
 ## KOAN Project
 First things first. My project, KOAN, is a full-stack web framework template which you can use as a starting point for your JavaScript web apps. On the backend, it uses Koa framework plus Node.js and MongoDB. On the frontend, it uses Angular and WebSockets for real-time interactions between logged-in users.
@@ -46,7 +46,7 @@ If we check out the README file, you can see that it is very clean and well stru
 
 ![KOAN GitHub README](media/koan_github_README.png)
 
-You can see that I even have a "Deploy to Heroku" button for one-click sample deployments of this project for people who want a quick start. Finally, the readme provides the rest of the configuration, testing, and licensing information. If you check out the source code, you can see that it is equally well documented. As a wise man once said, [code comments should tell you the why, and the code itself should tell you how](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/){:target="_blank"}.
+You can see that I even have a "Deploy to Heroku" button for one-click sample deployments of this project for people who want a quick start. Finally, the readme provides the rest of the configuration, testing, and licensing information. If you check out the source code, you can see that it is equally well documented. As a wise man once said, [code comments should tell you the why, and the code itself should tell you how](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/){:target="_blank"}{:rel="noopener"}.
 
 **Note: Following section is the excerpt from the video demonstration. You can find the link to it in the resources section above.**
 

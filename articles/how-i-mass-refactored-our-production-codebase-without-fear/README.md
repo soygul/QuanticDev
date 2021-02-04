@@ -15,21 +15,21 @@ Table of contents:
 * [Conclusion](#conclusion)
 
 ## Resources
-You can find the video narrative of this article on YouTube: [https://www.youtube.com/watch?v=oJEPBRrcyiw](https://www.youtube.com/watch?v=oJEPBRrcyiw){:target="_blank"}
+You can find the video narrative of this article on YouTube: [https://www.youtube.com/watch?v=oJEPBRrcyiw](https://www.youtube.com/watch?v=oJEPBRrcyiw){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oJEPBRrcyiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Resources mentioned in this article:
-* [My "Software Quality Assurance" video](https://www.youtube.com/watch?v=ztb8HNc2kCU){:target="_blank"}, where I describe how software companies test their products, starting with unit tests and going all the way to end-to-end (acceptance) testing level.
-* [My "Method Chaining is Awesome" article](/articles/method-chaining){:target="_blank"}, which draws inspiration from some of the refactors that I did, which is the subject of this article.
+* [My "Software Quality Assurance" video](https://www.youtube.com/watch?v=ztb8HNc2kCU){:target="_blank"}{:rel="noopener"}, where I describe how software companies test their products, starting with unit tests and going all the way to end-to-end (acceptance) testing level.
+* [My "Method Chaining is Awesome" article](/articles/method-chaining){:target="_blank"}{:rel="noopener"}, which draws inspiration from some of the refactors that I did, which is the subject of this article.
 
 Appium, which I recommend for automated desktop/mobile testing with a singular codebase:
-* [https://github.com/appium/appium](https://github.com/appium/appium){:target="_blank"}
+* [https://github.com/appium/appium](https://github.com/appium/appium){:target="_blank"}{:rel="noopener"}
 
 Remote (manual) mobile device testing software:
-* [https://github.com/openstf/stf](https://github.com/openstf/stf){:target="_blank"}
+* [https://github.com/openstf/stf](https://github.com/openstf/stf){:target="_blank"}{:rel="noopener"}
 
 ## What Did I Do?
 I have refactored our large production codebase over the span of four months. I did this refactor module by module and product by product. I have probably touched our entire tech stack during this (hence the importance of being a full-stack engineer!). I made changes to our clients (mobile and desktop) in their UI and core code. I adapted our tests code to the changes that I've done to the product. I have also changed our DevOps code extensively, to accommodate the changes I've done to the product and test code. Following animation is from my method chaining article, which was partly inspired by the changes that I did to our test framework. If you want to check out the full article, it is in the resources section above.

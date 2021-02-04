@@ -16,15 +16,15 @@ Table of contents:
 * [Conclusion](#conclusion)
 
 ## Resources
-You can find the video version of this article on YouTube: [https://www.youtube.com/watch?v=mFb1Fj4sVcU](https://www.youtube.com/watch?v=mFb1Fj4sVcU){:target="_blank"}
+You can find the video version of this article on YouTube: [https://www.youtube.com/watch?v=mFb1Fj4sVcU](https://www.youtube.com/watch?v=mFb1Fj4sVcU){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mFb1Fj4sVcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The video has all the illustrations along with the narrative. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-The [Recursion Visualization Tool](/tools/recursion-visualization){:target="_blank"} I used in this video. Made by Bruno Papa.
+The [Recursion Visualization Tool](/tools/recursion-visualization){:target="_blank"}{:rel="noopener"} I used in this video. Made by Bruno Papa.
 
-My ["Staircase Problem + 3 Variants"](/algorithms/dynamic-programming/staircase-problems){:target="_blank"} article, which is a great real-world application of recursive solutions, as well as memoization and plain iteration.
+My ["Staircase Problem + 3 Variants"](/algorithms/dynamic-programming/staircase-problems){:target="_blank"}{:rel="noopener"} article, which is a great real-world application of recursive solutions, as well as memoization and plain iteration.
 
 ## Power Function
 What you see is the visualization of a "2 to the power of n" (2^n) function which is implemented using recursion:

@@ -18,15 +18,15 @@ Table of contents:
 * [Tips!](#tips)
 
 ## Resources
-You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=jM2dhDPYMQM](https://www.youtube.com/watch?v=jM2dhDPYMQM){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=jM2dhDPYMQM](https://www.youtube.com/watch?v=jM2dhDPYMQM){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jM2dhDPYMQM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-* Solution code to examples are available on: [https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/sliding-window](https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/sliding-window){:target="_blank"}
+* Solution code to examples are available on: [https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/sliding-window](https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/sliding-window){:target="_blank"}{:rel="noopener"}
 
-* My article describing Test-Driven Development (TDD) and other software patterns: [Software Design Patterns, Principles, and Best Practices](/articles/software-design-patterns){:target="_blank"}
+* My article describing Test-Driven Development (TDD) and other software patterns: [Software Design Patterns, Principles, and Best Practices](/articles/software-design-patterns){:target="_blank"}{:rel="noopener"}
 
 ## Overview
 Sliding Window is one of the essential Dynamic Programming techniques. It is also one of the common algorithm questions in programming interviews. Any software engineer will have to deal with some form of a sliding window of data at some point in their careers, starting with the job interview of course! It is essential to have an in-depth understanding of algorithms since competitive companies tend to ask more varied and harder questions. If you have a great knowledge of different classes of algorithms, you can apply them to many variations of common interview questions easily.
@@ -76,7 +76,7 @@ Approach #2: Sliding Window (Statically Sized)
 * Time complexity: `O(n)`
 * Space complexity: `O(1)`
 * We can utilize the same method to find the minimum sum subarray.
-* You can find the code for this solution at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-subarray-sum.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-subarray-sum.js){:target="_blank"}
+* You can find the code for this solution at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-subarray-sum.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-subarray-sum.js){:target="_blank"}{:rel="noopener"}
 * You can also watch me solving this problem in the video in the resources section.
 
 ## Tips!
@@ -114,7 +114,7 @@ Approach #2: Sliding Window (Dynamically Sized)
 * Expand, or shrink the window by one element at a time.
 * Time complexity: `O(n)`
 * Space complexity: `O(n)`
-* You can find the code for this solution at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/desired-subarray-sum.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/desired-subarray-sum.js){:target="_blank"}
+* You can find the code for this solution at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/desired-subarray-sum.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/desired-subarray-sum.js){:target="_blank"}{:rel="noopener"}
 * You can also watch me solving this problem in the video in the resources section.
 
 ## Variation (Medium): Same question but for an array with all integers (positive, 0, negative). The optimal solution is Kadane's Algorithm, but Sliding Window can still be applied with modifications (not recommended though)
@@ -158,7 +158,7 @@ Approach #2: Sliding Window
 * Un-flip 0’s from left and continue flipping them from right to slide the window.
 * Time complexity: `O(n)`
 * Space complexity: `O(1)`
-* You can find the code for this solution at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-sequence-by-flipping.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-sequence-by-flipping.js){:target="_blank"}
+* You can find the code for this solution at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-sequence-by-flipping.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/max-sequence-by-flipping.js){:target="_blank"}{:rel="noopener"}
 * You can also watch me solving this problem in the video in the resources section.
 
 ## Hard: Strings: Given a string and n characters, find the shortest substring that contains all desired characters
@@ -190,7 +190,7 @@ Approach #2: Sliding Window
 * Shrink the window from left while keeping track of removed needed chars.
 * Time complexity: `O(n)`
 * Space complexity: `O(m)` where "m" is the number of distinct chars in the "Desired Characters" list.
-* You can find the code for this solution at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/shortest-substring-of-letters.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/shortest-substring-of-letters.js){:target="_blank"}
+* You can find the code for this solution at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/shortest-substring-of-letters.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/dynamic-programming/sliding-window/shortest-substring-of-letters.js){:target="_blank"}{:rel="noopener"}
 * You can also watch me solving this problem in the video in the resources section.
 
 ## Tips!

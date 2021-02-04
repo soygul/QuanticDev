@@ -2,19 +2,19 @@
 Turn your laptop or desktop computer into a Linux productivity powerhouse using Manjaro Linux and this guide. Manjaro Linux (based on Arch) is my go-to distro for development and productivity, and my recommendation for most people for reasons discussed in the article. With this guide, you can kickstart your all-purpose development and work environment for free and start being productive right away.
 
 ## Resources
-You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=6A8rwX2J2HA](https://www.youtube.com/watch?v=6A8rwX2J2HA){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=6A8rwX2J2HA](https://www.youtube.com/watch?v=6A8rwX2J2HA){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6A8rwX2J2HA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Manjaro installation resources:
-* Manjaro (recommended) Download: [https://manjaro.org](https://manjaro.org){:target="_blank"}
-* Arch Linux (Linux veterans only!) Download: [https://www.archlinux.org](https://www.archlinux.org){:target="_blank"}
+* Manjaro (recommended) Download: [https://manjaro.org](https://manjaro.org){:target="_blank"}{:rel="noopener"}
+* Arch Linux (Linux veterans only!) Download: [https://www.archlinux.org](https://www.archlinux.org){:target="_blank"}{:rel="noopener"}
 * Instructions for virtual-machine installation:
-  * [https://manjaro.org/support/firststeps/#using-a-virtual-machine](https://manjaro.org/support/firststeps/#using-a-virtual-machine){:target="_blank"}
+  * [https://manjaro.org/support/firststeps/#using-a-virtual-machine](https://manjaro.org/support/firststeps/#using-a-virtual-machine){:target="_blank"}{:rel="noopener"}
 * Instructions for creating a bootable USB stick:
-  * Download Etcher: [https://balena.io/etcher](https://balena.io/etcher){:target="_blank"}
+  * Download Etcher: [https://balena.io/etcher](https://balena.io/etcher){:target="_blank"}{:rel="noopener"}
   * Download Manjaro ISO (link above).
   * Start Etcher, and it will guide you through the ISO burn process. Supports Win/Mac/Linux.
 

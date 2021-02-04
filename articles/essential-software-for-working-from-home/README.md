@@ -28,18 +28,18 @@ Today I am going to give you the essential list of software for working from hom
   * GitHub
 
 ## Resources
-You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=-gL_FHJX3mY](https://www.youtube.com/watch?v=-gL_FHJX3mY){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=-gL_FHJX3mY](https://www.youtube.com/watch?v=-gL_FHJX3mY){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-gL_FHJX3mY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 The University of Chicago's White Paper: "How Many Jobs Can be Done at Home?":
-* [https://bfi.uchicago.edu/wp-content/uploads/BFI_White-Paper_Dingel_Neiman_3.2020.pdf](https://bfi.uchicago.edu/wp-content/uploads/BFI_White-Paper_Dingel_Neiman_3.2020.pdf){:target="_blank"}
+* [https://bfi.uchicago.edu/wp-content/uploads/BFI_White-Paper_Dingel_Neiman_3.2020.pdf](https://bfi.uchicago.edu/wp-content/uploads/BFI_White-Paper_Dingel_Neiman_3.2020.pdf){:target="_blank"}{:rel="noopener"}
 
 Relevant articles referred to in this article:
-* [What Is the Most Valuable Thing You Can Learn in One Hour?](/articles/most-valuable-thing-to-learn-in-one-hour){:target="_blank"}
-* [How to Correctly Use GitHub - My Full Workflow With Tutorial](/articles/articles/how-to-use-github){:target="_blank"}
+* [What Is the Most Valuable Thing You Can Learn in One Hour?](/articles/most-valuable-thing-to-learn-in-one-hour){:target="_blank"}{:rel="noopener"}
+* [How to Correctly Use GitHub - My Full Workflow With Tutorial](/articles/articles/how-to-use-github){:target="_blank"}{:rel="noopener"}
 
 ## Overview
 Working from home is the new necessity, maybe even the future of many jobs. Jonathan I. Dingel and Brent Neiman of University of Chicago recently published a paper how many jobs can be done at home (the link is in the resources section above). Based on the study in the United States, they concluded that 34 percent of the jobs could be done at home, and those jobs account for 44 percent of all wages. That is a pretty significant percentage. Given the circumstances, there must be a lot of people scrambling to get their working-from-home setup going. So let me get your working-from-home setup started with the essential tools.

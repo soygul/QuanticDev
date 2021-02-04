@@ -7,7 +7,7 @@ In this article, you will find the solutions to the following questions, as well
 * Medium Difficulty: Generalized Fibonacci-like Sequences: Same question but you can climb up to m steps at a time.
 * Medium Difficulty: Generalized Fibonacci-like Sequences With Variable Steps: Same question but you can only climb 2, 3, 6 steps at a time.
 
-[![Staircase Problems](media/thumb.png)](https://www.youtube.com/watch?v=qSE2iKRU4UA){:target="_blank"}
+[![Staircase Problems](media/thumb.png)](https://www.youtube.com/watch?v=qSE2iKRU4UA){:target="_blank"}{:rel="noopener"}
 
 Table of contents:
 * [Resources](#resources)
@@ -19,21 +19,21 @@ Table of contents:
 * [Conclusion](#conclusion)
 
 ## Resources
-You can find the video version of this article on YouTube: [https://www.youtube.com/watch?v=qSE2iKRU4UA](https://www.youtube.com/watch?v=qSE2iKRU4UA){:target="_blank"}
+You can find the video version of this article on YouTube: [https://www.youtube.com/watch?v=qSE2iKRU4UA](https://www.youtube.com/watch?v=qSE2iKRU4UA){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qSE2iKRU4UA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The video has illustrations for all the problems and their solutions. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Solution code to examples are available on:
-* [https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/staircase-problems](https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/staircase-problems){:target="_blank"}
+* [https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/staircase-problems](https://github.com/soygul/QuanticDev/tree/master/algorithms/dynamic-programming/staircase-problems){:target="_blank"}{:rel="noopener"}
 
 My other articles relevant to staircase problems:
-* My [Sliding Window Technique + 4 Questions](/algorithms/dynamic-programming/sliding-window){:target="_blank"} article, which will help you solve Fibonacci problems more efficiently.
-* My [Big O Time/Space Complexity Types Explained](/algorithms/primitives/big-o-time-space-complexity-types-explained){:target="_blank"} article, which can help you refresh your memory on Big O notation:
+* My [Sliding Window Technique + 4 Questions](/algorithms/dynamic-programming/sliding-window){:target="_blank"}{:rel="noopener"} article, which will help you solve Fibonacci problems more efficiently.
+* My [Big O Time/Space Complexity Types Explained](/algorithms/primitives/big-o-time-space-complexity-types-explained){:target="_blank"}{:rel="noopener"} article, which can help you refresh your memory on Big O notation:
 
 Recursion visualization tool used in the article:
-* [https://quanticdev.com/tools/recursion-visualization](https://quanticdev.com/tools/recursion-visualization){:target="_blank"}
+* [https://quanticdev.com/tools/recursion-visualization](https://quanticdev.com/tools/recursion-visualization){:target="_blank"}{:rel="noopener"}
 
 ## Overview
 * Staircase problem is just a special case of "unique variations" questions like that of unique paths problem. I might make quick articles for those too, but you can apply the same methods that you will learn here to solve them also.
@@ -250,6 +250,6 @@ return fib.pop()
 ## Tips
 * Memory efficient Fibonacci based solutions are essentially sliding window solutions. If you want to watch my dedicated article on "Sliding Windows Technique", I will put the link to it in the resources section above. The article has four easy to hard questions with solutions in it.
 * If you want to refresh your memory on Big O notation, I have another dedicated article titled: "Big O Time/Space Complexity Types Explained" for you. The link to it is also in the resources section above.
-* By the way, if you want to have some fun with the Big O notation, see my "Alternative Big O Notation" mugs and stickers at [quanticdev.com/shop](https://quanticdev.com/shop){:target="_blank"}
+* By the way, if you want to have some fun with the Big O notation, see my "Alternative Big O Notation" mugs and stickers at [quanticdev.com/shop](https://quanticdev.com/shop){:target="_blank"}{:rel="noopener"}
 
 ![Alternative Big O Notation Bug](media/alternative_big_o_notation_mug.jpg)

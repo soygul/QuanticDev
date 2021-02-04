@@ -12,28 +12,28 @@ Table of contents:
 * [Sample Docker Node.js Application Setup on Raspberry](#sample-docker-nodejs-application-setup-on-raspberry)
 
 ## Resources
-You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=idCG0wSi-fk](https://www.youtube.com/watch?v=idCG0wSi-fk){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=idCG0wSi-fk](https://www.youtube.com/watch?v=idCG0wSi-fk){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/idCG0wSi-fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips for each principle discussed. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-* Get a Raspberry Pi and accessories: [https://www.raspberrypi.org/products](https://www.raspberrypi.org/products){:target="_blank"}
-* Download full Raspbian OS that includes recommended software: [https://www.raspberrypi.org/downloads/raspbian](https://www.raspberrypi.org/downloads/raspbian){:target="_blank"}
-* Download Etcher (to burn Raspbian ISO image): [https://www.balena.io/etcher](https://www.balena.io/etcher){:target="_blank"}
-* Get a microSD and card reader: [https://www.amazon.com/Kingston-Digital-Mobility-MBLY10G2-32GB/dp/B00519BEQO](https://www.amazon.com/Kingston-Digital-Mobility-MBLY10G2-32GB/dp/B00519BEQO){:target="_blank"}
-* Enable SSH on first boot: [https://www.raspberrypi.org/documentation/remote-access/ssh](https://www.raspberrypi.org/documentation/remote-access/ssh){:target="_blank"}
-* Making Raspberry connect to your WiFi on first boot: [https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md){:target="_blank"}
+* Get a Raspberry Pi and accessories: [https://www.raspberrypi.org/products](https://www.raspberrypi.org/products){:target="_blank"}{:rel="noopener"}
+* Download full Raspbian OS that includes recommended software: [https://www.raspberrypi.org/downloads/raspbian](https://www.raspberrypi.org/downloads/raspbian){:target="_blank"}{:rel="noopener"}
+* Download Etcher (to burn Raspbian ISO image): [https://www.balena.io/etcher](https://www.balena.io/etcher){:target="_blank"}{:rel="noopener"}
+* Get a microSD and card reader: [https://www.amazon.com/Kingston-Digital-Mobility-MBLY10G2-32GB/dp/B00519BEQO](https://www.amazon.com/Kingston-Digital-Mobility-MBLY10G2-32GB/dp/B00519BEQO){:target="_blank"}{:rel="noopener"}
+* Enable SSH on first boot: [https://www.raspberrypi.org/documentation/remote-access/ssh](https://www.raspberrypi.org/documentation/remote-access/ssh){:target="_blank"}{:rel="noopener"}
+* Making Raspberry connect to your WiFi on first boot: [https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md){:target="_blank"}{:rel="noopener"}
 
 My JS-API project used as demonstration in the article:
-* [https://github.com/soygul/js-api](https://github.com/soygul/js-api){:target="_blank"}
-* [https://www.npmjs.com/package/js-api](https://www.npmjs.com/package/js-api){:target="_blank"}
+* [https://github.com/soygul/js-api](https://github.com/soygul/js-api){:target="_blank"}{:rel="noopener"}
+* [https://www.npmjs.com/package/js-api](https://www.npmjs.com/package/js-api){:target="_blank"}{:rel="noopener"}
 
 Great uses of Raspberry Pi:
-* [https://news.ycombinator.com/item?id=20264911](https://news.ycombinator.com/item?id=20264911){:target="_blank"}
+* [https://news.ycombinator.com/item?id=20264911](https://news.ycombinator.com/item?id=20264911){:target="_blank"}{:rel="noopener"}
 
 Most popular Docker images that you can use on your Raspberry:
-* [https://hub.docker.com/search?q=&type=image](https://hub.docker.com/search?q=&type=image){:target="_blank"}
+* [https://hub.docker.com/search?q=&type=image](https://hub.docker.com/search?q=&type=image){:target="_blank"}{:rel="noopener"}
 
 ## Why Raspberry Pi
 Raspberry Pi is a very compact and cheap computer. The new Raspberry Pi 4 with 1GB of RAM costs only $35. I have it on my desk at work, and here it is how it sits.

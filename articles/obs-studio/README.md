@@ -8,18 +8,18 @@ Table of contents:
 * Conclusion
 
 ## Resources
-You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=GO9JSW-RqUE](https://www.youtube.com/watch?v=GO9JSW-RqUE){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=GO9JSW-RqUE](https://www.youtube.com/watch?v=GO9JSW-RqUE){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GO9JSW-RqUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has live demonstrations. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
-* OBS Studio Home: [https://obsproject.com](https://obsproject.com){:target="_blank"}
-* Source code: [https://github.com/obsproject/obs-studio](https://github.com/obsproject/obs-studio){:target="_blank"}
-* Recent Hacker News discussion on topic: [https://news.ycombinator.com/item?id=22748247](https://news.ycombinator.com/item?id=22748247){:target="_blank"}
+* OBS Studio Home: [https://obsproject.com](https://obsproject.com){:target="_blank"}{:rel="noopener"}
+* Source code: [https://github.com/obsproject/obs-studio](https://github.com/obsproject/obs-studio){:target="_blank"}{:rel="noopener"}
+* Recent Hacker News discussion on topic: [https://news.ycombinator.com/item?id=22748247](https://news.ycombinator.com/item?id=22748247){:target="_blank"}{:rel="noopener"}
 
 "Crowner": My Android game with "Choose Your Own Adventure" style of text-based gameplay which is used to demonstrate streaming in this guide:
-* [https://play.google.com/store/apps/details?id=com.soygul.crowner](https://play.google.com/store/apps/details?id=com.soygul.crowner){:target="_blank"}
+* [https://play.google.com/store/apps/details?id=com.soygul.crowner](https://play.google.com/store/apps/details?id=com.soygul.crowner){:target="_blank"}{:rel="noopener"}
 
 ## Overview
 I am the QuanticDev, and today I am going to show you how to use OBS Studio to live-stream or record yourself, your screen, or both together. OBS Studio is an open-source software for video recording and live streaming.

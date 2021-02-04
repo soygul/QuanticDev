@@ -12,15 +12,15 @@ O(n^n) = O(sh*t!)
 ```
 
 If you want to see my actual article explaining Big O time/space complexity types, here it is:
-* [Big O Time/Space Complexity Types Explained - Logarithmic, Polynomial, Exponential, and More](/algorithms/primitives/big-o-time-space-complexity-types-explained){:target="_blank"}
+* [Big O Time/Space Complexity Types Explained - Logarithmic, Polynomial, Exponential, and More](/algorithms/primitives/big-o-time-space-complexity-types-explained){:target="_blank"}{:rel="noopener"}
 
-If you want to have the alternative Big O notation as a sticker, so you can stick it to unusual places, you can get it from [quanticdev.com/shop](/shop){:target="_blank"}.
+If you want to have the alternative Big O notation as a sticker, so you can stick it to unusual places, you can get it from [quanticdev.com/shop](/shop){:target="_blank"}{:rel="noopener"}.
 
-[![Alternative Big O Notation Poster](media/alternative_big_o_notation_sticker.jpg)](https://www.redbubble.com/i/sticker/Alternative-Big-O-Notation-by-quanticdev/54268092.EJUG5){:target="_blank"}
+[![Alternative Big O Notation Poster](media/alternative_big_o_notation_sticker.jpg)](https://www.redbubble.com/i/sticker/Alternative-Big-O-Notation-by-quanticdev/54268092.EJUG5){:target="_blank"}{:rel="noopener"}
 
 If you really want to confuse fellow software engineers, you can also get it as a small poster, bigger poster, framed print, hoodie, phone case, mug, blanket, or even a shower curtain!
 
-[![Alternative Big O Notation Poster](media/alternative_big_o_notation_poster.jpg)](https://www.redbubble.com/shop/ap/54268092){:target="_blank"}
+[![Alternative Big O Notation Poster](media/alternative_big_o_notation_poster.jpg)](https://www.redbubble.com/shop/ap/54268092){:target="_blank"}{:rel="noopener"}
 
 **Side Note**: Asymptotically, O(n^n) is equal to O(2^n), so the last line in the alternative big O notation list is just for the humor's sake.
 

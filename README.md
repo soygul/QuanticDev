@@ -74,4 +74,4 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Physicist Reviews Black Mesa Research Facility](https://www.youtube.com/watch?v=GLGRkMQdm78) [Video Only]
 
 ## Your Host
-Teoman "QuanticDev" Soygul ([soygul.com](https://soygul.com){:target="_blank"}) · info(at)quanticdev.com
+Teoman "QuanticDev" Soygul ([soygul.com](https://soygul.com){:target="_blank"}{:rel="noopener"}) · info(at)quanticdev.com

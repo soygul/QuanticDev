@@ -4,17 +4,17 @@ Today I am going to talk to you about the titanic pay gap between junior and sen
 As an example, a junior engineer fresh out of college even with an unrelated diploma like physics, math, or industrial engineering can score a $100K compensation in Silicon Valley, while a senior engineer with a successful decade long career will get $500K and upwards. What are the reasons for this huge gap? Is it only years? Let us investigate.
 
 ## Resources
-You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=4q1GGW04hjw](https://www.youtube.com/watch?v=4q1GGW04hjw){:target="_blank"}
+You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=4q1GGW04hjw](https://www.youtube.com/watch?v=4q1GGW04hjw){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4q1GGW04hjw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video has additional tips and illustrations. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Salary and compensation comparison resources:
-* Levels.fyi: [https://www.levels.fyi](https://www.levels.fyi){:target="_blank"}
-* PayScale: [https://www.payscale.com](https://www.payscale.com){:target="_blank"}
-* LinkedIn Salary: [https://www.linkedin.com/salary](https://www.linkedin.com/salary){:target="_blank"}
-* GlassDoor Salaries: [https://www.glassdoor.com/salaries](https://www.glassdoor.com/salaries){:target="_blank"}
+* Levels.fyi: [https://www.levels.fyi](https://www.levels.fyi){:target="_blank"}{:rel="noopener"}
+* PayScale: [https://www.payscale.com](https://www.payscale.com){:target="_blank"}{:rel="noopener"}
+* LinkedIn Salary: [https://www.linkedin.com/salary](https://www.linkedin.com/salary){:target="_blank"}{:rel="noopener"}
+* GlassDoor Salaries: [https://www.glassdoor.com/salaries](https://www.glassdoor.com/salaries){:target="_blank"}{:rel="noopener"}
 
 Do not forget, before assuming your compensation based on resources above, compare your projects, publications, references, and accomplishments to others. The article will guide you on all these points.
 

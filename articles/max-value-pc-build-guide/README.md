@@ -11,20 +11,20 @@ Table of contents:
 * [Conclusion](#conclusion)
 
 ## Resources
-You can find my live PC build video on YouTube, in case you want visual instructions: [https://www.youtube.com/watch?v=LUE3avxvPMA](https://www.youtube.com/watch?v=LUE3avxvPMA){:target="_blank"}
+You can find my live PC build video on YouTube, in case you want visual instructions: [https://www.youtube.com/watch?v=LUE3avxvPMA](https://www.youtube.com/watch?v=LUE3avxvPMA){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LUE3avxvPMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 Quantic Developers Club stickers and posters if you want to decorate your new PC:
-* [quanticdev.com/shop](https://quanticdev.com/shop){:target="_blank"}
+* [quanticdev.com/shop](https://quanticdev.com/shop){:target="_blank"}{:rel="noopener"}
 
 Best value CPUs & GPUs by price/performance index:
-* [https://www.cpubenchmark.net/cpu_value_available.html](https://www.cpubenchmark.net/cpu_value_available.html){:target="_blank"}
-* [https://www.videocardbenchmark.net/gpu_value.html](https://www.videocardbenchmark.net/gpu_value.html){:target="_blank"}
+* [https://www.cpubenchmark.net/cpu_value_available.html](https://www.cpubenchmark.net/cpu_value_available.html){:target="_blank"}{:rel="noopener"}
+* [https://www.videocardbenchmark.net/gpu_value.html](https://www.videocardbenchmark.net/gpu_value.html){:target="_blank"}{:rel="noopener"}
 
-My [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine){:target="_blank"} article which will hep you with the first-time OS installation and developer environment setup.
+My [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine){:target="_blank"}{:rel="noopener"} article which will hep you with the first-time OS installation and developer environment setup.
 
 ## Overview
 PassMark benchmark software has a great website where you can keep track of the price/performance index of CPUs and GPUs that are available on the market, so I used that to choose the components. Keep in mind that PassMark is a synthetic benchmark, so it will match workstation workloads like programming and graphics design better than gaming. And for the curious, even though I've studied semiconductor physics and electronics, they were of no use while doing this build. Microelectronic circuits you study in college are very low level, and PC parts are higher level components. Obviously, semiconductor physics is also completely irrelevant to a PC build!
@@ -34,23 +34,23 @@ Let me give you the specs right away, and then I will tell you what I plan to do
 ## PC Specs
 Parts list with affiliate links if you want to help out the website:
 
-* CPU: AMD Ryzen 5 3600: ~$200: [https://amzn.to/32yqDUk](https://amzn.to/32yqDUk){:target="_blank"}
-  * Alternative: Ryzen 3 3100/3300X: ~$100: [https://amzn.to/3hC4AjZ](https://amzn.to/3hC4AjZ){:target="_blank"}
+* CPU: AMD Ryzen 5 3600: ~$200: [https://amzn.to/32yqDUk](https://amzn.to/32yqDUk){:target="_blank"}{:rel="noopener"}
+  * Alternative: Ryzen 3 3100/3300X: ~$100: [https://amzn.to/3hC4AjZ](https://amzn.to/3hC4AjZ){:target="_blank"}{:rel="noopener"}
   * Future: Ryzen 4600/4300X/4100 or 5600/5300X/5100 when they are out.
-* GPU: NVIDIA GeForce GTX 1650 SUPER: ~$200: [https://amzn.to/3kiMAMY](https://amzn.to/3kiMAMY){:target="_blank"}
+* GPU: NVIDIA GeForce GTX 1650 SUPER: ~$200: [https://amzn.to/3kiMAMY](https://amzn.to/3kiMAMY){:target="_blank"}{:rel="noopener"}
   * Alternative: GTX 1060 6GB: ~$100: (check out Ebay)
   * Future: GTX 3060 when it is out.
-* MOBO: MSI X570 Tomahawk WiFi: ~$200: [https://amzn.to/3iCEcHW](https://amzn.to/3iCEcHW){:target="_blank"}
-  * Alternative: MSI B550 Gaming Carbon WiFi: ~$200: [https://amzn.to/2E6dNTM](https://amzn.to/2E6dNTM){:target="_blank"}
-* RAM: Corsair Vengeance LPX Black DDR4 3200MHz 2x16GB: ~$150: [https://amzn.to/3ks0UmH](https://amzn.to/3ks0UmH){:target="_blank"}
-* SSD Disk (NVMe): WD Blue SN550 M.2 2280 1TB: ~$100: [https://amzn.to/3iD2W2P](https://amzn.to/3iD2W2P){:target="_blank"}
-* Power Supply: Corsair RM750X V2 750W: ~$120: [https://amzn.to/2Rz7v2g](https://amzn.to/2Rz7v2g){:target="_blank"}
-* Chassis: Fractal Design Define 7: ~$150: [https://amzn.to/32AGaD7](https://amzn.to/32AGaD7){:target="_blank"}
-  * Alternative: Fractal Design Meshify C: ~$90: [https://amzn.to/32B2mgr](https://amzn.to/32B2mgr){:target="_blank"}
-* Keyboard: HyperX Alloy FPS: ~$70: [https://amzn.to/3hDegdK](https://amzn.to/3hDegdK){:target="_blank"}
-* Mouse: Logitech G502: ~$50: [https://amzn.to/3c2CTj3](https://amzn.to/3c2CTj3){:target="_blank"}
-* Headset: Logitech G Pro: [https://amzn.to/3muTT68](https://amzn.to/3muTT68){:target="_blank"}
-* Desk Speaker: Creative Pebble V2: [https://amzn.to/32AJmhV](https://amzn.to/32AJmhV){:target="_blank"}
+* MOBO: MSI X570 Tomahawk WiFi: ~$200: [https://amzn.to/3iCEcHW](https://amzn.to/3iCEcHW){:target="_blank"}{:rel="noopener"}
+  * Alternative: MSI B550 Gaming Carbon WiFi: ~$200: [https://amzn.to/2E6dNTM](https://amzn.to/2E6dNTM){:target="_blank"}{:rel="noopener"}
+* RAM: Corsair Vengeance LPX Black DDR4 3200MHz 2x16GB: ~$150: [https://amzn.to/3ks0UmH](https://amzn.to/3ks0UmH){:target="_blank"}{:rel="noopener"}
+* SSD Disk (NVMe): WD Blue SN550 M.2 2280 1TB: ~$100: [https://amzn.to/3iD2W2P](https://amzn.to/3iD2W2P){:target="_blank"}{:rel="noopener"}
+* Power Supply: Corsair RM750X V2 750W: ~$120: [https://amzn.to/2Rz7v2g](https://amzn.to/2Rz7v2g){:target="_blank"}{:rel="noopener"}
+* Chassis: Fractal Design Define 7: ~$150: [https://amzn.to/32AGaD7](https://amzn.to/32AGaD7){:target="_blank"}{:rel="noopener"}
+  * Alternative: Fractal Design Meshify C: ~$90: [https://amzn.to/32B2mgr](https://amzn.to/32B2mgr){:target="_blank"}{:rel="noopener"}
+* Keyboard: HyperX Alloy FPS: ~$70: [https://amzn.to/3hDegdK](https://amzn.to/3hDegdK){:target="_blank"}{:rel="noopener"}
+* Mouse: Logitech G502: ~$50: [https://amzn.to/3c2CTj3](https://amzn.to/3c2CTj3){:target="_blank"}{:rel="noopener"}
+* Headset: Logitech G Pro: [https://amzn.to/3muTT68](https://amzn.to/3muTT68){:target="_blank"}{:rel="noopener"}
+* Desk Speaker: Creative Pebble V2: [https://amzn.to/32AJmhV](https://amzn.to/32AJmhV){:target="_blank"}{:rel="noopener"}
 * Total: ~$900 - ~$1200
 
 Rationale for all the component choices is in the next section. If you want to replicate parts of this build and if you want to help the QuanticDev website, you can use the Amazon affiliate links above, so the website will get a percentage of your purchases. I generally recommend getting your parts from no more than two different sources, so the returns and repairs won't be a nightmare.

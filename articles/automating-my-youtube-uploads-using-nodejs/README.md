@@ -8,22 +8,22 @@ Table of contents:
 * [Next Steps](#next-steps)
 
 ## Resources
-Video guide: [https://www.youtube.com/watch?v=gncPwSEzq1s](https://www.youtube.com/watch?v=gncPwSEzq1s){:target="_blank"}
+Video guide: [https://www.youtube.com/watch?v=gncPwSEzq1s](https://www.youtube.com/watch?v=gncPwSEzq1s){:target="_blank"}{:rel="noopener"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gncPwSEzq1s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The video has the full demonstration of this project. If you want to read the comments or leave a comment, do so under the YouTube video. If you want to contribute to the article, make a pull request on GitHub.
 
 YouTube API Resources:
-* Node.js Client QuickStart Guide. My uploader code is adapted from this. Follow the first section of it to download your project credentials: [https://developers.google.com/youtube/v3/quickstart/nodejs](https://developers.google.com/youtube/v3/quickstart/nodejs){:target="_blank"}
-* API Reference: [https://developers.google.com/youtube/v3/docs/videos/insert](https://developers.google.com/youtube/v3/docs/videos/insert){:target="_blank"}
-* API Credentials: [https://console.developers.google.com/apis/dashboard](https://console.developers.google.com/apis/dashboard){:target="_blank"}
+* Node.js Client QuickStart Guide. My uploader code is adapted from this. Follow the first section of it to download your project credentials: [https://developers.google.com/youtube/v3/quickstart/nodejs](https://developers.google.com/youtube/v3/quickstart/nodejs){:target="_blank"}{:rel="noopener"}
+* API Reference: [https://developers.google.com/youtube/v3/docs/videos/insert](https://developers.google.com/youtube/v3/docs/videos/insert){:target="_blank"}{:rel="noopener"}
+* API Credentials: [https://console.developers.google.com/apis/dashboard](https://console.developers.google.com/apis/dashboard){:target="_blank"}{:rel="noopener"}
 
 If you don't already have a verified YouTube project, or an old Google APIs project, you will have to ask your project to be whitelisted or your uploads cannot be made public:
-* YouTube API Compliance Audit Request Form: [https://support.google.com/youtube/contact/yt_api_form](https://support.google.com/youtube/contact/yt_api_form){:target="_blank"}
+* YouTube API Compliance Audit Request Form: [https://support.google.com/youtube/contact/yt_api_form](https://support.google.com/youtube/contact/yt_api_form){:target="_blank"}{:rel="noopener"}
 
 You can find my YouTube uploader code on GitHub too:
-* [https://gist.github.com/soygul/42677432fa89df7fd783e0232a43a8cf](https://gist.github.com/soygul/42677432fa89df7fd783e0232a43a8cf){:target="_blank"}
+* [https://gist.github.com/soygul/42677432fa89df7fd783e0232a43a8cf](https://gist.github.com/soygul/42677432fa89df7fd783e0232a43a8cf){:target="_blank"}{:rel="noopener"}
 
 ## youtube-upload.js
 Below is my entire YouTube uploader code in Javascript. If you can't get it to work, I do a live demonstration in the video posted above, so you can follow it. In fact, that video was uploaded using the below code!
@@ -191,7 +191,7 @@ function storeToken(token) {
 ```
 
 ## Project Design Document
-Software development process starts with a design document. If you are interested, you can learn more about [Software/Systems Development Life Cycle on Wikipedia](https://en.wikipedia.org/wiki/Systems_development_life_cycle){:target="_blank"}.
+Software development process starts with a design document. If you are interested, you can learn more about [Software/Systems Development Life Cycle on Wikipedia](https://en.wikipedia.org/wiki/Systems_development_life_cycle){:target="_blank"}{:rel="noopener"}.
 
 ![Software and Systems Development Life Cycle](media/software_development_life_cycle.png)
 
@@ -212,10 +212,10 @@ Feasibility:
 
 Design:
 * Simple modular design, using Node.js (CommonJS) modules. Each distinct functionality like parsing Word documents, using YouTube API, etc., will be in their modules.
-* Optional: A fully flagged command-line app using "[Yargs](https://www.npmjs.com/package/yargs){:target="_blank"}" argument parser library.
+* Optional: A fully flagged command-line app using "[Yargs](https://www.npmjs.com/package/yargs){:target="_blank"}{:rel="noopener"}" argument parser library.
 
 Proof of Concept:
-* There is an excellent YouTube upload CLI tool in existence already so it proves that this is doable, so there is no need for a separate POC: [https://github.com/tokland/youtube-upload](https://github.com/tokland/youtube-upload){:target="_blank"}
+* There is an excellent YouTube upload CLI tool in existence already so it proves that this is doable, so there is no need for a separate POC: [https://github.com/tokland/youtube-upload](https://github.com/tokland/youtube-upload){:target="_blank"}{:rel="noopener"}
 
 Implementation Plan:
 * Use `npm init` for a quick start with Node.js.
