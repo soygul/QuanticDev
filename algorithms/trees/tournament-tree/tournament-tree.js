@@ -11,7 +11,20 @@ const assert = require('assert')
  * The video is fully animated to make it easy for you to understand these complex topics, and the relevant programming interview questions.
  */
 class TournamentTree {
-  nodes = [] // each element at each level is represented like [value, selfIndexAtBelowLevel]
+  // each element at each level is represented like [value, selfIndexAtBelowLevel]
+  // and we keep each level in its own subarray so the tree will look like:
+  //
+  // nodes = [
+  //                     [[1, 0]],
+  //                 [[1, 0], [2, 2]],
+  //   [[1, null], [5, null], [2, null], [Infinity, null]]
+  // ]
+  //
+  // above is the sample tournament tree to be kept in the "nodes" field for a given input data of: [1, 5, 2]
+  //
+  nodes = []
+
+  // once we remove the root element, all the branches plus the associated leaf will be removed, so we keep track of it
   missingLeafIndex = null
 
   constructor (dataArr) {
