@@ -4,7 +4,7 @@ const assert = require('assert')
  * Sorts given data using desired number of computers (compute nodes).
  *
  * Data is divided into equally sized chunks and sent over to the compute nodes to be
- * sorted using quicksort. Once all data is sorted, the coordinator node pulls
+ * sorted using heapsort. Once all data is sorted, the coordinator node pulls
  * the smallest element from each compute node and builds a min-heap to do an n-way merge.
  * After that, the element at the tip of the heap (smallest element) is returned
  * and another element is pulled from the node that provided the returned element
