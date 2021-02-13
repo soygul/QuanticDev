@@ -19,7 +19,6 @@ If you want to contribute to any article, you are welcome to make a pull request
 
 ## Software Engineering
 * [AI Socks Matching App in 10 Minutes](https://www.youtube.com/watch?v=nE_VbgEPogs) [Video Only]
-* [Our Startup Office Tour - But He Gets Wider After Every Corner](https://www.youtube.com/watch?v=Et5I2w59Pkw) [Video Only]
 * [How I Mass Refactored Our Production Codebase Without Fear - Engineering Stories](/articles/how-i-mass-refactored-our-production-codebase-without-fear)
 * [Method Chaining is Awesome](/articles/method-chaining)
 * [Automating My YouTube Uploads Using Node.js](/articles/automating-my-youtube-uploads-using-nodejs)
@@ -72,6 +71,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Stripe's $35B valuation in 8 years - How a tech startup reaches billion-dollar valuation?](https://www.youtube.com/watch?v=nlFAbBvu7hA) [Video Only]
 
 ## Other
+* [Our Startup Office Tour - But He Gets Wider After Every Corner](https://www.youtube.com/watch?v=Et5I2w59Pkw) [Video Only]
 * [Physicist Reviews Black Mesa Research Facility](https://www.youtube.com/watch?v=GLGRkMQdm78) [Video Only]
 
 ## Your Host
