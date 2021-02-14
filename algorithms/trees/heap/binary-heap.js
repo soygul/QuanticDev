@@ -69,10 +69,10 @@ class BinaryHeap {
 
       // swap the parent with the larger (for max heap) or smaller (for min heap) of the children if necessary
       if (this.isMaxHeap) {
-        swapToIndex = leftChildValue >= rightChildValue ? leftChildIndex : rightChildIndex
+        swapToIndex = (leftChildValue >= rightChildValue || rightChildValue === undefined) ? leftChildIndex : rightChildIndex
         if (currentNodeValue >= this.nodes[swapToIndex]) break
       } else {
-        swapToIndex = leftChildValue <= rightChildValue ? leftChildIndex : rightChildIndex
+        swapToIndex = (leftChildValue <= rightChildValue || rightChildValue === undefined) ? leftChildIndex : rightChildIndex
         if (currentNodeValue <= this.nodes[swapToIndex]) break
       }
 
