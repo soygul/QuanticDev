@@ -41,7 +41,7 @@ class BinaryHeap {
     const root = this.nodes[0]
 
     // assign the bottom right-most child as the new root and sift that value down
-    this.nodes[0] = this.nodes.pop()
+    this.nodes[0] = this.nodes.length === 1 ? undefined : this.nodes.pop()
     this.siftDown(0)
 
     return root
@@ -110,3 +110,4 @@ assert.deepStrictEqual(heap2.popRoot(), 2)
 assert.deepStrictEqual(heap2.popRoot(), 3)
 assert.deepStrictEqual(heap2.popRoot(), 4)
 assert.deepStrictEqual(heap2.popRoot(), 5)
+assert.deepStrictEqual(heap2.popRoot(), undefined)
