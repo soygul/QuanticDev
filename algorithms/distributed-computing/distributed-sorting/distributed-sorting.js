@@ -1,5 +1,5 @@
 const assert = require('assert')
-const Heap = require('../../trees/heap/heap')
+const BinaryHeap = require('../../trees/heap/binary-heap')
 
 /**
  * Sorts given data using desired number of computers (compute nodes).
