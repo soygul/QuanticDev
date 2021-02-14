@@ -14,26 +14,54 @@ class Heap {
   // we use the flat array representation of a heap as it is visualized here: https://en.wikipedia.org/wiki/Heap_(data_structure)#Implementation
   nodes = []
 
-  // we assume binary heap if something else is not specified
-  maxChildrenPerNode = 2
-
   // we assume a max-heap if this is true, min-heap otherwise
   isMaxHeap = true
 
-  constructor (dataArr, maxChildrenPerNode, isMaxHeap) {
-    this.nodes = dataArr
-    if (maxChildrenPerNode) this.maxChildrenPerNode = maxChildrenPerNode
-    if (isMaxHeap) this.isMaxHeap = isMaxHeap
+  // we assume binary heap if something else is not specified
+  maxChildrenPerNode = 2
 
-    // heapify the nodes array using siftDown method as invented by Floyd: https://en.wikipedia.org/wiki/Heapsort#Algorithm
+  constructor (dataArr, isMaxHeap, maxChildrenPerNode) {
+    this.nodes = dataArr
+    if (isMaxHeap !== undefined) this.isMaxHeap = isMaxHeap
+    if (maxChildrenPerNode !== undefined) this.maxChildrenPerNode = maxChildrenPerNode
+
+    this.heapify()
+  }
+
+  heapify () {
+    // heapify the nodes array using siftDown method by Floyd: https://en.wikipedia.org/wiki/Heapsort#Algorithm
   }
 
   insert (value) {
-
+    // insert the new value into the first empty spot (which is the end of the array) and start pushing it up
+    // until the tree satisfies the heap property again
+    this.nodes.push(value)
+    let tmp
+    for (let currentNodeIndex = this.nodes.length - 1, parentNodeIndex = this.getParentIndex(currentNodeIndex); parentNodeIndex > -1; currentNodeIndex = parentNodeIndex) {
+      if ((this.isMaxHeap && this.nodes[currentNodeIndex] > this.nodes[parentNodeIndex]) || (!this.isMaxHeap && this.nodes[currentNodeIndex] < this.nodes[parentNodeIndex])) {
+        tmp = this.nodes[currentNodeIndex]
+        this.nodes[currentNodeIndex] = this.nodes[parentNodeIndex]
+        this.nodes[parentNodeIndex] = tmp
+      } else {
+        break
+      }
+    }
   }
 
   popRoot () {
     return null
+  }
+
+  getParentIndex (i) {
+    return Math.floor((i - 1) / 2)
+  }
+
+  getLeftmostChildIndex (i) {
+    return 2 * i + 1
+  }
+
+  siftDown (i) {
+
   }
 }
 
@@ -44,9 +72,13 @@ module.exports = Heap
  */
 
 // test case #1
-const exampleInput1 = [4, 3, 1, 1, 5]
-const solution1 = [1, 1, 3, 4, 5]
-const calculatedSolution1 = new TournamentTree(exampleInput1).sort()
+const exampleInput1 = [4, 3, 1, 5]
+const solution1 = [1, 4, 2, 5]
+
+const heap = new Heap([], false)
+exampleInput1.forEach(e => heap.insert(e))
+
+const calculatedSolution1 = heap.nodes
 
 console.log(`Example Input Array #1: ${exampleInput1}, and the exact solution: ${solution1}, and calculated solution: ${calculatedSolution1}`)
 assert.deepStrictEqual(calculatedSolution1, solution1)
