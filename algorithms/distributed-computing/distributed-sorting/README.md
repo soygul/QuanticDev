@@ -71,29 +71,29 @@ The very first section of each design document is the problem definition. The pr
 ### Requirements Analysis
 This is probably the most crucial part of the entire interview. This is where your future will be decided. If you ask the right questions in this section and proceed to implementation in full agreement with the interviewers, you will have a great chance of passing the interview. The question that we are given is very generic and is lacking many important details. It is clear to me that the interviewer expects us to ask for clarifications, so we will do that soon. I would argue that a software engineering's prime function is gathering requirements, so it is common for interviewers to ask vague questions to test your investigative skills. This part also reveals your depth of understanding of the topic. Let's start with some important questions to the interviewer:
 
-* **Question**: Is there any order, pattern, or uniform distribution in the initial data.
-  * **Their Answer**: No.
-  * **Comment**: This means that we cannot take a shortcut by using specialized sorting techniques like bucket sort. If the given data had uniform distribution, we could simply partition it to all nodes and use bucket sort.
-* **Question**: What shall I do with the final sorted data?
-  * **Their Answer**: We will stream it to somewhere else for further processing.
-  * **Comment**: This is typical for data processing pipelines. We start with a set of nodes optimized for sorting and merging the data. Then we send the data to other nodes which are hardware optimized for other forms of processing.
-* **Question**: What is the read speed of the database?
-  * **Their Answer**: Let's say 20 GB/s.
-  * **Comment**: This happens a lot in interviews. This means that the interviewer does not have a specific number in mind but wants you to assume that you should not be concerned with the database performance and assume that it is sufficient.
-* **Question**: Will we separately store the sorted data in the database?
-  * **Their Answer**: No.
-  * **Comment**: Interviewer already said that we were going to send the final sorted data somewhere else. This question was just to be extra sure.
-* **Question**: What is the network latency between each computer node?
-  * **Their Answer**: Let's say not too bad.
-  * **Comment**: This means that you should not be concerned with the latency between the nodes. Maybe interviewers did not think of a scenario where you would want to use a distributed partitioning algorithm which would require a fast network.
-* **Question**: Can we use all of 1.5 GB of memory in each node?
-  * **Their Answer**: Yes.
-  * **Comment**: Again, this is good. When we have only 1 GB of data in each node, we can choose a sorting or partitioning algorithm that requires up to n/2 auxiliary space.
-* **Question**: Do the computer nodes have disks or other persistent storage that we can write to?
-  * **Their Answer**: No.
-  * **Comment**: This is expected. Involving persistent storage in our data processing would introduce yet another point of failure, so not so desirable.
+* **Question: Is there any order, pattern, or uniform distribution in the initial data.**
+  * Their Answer: No.
+  * Comment: This means that we cannot take a shortcut by using specialized sorting techniques like bucket sort. If the given data had uniform distribution, we could simply partition it to all nodes and use bucket sort.
+* **Question: What shall I do with the final sorted data?**
+  * Their Answer: We will stream it to somewhere else for further processing.
+  * Comment: This is typical for data processing pipelines. We start with a set of nodes optimized for sorting and merging the data. Then we send the data to other nodes which are hardware optimized for other forms of processing.
+* **Question: What is the read speed of the database?**
+  * Their Answer: Let's say 20 GB/s.
+  * Comment: This happens a lot in interviews. This means that the interviewer does not have a specific number in mind but wants you to assume that you should not be concerned with the database performance and assume that it is sufficient.
+* **Question: Will we separately store the sorted data in the database?**
+  * Their Answer: No.
+  * Comment: Interviewer already said that we were going to send the final sorted data somewhere else. This question was just to be extra sure.
+* **Question: What is the network latency between each computer node?**
+  * Their Answer: Let's say not too bad.
+  * Comment: This means that you should not be concerned with the latency between the nodes. Maybe interviewers did not think of a scenario where you would want to use a distributed partitioning algorithm which would require a fast network.
+* **Question: Can we use all of 1.5 GB of memory in each node?**
+  * Their Answer: Yes.
+  * Comment: Again, this is good. When we have only 1 GB of data in each node, we can choose a sorting or partitioning algorithm that requires up to n/2 auxiliary space.
+* **Question: Do the computer nodes have disks or other persistent storage that we can write to?**
+  * Their Answer: No.
+  * Comment: This is expected. Involving persistent storage in our data processing would introduce yet another point of failure, so not so desirable.
 
-I think this is enough questions for now. We clarified the task in hand quite a bit. If there are additional questions that you would ask the interviewer, let me know in the comments section below, so I can evaluate them. Let's write down our final requirements:
+I think this is enough questions for now. We clarified the task in hand quite a bit. If there are additional questions that you would ask the interviewer, let me know in the comments section in YT or ping me on Twitter, so I can evaluate them. Let's write down our final requirements:
 * We have 1 TB or unsorted data with no uniform distribution.
 * We have 1000 compute nodes to sort the data with.
 * We shall sort this data as fast as possible with the given resources.
