@@ -108,7 +108,7 @@ Once we have our requirements negotiated with the stakeholders, in this case, ou
 
 Top two problems in any system design are load balancing and high availability. During our visualization phase, we distributed our sorting load to 1000 nodes in 1 GB chunks. Now we need to handle node failures.
 
-Let's start with a question. How will the nodes know which part of the data to pull from the database? To control other nodes' actions, we can elect the first three nodes as the controller group. Remember we have some extra RAM in each node to handle extra tasks, so this is fine. These three nodes can elect one of them as the leader, using a consensus algorithm like Raft. The other two nodes will read and replicate the state of the leader node, waiting to take over if the leader node goes down. This will ensure the high availability of our controller group. If you don't know about consensus algorithms like Raft or Paxos don't worry. I will frequently use them in my videos and create an animated video explaining them in the near future. Don't forget to sub if you don't want to miss them.
+Let's start with a question. How will the nodes know which part of the data to pull from the database? To control other nodes' actions, we can elect the first three nodes as the controller group. Remember we have some extra RAM in each node to handle extra tasks, so this is fine. These three nodes can elect one of them as the leader, using a consensus algorithm like Raft. The other two nodes will read and replicate the state of the leader node, waiting to take over if the leader node goes down. This will ensure the high availability of our controller group. If you don't know about consensus algorithms like Raft or Paxos don't worry. I will frequently use them in my solution code and create an article with animations explaining them in the near future.
 
 ![Raft Leader Election - Controller Group](distributed-computing/distributed-sorting/media/leader_controller_group.png)
 
@@ -126,7 +126,7 @@ But who should do this merging? We already have a leader node that is controllin
 
 We have a final problem here, though. At the stage of merging, the leader node will become the bottleneck. Instead of having only one element from each node, we can have a buffer of 100 values from each node to alleviate the network bottleneck. However, the single leader node will still have to make logk comparisons for each insert operation. That means ten comparisons for each value, given that we have 1000 nodes.
 
-There are several solutions to this problem. One of them is to ask each node to divide its sorted data into 1000 value ranges. The leader node can then tell them which value range that each node should be holding, so the nodes can start swapping value ranges that they are not supposed to hold on to. Hence each node will be left with data sorted in sequential order, ready to be streamed to the next destination. This, however, involves heavy networking between the nodes and might end up much worse than k-way merge. I will stick to k-way merge in my implementation, but this is something you should discuss with your interviewers. Bottlenecks in distributed systems always make up for a great discussion. In another video, I will discuss distributed partitioning schemas too.
+There are several solutions to this problem. One of them is to ask each node to divide its sorted data into 1000 value ranges. The leader node can then tell them which value range that each node should be holding, so the nodes can start swapping value ranges that they are not supposed to hold on to. Hence each node will be left with data sorted in sequential order, ready to be streamed to the next destination. This, however, involves heavy networking between the nodes and might end up much worse than k-way merge. I will stick to k-way merge in my implementation, but this is something you should discuss with your interviewers. Bottlenecks in distributed systems always make up for a great discussion. In another article, I will discuss distributed partitioning schemas too.
 
 Break!: Alright, you made it half-way through the interview. If you liked my analysis so far, follow me on my socials, so I you can catch more of my in-depth algorithm and interview articles like this one in the future.
 
@@ -140,13 +140,13 @@ The first thing is to sort the data in the nodes. There is a decent chance that 
 
 Next is to implement the k-way merge and merge all the data from all the nodes. First, let's see what happens if we try to merge each value from each node with a naive comparison method. With the naive approach, we compare the first node's first value, with the first value from all the other nodes. And we repeat this for each value in other nodes. This will cost us O(nk) time complexity, where k is the number of nodes, 1000 in our case. This is pretty terrible. Our leader node cannot make 1000 comparison for each value. It will definitely become a bottleneck.
 
-To optimize this, we switch to tournament trees. As we discussed before, tournament trees are the optimal approach for k-way merge. However, I could not find any package for it. So, I will publish my implementation for Node.js and Python in another video. Sub if you don't want to miss me publishing two packages live, and open-sourcing the project on GitHub. Making even a small contribution to the open-source community is important, and it makes a great addition to your resume. 
+To optimize this, we switch to tournament trees. As we discussed before, tournament trees are the optimal approach for k-way merge. However, I could not find any package for it. So, I will publish my implementation for Node.js and Python, and about talk about it in another article. Making even a small contribution to the open-source community is important, and it makes a great addition to your resume. 
 
 Now let's see how k-way merge works with tournament trees. We start by taking the first two values from the first two computers. The smaller of the two advances to the next level. And we keep doing this for all leaves and branches until we get to the root. We then extract the root as our first sorted value from the whole and send it to wherever it needs to go. Once the root and the branches it traveled through are removed, we bring next value from the node forward and add it to the tree. Then we reconstruct the missing branches and find the next root. And we keep doing this until entire data is merged into a single sorted stream of data. As I mentioned, we can bring values from the nodes in batches of 100s or more, to reduce network overhead. On a side note, what we have just done is one of the fundamentals of streaming data processing and distributed computing, including distributed sorting.
 
 <video width="1920" height="1080" controls><source src="media/tournament_tree.mp4" type="video/mp4"></video>
 
-As always, the solution code for this question and the tournament trees is in QuanticDev GitHub repo, and link to it is in the resources section above. The rest of the implementation was to be done in Kubernetes, including configuring the controller group, leader selection etc. But I will skip it as it won't apply to most people. If an interview requires you to use certain tools, you will be notified about this and given some preparation material or a reading list in advance. However, I plan to post the full solution using Minikube in another video along with an introduction to Kubernetes. You can follow me on my socials if you want to learn about the project.
+As always, the solution code for this question and the tournament trees is in QuanticDev GitHub repo, and link to it is in the resources section above. The rest of the implementation was to be done in Kubernetes, including configuring the controller group, leader selection etc. But I will skip it as it won't apply to most people. If an interview requires you to use certain tools, you will be notified about this and given some preparation material or a reading list in advance. However, I plan to post the full solution using Minikube in another article along with an introduction to Kubernetes. You can follow me on my socials if you want to learn about the project.
 
 For reference, I am pasting a snapshot of the simplified solution code here. However, I update my solution code regularly based on feedback, so I recommend you check the GitHub repo for up-to-date code:
 
@@ -235,51 +235,41 @@ assert.deepStrictEqual(calculatedSolution1, solution1)
 
 Even in a whiteboard interview, you should write tests, at least for corner cases. Then you should read those tests and execute them in your head. To help with that, you can create an input/output/state table to keep track of all input and output values of function calls and current values of internal variables. At the end of the day, this is what your computer is doing anyway!
 
-I have written tests for my solution code, and it is on GitHub.
+I have written tests for all my other solution code, and it is on GitHub as usual.
 
 ## Discussion
 Now the tables have turned. It is the interviewers turn to bombard you with questions on the topic and on your implementation. After each question, there will be follow-up questions and some discussion. This is the stage where the interviewers will gauge your understanding of the general distributed computing topics. They will also try to see if you are more skilled in the software or hardware side of things, and more. However, I will skip the follow-up discussions to keep this section small.
 
 Let's check out some of the probable questions:
 
-Question by Interviewer: What factors would affect the performance of the system?
-
-Bad Answer: Hardware configuration. / This is too vague of an answer.
-
-Good Answer: Size of the data, database read speed, network bandwidth and latency, amount of RAM in the nodes, number of nodes, processor speed and cache size of the nodes, and memory bandwidth of the nodes.
-
-Question by Interviewer: How can you improve the performance of this system.
-
-Bad Answer: By adding more nodes. / The final merge step will become a bigger bottleneck if we do this.
-
-Good Answer: By experimenting with distributed data partitioning using all nodes at the same time. This would require a very fast and low latency network but would remove the final merge step bottlenecks.
-
-Question by Interviewer: What other approaches can you use to solve the distributed sorting problem?
-
-Bad Answer: I don't know. / Even if you don't know, try to conversate with the interviewers and get some tips, which can help you to come up with ideas.
-
-Good Answer: External Mergesort (but it requires lots of RAM). Bucket sort with partitioning (but the partitioner becomes the bottleneck). And bucket sort with distributed partitioning (but requires heavy networking).
-
-Question by Interviewer: What are the examples of the need for a system like we designed.
-
-Bad Answer: Distributed sorting. / This one you are already given, think of other things.
-
-Good Answer: Merging distributed logs. If several machines are distributed across time zones, but they are writing logs to a single datastore, you might have to sort and merge all logs after every day.
-
-Question by Interviewer: How does distributed sorting compare to parallel sorting?
-
-Bad Answer: The are the same. / Even if you think this is the case, try to explain why. You might recognize your mistake.
-
-Good Answer: Parallel sorting sorts the data using a single computer but with many threads. Distributed sorting sort the data distributed to many computers/nodes.
+* **Question by Interviewer: What factors would affect the performance of the system?**
+  * Bad Answer: Hardware configuration.
+    * Comment: This is too vague of an answer.
+  * Good Answer: Size of the data, database read speed, network bandwidth and latency, amount of RAM in the nodes, number of nodes, processor speed and cache size of the nodes, and memory bandwidth of the nodes.
+* **Question by Interviewer: How can you improve the performance of this system.**
+  * Bad Answer: By adding more nodes.
+    * Comment: The final merge step will become a bigger bottleneck if we do this.
+  * Good Answer: By experimenting with distributed data partitioning using all nodes at the same time. This would require a very fast and low latency network but would remove the final merge step bottlenecks.
+* **Question by Interviewer: What other approaches can you use to solve the distributed sorting problem?**
+  * Bad Answer: I don't know.
+    * Comment: Even if you don't know, try to conversate with the interviewers and get some tips, which can help you to come up with ideas.
+  * Good Answer: External Mergesort (but it requires lots of RAM). Bucket sort with partitioning (but the partitioner becomes the bottleneck). And bucket sort with distributed partitioning (but requires heavy networking).
+* **Question by Interviewer: What are the examples of the need for a system like we designed.**
+  * Bad Answer: Distributed sorting.
+    * Comment: This one you are already given, think of other things.
+  * Good Answer: Merging distributed logs. If several machines are distributed across time zones, but they are writing logs to a single datastore, you might have to sort and merge all logs after every day.
+* **Question by Interviewer: How does distributed sorting compare to parallel sorting?**
+  * Bad Answer: The are the same.
+    * Comment: Even if you think this is the case, try to explain why. You might recognize your mistake.
+  * Good Answer: Parallel sorting sorts the data using a single computer but with many threads. Distributed sorting sort the data distributed to many computers/nodes.
 
 To fill in the allotted two hours, the interviewers might steer into other distributed computing topics. Maybe even into the networking and hardware side of things, like the use atomic clocks in distributed systems. However, I will leave it here as you should now have a great understanding of what to expect from the discussion phase of the interview.
 
-
 ## Conclusion
-I want to remind you that the parameters and requirements given in interviews differ wildly. You might be given a very similar question in your interview, like a distributed counting question, but with entirely different constraints. Try to internalize the topic by watching this video several times within several months. Every time you come back to it; you will acquire a deeper understanding of it, which will help you apply the same principles to different questions.
+I want to remind you that the parameters and requirements given in interviews differ wildly. You might be given a very similar question in your interview, like a distributed counting question, but with entirely different constraints. Try to internalize the topic by reading this article several times within several months. Every time you come back to it; you will acquire a deeper understanding of it, which will help you apply the same principles to different questions.
 
 If you make this far and pass this type of a system design plus implementation interview, you are golden. Your next step will be the behavioral interview, and off you go with an offer. It is still possible to fail the behavioral interview miserably if you are not prepared. It is also possible to mess up the offer stage by being too demanding or too shy to ask more. If you cannot strike a balance, you might end up being severely underpaid. This would demoralize you once you learn that your peers at the same level are making way more than you.
 
-Don't worry though, I am preparing separate courses to tackle both behavioral interview and the negotiation phases. This is a mating dance, and you need to learn to dance. Keep an eye on quanticdev.com, and I will start publishing my courses there in the coming months. If you want to get an idea on what you should be paid as a software engineer, check out my dedicated video "Software Engineering Compensation Guide". It will give you a good idea on how companies will determine your pay grade, and what factors will affect your compensation package.
+Don't worry though, I am preparing separate courses to tackle both behavioral interview and the negotiation phases. This is a mating dance, and you need to learn to dance. Keep an eye on quanticdev.com, and I will start publishing my courses in the coming months. If you want to get an idea on what you should be paid as a software engineer, check out my dedicated article: "Software Engineering Compensation Guide". It will give you a good idea on how companies will determine your pay grade, and what factors will affect your compensation package. The link to it is in the resources section of the article.
 
-As you know, I do very detailed algorithms and systems design videos, as well as articles. If you liked this one, give it a thumbs up, so you will encourage me to prepare even more of them in the future. You also can check out my existing software engineering, algorithms, and tech videos on my "Playlists" tab. If you want to see my upcoming algorithms and programming videos, don't forget to sub. And I will see you next time.
+As you know, I do very detailed algorithms and systems design articles, as well as animated videos. If you liked this one, ping me on Twitter with a question that you know, so I will analyze it and make an article about it. You also can check out my existing software engineering, algorithms, and tech articles on quanticdev.com home page. That is it for ths one. And I will see you next time.
