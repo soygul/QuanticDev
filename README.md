@@ -18,7 +18,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * _Upcoming.._
 
 ## Software Engineering
-* _My Ultimate Linux Setup For Programming and Productivity (upcoming..)_
+* [A Senior Developer's Linux Setup](https://www.youtube.com/watch?v=fa2Z1wdjFYg) [Video Only]
 * [AI Socks Matching App in 10 Minutes](https://www.youtube.com/watch?v=nE_VbgEPogs) [Video Only]
 * [How I Mass Refactored Our Production Codebase Without Fear - Engineering Stories](/articles/how-i-mass-refactored-our-production-codebase-without-fear)
 * [Method Chaining is Awesome](/articles/method-chaining)
