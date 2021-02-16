@@ -52,14 +52,18 @@ This is a distributed sorting question asked by Google in a senior engineer inte
 ## Problem Visualization
 Let's start by visualizing the problem. When I am given a question, the first thing I do is to try to visualize it in my mind to investigate possible solutions quickly. I do this before jumping into the requirements analysis and start asking questions. If I am given a whiteboard, I will try to visualize the problem drawing a matrix, a diagram, or whatever might help me imagine possible solutions.
 
-For this video, I will visualize this question using an animated diagram to help you understand it better. We start with our 1 TB of data in our database. Then comes our 1000 computers with 1.5 GB of RAM each. Let's say we make each computer read 1 GB portion of our data from our database. Now we are left with 1000 nodes with all our data in them.
+For this article, I will visualize this question using an animated diagram to help you understand it better. We start with our 1 TB of data in our database. Then comes our 1000 computers with 1.5 GB of RAM each. Let's say we make each computer read 1 GB portion of our data from our database. Now we are left with 1000 nodes with all our data in them.
+
+<video width="1920" height="1080" controls><source src="media/problem_visualization.mp4" type="video/mp4"></video>
 
 Next, what do we do with this much data and this many nodes? How do we utilize the CPU power of all the nodes at the same time? We can try to make all nodes sort the data that they have in them. Remember, they all have 1.5 GB of RAM, and we have only used 1 GB of it. This gives us 500 MB of auxiliary space to work with. Heapsort only requires O(1) auxiliary space, so it is perfect for this job. Quicksort also only requires O(logn) auxiliary space, so we might use that too. We can decide this in the design phase.
 
 Once each node finishes sorting their data simultaneously, how do we merge them? Well, there is a method called k-way merge designed exactly for this purpose. We can definitely use that! It is possible to implement k-way (also known as multiway) merge using a heap, or even better, using tournament trees. We start by selecting one of the nodes as the leader, the leader pulls the first values from each other node and puts them in a tournament tree. The root of the tree will be our first winner and the very first sorted value. Then we pull a new value in place of the missing value, complete our tournament tree and get the root again. We can keep doing this to get a sorted stream of data and write it back to our database into another table. This seems like a very workable approach. But will it match the requirements? We will have to discover that by asking lots of questions to the interviewers. But this is a good visualization and good initial approach which should hopefully help us come up with lots of good questions in the requirements analysis phase.
 
 ## Design Document
-In a regular coding interview, I would directly jump to the requirements analysis to select the best algorithm for the question in hand. However, this is the final interview stage with 2 hours to go. This is where you show off with your software engineering skills. So, we treat this as a serious project and start with a design document. Typically, design documents are very long and detailed. A well-crafted design increases the odds of success of a project. However, for this occasion, we will keep it short. Short enough to fit into a single whiteboard, or a single page if you are given paper. If you want to see a complete example, I have the Chromium Project's Design Document Template in the video description below.
+In a regular coding interview, I would directly jump to the requirements analysis to select the best algorithm for the question in hand. However, this is the final interview stage with 2 hours to go. This is where you show off with your software engineering skills. So, we treat this as a serious project and start with a design document. Typically, design documents are very long and detailed. A well-crafted design increases the odds of success of a project. However, for this occasion, we will keep it short. Short enough to fit into a single whiteboard, or a single page if you are given paper. If you want to see a complete example, I have the link to Chromium Project's Design Document Template in the resources section above.
+
+![Chromium Project Design Document Template](distributed-computing/distributed-sorting/media/chromium_design_document_template.png)
 
 ### Problem Definition
 The very first section of each design document is the problem definition. The problem in hand is distributed sorting (also known as external sorting) of a very large dataset with memory-constrained nodes.
@@ -67,47 +71,27 @@ The very first section of each design document is the problem definition. The pr
 ### Requirements Analysis
 This is probably the most crucial part of the entire interview. This is where your future will be decided. If you ask the right questions in this section and proceed to implementation in full agreement with the interviewers, you will have a great chance of passing the interview. The question that we are given is very generic and is lacking many important details. It is clear to me that the interviewer expects us to ask for clarifications, so we will do that soon. I would argue that a software engineering's prime function is gathering requirements, so it is common for interviewers to ask vague questions to test your investigative skills. This part also reveals your depth of understanding of the topic. Let's start with some important questions to the interviewer:
 
-Question: Is there any order, pattern, or uniform distribution in the initial data.
-
-Their Answer: No.
-
-Comment: This means that we cannot take a shortcut by using specialized sorting techniques like bucket sort. If the given data had uniform distribution, we could simply partition it to all nodes and use bucket sort.
-
-Question: What shall I do with the final sorted data?
-
-Their Answer: We will stream it to somewhere else for further processing.
-
-Comment: This is typical for data processing pipelines. We start with a set of nodes optimized for sorting and merging the data. Then we send the data to other nodes which are hardware optimized for other forms of processing.
-
-Question: What is the read speed of the database?
-
-Their Answer: Let's say 20 GB/s.
-
-Comment: This happens a lot in interviews. This means that the interviewer does not have a specific number in mind but wants you to assume that you should not be concerned with the database performance and assume that it is sufficient.
-
-Question: Will we separately store the sorted data in the database?
-
-Their Answer: No.
-
-Comment: Interviewer already said that we were going to send the final sorted data somewhere else. This question was just to be extra sure.
-
-Question: What is the network latency between each computer node?
-
-Their Answer: Let's say not too bad.
-
-Comment: This means that you should not be concerned with the latency between the nodes. Maybe interviewers did not think of a scenario where you would want to use a distributed partitioning algorithm which would require a fast network.
-
-Question: Can we use all of 1.5 GB of memory in each node?
-
-Their Answer: Yes.
-
-Comment: Again, this is good. When we have only 1 GB of data in each node, we can choose a sorting or partitioning algorithm that requires up to n/2 auxiliary space.
-
-Question: Do the computer nodes have disks or other persistent storage that we can write to?
-
-Their Answer: No.
-
-Comment: This is expected. Involving persistent storage in our data processing would introduce yet another point of failure, so not so desirable.
+* **Question**: Is there any order, pattern, or uniform distribution in the initial data.
+  * **Their Answer**: No.
+  * **Comment**: This means that we cannot take a shortcut by using specialized sorting techniques like bucket sort. If the given data had uniform distribution, we could simply partition it to all nodes and use bucket sort.
+* **Question**: What shall I do with the final sorted data?
+  * **Their Answer**: We will stream it to somewhere else for further processing.
+  * **Comment**: This is typical for data processing pipelines. We start with a set of nodes optimized for sorting and merging the data. Then we send the data to other nodes which are hardware optimized for other forms of processing.
+* **Question**: What is the read speed of the database?
+  * **Their Answer**: Let's say 20 GB/s.
+  * **Comment**: This happens a lot in interviews. This means that the interviewer does not have a specific number in mind but wants you to assume that you should not be concerned with the database performance and assume that it is sufficient.
+* **Question**: Will we separately store the sorted data in the database?
+  * **Their Answer**: No.
+  * **Comment**: Interviewer already said that we were going to send the final sorted data somewhere else. This question was just to be extra sure.
+* **Question**: What is the network latency between each computer node?
+  * **Their Answer**: Let's say not too bad.
+  * **Comment**: This means that you should not be concerned with the latency between the nodes. Maybe interviewers did not think of a scenario where you would want to use a distributed partitioning algorithm which would require a fast network.
+* **Question**: Can we use all of 1.5 GB of memory in each node?
+  * **Their Answer**: Yes.
+  * **Comment**: Again, this is good. When we have only 1 GB of data in each node, we can choose a sorting or partitioning algorithm that requires up to n/2 auxiliary space.
+* **Question**: Do the computer nodes have disks or other persistent storage that we can write to?
+  * **Their Answer**: No.
+  * **Comment**: This is expected. Involving persistent storage in our data processing would introduce yet another point of failure, so not so desirable.
 
 I think this is enough questions for now. We clarified the task in hand quite a bit. If there are additional questions that you would ask the interviewer, let me know in the comments section below, so I can evaluate them. Let's write down our final requirements:
 * We have 1 TB or unsorted data with no uniform distribution.
