@@ -10,15 +10,15 @@ I will take you through the entire 2-hour interview in sections and do every sec
 Table of contents:
 * [Resources](#resources)
 * [Overview](#overview)
-* Problem Visualization
-* Design Document
-  * Problem Definition
-  * Requirements Analysis
-  * System Design
-  * Complexity Analysis
-* Implementation
-* Tests
-* Discussion
+* [Problem Visualization](#problem-visualization)
+* [Design Document](#design-document)
+  * [Problem Definition](#problem-definition)
+  * [Requirements Analysis](#requirements-analysis)
+  * [System Design](#system-design)
+  * [Complexity Analysis](#complexity-analysis)
+* [Implementation](#implementation)
+* [Tests](#tests)
+* [Discussion](#discussion)
 * [Conclusion](#conclusion)
 
 ## Resources
