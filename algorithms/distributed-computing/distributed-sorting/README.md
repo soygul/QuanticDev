@@ -144,11 +144,85 @@ To optimize this, we switch to tournament trees. As we discussed before, tournam
 
 Now let's see how k-way merge works with tournament trees. We start by taking the first two values from the first two computers. The smaller of the two advances to the next level. And we keep doing this for all leaves and branches until we get to the root. We then extract the root as our first sorted value from the whole and send it to wherever it needs to go. Once the root and the branches it traveled through are removed, we bring next value from the node forward and add it to the tree. Then we reconstruct the missing branches and find the next root. And we keep doing this until entire data is merged into a single sorted stream of data. As I mentioned, we can bring values from the nodes in batches of 100s or more, to reduce network overhead. On a side note, what we have just done is one of the fundamentals of streaming data processing and distributed computing, including distributed sorting.
 
-As always, the solution code for this question and the tournament trees is in QuanticDev GitHub repo, and link to it is in the video description below. The rest of the implementation was to be done in Kubernetes, including configuring the controller group, leader selection etc. But I will skip it as it won't apply to most people. If an interview requires you to use certain tools, you will be notified about this and given some preparation material or a reading list in advance. However, I plan to post the full solution using Minikube in another video along with an introduction to Kubernetes. You can follow me on my socials if you want to learn about the project.
+<video width="1920" height="1080" controls><source src="media/tournament_tree.mp4" type="video/mp4"></video>
+
+As always, the solution code for this question and the tournament trees is in QuanticDev GitHub repo, and link to it is in the resources section above. The rest of the implementation was to be done in Kubernetes, including configuring the controller group, leader selection etc. But I will skip it as it won't apply to most people. If an interview requires you to use certain tools, you will be notified about this and given some preparation material or a reading list in advance. However, I plan to post the full solution using Minikube in another video along with an introduction to Kubernetes. You can follow me on my socials if you want to learn about the project.
+
+For reference, I am pasting a snapshot of the simplified solution code here. However, I update my solution code regularly based on feedback, so I recommend you check the GitHub repo for up-to-date code:
+
+```javascript
+/**
+ * Distributed sorting algorithm implementation for my "Distributed Sorting" video: https://www.youtube.com/watch?v=vgKjatRVtys
+ * The video explains the algorithm using animations so I highly recommend checking it out before reading the code.
+ *
+ * Sorts given data using desired number of computers (compute nodes).
+ *
+ * Data is divided into equally sized chunks and sent over to the compute nodes to be
+ * sorted using heapsort. Once all data is sorted, the coordinator node pulls
+ * the first element from each compute node and builds a loser tournament tree to do an n-way merge.
+ * After that, the root node of the tournament tree (smallest element) is returned
+ * and another element is pulled from the node that provided the returned element
+ * and the root of the tournament tree is recalculated. This process continues until all the data in
+ * all the nodes is consumed.
+ *
+ * Since a full implementation would require networking,
+ * below code is simplified to make everything happen on the same computer.
+ *
+ * @param data - An array of integers to sort.
+ * @param nodeCount - Number of computers to distribute this calculation over.
+ * @returns {[]} - Sorted data.
+ */
+function distributedSort (data, nodeCount) {
+  // split the data to chunks to be send to each node
+  const nodes = []
+  const dataChunkLength = Math.ceil(data.length / nodeCount)
+
+  for (let i = 0; i < nodeCount; i++) {
+    nodes.push(createNode(data.slice(i * dataChunkLength, (i + 1) * dataChunkLength)))
+  }
+
+  // signal each node to start sorting their data
+  nodes.forEach(n => n.sort())
+
+  // create a tournament tree and start doing k-way merge
+  // by pulling one value at a time from each node
+  const tree = new TournamentTree(nodes.map(n => n.getValue()))
+  const mergedArr = []
+
+  for (let i = 1; i <= data.length; i++) {
+    mergedArr.push(tree.popRoot())
+
+    const val = nodes[tree.missingLeafIndex].getValue()
+    if (val) {
+      tree.insertLeaf(val)
+    } else {
+      // when we exhaust all the data in a node, just plug in a sentinel value
+      tree.insertLeaf(Infinity)
+    }
+  }
+
+  return mergedArr
+}
+
+// creates and returns a compute node for sorting a chunk of data
+function createNode (dataChunk) {
+  return {
+    dataChunk: dataChunk,
+    minHeap: new BinaryHeap([], false),
+    sort: function () {
+      this.dataChunk.forEach(val => this.minHeap.insert(val))
+    },
+    getValue: function () {
+      return this.minHeap.popRoot()
+    }
+  }
+}
+```
 
 ## Tests
-It is essential to write tests in a complex implementation like this, especially for corner cases. Write tests to cover all corner cases you can think of, as much as your time permits. If you are allowed to execute your code, don't forget to run the tests. I usually write tests before code, in line with test-driven development principles. It cuts down on debug cycles massively.
+It is essential to write tests in a complex implementation like this, especially for corner cases. Write tests to cover all corner cases you can think of, as much as your time permits. If you are allowed to execute your code, don't forget to run the tests. I usually write tests before code, in line with test-driven development principles. It cuts down on debug cycles massively. i.e.:
 
+```javascript
 // test case #1
 const exampleInput1 = [[4, 9], [1, 7], [3, 6]]
 const solution1 = [1, 3, 4, 6, 7, 9]
@@ -157,6 +231,7 @@ const calculatedSolution1 = kWayMerge(exampleInput1)
 
 console.log(`Example Input #1: Expected Solution: ${JSON.stringify(solution1)}, Calculated Solution: ${JSON.stringify(calculatedSolution1)}`)
 assert.deepStrictEqual(calculatedSolution1, solution1)
+```
 
 Even in a whiteboard interview, you should write tests, at least for corner cases. Then you should read those tests and execute them in your head. To help with that, you can create an input/output/state table to keep track of all input and output values of function calls and current values of internal variables. At the end of the day, this is what your computer is doing anyway!
 
