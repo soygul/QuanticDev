@@ -63,7 +63,7 @@ Once each node finishes sorting their data simultaneously, how do we merge them?
 ## Design Document
 In a regular coding interview, I would directly jump to the requirements analysis to select the best algorithm for the question in hand. However, this is the final interview stage with 2 hours to go. This is where you show off with your software engineering skills. So, we treat this as a serious project and start with a design document. Typically, design documents are very long and detailed. A well-crafted design increases the odds of success of a project. However, for this occasion, we will keep it short. Short enough to fit into a single whiteboard, or a single page if you are given paper. If you want to see a complete example, I have the link to Chromium Project's Design Document Template in the resources section above.
 
-![Chromium Project Design Document Template](distributed-computing/distributed-sorting/media/chromium_design_document_template.png)
+![Chromium Project Design Document Template](media/chromium_design_document_template.png)
 
 ### Problem Definition
 The very first section of each design document is the problem definition. The problem in hand is distributed sorting (also known as external sorting) of a very large dataset with memory-constrained nodes.
@@ -110,7 +110,7 @@ Top two problems in any system design are load balancing and high availability. 
 
 Let's start with a question. How will the nodes know which part of the data to pull from the database? To control other nodes' actions, we can elect the first three nodes as the controller group. Remember we have some extra RAM in each node to handle extra tasks, so this is fine. These three nodes can elect one of them as the leader, using a consensus algorithm like Raft. The other two nodes will read and replicate the state of the leader node, waiting to take over if the leader node goes down. This will ensure the high availability of our controller group. If you don't know about consensus algorithms like Raft or Paxos don't worry. I will frequently use them in my solution code and create an article with animations explaining them in the near future.
 
-![Raft Leader Election - Controller Group](distributed-computing/distributed-sorting/media/leader_controller_group.png)
+![Raft Leader Election - Controller Group](media/leader_controller_group.png)
 
 Once the controller group leader receives the trigger to start the sorting process, it will send a signal to all other nodes to start pulling data from the database. This signal will contain information about which node should read which portion of the data. Then each node goes and retrieves their assigned portion of the data from the database.
 
