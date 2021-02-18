@@ -226,12 +226,12 @@ It is essential to write tests in a complex implementation like this, especially
 
 ```javascript
 // test case #1
-const exampleInput1 = [[4, 9], [1, 7], [3, 6]]
-const solution1 = [1, 3, 4, 6, 7, 9]
+const exampleInput1 = [4, 10, 1, 14, 7, 9, 3, 5]
+const solution1 = [1, 3, 4, 5, 7, 9, 10, 14]
 
-const calculatedSolution1 = kWayMerge(exampleInput1)
+const calculatedSolution1 = distributedSort(exampleInput1, 2)
 
-console.log(`Example Input #1: Expected Solution: ${JSON.stringify(solution1)}, Calculated Solution: ${JSON.stringify(calculatedSolution1)}`)
+console.log(`Example Input Array #1: ${exampleInput1}, and the exact solution: ${solution1}, and calculated solution: ${calculatedSolution1}`)
 assert.deepStrictEqual(calculatedSolution1, solution1)
 ```
 

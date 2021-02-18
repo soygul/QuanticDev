@@ -76,6 +76,7 @@ function createNode (dataChunk) {
 // test case #1
 const exampleInput1 = [4, 10, 1, 14, 7, 9, 3, 5]
 const solution1 = [1, 3, 4, 5, 7, 9, 10, 14]
+
 const calculatedSolution1 = distributedSort(exampleInput1, 2)
 
 console.log(`Example Input Array #1: ${exampleInput1}, and the exact solution: ${solution1}, and calculated solution: ${calculatedSolution1}`)
