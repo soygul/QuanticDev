@@ -40,9 +40,9 @@ class BinaryHeap {
   popRoot () {
     const root = this.nodes[0]
 
-    // assign the bottom right-most child as the new root and sift that value down
+    // assign the bottom right-most child as the new root and push that value down to its correct location
     this.nodes[0] = this.nodes.length === 1 ? undefined : this.nodes.pop()
-    this.siftDown(0)
+    this.pushDown(0)
 
     return root
   }
@@ -55,7 +55,7 @@ class BinaryHeap {
     return 2 * i + 1
   }
 
-  siftDown (i) {
+  pushDown (i) {
     let currentNodeIndex = i, currentNodeValue, leftChildIndex, leftChildValue, rightChildIndex, rightChildValue, swapToIndex
 
     while (true) {
