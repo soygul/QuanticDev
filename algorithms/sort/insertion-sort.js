@@ -48,7 +48,7 @@ const calculatedSolution1 = insertionSort(exampleInput1)
 console.log(`Example Input #1: Expected Solution: ${JSON.stringify(solution1)}, Calculated Solution: ${JSON.stringify(calculatedSolution1)}`)
 assert.deepStrictEqual(calculatedSolution1, solution1)
 
-// test case #1
+// test case #2
 const exampleInput2 = [5, 0, -2, 1, 0, 5, 1]
 const solution2 = [-2, 0, 0, 1, 1, 5, 5]
 
@@ -56,3 +56,12 @@ const calculatedSolution2 = insertionSort(exampleInput2)
 
 console.log(`Example Input #2: Expected Solution: ${JSON.stringify(solution2)}, Calculated Solution: ${JSON.stringify(calculatedSolution2)}`)
 assert.deepStrictEqual(calculatedSolution2, solution2)
+
+// test case #3
+const exampleInput3 = [0, 0, 0, 0, 0]
+const solution3 = exampleInput3
+
+const calculatedSolution3 = insertionSort(exampleInput3)
+
+console.log(`Example Input #3: Expected Solution: ${JSON.stringify(solution3)}, Calculated Solution: ${JSON.stringify(calculatedSolution3)}`)
+assert.deepStrictEqual(calculatedSolution3, solution3)
