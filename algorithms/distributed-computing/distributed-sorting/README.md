@@ -40,7 +40,7 @@ Chromium Project Design Document Template:
 
 My [K-Way Merge](https://www.youtube.com/watch?v=Xo54nlPHSpg){:target="_blank"}{:rel="noopener"} video, which explains k-way merge which is used extensively in this video.
 
-My [Software Engineering Compensation Guide](/articles/software-engineer-compensation-guide){:target="_blank"}{:rel="noopener"} article to help you estimate what you should be paid:
+My [Software Engineering Compensation Guide](/articles/software-engineer-compensation-guide){:target="_blank"}{:rel="noopener"} article to help you estimate what you should be paid.
 
 ## Overview
 Let's check out the problem in hand. In this question, you are given 1 TB of data sitting in a database, and 1000 computers each with 1.5 GB of RAM. And you are asked to sort this data as fast as possible.
