@@ -14,8 +14,7 @@ Relevant articles referred to in this article:
 * [Money Management for Techies](/articles/how-to-manage-money){:target="_blank"}{:rel="noopener"} (which also describes bonds and index funds)
 
 Hacker News discussions on the same topic:
-* [https://news.ycombinator.com/item?id=21913129](https://news.ycombinator.com/item?id=21913129){:target="_blank"}{:rel="noopener"} (for this article)
-* [https://news.ycombinator.com/item?id=21581361](https://news.ycombinator.com/item?id=21581361){:target="_blank"}{:rel="noopener"}
+* Hacker News discussion on this article: [https://news.ycombinator.com/item?id=21913129](https://news.ycombinator.com/item?id=21913129){:target="_blank"}{:rel="noopener"}
 
 ## Cooking
 Cooking is probably the most valuable thing that you can learn in an hour. Cooking good food can save you a ton of time and money. It is also a great no-brainer activity to do after a heavy day of brain use. There are great tutorials to give you the fundamentals of cooking like preparation, seasoning, panning and baking. Cooking itself takes a great deal of time, but learning something new every day about cooking will take minimal time. It is also a great activity to do with friends; for instance, grilling outside when the weather is good.
