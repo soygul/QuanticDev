@@ -18,6 +18,9 @@ Manjaro installation resources:
   * Download Manjaro ISO (link above).
   * Start Etcher, and it will guide you through the ISO burn process. Supports Win/Mac/Linux.
 
+Reddit discussion on this article:
+* [https://www.reddit.com/r/ManjaroLinux/comments/dvtkzh/cleanest_linux_productivity_and_development/](https://www.reddit.com/r/ManjaroLinux/comments/dvtkzh/cleanest_linux_productivity_and_development/){:target="_blank"}{:rel="noopener"}
+
 ## Why use Linux?
 First off, why use Linux for software development? The answer is simple; if you write software, you will have to get familiar with Linux sooner than later. And unless you have a laser-like focus on user-interface and user-experience development, Linux will be all over your face. Other reasons:
 * Forever free and open-source.

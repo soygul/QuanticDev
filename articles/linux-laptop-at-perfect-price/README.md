@@ -18,6 +18,9 @@ If you want to check the Linux compatibility of future Lenovo laptops, below is 
 * [https://wiki.archlinux.org/index.php/Laptop/Lenovo#E_series](https://wiki.archlinux.org/index.php/Laptop/Lenovo#E_series){:target="_blank"}{:rel="noopener"}
 * [https://www.thinkwiki.org/wiki/E14_hardware_tweaks](https://www.thinkwiki.org/wiki/E14_hardware_tweaks){:target="_blank"}{:rel="noopener"}
 
+Reddit discussion on this article:
+* [https://www.reddit.com/r/linux/comments/il8jym/how_to_get_a_great_linux_laptop_at_a_perfect/](https://www.reddit.com/r/linux/comments/il8jym/how_to_get_a_great_linux_laptop_at_a_perfect/){:target="_blank"}{:rel="noopener"}
+
 My [Cleanest Linux Productivity and Development Environment using Manjaro Linux](/articles/manjaro-linux-productivity-machine){:target="_blank"}{:rel="noopener"} article which can help you set up your shiny new laptop.
 
 ## Lenovo ThinkPad E595 (E Series)

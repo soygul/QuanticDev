@@ -40,6 +40,9 @@ Relevant articles referred to in this article:
 * [Software Design Patterns, Principles, and Best Practices](/articles/software-design-patterns){:target="_blank"}{:rel="noopener"}
 * [Software Quality Assurance - How Do Software Companies Test Their Products?](https://www.youtube.com/watch?v=ztb8HNc2kCU){:target="_blank"}{:rel="noopener"}
 
+Reddit discussion on this article:
+* [https://www.reddit.com/r/github/comments/ezw6rg/my_full_development_workflow_using_github_part_2/](https://www.reddit.com/r/github/comments/ezw6rg/my_full_development_workflow_using_github_part_2/){:target="_blank"}{:rel="noopener"}
+
 ## Why GitHub
 I am not proud of embracing a single vendor since they easily turn into monopolies. But the fact is, GitHub is pretty much the standard for sharing code in software development. And not only software development, but you can also find hardware blueprints, circuit schemas, or even websites and articles, just as I do with quanticdev.com. 
 
