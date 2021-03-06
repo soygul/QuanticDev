@@ -42,6 +42,9 @@ My [K-Way Merge](https://www.youtube.com/watch?v=Xo54nlPHSpg){:target="_blank"}{
 
 My [Software Engineering Compensation Guide](/articles/software-engineer-compensation-guide){:target="_blank"}{:rel="noopener"} article to help you estimate what you should be paid.
 
+Reddit discussion on this article:
+* [https://www.reddit.com/r/programming/comments/llx6x7/distributed_sorting_google_interview_question/](https://www.reddit.com/r/programming/comments/llx6x7/distributed_sorting_google_interview_question/){:target="_blank"}{:rel="noopener"}
+
 ## Overview
 Let's check out the problem in hand. In this question, you are given 1 TB of data sitting in a database, and 1000 computers each with 1.5 GB of RAM. And you are asked to sort this data as fast as possible.
 
