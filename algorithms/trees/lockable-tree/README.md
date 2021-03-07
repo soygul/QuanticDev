@@ -52,12 +52,14 @@ Store `locked` and `lockedDescendantCount` variables in each node.
 * Inform all ancestors that their locked descendant count increased by one.
 * Time complexity: `O(h)`
 * Space complexity: `O(1)`
+* Note: Space complexity of the `lock()` function is `O(1)`, but the space complexity of the entire tree goes up by `O(n)` during its creation due to the newly added fields. Don't forget to explain this detail in an interview situation. Alternatively you can just write `O(n)` as the space complexity.
 
 ### Method: `unlock()`
 * Check if node to be unlocked is already unlocked. If so, stop.
 * Inform all ancestors that their locked descendant count decreased by one.
 * Time complexity: `O(h)`
 * Space complexity: `O(1)`
+* Same note about tree's space complexity increase applies here too (see the `lock()` method).
 
 ## How Does This Question Relates to Databases?
 One of the prime use of lockable data structures like trees is databases. Say in a relational database, you use a tree to represent a table's index, and you want to execute a transaction that will lock a portion of the index. Depending on the tree and locking strategy you use, you might end up with requirements very similar to this question, and you will want your lock operations to run in `O(h)` time. The solution we came up in this exercise would be a good fit for this job. If you want to read more on database index locking, I have the link to a Wikipedia article on the subject in the resources section above.
