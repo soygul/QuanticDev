@@ -71,6 +71,8 @@ You should note that you can lock and unlock siblings independently of each othe
 
 You can make this tree thread-safe by using read/read-write mutexes at appropriate places if you want. For `lock()` operation, you can obtain a read-write mutex at the tree level the moment you access the tree. As you traverse the ancestors and descendants of the tree, you can release the mutexes for the nodes' siblings, as they don't affect our target node's lockability (only their ancestors and descendants do).
 
+Finally, in database terminology, locking the nodes vs using mutexes is the difference between a "lock" and a "latch". A "lock" is used to control the access to a resource by different tasks within a single thread. A "latch" is used to lock out other threads (i.e. using mutexes). In a single-threaded implementation, you don't need latches.
+
 ## Tips!
 * A real-world implementation of tree locking in databases would mostly have to be thread-safe, but I think it would be very domain-specific to be a general interview question.
 * Write tests if you have time. I almost forgot that siblings could be locked/unlocked independently but realized that mistake while writing tests!
