@@ -10,6 +10,9 @@ Video has additional tips and illustrations. If you want to read the comments or
 
 * Solution code to the question is at: [https://github.com/soygul/QuanticDev/blob/master/algorithms/trees/lockable-tree/lockable-tree.js](https://github.com/soygul/QuanticDev/blob/master/algorithms/trees/lockable-tree/lockable-tree.js){:target="_blank"}{:rel="noopener"}
 
+Reddit discussion on this article:
+* [https://www.reddit.com/r/programming/comments/gjiwh4/lockable_tree_google_interview_question/](https://www.reddit.com/r/programming/comments/gjiwh4/lockable_tree_google_interview_question/){:target="_blank"}{:rel="noopener"}
+
 ## Overview
 This is a very well-crafted interview question by Google. Both the requirements and the question itself are quite clear, which is a rarity in the industry. Often, the interviewers will intentionally make the question a little obscure, so they can observe how you do your requirements analysis and if you can communicate with the interviewers clearly. However, in this case, the requirements are clear cut, which I think reflects how Google operates. It is a medium difficulty question. But a fair knowledge of tree data structures is necessary to come up with a clean and concise solution. Do not worry though, I have an article comping up on general tree structures soon.
 
