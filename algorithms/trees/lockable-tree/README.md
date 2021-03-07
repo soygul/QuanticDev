@@ -1,5 +1,5 @@
 # Lockable Tree - Google Interview Question
-Lockable tree is a great programming interview question asked by Google, and it is a very well thought out one. A lockable tree is a tree with nodes that can be locked if none of its ancestors or descendants is locked. In the question, we are asked to implement locking/unlocking operations that should run in `O(h)` time where `h` is the `height of the tree`. Lock/unlock methods do not need to be thread-safe.
+Lockable tree is a great programming interview question asked by Google, and it is a very well thought out one. A lockable tree is a tree with nodes that can be locked if and only if none of its ancestors or descendants is locked. In the question, we are asked to implement locking/unlocking operations that should run in `O(h)` time where `h` is the `height of the tree`. Lock/unlock methods do not need to be thread-safe.
 
 ## Resources
 You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=1mTGZHcs7zw](https://www.youtube.com/watch?v=1mTGZHcs7zw){:target="_blank"}{:rel="noopener"}
@@ -12,6 +12,7 @@ Solution code to the question is at: [https://github.com/soygul/QuanticDev/blob/
 
 Articles that I referenced in this article:
 * Index locking: [https://en.wikipedia.org/wiki/Index_locking](https://en.wikipedia.org/wiki/Index_locking){:target="_blank"}{:rel="noopener"}
+* Multiple granularity locking: [https://en.wikipedia.org/wiki/Multiple_granularity_locking](https://en.wikipedia.org/wiki/Multiple_granularity_locking){:target="_blank"}{:rel="noopener"}
 * Blocking vs Non-Blocking functions: [https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/](https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/){:target="_blank"}{:rel="noopener"}
 
 Reddit discussion on this article:
@@ -21,7 +22,7 @@ Reddit discussion on this article:
 This is a very well-crafted interview question by Google. Both the requirements and the question itself are quite clear, which is a rarity in the industry. Often, the interviewers will intentionally make the question a little obscure, so they can observe how you do your requirements analysis and if you can communicate with the interviewers clearly. However, in this case, the requirements are clear cut, which I think reflects how Google operates. It is a medium difficulty question. But a fair knowledge of tree data structures is necessary to come up with a clean and concise solution. Do not worry though, I have an article comping up on general tree structures soon.
 
 ## Question
-Design a tree with nodes that can be locked if none of its ancestors or descendants is locked. Locking/unlocking operations should run in `O(h)` time (`h` = `height of the tree`). Lock/unlock methods do not need to be thread-safe. I will explain how this question relates to databases and why single-threaded locking/unlocking is still useful in the last section.
+Design a tree with nodes that can be locked if and only if none of its ancestors or descendants is locked. Locking/unlocking operations should run in `O(h)` time (`h` = `height of the tree`). Lock/unlock methods do not need to be thread-safe. I will explain how this question relates to databases and why single-threaded locking/unlocking is still useful in the last section.
 
 ## Requirements Analysis
 * Required time complexity: `O(h)`
@@ -65,6 +66,8 @@ Store `locked` and `lockedDescendantCount` variables in each node.
 One of the prime use of lockable data structures like trees is databases. Say in a relational database, you use a tree to represent a table's index, and you want to execute a transaction that will lock a portion of the index. Depending on the tree and locking strategy you use, you might end up with requirements very similar to this question, and you will want your lock operations to run in `O(h)` time. The solution we came up in this exercise would be a good fit for this job. If you want to read more on database index locking, I have the link to a Wikipedia article on the subject in the resources section above.
 
 Now let's address the elephant in the room. What good is a locking/unlocking algorithm if it is not thread-safe? There are single-threaded databases, and locking/unlocking is still applicable there. You can ask, what is locking guarding against in a single-threaded application? JavaScript applications are always single-threaded, but they can be asynchronous. For instance, you have one asynchronous task that initiates a database transaction and yields the control to another asynchronous task while `await`-ing the result from an HTTP request. If we don't use locking, the second task can initiate a new database transaction and invalidate the work that is still being done by the first task that we are still `await`-ing. All these happen in a single thread, but not everything happens synchronously. If everything were synchronous, long-running tasks like HTTP requests would make the CPU sit mostly idle while waiting. If you want to read more about synchronous/asynchronous/blocking/non-blocking functions, I have the link to a nice writeup in Node.js documentation, and the link to it is in the resources section again.
+
+You should note that you can lock and unlock siblings independently of each other, as long as their ancestors are not already locked. In a real database, this would require you to grab a shared lock on the ancestors to be able to acquire an exclusive lock on the node you want. Our implementation in this question is essentially this, but without the mention of exclusive, shared, etc., locking concepts. This concept is called "multiple granularity locking" the wiki article on the subject is in the resources section.
 
 You can make this tree thread-safe by using read/read-write mutexes at appropriate places if you want. For `lock()` operation, you can obtain a read-write mutex at the tree level the moment you access the tree. As you traverse the ancestors and descendants of the tree, you can release the mutexes for the nodes' siblings, as they don't affect our target node's lockability (only their ancestors and descendants do).
 
