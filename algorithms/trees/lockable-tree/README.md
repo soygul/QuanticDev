@@ -1,5 +1,5 @@
 # Lockable Tree - Google Interview Question
-Lockable tree is a great programming interview question asked by Google, and it is a very well thought out one. A lockable tree is a tree with nodes that can be locked if and only if none of its ancestors or descendants is locked. In the question, we are asked to implement locking/unlocking operations that should run in `O(h)` time where `h` is the `height of the tree`. Lock/unlock methods do not need to be thread-safe.
+Lockable tree is a great programming interview question asked by Google, and it is a very well thought out one. A lockable tree is a tree with nodes that can be locked if none of its ancestors and descendants is locked. In the question, we are asked to implement locking/unlocking operations that should run in `O(h)` time where `h` is the `height of the tree`. Lock/unlock methods do not need to be thread-safe.
 
 ## Resources
 You can find the video narration of this article on YouTube: [https://www.youtube.com/watch?v=1mTGZHcs7zw](https://www.youtube.com/watch?v=1mTGZHcs7zw){:target="_blank"}{:rel="noopener"}
@@ -22,7 +22,7 @@ Reddit discussion on this article:
 This is a very well-crafted interview question by Google. Both the requirements and the question itself are quite clear, which is a rarity in the industry. Often, the interviewers will intentionally make the question a little obscure, so they can observe how you do your requirements analysis and if you can communicate with the interviewers clearly. However, in this case, the requirements are clear cut, which I think reflects how Google operates. It is a medium difficulty question. But a fair knowledge of tree data structures is necessary to come up with a clean and concise solution. Do not worry though, I have an article comping up on general tree structures soon.
 
 ## Question
-Design a tree with nodes that can be locked if and only if none of its ancestors or descendants is locked. Locking/unlocking operations should run in `O(h)` time (`h` = `height of the tree`). Lock/unlock methods do not need to be thread-safe. I will explain how this question relates to databases and why single-threaded locking/unlocking is still useful in the last section.
+Design a tree with nodes that can be locked if and only if none of its ancestors and descendants is locked. Locking/unlocking operations should run in `O(h)` time (`h` = `height of the tree`). Lock/unlock methods do not need to be thread-safe. I will explain how this question relates to databases and why single-threaded locking/unlocking is still useful in the last section.
 
 ## Requirements Analysis
 * Required time complexity: `O(h)`
@@ -40,7 +40,7 @@ Design a tree with nodes that can be locked if and only if none of its ancestors
 ## Improvement
 Let's try to implement a basic `lock()` method with `O(h)` time complexity target (`h` = `height of the tree`):
 * Calculate time complexity for: locking the root node.
-* Calculate time complexity for: locking bottom nodes.
+* Calculate time complexity for: locking the leaves.
 * Calculate time complexity for: locking sibling nodes.
 * Think of what variables we can store in nodes to reduce time complexity.
 
@@ -50,17 +50,17 @@ Store `locked` and `lockedDescendantCount` variables in each node.
 ### Method: `lock()`
 * Check if node to be locked is already locked or have locked descendants using the variables. If so, stop.
 * Check if any of the ancestors are locked. If so, stop.
-* Inform all ancestors that their locked descendant count increased by one.
+* Set `locked` to `true` on the node and inform all ancestors that their locked descendant count has increased by one.
 * Time complexity: `O(h)`
 * Space complexity: `O(1)`
 * Note: Space complexity of the `lock()` function is `O(1)`, but the space complexity of the entire tree goes up by `O(n)` during its creation due to the newly added fields. Don't forget to explain this detail in an interview situation. Alternatively you can just write `O(n)` as the space complexity.
 
 ### Method: `unlock()`
 * Check if node to be unlocked is already unlocked. If so, stop.
-* Inform all ancestors that their locked descendant count decreased by one.
+* Set `locked` to `false` on the node and inform all ancestors that their locked descendant count has decreased by one.
 * Time complexity: `O(h)`
 * Space complexity: `O(1)`
-* Same note about tree's space complexity increase applies here too (see the `lock()` method).
+* Same note about tree's space complexity increase applies here too (see the note on `lock()` method above).
 
 ## How Does This Question Relates to Databases?
 One of the prime use of lockable data structures like trees is databases. Say in a relational database, you use a tree to represent a table's index, and you want to execute a transaction that will lock a portion of the index. Depending on the tree and locking strategy you use, you might end up with requirements very similar to this question, and you will want your lock operations to run in `O(h)` time. The solution we came up in this exercise would be a good fit for this job. If you want to read more on database index locking, I have the link to a Wikipedia article on the subject in the resources section above.
