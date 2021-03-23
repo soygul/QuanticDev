@@ -16,6 +16,9 @@ Salary and compensation comparison resources:
 * LinkedIn Salary: [https://www.linkedin.com/salary](https://www.linkedin.com/salary){:target="_blank"}{:rel="noopener"}
 * GlassDoor Salaries: [https://www.glassdoor.com/salaries](https://www.glassdoor.com/salaries){:target="_blank"}{:rel="noopener"}
 
+Learn to negotiate your salary from real recruiters:
+* Moonchaser.io: [https://www.levels.fyi](https://www.moonchaser.io/?utm_source=quanticdev&utm_medium=article){:target="_blank"}{:rel="noopener"}
+
 Do not forget, before assuming your compensation based on resources above, compare your projects, publications, references, and accomplishments to others. The article will guide you on all these points.
 
 I will create a dedicated in-depth article to help you estimate your expected income later on. It will include software and other fields of engineering, and perhaps some of engineering management field.
