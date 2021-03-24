@@ -17,7 +17,7 @@ Salary and compensation comparison resources:
 * GlassDoor Salaries: [https://www.glassdoor.com/salaries](https://www.glassdoor.com/salaries){:target="_blank"}{:rel="noopener"}
 
 Learn to negotiate your salary from real recruiters:
-* Moonchaser.io: [https://www.levels.fyi](https://www.moonchaser.io/?utm_source=quanticdev&utm_medium=article){:target="_blank"}{:rel="noopener"}
+* Moonchaser.io: [https://www.moonchaser.io](https://www.moonchaser.io/?utm_source=quanticdev&utm_medium=article){:target="_blank"}{:rel="noopener"}
 
 Do not forget, before assuming your compensation based on resources above, compare your projects, publications, references, and accomplishments to others. The article will guide you on all these points.
 
