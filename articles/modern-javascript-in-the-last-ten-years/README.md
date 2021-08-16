@@ -6,7 +6,7 @@ Xxxxxxxxxx
 ![XXXXXXXXXXXXXXXXXX](media/XXXXXXXXXXXXXXXXXX)
 
 
-# TITLE
+# Roaring Decade of JavaScript: Everything You Missed Over the Last 10 Years (ECMAScript 2022 Edition)
 Intro
 
 Table of contents:
@@ -34,6 +34,9 @@ Resources mentioned in this article:
 Relevant articles referred to in this article:
 * [XXXXXXXXXXXXXX](/articles/xxxxxxx){:target="_blank"}{:rel="noopener"}
 * [XXXXXXXXXXXXXX](/algorithms/xxxxxxx){:target="_blank"}{:rel="noopener"}
+
+This article builds on top of Sandro Turriate's excellent article on ECMAScript 2020:
+* [https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years](https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years){:target="_blank"}{:rel="noopener"}
 
 ## Overview
 Overview
