@@ -155,7 +155,7 @@ As always, the solution code for this question and the tournament trees is in Qu
 
 For reference, I am pasting a snapshot of the simplified solution code here. However, I update my solution code regularly based on feedback, so I recommend you check the GitHub repo for up-to-date code:
 
-```javascript
+```js
 /**
  * Distributed sorting algorithm implementation for my "Distributed Sorting" video: https://www.youtube.com/watch?v=vgKjatRVtys
  * The video explains the algorithm using animations so I highly recommend checking it out before reading the code.
@@ -227,7 +227,7 @@ function createNode (dataChunk) {
 ## Tests
 It is essential to write tests in a complex implementation like this, especially for corner cases. Write tests to cover all corner cases you can think of, as much as your time permits. If you are allowed to execute your code, don't forget to run the tests. I usually write tests before code, in line with test-driven development principles. It cuts down on debug cycles massively. i.e.:
 
-```javascript
+```js
 // test case #1
 const exampleInput1 = [4, 10, 1, 14, 7, 9, 3, 5]
 const solution1 = [1, 3, 4, 5, 7, 9, 10, 14]

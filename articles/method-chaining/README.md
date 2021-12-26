@@ -127,7 +127,7 @@ db.connect('postgresql://localhost/testdb') \
 ## Conclusion
 In conclusion, method chaining is not a silver bullet, but for where it fits, it brings conciseness and clarity, which I always like. In my experience, tests and data filtering and manipulation code are prime candidates for method chaining. Next time you are going to implement a framework or a utility class, you can provide chainable methods to make life easier for the prospective users of that code.
 
-```javascript
+```js
 readers
   .filter(p => p.followed_me_on_twitter === true)
   .sort(p => p.time)

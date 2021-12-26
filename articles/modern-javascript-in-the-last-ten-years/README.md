@@ -41,5 +41,11 @@ This article builds on top of Sandro Turriate's excellent article on ECMAScript 
 ## Overview
 Overview
 
+## Classes
+
+```js
+
+```
+
 ## Conclusion
 Conclusion
