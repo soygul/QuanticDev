@@ -77,10 +77,10 @@ Solution: Sliding Window on Kadane's Algorithm
 
 ## Proof of Correctness of Kadane's Algorithm
 * Define: `MaxSum(i) = Max(Sum(0->i), Sum(1->i), Sum(2->i), ..., Sum(i->i))` where `Sum(x->i)` is the sum of all elements from index x to i. So we list all possible subarrays and take the one with the maximum sum here. We established this in the brute-force solution.
-* Note: `Sum(x->i+1) = Sum(x->i) + El(i+1)` where `El(i+1)` is the element value at index `i+1`.
-* As a Result: `MaxSum(i+1) = Max(Sum(0->i) + El(i), Sum(1->i) + El(i+1), ..., Sum(i->i) + El(i+1), El(i+1))= Max(Max(Sum(0->i) + El(i+1), Sum(1->i) + El(i+1), ..., Sum(i->i) + El(i+1)), El(i+1))`
+* Note: `Sum(x->i+1) = Sum(x->i) + El(i+1)` if `i+1 > x` where `El(i+1)` is the element value at index `i+1` and `Sum(x->i+1) = El(i+1)` if `x == i+1`.
+* As a Result: `MaxSum(i+1) = Max(Sum(0->i) + El(i+1), Sum(1->i) + El(i+1), ..., Sum(i->i) + El(i+1), El(i+1)) = Max(Max(Sum(0->i) + El(i+1), Sum(1->i) + El(i+1), ..., Sum(i->i) + El(i+1)), El(i+1))`
 * Note: `max(a+y, b+y, c+y)=max(a, b, c) + y`
-* As a Result: `MaxSum(i+1) = Max(Max(Sum(0->i), Sum(1->i), Sum(2->i), ..., Sum(i->i)) + El(i+1), El(i+1))= Max(MaxSum(i) + El(i+1), El(i+1))`
+* As a Result: `MaxSum(i+1) = Max(Max(Sum(0->i), Sum(1->i), Sum(2->i), ..., Sum(i->i)) + El(i+1), El(i+1)) = Max(MaxSum(i) + El(i+1), El(i+1))`
 * Note: We used `MaxSum(i+1) = Max(MaxSum(i) + El(i+1), 0)` in our problems before, which is also valid.
 * You can also use `induction` or `contradiction` to prove Kadane's Algorithm.
 
