@@ -2,3 +2,6 @@
 .idea/
 .vscode/
 tools/code-animation/media/
+
+# Other
+.DS_Store
