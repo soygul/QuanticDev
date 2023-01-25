@@ -31,14 +31,16 @@
         createCookie(name,"",-1);
     }
 
-    function load_google_analytics() {
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-44071631-2', 'auto');
-      ga('send', 'pageview');
+    function load_google_analytics_tag_manager() {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-2YX2GXC6Q8');
     }
 
     if(readCookie('cookie-notice-dismissed')=='accepted') {
-      load_google_analytics()
+      load_google_analytics_tag_manager()
     } else if(readCookie('cookie-notice-dismissed')=='rejected') {
       // do nothing
     } else  {
@@ -48,7 +50,7 @@
     document.getElementById('cookie-notice-accept').addEventListener("click",function() {
         createCookie('cookie-notice-dismissed','accepted',31);
         document.getElementById('cookie-notice').style.display = 'none';
-        load_google_analytics()
+        load_google_analytics_tag_manager()
     });
 
     document.getElementById('cookie-notice-reject').addEventListener("click",function() {
