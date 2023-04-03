@@ -80,6 +80,13 @@ Presenting information is easy to learn and hard to master skill. There are diff
 
 Tip: I have a bombshell of an article coming up on how to present ideas and products like Apple does. If you want to read it when it comes out, keep an eye on [quanticdev.com](https://quanticdev.com/)
 
+## Time Management
+Mastering time management is vital for achieving success in both personal and professional spheres. Familiarize yourself with well-known time management strategies such as the Pomodoro Technique (working in brief, concentrated intervals with breaks in between), the Eisenhower Matrix (prioritizing tasks according to urgency and importance), and time blocking (allocating specific time slots for various tasks). Play around with these techniques to find your own time-whispering method that'll help you seize every moment. Don't forget to harness the power of digital gizmos like task managers and calendar apps to keep chaos at bay and sail smoothly through your daily adventures.
+
+Personal anecdote: Even as a tech guy, I never managed to fully digitize my time management. Having a small sheet of paper outlining my day, which I prepare the day before, still serves me well. However, I use Google Keep as a very detailed to-do app. Finally, I use Google Calendar for everything else, such as recurring monthly or yearly events, and tasks that need to be done in a week, a month, or a year.
+
+![Google Notes by Bernie Goldbach](media/google_notes.png)
+
 ## Asking a Question
 You should learn how to ask a good question. Asking a clear and concise question is a skill of its own, but you can improve yourself with a tiny bit of time investment. You do not even need a guide for this. All you have to do is just a bit of self-reflection. Are you asking short and concise questions, or are you sneaking multiple questions into one sentence? Are you speaking clearly? Are your sentences too long? Reflect on the responses you got for your past questions and try to identify your strengths and weaknesses and work on them.
 
@@ -89,6 +96,27 @@ My best advice for you would be to ask the question in your mind to yourself and
 You saw this one coming! If you want to learn, you need to know how to learn effectively (yeah, it's a complicated sentence). First off, if you want to learn something new, you need to have the willingness to learn. After that, you need to concentrate. Leave everything aside for an hour and put your mind to the task. And after you cram a ton of information into your brain, you need to practice it. Most things that you want to learn will also necessitate mastery, which only comes with practice. One of the best ways of practicing stuff is hobby work. Say you have just mastered the art of cooking. Go ahead and prepare a dinner for your family. If they survive the experience, then do it again and again!
 
 In addition, teaching is one of the best ways of learning and re-learning. It is exactly the reason as to why I do these guides and write articles for them. If you sit on your newly acquired skills, they will disappear into the void. Instead, you can try and teach them to other people, make some short videos on them, or put them in writing so others can benefit from year learnings.
+
+## BONUS POINTS
+Time to cheer you up!
+
+## Meditation and Mindfulness
+Meditation and mindfulness are essential skills to develop in today's fast-paced world. Learning basic meditation techniques, such as focusing on your breath, body scanning, and loving-kindness meditation, can help reduce stress, improve focus, and promote a healthier mental state. Spend an hour learning and practicing meditation by following guided meditation videos, attending local meditation classes, or using meditation apps. Regular practice will help you become more mindful, centered, and resilient in your daily life.
+
+## Speed Reading
+Speed reading is a valuable skill that can help you consume more information in less time. Spend an hour learning speed reading techniques, such as chunking (grouping words together), skimming (quickly scanning for main ideas), and minimizing subvocalization (reducing the habit of "reading" words in your head). With practice, you can significantly increase your reading speed and comprehension, allowing you to read more books and articles in less time. There are various speed reading courses, books, and apps available to help you master this skill.
+
+## Networking
+Building a strong professional network is essential for career growth and finding new opportunities. Learn the basics of networking, such as how to introduce yourself, ask open-ended questions, and follow up with contacts. Practice your networking skills by attending industry events, joining professional groups in your field, or participating in online networking platforms like LinkedIn. Remember that networking is about building genuine connections, so focus on providing value and being authentic in your interactions.
+
+## Writing Effective Emails
+In the age of digital communication, writing clear and concise emails is crucial. Learn how to write effective emails by focusing on the subject line (make it informative and attention-grabbing), using a professional tone, and keeping your message brief and to the point. Make sure to proofread your emails for spelling and grammar errors, and use proper formatting to ensure readability. This skill will improve your communication with colleagues and clients, making you more efficient and professional.
+
+## How to Make the Perfect Cup of Coffee
+There's an art to brewing the perfect cup of coffee, and it doesn't involve a trip to the nearest chain cafe. In just an hour, you can learn about different brewing methods (such as pour-over, French press, and AeroPress), how to grind coffee beans, and the perfect water-to-coffee ratio. With a little practice, you'll be able to whip up a delicious, barista-worthy cup of joe right in your own kitchen. Say goodbye to overpriced lattes, and hello to your new morning ritual.
+
+## Giving a Solid Handshake
+A good handshake is like a secret handshake, it's a skill that instantly communicates trust, confidence, and professionalism. Spend an hour perfecting your grip, timing, and eye contact, and you'll be ready to make a lasting impression in any business or social setting. Just remember, there's a fine line between a firm handshake and a bone-crushing grip, you want to convey confidence, not send someone running for an ice.
 
 ## Conclusion
 Not all skills require oceans of time to acquire. There are hundreds of things that you can learn in no time, which would make remarkable improvements in your life. Optimizing your life in small ways will gradually give you more time to do the things you like. You just need to keep your practice game up not to lose your sharpness.
