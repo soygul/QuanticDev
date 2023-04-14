@@ -1,6 +1,35 @@
 # React.js Frequently Asked Questions (FAQs)
 Below are the most frequently asked questions about React, and their answers.
 
+* What is React, and why should I use it?
+* What are React Hooks, and how do I use them?
+* What is the difference between state and props in React?
+* What is the difference between a controlled and an uncontrolled component in React?
+* What is React's context API, and how do I use it?
+* What is React's virtual DOM, and how does it improve performance?
+* What are React lifecycle methods, and how do I use them in class components?
+* What is React.memo(), and how does it help with performance optimization?
+* What are React hooks, and how do they change the way I write components?
+* What is prop drilling, and how can I avoid it in my React application?
+* What is the difference between controlled and uncontrolled components in React?
+* What are React keys, and why are they important when rendering lists of elements?
+* What is React.lazy() and how do I use it for code splitting?
+* What are React Fragments, and how do I use them?
+* What is the difference between React.PureComponent and React.Component?
+* What is the difference between using state and using props in React components?
+* What is the useContext() hook, and how does it work with React Context?
+* How do I use the useRef() hook, and when should I use it?
+* What are controlled and uncontrolled components in React, and when should I use them?
+* What is prop drilling, and how can I avoid it?
+* What is the difference between using class components and functional components in React?
+* How can I handle forms and form validation in React?
+* How can I manage global state in my React application?
+* How can I optimize my React application for better performance?
+* How do I handle animations in React?
+* How do I handle forms and form validation in React?
+* How do I manage global state in a React application?
+* How do I optimize the performance of my React application?
+
 ## What is React, and why should I use it?
 
 React, also known as React.js or ReactJS, is an open-source JavaScript library created by Facebook for building user interfaces. It is primarily used for developing single-page applications (SPAs), where the user interacts with the page without requiring a full reload. React allows developers to create reusable UI components and manage their state, making it easier to build and maintain complex applications.
