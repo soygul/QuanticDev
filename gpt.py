@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = ""
 
 # gpt-4-32k
 openai.ChatCompletion.create(
