@@ -55,6 +55,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 
 ## Web Development
 * [What is React and why should I use it?](/web/what-is-react-and-why-should-i-use-it)
+* [React.js - Frequently asked Questions (FAQs)](/web/react-js-frequenty-asked-questions-faq)
 
 ## Guides
 * [Maximum Value PC Build by a Software Engineer - Complete Desktop Computer Build Guide](/articles/max-value-pc-build-guide)
