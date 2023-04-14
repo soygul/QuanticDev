@@ -1,5 +1,7 @@
 # What is React and why should I use it?
 
+![React](media/react_logo.png)
+
 I'm not a frontend/UI/UX developer, but I have to develop UIs for systems that I write quite often. For the past several years, React has been one of my favorite tools for developing UIs. I even started to write desktop app UIs using React + Electron. Now, why do I like React this much? Let's dive in and see:
 
 React, also known as React.js or ReactJS, is an open-source JavaScript library created by Facebook for building user interfaces, specifically for single-page applications (SPAs). It enables developers to create reusable UI components and manage the state of their applications efficiently.
@@ -1350,4 +1352,43 @@ package.json:
 
 ## Conclusion:
 Mastering React and its associated concepts, techniques, and tools is essential for building modern, performant, and scalable web applications. As a React developer, it's crucial to stay up-to-date with the latest trends, best practices, and libraries, as the ecosystem is continuously evolving. By gaining a deep understanding of core React concepts, such as components, state management, and the component lifecycle, as well as embracing advanced techniques like server-side rendering, performance optimization, and accessibility, you'll be well-prepared to tackle a wide range of web development challenges. Additionally, adopting tools and frameworks like Redux, Next.js, and Storybook can help streamline your development process and improve the overall quality of your applications. Keep learning and experimenting, and you'll continue to grow as a React developer, contributing to the success of your projects and the broader web development community.
+
+## React Resources
+Here are some recommended resources that will help you learn and improve your skills in React:
+
+1. Official React documentation: Start with the official React documentation to get a deep understanding of React concepts and best practices directly from the creators of the library. [https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html){:target="_blank"}{:rel="noopener"}
+2. React for Beginners by Wes Bos: This is a popular paid course for learning React from scratch, taught by web developer and educator Wes Bos. [https://reactforbeginners.com/](https://reactforbeginners.com/){:target="_blank"}{:rel="noopener"}
+3. Tyler McGinnis React Courses: Tyler McGinnis offers a range of React courses that are highly recommended for their comprehensive, in-depth coverage of the topic. [https://ui.dev/react/](https://ui.dev/react/){:target="_blank"}{:rel="noopener"}
+4. Egghead.io: This platform offers a wide range of video tutorials and courses on React and related technologies, created by experienced developers. [https://egghead.io/courses/the-beginner-s-guide-to-react](https://egghead.io/courses/the-beginner-s-guide-to-react){:target="_blank"}{:rel="noopener"}
+5. Fullstack React: This book provides a comprehensive guide to React and includes practical examples and best practices. [https://www.fullstackreact.com/](https://www.fullstackreact.com/){:target="_blank"}{:rel="noopener"}
+6. Scrimba: Scrimba offers interactive coding courses and screencasts for React and other web technologies. [https://scrimba.com/learn/learnreact](https://scrimba.com/learn/learnreact){:target="_blank"}{:rel="noopener"}
+7. Reactiflux: Join the Reactiflux community on Discord to chat with other React developers, ask questions, and share resources. [https://www.reactiflux.com/](https://www.reactiflux.com/){:target="_blank"}{:rel="noopener"}
+8. React subreddit: The React subreddit [https://www.reddit.com/r/reactjs/](https://www.reddit.com/r/reactjs/){:target="_blank"}{:rel="noopener"} is a great place to find helpful resources, ask questions, and join discussions with the React community.
+
+And some secondary resources:
+
+1. freeCodeCamp: freeCodeCamp offers a free, comprehensive curriculum covering web development, including a section on React. [https://www.freecodecamp.org/learn/front-end-libraries/react/](https://www.freecodecamp.org/learn/front-end-libraries/react/){:target="_blank"}{:rel="noopener"}
+2. Codecademy: Codecademy's Learn React course covers the fundamentals of React, with interactive coding exercises and quizzes. [https://www.codecademy.com/learn/react-101](https://www.codecademy.com/learn/react-101){:target="_blank"}{:rel="noopener"}
+3. Create React App: This is the official tool for creating new React applications, providing a simple setup with a pre-configured environment. [https://create-react-app.dev/](https://create-react-app.dev/){:target="_blank"}{:rel="noopener"}
+4. React Router: Learn how to handle routing in your React applications using the popular React Router library. [https://reactrouter.com/web/guides/quick-start](https://reactrouter.com/web/guides/quick-start){:target="_blank"}{:rel="noopener"}
+5. Material-UI: A popular React UI framework that implements Google's Material Design guidelines. It offers a wide range of components to build responsive and beautiful applications. [https://mui.com/](https://mui.com/){:target="_blank"}{:rel="noopener"}
+6. Ant Design: Another popular React UI library that provides a set of high-quality components and follows a comprehensive design system. [https://ant.design/](https://ant.design/){:target="_blank"}{:rel="noopener"}
+7. Redux: If you're looking to manage the state of your React application, Redux is a popular choice. The official Redux documentation is a great resource to get started. [https://redux.js.org/introduction/getting-started](https://redux.js.org/introduction/getting-started){:target="_blank"}{:rel="noopener"}
+8. MobX: An alternative to Redux, MobX is another popular state management library for React applications. [https://mobx.js.org/README.html](https://mobx.js.org/README.html){:target="_blank"}{:rel="noopener"}
+9. React Testing Library: Learn how to test your React components using the popular React Testing Library. [https://testing-library.com/docs/react-testing-library/intro/](https://testing-library.com/docs/react-testing-library/intro/){:target="_blank"}{:rel="noopener"}
+10. Enzyme: Another library for testing React components, developed by Airbnb. [https://enzymejs.github.io/enzyme/](https://enzymejs.github.io/enzyme/){:target="_blank"}{:rel="noopener"}
+11. React Patterns: This resource provides a collection of common patterns and best practices for building React applications. [https://reactpatterns.com/](https://reactpatterns.com/){:target="_blank"}{:rel="noopener"}
+12. Awesome React: A curated list of React resources, including libraries, tools, articles, and more. [https://github.com/enaqx/awesome-react](https://github.com/enaqx/awesome-react){:target="_blank"}{:rel="noopener"}
+13. React Hooks: Dive into the official documentation on React Hooks, which allows you to use state and other React features in functional components. [https://reactjs.org/docs/hooks-intro.html](https://reactjs.org/docs/hooks-intro.html){:target="_blank"}{:rel="noopener"}
+14. Context API: Learn how to use the React Context API for managing and sharing state across components without using third-party libraries. [https://reactjs.org/docs/context.html](https://reactjs.org/docs/context.html){:target="_blank"}{:rel="noopener"}
+15. React.memo: Improve the performance of your React applications by understanding and using React.memo to prevent unnecessary re-renders of components. [https://reactjs.org/docs/react-api.html#reactmemo](https://reactjs.org/docs/react-api.html#reactmemo){:target="_blank"}{:rel="noopener"}
+16. React Virtualized: Learn how to handle large lists and tables in your React applications with the React Virtualized library, which optimizes rendering performance. [https://github.com/bvaughn/react-virtualized](https://github.com/bvaughn/react-virtualized){:target="_blank"}{:rel="noopener"}
+17. React DnD: Enhance your application with drag-and-drop functionality using the React DnD library. [https://react-dnd.github.io/react-dnd/about](https://react-dnd.github.io/react-dnd/about){:target="_blank"}{:rel="noopener"}
+18. Next.js: Learn about the popular server-rendering framework for React applications, which provides a simple setup and several built-in features. [https://nextjs.org/](https://nextjs.org/){:target="_blank"}{:rel="noopener"}
+19. Gatsby: Explore Gatsby, a static site generator and framework for React that is optimized for performance and developer experience. [https://www.gatsbyjs.com/](https://www.gatsbyjs.com/){:target="_blank"}{:rel="noopener"}
+20. React Native: Learn how to build mobile applications using React Native, a framework that allows you to use React for cross-platform mobile app development. [https://reactnative.dev/](https://reactnative.dev/){:target="_blank"}{:rel="noopener"}
+21. React Developer Tools: Familiarize yourself with the React Developer Tools, a browser extension that helps you inspect and debug your React applications. [https://reactjs.org/blog/2019/08/15/new-react-devtools.html](https://reactjs.org/blog/2019/08/15/new-react-devtools.html){:target="_blank"}{:rel="noopener"}
+22. Kent C. Dodds: Kent C. Dodds is an influential educator in the React community. He offers various courses, blog posts, and podcasts on React and web development. [https://kentcdodds.com/](https://kentcdodds.com/){:target="_blank"}{:rel="noopener"}
+
+As always, be sure to search for these resources online and check for the latest updates and content. Learning React is an ongoing process, and staying informed about new developments and best practices will help you stay at the top of your game.
 

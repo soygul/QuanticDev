@@ -1,4 +1,7 @@
 # React.js Frequently Asked Questions (FAQs)
+
+![React](media/react_logo.png)
+
 Below are the most frequently asked questions about React, and their answers.
 
 * What is React, and why should I use it?
@@ -29,6 +32,7 @@ Below are the most frequently asked questions about React, and their answers.
 * How do I handle forms and form validation in React?
 * How do I manage global state in a React application?
 * How do I optimize the performance of my React application?
+* What are some great React resources?
 
 ## What is React, and why should I use it?
 
@@ -2146,3 +2150,14 @@ function App() {
 
 In summary, optimizing the performance of your React application involves techniques like using functional components and hooks, memoization, PureComponent, shouldComponentUpdate, lazy loading, code splitting, and optimizing bundle size. Regularly analyze your application's performance and apply optimizations as needed to ensure a smooth user experience.
 
+## What are some great React resources?
+Here are some recommended resources that will help you learn and improve your skills in React:
+
+1. Official React documentation: Start with the official React documentation to get a deep understanding of React concepts and best practices directly from the creators of the library. [https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html){:target="_blank"}{:rel="noopener"}
+2. React for Beginners by Wes Bos: This is a popular paid course for learning React from scratch, taught by web developer and educator Wes Bos. [https://reactforbeginners.com/](https://reactforbeginners.com/){:target="_blank"}{:rel="noopener"}
+3. Tyler McGinnis React Courses: Tyler McGinnis offers a range of React courses that are highly recommended for their comprehensive, in-depth coverage of the topic. [https://ui.dev/react/](https://ui.dev/react/){:target="_blank"}{:rel="noopener"}
+4. Egghead.io: This platform offers a wide range of video tutorials and courses on React and related technologies, created by experienced developers. [https://egghead.io/courses/the-beginner-s-guide-to-react](https://egghead.io/courses/the-beginner-s-guide-to-react){:target="_blank"}{:rel="noopener"}
+5. Fullstack React: This book provides a comprehensive guide to React and includes practical examples and best practices. [https://www.fullstackreact.com/](https://www.fullstackreact.com/){:target="_blank"}{:rel="noopener"}
+6. Scrimba: Scrimba offers interactive coding courses and screencasts for React and other web technologies. [https://scrimba.com/learn/learnreact](https://scrimba.com/learn/learnreact){:target="_blank"}{:rel="noopener"}
+7. Reactiflux: Join the Reactiflux community on Discord to chat with other React developers, ask questions, and share resources. [https://www.reactiflux.com/](https://www.reactiflux.com/){:target="_blank"}{:rel="noopener"}
+8. React subreddit: The React subreddit [https://www.reddit.com/r/reactjs/](https://www.reddit.com/r/reactjs/){:target="_blank"}{:rel="noopener"} is a great place to find helpful resources, ask questions, and join discussions with the React community.
