@@ -51,6 +51,12 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Subarray vs Substring vs Subsequence vs Subset](/algorithms/primitives/subarray-vs-substring-vs-subsequence-vs-subset)
 * [Sliding Window Technique](/algorithms/dynamic-programming/sliding-window)
 
+## Artificial Intelligence
+
+## Web Development
+* [What is React and why should I use it?](/web/what-is-react-and-why-should-i-use-it)
+* [React.js - Frequently asked Questions (FAQs)](/web/react-js-frequenty-asked-questions-faq)
+
 ## Guides
 * [Maximum Value PC Build by a Software Engineer - Complete Desktop Computer Build Guide](/articles/max-value-pc-build-guide)
 * [How to Get a Great Linux Laptop at a Perfect Price - Lenovo ThinkPad Without a Pre-installed OS](/articles/linux-laptop-at-perfect-price)
