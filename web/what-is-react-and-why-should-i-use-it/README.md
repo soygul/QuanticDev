@@ -8,6 +8,105 @@ React, also known as React.js or ReactJS, is an open-source JavaScript library c
 
 There are several reasons why React is so popular, and why you should use it:
 
+1. Component-based architecture
+2. Virtual DOM
+3. Unidirectional data flow
+4. Ecosystem and community
+5. Flexible integration
+6. JSX
+7. State and Props
+8. Lifecycle methods
+9. Hooks
+10. Performance optimization
+11. Context API
+12. Higher-Order Components (HOCs)
+13. Error Boundaries
+14. Server-Side Rendering (SSR)
+15. Testing
+16. Type checking
+17. Code splitting and lazy loading
+18. Immutable data structures
+19. CSS in JS
+20. Accessibility (A11y)
+21. Internationalization (i18n) and Localization (l10n)
+22. Redux and state management
+23. GraphQL and data fetching
+24. Optimizing API calls
+25. Custom hooks
+26. Performance optimization
+27. Component library
+28. Web Workers
+29. Static site generation (SSG)
+30. Server Components
+31. Progressive Web Apps (PWAs)
+32. Animation
+33. Responsive design
+34. Continuous Integration (CI) and Continuous Deployment (CD)
+35. Serverless architecture
+36. Design systems
+37. Error boundaries
+38. Accessibility audits
+39. Code quality and linting
+40. Custom server rendering
+41. Component testing
+42. End-to-end (E2E) testing
+43. Feature flags
+44. React Native
+45. Micro-frontends
+46. Internationalization (i18n) and Localization (l10n)
+47. Dynamic imports and code splitting
+48. SEO optimization
+49. Theming and styling
+50. Security best practices
+51. React Concurrent Mode
+52. Custom Hooks
+53. Integration with third-party libraries
+54. Immutable data structures
+55. Architectural patterns
+56. Monorepo management
+57. Performance profiling
+58. Server components
+59. Developer experience (DX)
+60. React Query
+61. TypeScript
+62. Component libraries
+63. Static site generation
+64. Optimistic updates
+65. Serverless functions
+66. Accessibility (a11y)
+67. State Machines
+68. Web Workers
+69. Error boundaries
+70. WebSockets
+71. WebRTC
+72. Progressive Web Apps (PWAs)
+73. Micro-frontends
+74. Headless CMS integration
+75. GraphQL
+76. Code Splitting
+77. CSS-in-JS
+78. Animations
+79. Responsive design
+80. Custom Hooks
+81. Storybook
+82. Immutable Data Structures
+83. Design Systems
+84. Next.js
+85. Server Components
+86. Performance Profiling
+87. JAMstack
+88. CSS Modules
+89. Suspense for Data Fetching
+90. Hydration
+91. Concurrent Mode
+92. Two-way data binding
+93. Serverless Functions
+94. React Developer Tools
+95. Type Checking
+96. Error Boundaries
+97. Web Accessibility (a11y)
+98. Unit Testing
+
 ## 1. Component-based architecture:
 React encourages the creation of reusable components, which makes it easier to maintain and scale applications. Components are self-contained, modular pieces of UI that can be combined to create complex interfaces.
 
@@ -30,6 +129,9 @@ ReactDOM.render(
 
 ## 2. Virtual DOM:
 React uses a lightweight in-memory data structure called the virtual DOM to track changes in the application's UI. This allows for efficient updates and rendering, minimizing the performance impact on the browser.
+
+Virtual DOM increases UI redraw performance considerably:
+![Virtual DOM](media/virtual-dom.png)
 
 ## 3. Unidirectional data flow:
 React follows a unidirectional data flow, making it easier to understand and debug an application's behavior. Data in a React application flows from parent components to child components through properties, or "props."
@@ -340,6 +442,8 @@ test('renders counter and increments count', () => {
 });
 ```
 
+![Sample React App](media/sample_react_source_code.jpeg)
+
 ## 16. Type checking:
 Type checking helps to catch errors early in the development process by validating the types of variables and props used in your components. TypeScript is a popular choice for adding static types to JavaScript and can be easily integrated with React. Alternatively, you can use PropTypes, a runtime type-checking library for React.
 
@@ -555,6 +659,9 @@ function App() {
 export default App;
 ```
 
+Using GraphQL hugely simplifies data fetching. You can fetch data from various resources in one go to create a complete diagram like blow:
+![React Diagrams](media/react_diagrams_2.jpg)
+
 ## 24. Optimizing API calls:
 When working with APIs, it's essential to optimize data fetching and avoid unnecessary requests. In React, you can use the useEffect hook to manage API calls and handle component updates, ensuring that your components only fetch data when needed.
 
@@ -598,6 +705,10 @@ Performance optimization in React applications involves identifying and addressi
 
 ## 27. Component library:
 Creating a component library for your React application can help maintain a consistent user interface and streamline the development process. Component libraries contain reusable UI components that follow a specific design system or style guide. Popular React component libraries include Material-UI, Ant Design, and Chakra UI.
+
+The fabulous MUI React UI component library:
+![MUI React UI Component Library](media/mui_component_library.jpg)
+
 ## 28. Web Workers:
 Web Workers allow you to run JavaScript code in a separate thread, preventing UI blocking due to computationally intensive tasks. By offloading complex calculations and data processing to a web worker, you can improve the responsiveness and performance of your React application.
 
@@ -732,6 +843,9 @@ Feature flags, also known as feature toggles, allow you to enable or disable spe
 ## 44. React Native:
 React Native is a framework for building native mobile applications using React. With React Native, you can use your existing React knowledge and write cross-platform mobile applications for Android and iOS using JavaScript and native UI components. Sharing code between your web and mobile applications can lead to more efficient development and easier maintenance.
 
+React Native will give you native look & feel and near native performance:
+![React Native](media/react_native.png)
+
 ## 45. Micro-frontends:
 Micro-frontends are an architectural pattern that involves breaking a monolithic frontend application into smaller, more manageable pieces. Each micro-frontend can be developed, tested, and deployed independently, allowing for better scalability and easier collaboration between teams. React can be used to build individual micro-frontends, which can then be combined into a single application using tools like single-spa or Module Federation.
 
@@ -860,7 +974,7 @@ React Server Components, currently an experimental feature, aim to provide a way
 ## 59. Developer experience (DX):
 A good developer experience is essential for maintaining productivity and code quality in your React projects. Tools and practices that contribute to a positive DX include fast build times, hot module replacement, linting and formatting tools, clear documentation, and efficient debugging tools. Ensuring a smooth developer experience can lead to better collaboration, higher code quality, and faster development cycles.
 
-## 60. React Query
+## 60. React Query:
 React Query is a library for managing server state in your React applications. It provides built-in hooks for fetching, caching, and updating data from your APIs, as well as advanced features like background fetching, pagination, and more. React Query can help you manage server state more efficiently and improve the overall performance of your application.
 
 Example (using React Query to fetch data):
@@ -892,14 +1006,12 @@ function Posts() {
 export default Posts;
 ```
 
-By incorporating these additional concepts and techniques into your React development, you can further enhance your skills and stay ahead in the ever-evolving web development landscape. Keep learning and staying up-to-date with the latest trends, tools, and best practices to ensure the success of your applications and to continue growing as a React developer.
-
 ## 61. TypeScript:
 TypeScript is a statically typed superset of JavaScript that adds optional types to the language. By using TypeScript with your React projects, you can catch type-related errors during development, improve code readability, and provide better tooling support with features like autocompletion and type-checking. To use TypeScript with React, you can either create a new project using create-react-app with the TypeScript template or configure TypeScript in an existing project.
 
 Example (TypeScript with React):
 
-```typescript
+```tsx
 import React, { useState } from 'react';
 
 interface CounterProps {
@@ -1154,7 +1266,7 @@ CSS Modules are a technique for scoping CSS to specific components, avoiding glo
 
 Example (Using CSS Modules in React):
 
-```javascript
+```jsx
 // styles.module.css
 .container {
   background-color: #f5f5f5;
