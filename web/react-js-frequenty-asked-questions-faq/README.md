@@ -32,6 +32,7 @@ Below are the most frequently asked questions about React, and their answers.
 * How do I handle forms and form validation in React?
 * How do I manage global state in a React application?
 * How do I optimize the performance of my React application?
+* How do I build native mobile apps using React Native?
 * What are some great React resources?
 
 ## What is React, and why should I use it?
@@ -229,6 +230,9 @@ In this example, FormExample has both a controlled input and an uncontrolled inp
 
 This example demonstrates the difference between controlled and uncontrolled components in React, highlighting how controlled components manage input values through state, while uncontrolled components manage input values through the DOM.
 
+MUI React UI component library. It's amazing if you want to reuse highly optimized open-source components:
+![MUI React UI component library](media/mui_component_library.jpg)
+
 ## What is React's context API, and how do I use it?
 
 React's context API is a feature that allows you to share global data (such as themes, user information, or application settings) across your entire component tree without having to pass the data through props manually at each level.
@@ -313,6 +317,8 @@ The virtual DOM's main benefits include:
 
 In summary, React's virtual DOM is an optimization technique that helps improve performance by minimizing direct DOM manipulations. It allows developers to write declarative UI code without worrying about performance, resulting in a more efficient and easier-to-maintain application.
 
+![Virtual DOM](media/virtual-dom.png)
+
 ## What are React lifecycle methods, and how do I use them in class components?
 
 React lifecycle methods are special methods in class components that allow you to execute code at specific points during a component's life cycle, such as when it's created, updated, or destroyed. Lifecycle methods help you manage side effects, like fetching data or subscribing to events, and optimize the rendering process.
@@ -368,6 +374,9 @@ In this example, we have a class component called LifecycleExample. We use the c
 
 This example demonstrates how lifecycle methods in class components allow you to execute code at specific points during a component's life cycle, helping you manage side effects and optimize the rendering process. Note that in functional components, the useEffect hook can be used to achieve similar functionality.
 
+A pretty good demonstration of React lifecycle methods in action, the React Diagrams library:
+![React Diagrams](media/react_diagrams_1.jpg)
+
 ## What is React.memo(), and how does it help with performance optimization?
 
 React.memo() is a higher-order component (HOC) that allows you to optimize the rendering performance of functional components by memoizing the result of the render function. This means that React.memo() will only re-render the component when its props change, avoiding unnecessary re-renders when the parent component updates.
@@ -411,6 +420,8 @@ export default React.memo(ExpensiveComponent, arePropsEqual);
 It's important to note that while React.memo() can help improve performance in some cases, it may not always provide a significant benefit and can even introduce overhead in certain scenarios. Be sure to measure the performance of your application before and after applying React.memo() to ensure it's having the desired effect.
 
 In summary, React.memo() is a higher-order component that allows you to optimize the rendering performance of functional components by memoizing their render output. This can help avoid unnecessary re-renders and improve the overall performance of your application. However, it's essential to measure performance and use React.memo() judiciously, as it may not always provide significant benefits.
+
+![Sample React Project](media/sample_react_source_code.jpeg)
 
 ## What are React hooks, and how do they change the way I write components?
 
@@ -2149,6 +2160,42 @@ function App() {
 3. Use production builds: Ensure that you use production builds of React and other libraries when deploying your application. Production builds often include performance optimizations and exclude debugging features, leading to smaller bundle sizes and better performance.
 
 In summary, optimizing the performance of your React application involves techniques like using functional components and hooks, memoization, PureComponent, shouldComponentUpdate, lazy loading, code splitting, and optimizing bundle size. Regularly analyze your application's performance and apply optimizations as needed to ensure a smooth user experience.
+
+## How do I build native mobile apps using React Native?
+Building native mobile apps using React Native involves several steps. React Native is a popular framework developed by Facebook that allows you to build native mobile apps using JavaScript and React. Here's an overview of the process to get you started:
+
+1. Install prerequisites:Node.js (LTS version is recommended)Yarn or npm (package managers)Watchman (for macOS users)JDK (for Android development)Xcode (for iOS development on macOS)Android Studio (for Android development)
+2. Install React Native CLI:
+Run the following command in your terminal or command prompt to install the React Native CLI globally:
+```terminal
+npm install -g react-native-cli
+```
+3. Create a new React Native project:
+Use the following command to create a new project:
+```terminal
+react-native init YourProjectName
+```
+This will create a new folder with the given project name and set up the necessary files.
+4. Run your app on an emulator or a physical device:For iOS:Navigate to the project folder using the terminal, and run:
+```terminal
+cd YourProjectName
+react-native run-ios
+```
+This will launch the iOS simulator and run your app.For Android:Open Android Studio and start an Android Virtual Device (AVD) or connect a physical device.Make sure the device is in developer mode and USB debugging is enabled.Navigate to the project folder using the terminal, and run:
+```terminal
+cd YourProjectName
+react-native run-android
+```
+This will install and launch your app on the emulator or connected device.
+5. Start coding:Open the project folder in your favorite code editor.Locate the App.js file, which is the main entry point of your app.You can start modifying the code in App.js and adding new components as needed.React Native uses native components like View, Text, and Image instead of the usual HTML tags.
+6. Use third-party libraries and components:React Native has a rich ecosystem of third-party libraries and components that you can leverage in your app.To add a library, use npm or yarn to install it, and then follow the library's documentation for usage.
+7. Debugging:You can debug your app using React Native Debugger, the Chrome Developer Tools, or the built-in debugging tools in your IDE.To enable debugging, shake your device or press Cmd + D (macOS) or Ctrl + M (Windows/Linux) in the emulator.
+8. Build and distribute:Once your app is ready, you can build it for distribution on the App Store (iOS) or Google Play Store (Android).Follow the platform-specific guidelines for signing, packaging, and submitting your app.
+
+Remember to consult the official React Native documentation for more detailed information and best practices: [https://reactnative.dev/docs/getting-started](https://reactnative.dev/docs/getting-started){:target="_blank"}{:rel="noopener"}
+
+A good example of an iOS React Native app:
+![iOS React Native](media/react_native.png)
 
 ## What are some great React resources?
 Here are some recommended resources that will help you learn and improve your skills in React:
