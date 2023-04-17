@@ -2,7 +2,7 @@
 
 ![React](media/react_logo.png)
 
-Below are the most frequently asked questions about React, and their answers.
+Below are the most frequently asked questions about React, and their answers. This is probably the most comprehensive guide on the internet about most common questions about React, so don't forget to bookmark this page if you want to refer to it in the future.
 
 * What is React, and why should I use it?
 * What are React Hooks, and how do I use them?
