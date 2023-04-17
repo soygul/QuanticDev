@@ -2,7 +2,7 @@
 
 ![React](media/react_logo.png)
 
-I'm not a frontend/UI/UX developer, but I have to develop UIs for systems that I write quite often. For the past several years, React has been one of my favorite tools for developing UIs. I even started to write desktop app UIs using React + Electron. Now, why do I like React this much? Let's dive in and see:
+I'm not a frontend/UI/UX developer, but I often had to develop UIs for systems that I wrote for the past 1.5 decades as a senior software engineer. For the past several years however, React has been one of my favorite tools for developing UIs. I even started to write desktop app UIs using React + Electron. Now, why do I like React this much? Let's dive in and see. This will be the most comprehensive React Framework guide on the internet about why you should use React to develop Web, desktop, and mobile apps.
 
 React, also known as React.js or ReactJS, is an open-source JavaScript library created by Facebook for building user interfaces, specifically for single-page applications (SPAs). It enables developers to create reusable UI components and manage the state of their applications efficiently.
 
