@@ -1,4 +1,6 @@
 # Meet Our New Tech-Support Guy: Fine-Tuned ChatGPT-4 with External Long-Term Memory
+_April 24, 2023_
+
 Table of contents:
 * What and Why are We Doing?
 * How are We Doing It?
@@ -11,6 +13,9 @@ Table of contents:
 
 ## What and Why are we doing?
 Customer support has always been a crucial aspect of any successful business, and as technology progresses, so do the solutions available for providing efficient and effective customer service. Our company has recently welcomed a new member to our tech-support team: a fine-tuned ChatGPT-4 model with an external long-term memory system. We are fine-tuning the GPT-4 model with our past interactions, by labeling every question, accepted answer, and intermediate discussion. We are more or less turning all our support tickets into a StackOverflow format. Furthermore, we are using a vector database filled with our product documents as the GPT-4 model's very first memories. Later on, we are maintaining a per-customer vector database to preserve past discussion contexts. In this article, we will introduce you to this groundbreaking AI-powered chatbot and discuss the benefits it brings to our customer support infrastructure.
+
+A visual representation of event sequence for the support bot:
+![Sequence Diagram](media/supportbot_event_sequence.svg)
 
 ## How are We Doing It?
 As I mentioned, our support system has two main components: fine-tuning for domain-specific knowledge (patterns) and a long-term memory (context). Later on, we receive embeddings that are semantically closest to the customer's question and send it to GPT-4 for processing. We could say this is the short-term memory part. I must note that we use the `gpt-4-32k` model, which has 32K tokens per request to work with. That's a lot of memory.
