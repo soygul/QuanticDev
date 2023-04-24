@@ -43,6 +43,11 @@ A visual representation of event sequence for the support bot:
 +---------------------+           |
 |   Chatbot Response   |----------+
 +---------------------+
+           |
+           v
++---------------------+
+|      Customer       |
++---------------------+
 ```
 
 ## How are We Doing It?
