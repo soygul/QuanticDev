@@ -11,7 +11,7 @@ Table of contents:
 * Is this AGI in any Form?
 * Conclusion
 
-## What and Why are we doing?
+## What and Why are We doing?
 Customer support has always been a crucial aspect of any successful business, and as technology progresses, so do the solutions available for providing efficient and effective customer service. Our company has recently welcomed a new member to our tech-support team: a fine-tuned ChatGPT-4 model with an external long-term memory system. We are fine-tuning the GPT-4 model with our past interactions, by labeling every question, accepted answer, and intermediate discussion. We are more or less turning all our support tickets into a StackOverflow format. Furthermore, we are using a vector database filled with our product documents as the GPT-4 model's very first memories. Later on, we are maintaining a per-customer vector database to preserve past discussion contexts. In this article, we will introduce you to this groundbreaking AI-powered chatbot and discuss the benefits it brings to our customer support infrastructure.
 
 A visual representation of event sequence for the support bot:
