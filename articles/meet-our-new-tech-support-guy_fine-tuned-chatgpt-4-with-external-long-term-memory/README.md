@@ -41,7 +41,7 @@ A visual representation of event sequence for the support bot:
            |                      |
            v                      |
 +---------------------+           |
-|   Chatbot Response   |----------+
+|   Chatbot Response  |----------+
 +---------------------+
            |
            v
