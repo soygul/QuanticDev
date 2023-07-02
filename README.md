@@ -52,6 +52,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Sliding Window Technique](/algorithms/dynamic-programming/sliding-window)
 
 ## Artificial Intelligence
+* [Meet Our New Tech-Support Guy: Fine-Tuned ChatGPT-4 with External Long-Term Memory](/ai/meet-our-new-tech-support-guy_fine-tuned-chatgpt-4-with-external-long-term-memory)
 
 ## Web Development
 * [What is React and why should I use it?](/web/what-is-react-and-why-should-i-use-it)
@@ -78,7 +79,6 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Stripe's $35B valuation in 8 years - How a tech startup reaches billion-dollar valuation?](https://www.youtube.com/watch?v=nlFAbBvu7hA) [Video Only]
 
 ## Other
-* [Meet Our New Tech-Support Guy: Fine-Tuned ChatGPT-4 with External Long-Term Memory](/articles/meet-our-new-tech-support-guy_fine-tuned-chatgpt-4-with-external-long-term-memory)
 * [Our Startup Office Tour - But He Gets Wider After Every Corner](https://www.youtube.com/watch?v=Et5I2w59Pkw) [Video Only]
 * [Physicist Reviews Black Mesa Research Facility](https://www.youtube.com/watch?v=GLGRkMQdm78) [Video Only]
 

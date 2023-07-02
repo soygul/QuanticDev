@@ -11,11 +11,11 @@ Table of contents:
 * Is this AGI in any Form?
 * Conclusion
 
-DALL·E 2 Generated ChatGPT powered chat robot:
+Components that we used for this project. And yes, the name of our bot is a wordplay!:
 
-<img alt="ChatGPT powered chat robot" src="media/ChatGPT-powered-chat-robot.png"  width="400">
+<img alt="ChatGPT powered chat robot" src="media/ai-manuel.jpg">
 
-## What are We Doing & Why are We Doing It?
+## What Are We Doing & Why re We Doing It?
 Customer support has always been a crucial aspect of any successful business, and as technology progresses, so do the solutions available for providing efficient and effective customer service. Our company has recently welcomed a new member to our tech-support team: a fine-tuned ChatGPT-4 model with an external long-term memory system. We are fine-tuning the GPT-4 model with our past interactions, by labeling every question, accepted answer, and intermediate discussion. We are more or less turning all our support tickets into a StackOverflow format. Furthermore, we are using a vector database filled with our product documents as the GPT-4 model's very first memories. Later on, we are maintaining a per-customer vector database to preserve past discussion contexts. In this article, we will introduce you to this groundbreaking AI-powered chatbot and discuss the benefits it brings to our customer support infrastructure.
 
 A visual representation of event sequence for the support bot:
@@ -78,6 +78,10 @@ Our new tech-support guy, the fine-tuned ChatGPT-4 model with an external long-t
 * 24/7 availability: The chatbot can handle customer inquiries around the clock, ensuring uninterrupted support whenever our customers need it.
 * Faster response times: The AI-powered chatbot can process and respond to customer inquiries quickly, resulting in reduced wait times and improved customer satisfaction.
 * Scalability: As our customer base grows, the chatbot can easily handle increased support requests without the need for additional resources.
+
+DALL·E 2 Generated ChatGPT powered chat robot:
+
+<img alt="ChatGPT powered chat robot" src="media/ChatGPT-powered-chat-robot.png"  width="400">
 
 ## Is this AGI in any Form?
 Short answer is, no it is not. Artificial General Intelligence (AGI) refers to machines or systems with the ability to understand, learn, and perform any intellectual task that a human being can do. Achieving AGI is a complex and challenging goal, and although there is no universally accepted path to its realization, there are several key areas of research and development that are considered important. Some of these areas include:
