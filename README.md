@@ -51,7 +51,7 @@ If you want to contribute to any article, you are welcome to make a pull request
 * [Subarray vs Substring vs Subsequence vs Subset](/algorithms/primitives/subarray-vs-substring-vs-subsequence-vs-subset)
 * [Sliding Window Technique](/algorithms/dynamic-programming/sliding-window)
 
-## Artificial Intelligence
+## AI
 * [Meet Our New Tech-Support Guy: Fine-Tuned ChatGPT-4 with External Long-Term Memory](/ai/meet-our-new-tech-support-guy_fine-tuned-chatgpt-4-with-external-long-term-memory)
 
 ## Web Development
