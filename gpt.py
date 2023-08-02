@@ -1,9 +1,9 @@
-import openai
+from litellm import completion
 
-openai.api_key = ""
+# users can enter one of the following models in a string: https://litellm.readthedocs.io/en/latest/supported/
 
 # gpt-4-32k
-openai.ChatCompletion.create(
+completion(
   model="gpt-3.5-turbo",
   messages=[
         {"role": "system", "content": "You are a helpful assistant."},
