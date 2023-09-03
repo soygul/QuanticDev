@@ -4,12 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Google tag (gtag.js) (old Google analytics) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2YX2GXC6Q8"></script>
+    <!-- comment out below and uncomment "include cookie-consent.html" below -->
     <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-44071631-2', 'auto');
-      ga('send', 'pageview');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-2YX2GXC6Q8');
     </script>
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
 
     {% if page.url == "/" %}<title>{{ site.description }}</title>{% else %}<title>{{ page.title | default: site.title }}</title>{% endif %}
 
